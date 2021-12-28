@@ -9,8 +9,8 @@ for (var i = 0; i<ht.length;i++) {
 }
 document.innerHTML = ht;
 
-var p_img = /\.+\//gi
+var p_img = /\.+\\/gi
 var img = document.querySelectorAll('img')
 for (var i = 0; i < img.length; i++){
-  img[i].attributes.src.nodeValue=img[i].attributes.src.nodeValue.replace(/\.+/, '')
+  img[i].attributes.src.nodeValue=img[i].attributes.src.nodeValue.replace(/\.+\\/, '\\')
 }

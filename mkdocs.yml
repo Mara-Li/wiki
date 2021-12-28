@@ -65,5 +65,6 @@ extra_javascript:
 extra_css:
     - assets/css/img-grids-floats.css
     - assets/css/utils.css
+    - assets/css/custom_attributes.css
 extra:
   generator: false
