@@ -1,6 +1,6 @@
 site_name: Seed
 site_description: "A little owl"
-site_url:
+site_url: https://mara-li.github.io/Seed_publish/
 
 theme:
     name: 'material'
