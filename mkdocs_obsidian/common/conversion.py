@@ -18,7 +18,6 @@ vault = Path(config.vault)
 
 
 def get_image(image):
-    image = os.path.basename(image)
     for sub, dirs, files in os.walk(vault):
         for file in files:
             filepath = sub + os.sep + file
@@ -30,9 +29,8 @@ def copy_image(final_text):
     link = re.search("(\[{2}|\().*\.(png|jpg|jpeg|gif)", final_text)
     if link:
         final_text = re.sub("(!|\(|(%20)|\[|\]|\))", "", final_text)
-        final_text = os.path.basename(final_text)
+        final_text = os.path.basename(final_text.split('|')[0])
         image_path = get_image(final_text)
-        print(image_path)
         if image_path:
             shutil.copyfile(image_path, f"{config.img}/{final_text}")
 
@@ -89,7 +87,7 @@ def file_write(file, contents, folder):
 
 
 def read_custom():
-    css = open(f"{BASEDIR}/assets/css/custom.css", "r", encoding="utf-8")
+    css = open(Path(f"{BASEDIR}/docs/assets/css/custom_attributes.css"), "r", encoding="utf-8")
     id = []
     css_data = css.readlines()
     for i in css_data:

@@ -40,7 +40,7 @@ def create_folder(category):
     # category form = 'folder/folder/folder'
     if category != "":
         folder = Path(f"{BASEDIR}/docs/{category}")
-        folder.mkdir(exist_ok=True)
+        folder.mkdir(parents=True, exist_ok=True)
     else:
         folder = Path(post)
     return folder
