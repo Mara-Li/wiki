@@ -10,6 +10,7 @@ state: 🟢
 univers: Darkness Haunted  
 link: https://www.mara-li.fr/Roleplay/Fiche RP/Darkness Haunted — Fiche/  
 tag: RP/Darkness-Haunted/Fiche/PJ  
+img: Quinn_2
 ---  
 **[[Quinn Jazee]]**{: #left}  
 
