@@ -25,7 +25,7 @@ def delete_not_exist():
                 excluded.append(os.path.basename(ki))
     for file in glob.iglob(f"{BASEDIR}/docs/**", recursive=True):
         if not (any(i in file for i in important_folder)):
-            if os.path.basename(file) != "404.md" and (
+            if os.path.basename(file) != "index.md" and (
                     os.path.basename(file) not in vault_file
                     or os.path.basename(file) in excluded
             ):  # or if file in file_excluded
@@ -36,11 +36,25 @@ def delete_not_exist():
                     pass
     return info
 
-def create_folder(category):
+def diff_file(file, folder, update=0):
+    filename=os.path.basename(file)
+    if check_file(filename, folder) == "EXIST":
+        if update == 1:
+            return False
+        note=Path(f"{folder}/{filename}")
+
+def retro(filepath)
+
+
+def create_folder(category, share=0):
     # category form = 'folder/folder/folder'
     if category != "":
         folder = Path(f"{BASEDIR}/docs/{category}")
-        folder.mkdir(parents=True, exist_ok=True)
+        try:
+            if share == 0:
+                folder.mkdir(parents=True, exist_ok=True)
+        except OSError:
+            folder = Path(post)
     else:
         folder = Path(post)
     return folder
@@ -61,11 +75,14 @@ def check_file(filepath, folder):
 
 def delete_file(filepath, folder):
     path = Path(folder)
-    for file in os.listdir(path):
-        filename = unidecode(os.path.basename(filepath))
-        filecheck = unidecode(os.path.basename(file))
-        if filecheck == filename:
-            os.remove(Path(f"{path}/{file}"))
-            mt.update_frontmatter(filepath, folder, 0, 0)
-            return True
+    try:
+        for file in os.listdir(path):
+            filename = unidecode(os.path.basename(filepath))
+            filecheck = unidecode(os.path.basename(file))
+            if filecheck == filename:
+                os.remove(Path(f"{path}/{file}"))
+                mt.update_frontmatter(filepath, folder, 0, 0)
+                return True
+    except FileNotFoundError:
+        pass
     return False
