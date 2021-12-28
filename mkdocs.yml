@@ -49,6 +49,9 @@ markdown_extensions:
   - pymdownx.keys
   - pymdownx.mark
   - pymdownx.tilde
+  - pymdownx.highlight:
+      anchor_linenums: true
+      code_attr_on_pre: true
   - pymdownx.tasklist:
        custom_checkbox: true
   - pymdownx.emoji:
@@ -56,6 +59,9 @@ markdown_extensions:
   - admonition
   - toc:
       permalink: true
+  - pymdownx.inlinehilite:
+      style_plain_text: True
+  - pymdownx.snippets
 plugins:
   - search
   - roamlinks

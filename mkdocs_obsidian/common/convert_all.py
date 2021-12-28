@@ -24,7 +24,7 @@ def keep_file(file, folder, update=0):
 
 
 def exclude_folder(filepath):
-    config_folder = Path(f"{BASEDIR}/assets/script/exclude_folder.yml")
+    config_folder = Path(f"{BASEDIR}/exclude_folder.yml")
     if os.path.exists(config_folder):
         with open(config_folder, "r", encoding="utf-8") as config:
             try:
@@ -44,7 +44,7 @@ def dest(filepath, folder):
 def search_share(option=0, stop_share=1):
     filespush = []
     check_file = False
-    clipKey = config.post
+    clipKey = 'notes'
     share = config.share
     for sub, dirs, files in os.walk(Path(vault)):
         for file in files:
@@ -58,8 +58,8 @@ def search_share(option=0, stop_share=1):
                     yaml_front = frontmatter.load(filepath)
                     if "category" in yaml_front.keys():
                         clipKey = yaml_front["category"]
-                    folder = check.create_folder(clipKey)
                     if share in yaml_front.keys() and yaml_front[share] is True:
+                        folder = check.create_folder(clipKey, 0)
                         if option == 1:
                             if (
                                 "update" in yaml_front.keys()
@@ -74,7 +74,8 @@ def search_share(option=0, stop_share=1):
                                     filepath, contents, folder
                                 )
                             else:
-                                check_file = convert.file_write(filepath, "0", folder)
+                                contents = convert.file_convert(filepath, folder)
+                                check_file = convert.file_write(filepath, contents, folder)
                         elif option == 2:
                             contents = convert.file_convert(filepath, folder)
                             check_file = convert.file_write(filepath, contents, folder)
@@ -84,6 +85,7 @@ def search_share(option=0, stop_share=1):
                             filespush.append( f"Added : {os.path.basename(destination).replace('.md', '')} in [{msg_folder}]")
                     else:
                         if stop_share == 1:
+                            folder = check.create_folder(clipKey, 1)
                             if check.delete_file(filepath, folder):
                                 msg_folder = os.path.basename(folder)
                                 destination = dest(filepath, folder)

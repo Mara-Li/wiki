@@ -10,7 +10,8 @@ for (var i = 0; i<ht.length;i++) {
 document.innerHTML = ht;
 
 var p_img = /\.+\\/gi
-var img = document.querySelectorAll('img')
+var img = document.querySelectorAll('img');
+var links = document.querySelector("link[rel='icon']").href.replace('assets/logo/favicons.png', '');
 for (var i = 0; i < img.length; i++){
-  img[i].attributes.src.nodeValue=img[i].attributes.src.nodeValue.replace(/\.+\\/, '\\')
+  img[i].attributes.src.nodeValue=img[i].attributes.src.nodeValue.replace(/\.+\\/, links)
 }
