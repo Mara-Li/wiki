@@ -26,13 +26,16 @@ def get_image(image):
     return False
 
 def copy_image(final_text):
-    link = re.search("(\[{2}|\().*\.(png|jpg|jpeg|gif)", final_text)
-    if link:
-        final_text = re.sub("(!|\(|(%20)|\[|\]|\))", "", final_text)
-        final_text = os.path.basename(final_text.split('|')[0])
-        image_path = get_image(final_text)
-        if image_path:
-            shutil.copyfile(image_path, f"{config.img}/{final_text}")
+    list= final_text.split('!')
+    if len(list) > 0:
+        for i in list:
+            link = re.search("(\[{2}|\().*\.(png|jpg|jpeg|gif)", i)
+            if link:
+                final_text = re.sub("(!|\(|(%20)|\[|\]|\))", "", i)
+                final_text = os.path.basename(final_text.split('|')[0])
+                image_path = get_image(final_text)
+                if image_path:
+                    shutil.copyfile(image_path, f"{config.img}/{final_text}")
 
 
 def clipboard(filepath, folder):
