@@ -230,7 +230,7 @@ Issue de sa fusion avec un être informe, [[20. Roleplay/_Archétype/Mnémosyne/
 
 ### ◌ Inconvénients ◌
 - Les Sanktae (et par extension, Némo) ne peuvent faire venir de la lumière de nulle part. Dans le cas d'un noir complet, il leur est quasiment impossible de faire appel à leur pouvoir, et leur auréole sera leur seule source de lumière. Cependant, il n'est pas réellement possible pour eux d'utiliser leur auréole comme source de lumière. Ceux qui ont tenté en sont morts. 
-- Némo est aveugle : Cependant, elle distingue les êtres vivants ou simplement animés. Pour le reste, elle utilise une cane *(cf [[20. Roleplay/22. Personnages/Mnémosyne/Lagendia/Fiche#Trivia|trivia]])*
+- Némo est aveugle : Cependant, elle distingue les êtres vivants ou simplement animés. Pour le reste, elle utilise une cane *(cf [[Lagendia — Fiche#Trivia|trivia]])*
 	De plus, elle a tendance à se cogner partout.
 - Son pouvoir aveugle allié et ennemi.
 - Elle ne peut récupérer, d'aucune manière, la vue. 
