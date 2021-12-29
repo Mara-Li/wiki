@@ -34,21 +34,6 @@ def main():
         description="Create file in docs and relative folder, move image in assets, convert admonition code_blocks, add links and push."
     )
     group_f = parser.add_mutually_exclusive_group()
-    group_f.add_argument(
-        "--preserve",
-        "--p",
-        "--P",
-        help="Don't delete file if already exist",
-        action="store_true",
-    )
-    parser.add_argument(
-        "--filepath",
-        "--f",
-        "--F",
-        help="Filepath of the file you want to convert",
-        action="store",
-        required=False,
-    )
     parser.add_argument(
         "--git", "--g", "--G", help="No commit and no push to git", action="store_true"
     )
@@ -62,10 +47,24 @@ def main():
     parser.add_argument(
         "--config", "--c", "--C", help="Edit the config file", action="store_true"
     )
+    group_f.add_argument(
+        "--force",
+        "--d",
+        "--D",
+        help="Force conversion - only work if path not specified",
+        action="store_true",
+        )
+    group_f.add_argument(
+        "--filepath",
+        "--f",
+        help="Filepath of the file you want to convert",
+        action="store",
+        required=False,
+        )
     args = parser.parse_args()
     ori = args.filepath
     delopt = False
-    if args.preserve:
+    if args.force:
         delopt = True
     ng = args.git
     if args.config:
