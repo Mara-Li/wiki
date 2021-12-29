@@ -10,19 +10,6 @@ from mkdocs_obsidian.common import config, file_checking as check, conversion as
 BASEDIR = config.BASEDIR
 vault = config.vault
 
-
-def keep_file(file, folder, update=0):
-    file_name = os.path.basename(file)
-    if check.check_file(file_name, folder) == "EXIST":
-        if update == 1:
-            return False
-    else:
-        return True
-
-
-# Comparatively with YAFPA, don't check the difference, I remove the old file everytime. It will be normally better.
-
-
 def exclude_folder(filepath):
     config_folder = Path(f"{BASEDIR}/exclude_folder.yml")
     if os.path.exists(config_folder):
@@ -60,7 +47,7 @@ def search_share(option=0, stop_share=1):
                         clipKey = yaml_front["category"]
                     if share in yaml_front.keys() and yaml_front[share] is True:
                         folder = check.create_folder(clipKey, 0)
-                        if option == 1:
+                        if option == 0: #preserve
                             if (
                                 "update" in yaml_front.keys()
                                 and yaml_front["update"] is False
@@ -68,15 +55,12 @@ def search_share(option=0, stop_share=1):
                                 update = 1
                             else:
                                 update = 0
-                            if keep_file(file, folder, update):
-                                contents = convert.file_convert(filepath, folder)
-                                check_file = convert.file_write(
-                                    filepath, contents, folder
-                                )
-                            else:
-                                contents = convert.file_convert(filepath, folder)
+                            contents = convert.file_convert(filepath, folder)
+                            if check.diff_file(file, folder, contents, update):
                                 check_file = convert.file_write(filepath, contents, folder)
-                        elif option == 2:
+                            else:
+                                check_file = False
+                        elif option == 1: #force deletions
                             contents = convert.file_convert(filepath, folder)
                             check_file = convert.file_write(filepath, contents, folder)
                         msg_folder = os.path.basename(folder)
@@ -107,14 +91,14 @@ def convert_all(delopt=False, git=False, stop_share=0):
     time_now = datetime.now().strftime("%H:%M:%S")
     if delopt:  # preserve
         print(
-            f"[{time_now}] STARTING CONVERT [ALL] OPTIONS :\n- {git_info}\n- PRESERVE FILES"
+            f"[{time_now}] STARTING CONVERT [ALL] OPTIONS :\n- {git_info}\n- FORCE DELETIONS"
         )
-        new_files,  clipKey = search_share(0, stop_share)
+        new_files,  clipKey = search_share(1, stop_share)
     else:
         print(
             f"[{time_now}] STARTING CONVERT [ALL] OPTIONS :\n- {git_info}\n"
         )
-        new_files, clipKey = search_share(1, stop_share)
+        new_files, clipKey = search_share(0, stop_share)
     if len(new_files) > 0:
         add = ""
         rm = ""

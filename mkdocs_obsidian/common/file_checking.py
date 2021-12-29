@@ -1,14 +1,14 @@
 import glob
 import os
 from pathlib import Path
-
+import yaml
 import frontmatter
 from unidecode import unidecode
 
 from mkdocs_obsidian.common import convert_all as exclude
 from mkdocs_obsidian.common import config as settings
 from mkdocs_obsidian.common import metadata as mt
-
+from mkdocs_obsidian.common import conversion as convert
 BASEDIR = settings.BASEDIR
 post = settings.post
 vault = settings.vault
@@ -36,14 +36,42 @@ def delete_not_exist():
                     pass
     return info
 
-def diff_file(file, folder, update=0):
+def diff_file(file, folder, contents, update=0):
     filename=os.path.basename(file)
     if check_file(filename, folder) == "EXIST":
         if update == 1:
             return False
         note=Path(f"{folder}/{filename}")
+        retro_old = retro(note)
+        meta_old = frontmatter.load(note)
+        try:
+            front_temp = frontmatter.loads("".join(contents))
+        except yaml.parser.ParserError:
+            print("ERROR : ", file)
+            return False  # skip
+        new_version = retro(contents, 1)
+        meta_new = front_temp.metadata
 
-def retro(filepath)
+        if new_version == retro_old and sorted(meta_old.keys()) == sorted(
+                meta_new.keys()
+                ):
+            return False
+        else:
+            return True
+    else:
+        return True  # Si le fichier existe pas, il peut pas être identique
+
+
+def retro(filepath, opt=0):
+    notes = []
+    if opt == 0:
+        metadata = frontmatter.load(filepath)
+    else:
+        metadata = frontmatter.loads("".join(filepath))
+    file = metadata.content.split("\n")
+    for n in file:
+        notes.append(n)
+    return notes
 
 
 def create_folder(category, share=0):
