@@ -41,7 +41,6 @@ markdown_extensions:
   - mdx_breakless_lists
   - pymdownx.arithmatex:
       generic: true
-  - pymdownx.superfences
   - pymdownx.details
   - pymdownx.magiclink
   - pymdownx.critic
@@ -50,8 +49,8 @@ markdown_extensions:
   - pymdownx.mark
   - pymdownx.tilde
   - pymdownx.highlight:
+      use_pygments: true
       anchor_linenums: true
-      code_attr_on_pre: true
   - pymdownx.tasklist:
        custom_checkbox: true
   - pymdownx.emoji:
@@ -59,9 +58,13 @@ markdown_extensions:
   - admonition
   - toc:
       permalink: true
-  - pymdownx.inlinehilite:
-      style_plain_text: True
+  - pymdownx.inlinehilite
   - pymdownx.snippets
+  - pymdownx.superfences:
+      custom_fences:
+        - name: dataview
+          class: dataview
+          format: !!python/name:pymdownx.superfences.fence_code_format
 plugins:
   - search
   - roamlinks
