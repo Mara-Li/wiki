@@ -10,7 +10,7 @@ obsidianUIMode: source
 type: Fiche  
 state: 📝  
 univers: Darkness Haunted  
-link: https://www.mara-li.fr/Roleplay/Fiche RP/Darkness Haunted/  
+link: https://mara-li.github.io/Seed_publish/Roleplay/Fiche RP/Darkness Haunted/  
 tag: RP/Darkness-Haunted/Fiche/PJ  
 ---  
 
@@ -134,3 +134,11 @@ Elle retourne chez elle. Sa mère est morte depuis longtemps, dans des circonsta
 Un simple couteau dans la trachée.
 
 Elle ne ressentit rien du tout, à le tuer. Pas même une pointe de satisfaction. Juste une façon d'effacer son passé et partir de zéro.
+
+Une fois partant à zéro, Alwyn rejoignit une Université, Dans cette dernière, elle se montra comme étant la meilleure. Mais secrète. Une génie, mais que personne connaissait. Et qui n'hésitait pas à dire quand quelque chose la dérangeait. Ses professeurs la décrivaient comme une supernova. Une étoile, parfois.
+
+Et comme toujours, une fois son diplome en poche, ses connaissances améliorées... Elle disparait. Encore.
+
+Une soirée à un bar.
+Seth.
+Un contrat. Une loyauté. Un but.
