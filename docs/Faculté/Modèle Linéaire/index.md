@@ -31,7 +31,8 @@ et $ddl=n_A+n_B-2$, donc $ddl=198$.
 Ici, $S^2=4.42$ et $T=\frac{2.89-2.0}{\sqrt{4.42*\frac{1}{100}+\frac{1}{100}}} = 2.99 > t^{198}_{0.05}$ ; On rejette donc H0 : les deux populations sont différentes à un risque $\alpha = 5\%$.
 **QUESTION N° 2 : Calculez l’intervalle de confiance de l’estimation de la différence des moyennes pour un risque de première espèce a = 5%. Expliquez votre calcul.**
 
-$$ \begin{align}
+$$ 
+\begin{align}
 IC_{95\%} = (m_A-m_B) \pm t_\alpha * \frac{S}{\sqrt{n}}\\
 avec\ m_A-m_B=0.89\\
 (n_A+n_B)\ge100\ donc\ t_\alpha \eqsim 1.96\\
