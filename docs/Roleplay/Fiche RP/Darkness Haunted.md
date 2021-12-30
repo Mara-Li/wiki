@@ -1,5 +1,6 @@
 ---  
 title: (Darkness Haunted) Alwyn Kallendris  
+description: Fiche d'Awlyn Kallendris, membre d'Artémis, pour le RP Darkness Haunted.  
 date: 21-12-2021  
 category: Roleplay/Fiche RP  
 publish: True  
