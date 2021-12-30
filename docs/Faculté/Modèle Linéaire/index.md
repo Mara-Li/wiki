@@ -2,9 +2,9 @@
 date: 26-12-2021  
 obsidianUIMode: source  
 share: True  
-flux: False  
 category: Faculté/Modèle Linéaire  
 title: Annale Modèle Linéaire  
+description: J'aime souffrir  
 link: https://www.mara-li.fr/Faculté/Modèle Linéaire/Modèle Linéaire/  
 ---  
 # PARTIE 1. Modèle Linéaire
