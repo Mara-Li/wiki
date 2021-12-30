@@ -15,7 +15,7 @@ tag: ['OC', '❌', 'Futuriste', 'Pirate', 'SF', 'Humaine']
 Table univers as RP, state
 FROM [[Quinn Jazee]]
 where !contains(type, "Index")
- ```
+```
 ---
 ![[Quinn Jayzee.png|+pins|c4630a55340574be274a8906564d0796]]
 
