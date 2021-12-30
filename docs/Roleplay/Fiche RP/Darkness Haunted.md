@@ -4,6 +4,7 @@ date: 21-12-2021
 category: Roleplay/Fiche RP  
 publish: True  
 share: True  
+image: 5E2D1838-A655-477E-B0ED-C528A548BDAC.png  
 obsidianUIMode: source  
 type: Fiche  
 state: 📝  
@@ -131,4 +132,4 @@ Elle n'a que faire des morts.
 Elle retourne chez elle. Sa mère est morte depuis longtemps, dans des circonstances discutables. Son père, libre comme l'air, alcoolique et drogué. 
 Un simple couteau dans la trachée.
 
-Elle ne ressentit rien du tout, à le tuer. Pas même une pointe de satisfaction. Juste une façon d'
+Elle ne ressentit rien du tout, à le tuer. Pas même une pointe de satisfaction. Juste une façon d'effacer son passé et partir de zéro.

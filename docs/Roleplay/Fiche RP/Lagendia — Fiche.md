@@ -3,7 +3,6 @@ title: (Lagendia) Mnémosyne
 obsidianUIMode: preview  
 publish: True  
 share: True  
-flux: True  
 date: 15-11-2021  
 description: Fiche de Mnémosyne, adaptée à Légendia. Sanktae surveillante.  
 category: Roleplay/Fiche RP  
@@ -12,7 +11,7 @@ type: Fiche
 image: Mnémosyne  
 state: 🟢  
 cssclass: no-underline  
-link: https://www.mara-li.fr/Roleplay/Fiche RP/Fiche/  
+link: https://www.mara-li.fr/Roleplay/Fiche RP/Lagendia — Fiche/  
 ---  
 
 ```dataview
@@ -20,6 +19,7 @@ LIST
 FROM [[Mnémosyne]]
 WHERE type != "fiche"
 ```
+
 
  <h1 align="center">╔═══━━━─── • ───━━━═══╗<br>
 I n t r o d u c t i o n<br>

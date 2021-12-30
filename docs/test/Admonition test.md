@@ -7,7 +7,9 @@ category: test
 	**test** / *test* and $1+2$ test
 	deuxième ligne
 
-**A line between**{: #left}  
+Bloc citation
+[[Admonition test#^941c60]]
+
 
 !!! note "Un second admonition"
 	avec :
@@ -22,4 +24,4 @@ A random code blocks
 print('coucou')
 ```
 
-[[Note temporaire]] test citation
+[[Note temporaire]] test citation ^a06e55
