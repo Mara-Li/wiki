@@ -10,7 +10,7 @@ obsidianUIMode: source
 type: Fiche  
 state: 📝  
 univers: Darkness Haunted  
-link: https://mara-li.github.io/Seed_publish/Roleplay/Fiche RP/Darkness Haunted/  
+link: https://www.mara-li.fr/Roleplay/Fiche%20RP/Darkness%20Haunted  
 tag: RP/Darkness-Haunted/Fiche/PJ  
 ---  
 
@@ -86,20 +86,26 @@ Cela dit, si on l'attaque... C'est une autre histoire. De la légitime défense,
 **Capacités** : Alwyn semble se déplacer de manière quasiment instantanée (comme une téléportation) en se décomposant en cube nommé "Pixel" par l'intéressée. Se faisant, elle est capable de convertir ses pixels pour se soigner en convertissant sa biomasse excédentaire, mais aussi téléporter des objets en les convertissant.
 1. **_Téléportation_** : Alwyn se téléporte sur une courte distance.
 	- *Nombre de déplacement* : Une par tour
-	- *Recharge :* /
-	- *Durée :* /
+	- *Recharge :* Un tour
+	- *Maximum :* Six téléportation maximum par jour (24h d'attente après la fin de la scène )
 2. _**Conversion pixellante**_ : Alwyn converti une partie de sa biomasse pour se soigner. Plus la blessure est grave, plus elle demandera du temps, de la biomasse et de la concentration.
-	- *Nombre* : Une fois par tour
-	- _Durée :_ Dépendante de la blessure.
-	- _Recharge_ : Dépendante de la blessure et de sa biomasse encore disponible. Une trop grande blessure soignée pourra la mettre KO d'inanition, par exemple. Généralement, une petite blessure nécessite qu'elle puisse manger quelque chose après. 
+	- *Nombre* : 2 moyennes blessures par jour, ou 4 petites par jour.
+	- *Recharge* : 24h (cf nombre)
+	- *Durée :* 3 tours pour une petite, 6 tours pour une moyenne
 3. **_Invocation d'objet :_** Alwyn téléporte un objet disponible sur une courte distance. Couteau, épée, arme à feu... Récupérer son arme devient un jeu d'enfant ! Par contre, il est possible qu'un objet explose en se décomposant... Ou recomposant. Plus l'objet est "complexe", plus les chances pour qu'il explose augmente. 
 	- *Nombre :* Une fois par tour
-	- *Recharge :* /
-	- *Durée :* /
-4. **_Explosion_** : Alwyn fait exploser un objet, voire carrément une partie de son corps pixellisée. Plus l'objet est gros plus l'explosion est importante.
-	- *Nombre :* Une fois par combat, mais elle peut faire exploser plusieurs objets à la fois.
-	- *Recharge :* Dépend de ce qu'elle a fait exploser. Si c'est une partie de son corps, elle ne pourra pas utiliser son pouvoir jusqu'à s'être requinquée. 
-	- *Durée* : /
+	- *Recharge :* 3 tours
+	- *Durée :* Apparition instantanée
+	- *Limites* : 
+		- L'objet doit être en contact visuel avec Alwyn
+		- Taille maximum : 20 cm
+		- Poids maximum : 1kg
+		- Quatre objets par jour. 
+4. **_Explosion_** : Alwyn fait exploser un objet, voire carrément une partie de son corps pixellisée en condensant les pixels en un seul point, ce que la nature n'aime pas vraiment... Provoquant une explosion. Plus l'objet est gros plus l'explosion est importante.
+	- *Nombre :* Une fois par combat, mais elle peut faire exploser jusqu'à deux objets à la fois.
+	- *Recharge :* 24h
+	- *Durée* : L'activation dure 1 tour. 
+	- *Limite* : Les mêmes limites que pour l'invocation d'objet s'applique. 
 	
 *Faiblesses* : 
 - Alwyn a une limite de distance sur ses déplacements : elle ne peut pas se déplacer hors de son champ de vision, et ne peut donc pas traverser les murs.
