@@ -5,7 +5,7 @@ share: True
 category: Faculté/Modèle Linéaire  
 title: Annale Modèle Linéaire  
 description: J'aime souffrir  
-link: https%3A//www.mara-li.fr/Facult%C3%A9/Mod%C3%A8le%20Lin%C3%A9aire/  
+link: https://www.mara-li.fr/Faculté/Modèle Linéaire/  
 ---  
 # PARTIE 1. Modèle Linéaire
 **Vous tirez au sort :**
