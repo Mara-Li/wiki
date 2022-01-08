@@ -10,7 +10,6 @@ univers: Lagendia
 type: Fiche  
 image: Mnémosyne  
 state: 🟢  
-cssclass: no-underline  
 link: https://www.mara-li.fr/Roleplay/Fiche RP/Lagendia — Fiche/  
 ---  
 
@@ -74,7 +73,8 @@ Son seul moyen de mentir est de mentir par omission, ce qu'elle n'hésite pas à
 Pour une raison obscure, Mnémosyne est terrifiée par les insectes. En dehors de ça, rien ne semble réellement l'effrayer.
 
 <h2 align="center">──────༺ Physique ༻──────</h2>
-![[Rosa_Garcia_2.png|+side]]
+
+![[Mnémosyne Fullbody.jpeg|+side]]
 
 *Taille* : 1,80 m
 *Poids* : 60 kg
