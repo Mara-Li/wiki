@@ -2,6 +2,7 @@
 share: True  
 type: OC  
 name: Eilwellyn Beausang  
+link: https://www.mara-li.fr/notes/Eilwellyn%20Beausang  
 tag: ['RP/Fiche/PJ', 'Archive/Sadhé/Fiche/PJ']  
 ---  
 ```dataview
