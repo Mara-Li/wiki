@@ -5,7 +5,7 @@ date: 21-12-2021
 category: Roleplay/Fiche RP  
 publish: True  
 share: True  
-image: 5E2D1838-A655-477E-B0ED-C528A548BDAC.png  
+image: Alwyn_Kallendris.png  
 obsidianUIMode: source  
 type: Fiche  
 state: 📝  
@@ -15,7 +15,7 @@ tag: RP/Darkness-Haunted/Fiche/PJ
 
 **« I was born from Chaos ; I will die by Chaos »**{: #left}  
 # ─────༺ Présentation ༻───── 
-![[5E2D1838-A655-477E-B0ED-C528A548BDAC.png|+side-bradius1-border1]]
+![[Alwyn_Kallendris.png|+side-bradius1-border1]]
 **Nom** : Kallendris
 **Prénom** : Alwyn
 *Surnom* : Rossignol
