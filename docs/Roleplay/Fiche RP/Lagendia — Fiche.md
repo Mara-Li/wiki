@@ -10,7 +10,7 @@ univers: Lagendia
 type: Fiche  
 image: Mnémosyne  
 state: 🟢  
-link: https://www.mara-li.fr/Roleplay/Fiche RP/Lagendia — Fiche/  
+link: https://www.mara-li.fr/Roleplay/Fiche%20RP/Lagendia%20%E2%80%94%20Fiche  
 ---  
 
 ```dataview

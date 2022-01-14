@@ -6,8 +6,9 @@ obsidianUIMode: source
 title: (Sadhée V2) Eilwellyn Beausang  
 description: None  
 type: Fiche  
-state: 🔳  
+state: 🟢  
 univers: Sadhée  
+link: https://www.mara-li.fr/Roleplay/Fiche%20RP/Sadh%C3%A9e  
 tag: RP/Sadhée/Fiche/PJ  
 ---  
 

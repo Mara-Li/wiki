@@ -6,7 +6,7 @@ share: True
 date: 26-10-2021  
 description: Info sur le mini rp Resident Evil  
 category: Roleplay/Idées/Zombie Project  
-link: https://owlly-house.netlify.app/notes/Informations  
+link: https://www.mara-li.fr/Roleplay/Id%C3%A9es/Zombie%20Project/Informations  
 ---  
 [Serveur](https://discord.gg/qGKFutdY4R)
 

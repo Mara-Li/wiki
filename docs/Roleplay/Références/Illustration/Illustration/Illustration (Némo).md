@@ -7,7 +7,7 @@ category: Roleplay/Références/Illustration/Illustration
 alias: Illustration, Némo dessin, dessin  
 type: Illustration  
 share: True  
-link: https%3A//www.mara-li.fr/Roleplay/R%C3%A9f%C3%A9rences/Illustration/Illustration%20%28N%C3%A9mo%29  
+link: https://www.mara-li.fr/Roleplay/R%C3%A9f%C3%A9rences/Illustration/Illustration/Illustration%20%28N%C3%A9mo%29  
 title: Mnémosyne  
 ---  
 → [[Lagendia — Fiche]]

@@ -9,6 +9,7 @@ type: OC
 alias: Némo, Mnémosyne, Nemo, Mnemosyne  
 title: Mnémosyne  
 image: Mnémosyne  
+link: https://www.mara-li.fr/Roleplay/Références/Mnémosyne  
 ---  
 
 ![[Rosa_Garcia_2.png|+side]]
