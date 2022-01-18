@@ -1,13 +1,12 @@
----  
-type: idées  
-univers: Resident Evil  
-obsidianUIMode: preview  
-share: True  
-date: 26-10-2021  
-description: Info sur le mini rp Resident Evil  
-category: Roleplay/Idées/Zombie Project  
-link: https://www.mara-li.fr/Roleplay/Id%C3%A9es/Zombie%20Project/Informations  
----  
+---
+type: "idées"
+univers: "Resident Evil"
+obsidianUIMode: "preview"
+share: True
+date: "26-10-2021"
+description: "Info sur le mini rp Resident Evil"
+category: "Roleplay/Idées/Zombie Project"
+---
 [Serveur](https://discord.gg/qGKFutdY4R)
 
 <u>Lieu</u> : Windport — Côte West des USA
