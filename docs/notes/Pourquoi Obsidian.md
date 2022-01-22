@@ -76,9 +76,12 @@ Mais je veux juste faire une petite présentation de l'app' moi !
 Obsidian peut être étendu. Facilement : il suffit de le vouloir et savoir coder en JS. Même moi j'ai pu créer ma propre extension, alors que le JS ce n'est pas ma tasse de thé. Comme quoi !
 Ca fait que vous n'avez pas besoin de supplier les devs pour avoir une feature. Soit, quelqu'un l'a déjà codé pour vous, soit vous pouvez le faire vous-même !
 
-Deux extensions m'ont fait resté sur Obsidian : Language Tool & Admonition. Aujourd'hui, j'en utilise presque 70, et je suis activement le développement des futurs plugins. 
+En plus, les extensions sont faciles à installer : il y a un store directement dans l'application. Par contre, les plugins ne se mettent pas à jour automatiquement, faut le faire régulièrement avec le bouton exprès. 
+
+Deux extensions m'ont fait rester sur Obsidian : [Language Tool](https://github.com/Clemens-E/obsidian-languagetool-plugin) & [Admonition](https://github.com/valentine195/obsidian-admonition). Aujourd'hui, j'en utilise presque 70, et je suis activement le développement des futurs plugins. 
 
 En outre, il existe une multitude de thèmes, et vous pouvez créer vos propres "snippet" CSS pour modifier Obsidian. Ainsi, vous pouvez créer des syntaxes MD spéciale pour avoir genre de la couleur, souligner, changer la couleur du surlignage… Ou encore personnalisée l'UI, comme moi avec mes dossiers colorés.
+> Par contre, y'a pas *encore* de store snippet et l'organisation du dossier peut vite devenir chaotique. Une mise à jour est prévu, mais les devs se concentrent d'abord sur le LP. 
 
 ![[Pasted image 20220121205357.png|+side]] 
 Notons que les icônes sont rajoutées avec, soit, un snippet CSS (oui, c'est possible) soit un super plugin nommé Icon Folder qui n'a vraiment pas assez d'amour.
@@ -98,3 +101,10 @@ Il est aussi possible de faire des dons à la team si vous aimez l'application e
 Le seul hic, c'est qu'une grande majorité du contenu autour d'Obsidian est anglais, et qu'il peut sembler bizarre-difficile à prendre en main mais sincèrement, ça vaut le coup de s'y pencher !
 
 Ah, oui, aussi : le Discord est super actif et les Devs sont hypers présent, ce qui fait plaisir à voir !
+
+Dernière note : l'app n'est pas open source (et franchement, vu ce qu'il y a eu autour de log4shell, faker.js & color.js je dirai que c'est pas une mauvaise chose) toutefois il y a eu diverses analyses et c'est hyper sécure : les **devs** n'ont PAS accès à vos notes. Les seuls envois sur internet, c'est concernant github et les plugins (ainsi que le publish). Malgré le fait que l'app soit codé en electron, c'est hyper rapide et jolie. Pour une fois que l'on a une app en electron bien codée, j'pense que l'on peut difficilement la bouder ! 
+
+Source :
+- [Open sourcing of Obsidian](https://forum.obsidian.md/t/open-sourcing-of-obsidian/1515/44)
+- [Obsidian Performance test](https://www.zsolt.blog/2021/05/obsidian-performance-test-take-1.html)
+- [TfT Performance : Obsidian](https://www.goedel.io/p/tft-performance-obsidian)
