@@ -21,11 +21,13 @@ Déjà, on se demande pourquoi j'utilise et j'adore le markdown ? Parce que c'es
 - `**gras**` : Pour le **gras**.
 - `*italic*` : Pour l'*italic*
 - ` ==Surlignement==` : Pour ==surligner==
+
 (Oui, contrairement à Discord, on peut pas souligner, je sais). On peut fusionner ses mises en formes et en plus, le markdown est supporté par de nombreuses apps et workflow. Du coup, facile de C/C un long message directement d'Obsidian directement sur Discord sans avoir à retoucher la mise en forme !
 
 En outre, Obsidian supporte les tables (bon, les tables en MD c'est... Pas trop ça) et le latex, je peux donc faire :
-- Des maths, comme $x+y=12$ (`x+y=12`) 
+- Des maths, comme $x+y=12$ (`$x+y=12$`) 
 - Des tableaux (oui, logique)
+
 Des tableaux tel que :
 ```md
 
@@ -41,13 +43,13 @@ Ah oui, vous pouvez aussi insérer directement du HTML pour vous amuser un peu a
 
 ## Les trucs d'Obsidian
 ### Wikilinks
-Déjà, Obsidian permet de citer des parties, voire des notes, où quelle soie dans votre architecture. Du coup, par exemple, je peux faire une note uniquement avec mes formules de maths puis les citer, plutôt que de réécrire 45 fois la formule. Ça marche aussi pour les définitions ou les OC que vous réutilisez.
+Déjà, Obsidian permet de citer des parties, voire des notes, où quelle soit dans votre architecture. Du coup, par exemple, je peux faire une note uniquement avec mes formules de maths puis les citer, plutôt que de réécrire 45 fois la formule. Ça marche aussi pour les définitions ou les OC que vous réutilisez.
 
 Il est possible de faire ça de deux manières :
 - Soit en utilisant les wikilinks, comme ceci : `[[wikilinks]]` pour juste créé un lien, et `![[wikilinks]]` pour carrément inséré la note dans la note actuelle. Il est possible d'utiliser/créé des alias de notes...
 - Soit avec la syntaxe MD : `![titre](wikilinks)`.
 
-J'adore les wikilinks, parce qu'ils sont plus (facile) à lire et courts. Le truc, c'est contrairement au MD de base, les wikilinks sont peu/pas supportés par les autres applications. 
+J'adore les wikilinks, parce qu'ils sont plus facile à lire et courts. Le truc, c'est contrairement au MD de base, les wikilinks sont peu/pas supportés par les autres applications. 
 
 ### Live Preview
 On va pas se mentir, le Live Preview c'est littéralement la raison pour laquelle j'utilise Obsidian. C'est super fluide, bien que ce soit récent (le LP est sortie cet hiver). Le LP c'est le fait que la syntaxe change automatiquement en utilisant la syntaxe MD / HTML. Avant, il fallait switcher entre le mode lecture et écriture. C'était pas hyper pratique, mais on s'y faisait assez rapidement.
@@ -83,7 +85,7 @@ Deux extensions m'ont fait rester sur Obsidian : [Language Tool](https://github.
 En outre, il existe une multitude de thèmes, et vous pouvez créer vos propres "snippet" CSS pour modifier Obsidian. Ainsi, vous pouvez créer des syntaxes MD spéciale pour avoir genre de la couleur, souligner, changer la couleur du surlignage… Ou encore personnalisée l'UI, comme moi avec mes dossiers colorés.
 > Par contre, y'a pas *encore* de store snippet et l'organisation du dossier peut vite devenir chaotique. Une mise à jour est prévu, mais les devs se concentrent d'abord sur le LP. 
 
-![[Pasted image 20220121205357.png|+side]] 
+![[Pasted image 20220121205357.png|+side-sm]] 
 Notons que les icônes sont rajoutées avec, soit, un snippet CSS (oui, c'est possible) soit un super plugin nommé Icon Folder qui n'a vraiment pas assez d'amour.
 
 Moi qui aime avoir une vue d'ensemble rapide, les couleurs m'y aident vraiment !
@@ -99,12 +101,15 @@ Sinon, y'a leur Publish, qui permet de poster des notes en ligne pour 20€/mois
 Il est aussi possible de faire des dons à la team si vous aimez l'application et que vous voulez avoir les mises à jour en avance.
 
 Le seul hic, c'est qu'une grande majorité du contenu autour d'Obsidian est anglais, et qu'il peut sembler bizarre-difficile à prendre en main mais sincèrement, ça vaut le coup de s'y pencher !
+> Une bonne description pour Obsidian est d'un.e des développeurs, Silver : Obsidian est un IDE pour écrire. Si vous avez déjà utilisé des IDE, vous ne serez pas perdu avec Obsidian.
 
 Ah, oui, aussi : le Discord est super actif et les Devs sont hypers présent, ce qui fait plaisir à voir !
 
 Dernière note : l'app n'est pas open source (et franchement, vu ce qu'il y a eu autour de log4shell, faker.js & color.js je dirai que c'est pas une mauvaise chose) toutefois il y a eu diverses analyses et c'est hyper sécure : les **devs** n'ont PAS accès à vos notes. Les seuls envois sur internet, c'est concernant github et les plugins (ainsi que le publish). Malgré le fait que l'app soit codé en electron, c'est hyper rapide et jolie. Pour une fois que l'on a une app en electron bien codée, j'pense que l'on peut difficilement la bouder ! 
 
-Source :
+Source (En ang)
 - [Open sourcing of Obsidian](https://forum.obsidian.md/t/open-sourcing-of-obsidian/1515/44)
 - [Obsidian Performance test](https://www.zsolt.blog/2021/05/obsidian-performance-test-take-1.html)
 - [TfT Performance : Obsidian](https://www.goedel.io/p/tft-performance-obsidian)
+- [Obsidian Privacy](https://cdn.discordapp.com/attachments/908731169305153606/908774932077498408/unknown.png)
+- [Silver's (Erica Xu) Interview ](https://nesslabs.com/obsidian-featured-tool)
