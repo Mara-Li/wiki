@@ -1,5 +1,6 @@
 ---
 share: True
+title: "Pourquoi Obsidian ?"
 ---
 # Introduction
 
