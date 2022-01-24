@@ -7,7 +7,7 @@ category: "Roleplay/Références/Mnemosyne"
 alias: "Illustration, Némo dessin, dessin"
 type: "Illustration"
 share: True
-title: "Mnémosyne"
+title: "Illustration"
 ---
 → [[Lagendia — Fiche]]
 ![[Némo & Grimmerald.png|Medhas-sm]] ![[Némo — Dolce 1.png|Dolce-sm]]

@@ -1,16 +1,15 @@
----  
-date: 07-01-2022  
-category: Roleplay/Fiche RP  
-share: True  
-obsidianUIMode: source  
-title: (Sadhée V2) Eilwellyn Beausang  
-description: None  
-type: Fiche  
-state: 🟢  
-univers: Sadhée  
-link: https://www.mara-li.fr/Roleplay/Fiche%20RP/Sadh%C3%A9e  
-tag: RP/Sadhée/Fiche/PJ  
----  
+---
+date: "07-01-2022"
+category: "Roleplay/Fiche RP"
+share: True
+obsidianUIMode: "source"
+title: "(Sadhée V2) Eilwellyn Beausang"
+description: "Stagiaire-apprentie au sein de la Fondation SCP, malgré ses pouvoirs particuliers."
+type: "Fiche"
+state: "🟢"
+univers: "Sadhée"
+tag: "RP/Sadhée/Fiche/PJ"
+---
 
 # **─────༺ Présentation ༻─────**
 ![[Pasted image 20220108012633.png|+side]]
