@@ -1,17 +1,17 @@
----  
-date: 12-06-2020  
-publish: True  
-share: True  
-title: Ashling May  
-alias: Ashling, Ash  
-obsidian_ui_mode: preview  
-type: OC  
-category: Roleplay/Références  
-doc: Personnalisé  
-image: Commission Feilyn.png  
-genre: PJ  
-univers: ❌  
----  
+---
+date: "12-06-2020"
+publish: True
+share: True
+title: "Ashling May"
+alias: "Ashling, Ash"
+obsidian_ui_mode: "preview"
+type: "OC"
+category: "Roleplay/Références"
+doc: "Personnalisé"
+image: "Commission Feilyn.png"
+genre: "PJ"
+univers: "❌"
+---
 $~$
 ```dataview
 table state AS Status
@@ -126,4 +126,4 @@ Ashling est une personne plutôt lâche, qui n'aime pas prendre des risques inut
 # [[Pouvoir]]
 
  
-[[Pouvoir#Technomage]]
+![[Pouvoir#Technomage]]

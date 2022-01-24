@@ -1,16 +1,16 @@
----  
-category: Roleplay/Fiche RP  
-publish: True  
-title: Blackwell Castle  
-description: (Blackwell Castle) Fiche de Hayleen May  
-type: Fiche  
-state: 🟢  
-univers: Blackwell Castle  
-share: True  
-link: https://www.mara-li.fr/Fiche RP/(Blackwell Castle) Hayleen May/  
-tag: RP/Blackwell-Castle/Fiche/PJ  
-image: Hayleen_portrait.png  
----  
+---
+category: "Roleplay/Fiche RP"
+publish: True
+title: "Blackwell Castle"
+description: "(Blackwell Castle) Fiche de Hayleen May"
+type: "Fiche"
+state: "🟢"
+univers: "Blackwell Castle"
+share: True
+link: "https://www.mara-li.fr/Fiche RP/(Blackwell Castle) Hayleen May/"
+tag: "RP/Blackwell-Castle/Fiche/PJ"
+image: "Hayleen_portrait.png"
+---
 **[[Hayleen May]]**{: #left}  
 
 # **─────༺ Présentation ༻─────**{: #u}  
@@ -77,7 +77,7 @@ En outre, en plus de pouvoir invoquer des objets, elle peut incanter pour renfor
 **Signes distinctifs** : Tâches de rousseurs, lunettes et le fait que sa magie soit dorée
 **Style vestimentaire** : Plutôt rock et naturel
 
-![+side](https://lh5.googleusercontent.com/YGkLl1TAv5q7Z5DXwwNlFJwuAjUUVv217w6Nd9uygb-fkhd4GZkXiqC25wy5Ehpr7tW1rwqiZlnLGaNL7vFiKgMflX-ILFLfJv2Dk0J8ImFEimxJs0ufmTOJX44LiddjGQdGSsdM)
+![[COMMISSION_FB_MARA.png|500]]
 Hayleen est une jeune femme assez bien proportionnée, dans la fleur de l’âge, et qui le sait.
 
 La jeune sorcière a des cheveux blancs (naturellement blanc, s’entend), assez longs, qu’elle attache souvent en chignons brouillons à l’aide d’aiguilles métalliques, et laissant les autres lâchés. Son visage est seulement dégagé avec de nombreuses barrettes. Elle a une démarche assurée et un air volontaire. Évidemment, on voit rarement ses chignons, puisqu’elle possède d’imposante cornes noires, semblables à celles que possèderait un bélier. Ces dernières ne la gênent pas particulièrement, bien qu’elle ait l’impression qu’on ne voit que ça sur son visage. 

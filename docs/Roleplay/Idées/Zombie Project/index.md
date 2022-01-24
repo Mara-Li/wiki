@@ -29,4 +29,4 @@ Il est tout à fait possible d'introduire des éléments de différents univers,
 Il est possible de faire des personnages mutants.
 
 ---
-[[Introduction Zombie Project|Introduction]]
+![[Introduction Zombie Project|Introduction]]

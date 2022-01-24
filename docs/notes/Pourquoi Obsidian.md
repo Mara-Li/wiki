@@ -107,7 +107,7 @@ Ah, oui, aussi : le Discord est super actif et les Devs sont hypers présent, ce
 
 Dernière note : l'app n'est pas open source (et franchement, vu ce qu'il y a eu autour de log4shell, faker.js & color.js je dirai que c'est pas une mauvaise chose) toutefois il y a eu diverses analyses et c'est hyper sécure : les **devs** n'ont PAS accès à vos notes. Les seuls envois sur internet, c'est concernant github et les plugins (ainsi que le publish). Malgré le fait que l'app soit codé en electron, c'est hyper rapide et jolie. Pour une fois que l'on a une app en electron bien codée, j'pense que l'on peut difficilement la bouder ! 
 
-Source (En ang)
+Source (En anglais) :
 - [Open sourcing of Obsidian](https://forum.obsidian.md/t/open-sourcing-of-obsidian/1515/44)
 - [Obsidian Performance test](https://www.zsolt.blog/2021/05/obsidian-performance-test-take-1.html)
 - [TfT Performance : Obsidian](https://www.goedel.io/p/tft-performance-obsidian)

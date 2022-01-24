@@ -112,6 +112,8 @@ Sinon, pour ses vêtements, elle est du genre à préférer les trucs proches du
 
 **Style vestimentaire** : Rock et naturel
 
+**⇒ [[Illustration (Némo)|Illustration]]**{: #left}  
+
 <h1 align="center">╔═══━━━─── • ───━━━═══╗<br>
 H i s t o i r e<br>
 ╚═══━━━─── • ───━━━═══╝</h1>
@@ -130,22 +132,22 @@ P o u v o i r s<br>
 Description.
 
 ❖ — Nom (Actif) — ❖
-Bonus: (aux dés ; +5 par défaut)
-Cooldown: (1x par jour inRP, etc..)
-Domaine: (élément)
-Description: Effet descriptif.
+Bonus : (aux dés ; +5 par défaut)
+Cooldown : (1x par jour inRP, etc..)
+Domaine : (élément)
+Description : Effet descriptif.
 
 ❖ — Nom (Actif) — ❖
-Bonus: (aux dés ; +5 par défaut)
-Cooldown: (1x par jour inRP, etc..)
-Domaine: (élément)
-Description: Effet descriptif.
+Bonus : (aux dés ; +5 par défaut)
+Cooldown : (1x par jour inRP, etc..)
+Domaine : (élément)
+Description : Effet descriptif.
 
 ❖ — Nom (Heal/Buff/Débuff/Hors Combat, etc) — ❖
-Bonus: (aux dés ; +5 par défaut)
-Cooldown: (1x par jour inRP, etc..)
-Domaine: (élément)
-Effet: (Soigne la personne ciblée / Octroie un bonus temporaire aux dés / Etc. Maximum de +3 en aide.)
-Description: Effet descriptif.
+Bonus : (aux dés ; +5 par défaut)
+Cooldown : (1x par jour inRP, etc..)
+Domaine : (élément)
+Effet : (Soigne la personne ciblée / Octroie un bonus temporaire aux dés / Etc. Maximum de +3 en aide.)
+Description : Effet descriptif.
  
 [^1]: "Grimalkin" est un terme initialement associé à des chat-fées dans les légendes irlandaises, devenus plus généralement associé à la sorcellerie.
