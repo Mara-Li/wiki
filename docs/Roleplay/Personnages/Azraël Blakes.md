@@ -12,13 +12,14 @@ tag: ['OC', 'RP/Bibliothèque-Infinie']
 ```dataview
 table univers as RP, state
 FROM [[Azraël Blakes]]
- ```
+```
+
 ---
 
 **Nom** : Blakes
 **Prénom** : Azraël
 **Surnom** : L'ange de la mort — Gris
-**Âge** : Son corps a l'apparence d'une femme de 25 ans. Son âge réel est inconnu (elle ne le connait pas elle-même...)
+**Âge** : Son corps a l'apparence d'une femme de 25 ans. Son âge réel est inconnu (elle ne le connait pas elle-même…)
 **Race** : Ange déchu
 
 Quelques capacités inhérentes à son "espèce" :
@@ -56,11 +57,11 @@ Azraël n'a jamais été seule pour faire ce travail : il est impossible de parc
 
 Considérant qu'à chaque fois que son corps est détruit, elle "renaît", quelques époques ont marqué l'ange.
 
-Tout d'abord, ce qu'il est possible de considérer comme son enfance, dans le "Paradis". Évidemment, elle a été créé pour rendre la mort mais... Il n'y avait pas de morts, au départ. Elle tombe amoureuse de Lucifer (même si elle ne l'avouera jamais elle-même) et l'aide dans sa rébellion envers "Père", ce qui l'emmène droit sur Terre, entre le reflet et le monde des humains. Elle se souvient de sa jeunesse de manière flou, et des guerres qui en ont suivi aussi. Cependant, elle se souviens être la dernière à avoir été bannie, de manière différente des autres, mais aussi la dernière dont la guerre à détruit le corps.
+Tout d'abord, ce qu'il est possible de considérer comme son enfance, dans le "Paradis". Évidemment, elle a été créé pour rendre la mort mais… Il n'y avait pas de morts, au départ. Elle tombe amoureuse de Lucifer (même si elle ne l'avouera jamais elle-même) et l'aide dans sa rébellion envers "Père", ce qui l'emmène droit sur Terre, entre le reflet et le monde des humains. Elle se souvient de sa jeunesse de manière flou, et des guerres qui en ont suivi aussi. Cependant, elle se souviens être la dernière à avoir été bannie, de manière différente des autres, mais aussi la dernière dont la guerre à détruit le corps.
 
 ---
 
-Un autre moment l'ayant marqué est l'épisode de la Peste Noire du XIVe siècle. Au départ, elle pensait faire face à une "simple" épidémie, mais la surmortalité l'ont intrigué. Mais surtout, contrairement aux précédentes épidémie, la majeure partie des morts... Ne partaient pas seuls. Cette période marque pour elle une longue chasse aux fantômes, jusqu'à finir par trouver la cause de tout ceci : Pestilence, une des membres de ceux nommés par les humains "Cavalier de l'Apocalypse". Elle-même, la Mort, est sensée en faire partie, mais les Etre magiques sont multiples et nombreux.
+Un autre moment l'ayant marqué est l'épisode de la Peste Noire du XIVe siècle. Au départ, elle pensait faire face à une "simple" épidémie, mais la surmortalité l'ont intrigué. Mais surtout, contrairement aux précédentes épidémie, la majeure partie des morts… Ne partaient pas seuls. Cette période marque pour elle une longue chasse aux fantômes, jusqu'à finir par trouver la cause de tout ceci : Pestilence, une des membres de ceux nommés par les humains "Cavalier de l'Apocalypse". Elle-même, la Mort, est sensée en faire partie, mais les Etre magiques sont multiples et nombreux.
 
 Elle considère la Peste Noire comme une des périodes les plus difficile de sa vie, mais aussi comme une de ses premières enquêtes. Pelle mêle se mélange chasse aux fantômes, course contre la montre, mais aussi de nombreuse fuites, car elle était considérée comme la cause de la Peste lorsqu'elle était prise sur le fait.
 
@@ -87,7 +88,7 @@ Elle a du mal à s'attacher aux autres, puisqu'elle sait qu'ils vont mourir et d
 
 **Apparence** :
 ![[752036651a8433ba637c2b66d4502b38.png|+side]]
-Azraël possède, dans sa forme "normale", des cheveux noirs coupés courts dans un carré plongeant, entourant un visage doux. Elle possède un petit nez retroussée, et de grands yeux dorés, en amandes. Généralement, elle est vêtue d'une longue cape (la veste, pas une cape de super-héros !), avec un petit béret, lequel est entouré d'une sorte d'auréole composée de losange noirs. Les deux sont noirs, d'ailleurs. En dessous, des vêtements pratiques, tel qu'un pantalon ou une jupe et des collants...
+Azraël possède, dans sa forme "normale", des cheveux noirs coupés courts dans un carré plongeant, entourant un visage doux. Elle possède un petit nez retroussée, et de grands yeux dorés, en amandes. Généralement, elle est vêtue d'une longue cape (la veste, pas une cape de super-héros !), avec un petit béret, lequel est entouré d'une sorte d'auréole composée de losange noirs. Les deux sont noirs, d'ailleurs. En dessous, des vêtements pratiques, tel qu'un pantalon ou une jupe et des collants…
 
 Sa forme divine voit l'agrandissement de son auréole, l'apparition d'aile noire translucide, et d'autre losange l'encadrant.
 ![](https://i.pinimg.com/564x/93/8b/1e/938b1ee2043dc5cecfa1573aee86b7b0.jpg)
