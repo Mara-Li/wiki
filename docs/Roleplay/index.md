@@ -1,0 +1,2 @@
+- Idées : Contient des projets RP, en cours ou avorté
+- Personnages : Mes persos & leurs fiches associées.
