@@ -1,17 +1,15 @@
----  
-title: (Lagendia) Mnémosyne  
-obsidianUIMode: preview  
-publish: True  
-share: True  
-date: 15-11-2021  
-description: Fiche de Mnémosyne, adaptée à Légendia. Sanktae surveillante.  
-category: Roleplay/Fiche RP  
-univers: Lagendia  
-type: Fiche  
-image: Mnémosyne  
-state: 🟢  
-link: https://www.mara-li.fr/Roleplay/Fiche%20RP/Lagendia%20%E2%80%94%20Fiche  
----  
+---
+title: "(Lagendia) Mnémosyne"
+obsidianUIMode: "preview"
+share: True
+date: "15-11-2021"
+description: "Fiche de Mnémosyne, adaptée à Légendia. Sanktae surveillante."
+category: "Roleplay/Fiche RP"
+univers: "Lagendia"
+type: "Fiche"
+image: "Mnémosyne"
+state: "🟢"
+---
 
 ```dataview
 LIST 
@@ -36,7 +34,6 @@ I n t r o d u c t i o n<br>
 D e s c r i p t i o n<br>
 ╚═══━━━─── • ───━━━═══╝</h1>
 <h2 align="center">──────༺ Mental ༻──────</h2><br>
-
 
 $\qquad$Mnémosyne est une personne en apparence désinvolte et versatile. Elle apprécie s'amuser, et n'est pas du genre à déprimer sur les difficultés. Ce n'est pas le genre de personne à facilement détester les gens, et elle est plus à se méfier grand maximum. Il est donc extrêmement rare d'être détesté par Mnémosyne.
 
@@ -210,11 +207,11 @@ Les Sanktae sont des êtres dont l'Hua apparaît sous **forme de contrôle de la
 
 Ils sont aussi capable de faire apparaître à volonté des ailes translucides, mais il leur est impossible de voler avec. Aujourd'hui encore, il est difficile de savoir à quoi sert (ou servait) ses ailes.
 
-Les Sanktae se mélangent naturellement à la population, et n'ont rien de particulier vis à vis des autres de race. Il faut cependant noter que le meurtre d'un Sanktae par un autre est **extrêmement** tabou, quelque soit les circonstances. Si cela arrive, le Sanktae sera exclus et rejeté par sa propre race. 
+Les Sanktae se mélangent naturellement à la population, et n'ont rien de particulier vis à vis des autres de race. Ils préfèrent cependant se regrouper en clan afin de faire respecter leur propres codes. Certains clans rejettent même les relations avec les autres races, mais d'autres sont beaucoup plus ouvert. 
 
-Au cours d'un meurtre, chez les Sanktae, les centres de puissance du Sanktae sont modifiés, et il est possible pour certains de le vérifier. C'est pour cela que les meurtres sont facilement découverts et qu'il est possible de bannir les meurtriers, les suivre et surveiller. 
+Il faut cependant noter que le meurtre d'un Sanktae par un autre est **extrêmement** tabou, quelque soit les circonstances. Si cela arrive, le Sanktae sera exclus et rejeté par sa propre race. 
 
-Les Sanktae sont décomposés en clan, et n'aiment pas vraiment se mélanger avec les autres races. 
+Au cours d'un meurtre, les centres de puissance du Sanktae sont modifiés, et il est possible pour certains de le vérifier. C'est pour cela que les meurtres sont facilement découverts et qu'il est possible de bannir les meurtriers, les suivre et surveiller. 
 
 ### ◌ Pouvoirs Sanktae ◌
 Les pouvoirs de Némo se manifeste principalement sous forme de lumière, et elle peut être capable de condenser la lumière en rayon et laser, se déplacer d'un point à un autre, ou encore créer un double de lumière.
@@ -241,7 +238,7 @@ Issue de sa fusion avec un être informe, [[20. Roleplay/_Archétype/Mnémosyne/
 - ==Sous forme Obsius, elle devient extrêmement sensible à la lumière, et il lui est impossible de faire appel aux ténèbres en cas de forte lumière.==
 
 
-## <center>──────༺ Capacités ༻──────</center>
+ <h2 align="center">──────༺ Capacités ༻──────</h2>
 
 ❖ — **Écho astral** _(Passif)_ — ❖
 *En envoyant de la lumière sur les surfaces, Némo est capable de les distinguer. Elle le fait naturellement pour les êtres vivants, qu'elle voit sous forme de tâche colorée.*
