@@ -3,9 +3,8 @@ publish: False
 share: True
 type: "Illustration"
 update: False
-title: "Ashling"
+title: "Illustration"
 category: "Roleplay/Références/Ashling May"
-link: "https%3A//www.mara-li.fr/Roleplay/R%C3%A9f%C3%A9rences/Illustration/Illustration%20Ashling"
 ---
 ---
 
