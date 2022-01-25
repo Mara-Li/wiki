@@ -1,6 +1,5 @@
 ---
 category: "Roleplay/Personnages/Hayleen May"
-publish: True
 title: "Blackwell Castle"
 description: "(Blackwell Castle) Fiche de Hayleen May"
 type: "Fiche"
@@ -10,7 +9,7 @@ share: True
 tag: "RP/Blackwell-Castle/Fiche/PJ"
 image: "Hayleen_portrait.png"
 ---
-**[[Hayleen May]]**{: #left}  
+**[[index|Hayleen May]]**{: #left}  
 
 # **─────༺ Présentation ༻─────**{: #u}  
 ![[Hayleen_portrait.png|+side]]

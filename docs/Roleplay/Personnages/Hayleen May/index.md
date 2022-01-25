@@ -1,7 +1,7 @@
 ---
 type: "OC"
 obsidianUIMode: "preview"
-publish: True
+alias: "Index"
 share: True
 date: "18-05-2020"
 description: "Références pour Hayleen May"

@@ -1,15 +1,13 @@
 ---
-obsidianUIMode: "preview"
 univers: "❌"
 share: True
 date: "21-09-2021"
 category: "Roleplay/Personnages/Mnémosyne"
 description: "Référence générale de Mnémosyne"
 type: "OC"
-alias: "Némo, Mnémosyne, Nemo"
+alias: "Némo, Mnémosyne, Nemo, index"
 title: "Mnémosyne"
 image: "Mnémosyne"
-link: "https://www.mara-li.fr/Roleplay/Références/Mnémosyne"
 ---
 
 ![[Rosa_Garcia_2.png|+side]]

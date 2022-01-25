@@ -2,6 +2,7 @@
 category: "Roleplay/Personnages/Hayleen May"
 share: True
 title: "Illustrations"
+type: "Illustration"
 ---
 [[Hayleen May]]
 

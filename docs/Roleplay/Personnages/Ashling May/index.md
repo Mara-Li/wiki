@@ -2,7 +2,7 @@
 date: "12-06-2020"
 share: True
 title: "Ashling May"
-alias: "Ashling, Ash"
+alias: "Ashling, Ash, index"
 type: "OC"
 category: "Roleplay/Personnages/Ashling May"
 doc: "Personnalisé"
