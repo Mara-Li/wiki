@@ -9,7 +9,6 @@ share: True
 tag: "RP/Blackwell-Castle/Fiche/PJ"
 image: "Hayleen_portrait.png"
 ---
-**[[index|Hayleen May]]**{: #left}  
 
 #  ─────༺ Présentation ༻───── 
 ![[Hayleen_portrait.png|+side]]
