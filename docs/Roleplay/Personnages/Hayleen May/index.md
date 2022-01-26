@@ -79,7 +79,7 @@ Elle adopte le nom de Grimalkin lors de “son passage à l’âge adulte”, bi
 
 # Physique
 
-→  [[Illustration (Hayleen)|Illustration]]
+→  [[Illustrations — HM|Illustration]]
 
 *Taille* : 1m70
 *Poids* : 60kg

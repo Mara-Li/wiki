@@ -30,7 +30,6 @@ En outre, Obsidian supporte les tables (bon, les tables en MD c'est... Pas trop 
 
 Des tableaux tel que :
 ```md
-
 | Je suis un titre   | Je suis un deuxième titre |
 | ------------------ | ------------------------- |
 | Je suis du contenu | Et moi aussi              |

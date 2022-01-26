@@ -13,8 +13,8 @@ tag: "RP/Lagendia/Fiche/PJ"
 
 ```dataview
 LIST
-FROM [[Hayleen May]]
-WHERE type != "fiche"
+FROM [[Hayleen May]] and "20. Roleplay"
+WHERE type != "fiche" 
 ```
 
  <h1 align="center">╔═══━━━─── • ───━━━═══╗<br>

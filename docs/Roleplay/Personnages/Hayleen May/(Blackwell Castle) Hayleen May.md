@@ -11,7 +11,7 @@ image: "Hayleen_portrait.png"
 ---
 **[[index|Hayleen May]]**{: #left}  
 
-# **─────༺ Présentation ༻─────**{: #u}  
+#  ─────༺ Présentation ༻───── 
 ![[Hayleen_portrait.png|+side]]
 **Nom** : May
 **Prénom** : Hayleen
@@ -44,7 +44,7 @@ image: "Hayleen_portrait.png"
 - Anglais : Experte — Langue natale
 - Français (utilisé pour ses incantations) : Intermédiaire
 
-# **──────༺ Capacités ༻──────**{: #u}  
+# ──────༺ Capacités ༻────── 
 **Pouvoirs** : Hayleen est une sorcière démone : elle est capable d’[[Invocation d'armes|invoquer]], via des incantations, plusieurs objets différents, qu’elle peut [[Sortilège|ensuite enchanter et renforcer]]. 
 En outre, en plus de pouvoir invoquer des objets, elle peut incanter pour renforcer des objets non-invoqués, mais aussi ses alliés et ami, ainsi qu’elle-même. 
 
@@ -63,7 +63,7 @@ En outre, en plus de pouvoir invoquer des objets, elle peut incanter pour renfor
 - Elle doit connaître la composition des objets qu'elle invoque.
 - Les objets ont une chance non négligeable d'exploser de manière aléatoire. 
 
-# **──────༺ Physique ༻──────**{: #u}  
+# ──────༺ Physique ༻────── 
 *Taille* : 1m70 
 *Poids* : 60kg
 
@@ -86,7 +86,7 @@ Le reste de son corps est bien proportionné, mais ce qu’on remarque particuli
 
 Sinon, pour ses vêtements, elle est du genre à préférer les trucs proches du corps. Elle peut porter un body et un pantalon, agrémenté de bottines, et elle possède toute sorte de veste ou de cape sans manche, ce qui la rend très “sorcière”. 
 
-# **──────༺ Mental ༻──────**{: #u}  
+# ──────༺ Mental ༻────── 
 Hayleen semble être le genre de personne qui réfléchit avant d'agir. Cela est vrai. Anxieuse, elle peut passer des heures à établir des stratégies, et à penser aux schéma optimaux pour ses plans.
 Cependant.
 Ses plans arrivent toujours à la même chose : la méthode brute.
