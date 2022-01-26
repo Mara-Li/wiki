@@ -4,7 +4,7 @@ share: True
 title: "Illustrations"
 type: "Illustration"
 ---
-[[Hayleen May]]
+[[index|Hayleen May]]
 
 ![[Hayleen May Portrait Gabrioche.jpeg|500]]![[COMMISSION_MARA_PP.png|500]]
 
