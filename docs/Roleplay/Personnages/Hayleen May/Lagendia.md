@@ -95,6 +95,7 @@ Loyale et explosive
 Devenir plus forte, simplement.
 
 <h2 align="center">──────༺ Physique ༻──────</h2>
+
 *Taille* : 1m70
 *Poids* : 60kg
 *Yeux* : Rouges aux reflets dorés
@@ -104,6 +105,7 @@ Devenir plus forte, simplement.
 - Myope comme une taupe : elle doit porter des lunettes pour voir devant elle. 
 - Sa magie est dorée
 *Cicatrice* : /
+
 ![[COMMISSION_FB_MARA.png|+side]]
 
 Hayleen est une jeune femme assez bien proportionnée, dans la fleur de l’âge, et qui le sait.
