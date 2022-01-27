@@ -20,7 +20,9 @@ WHERE type != "fiche"
  <h1 align="center">╔═══━━━─── • ───━━━═══╗<br>
 I n t r o d u c t i o n<br>
 ╚═══━━━─── • ───━━━═══╝</h1>
+
 ![[COMMISSION_MARA_PP.png|+side]]
+
 **Nom & Prénom :** Hayleen May
 *Alias* : Lyn
 
@@ -29,6 +31,10 @@ I n t r o d u c t i o n<br>
 **Maison :** 
 **Grade** : 
 **Parcours** : 
+
+
+
+
 
  <h1 align="center">╔═══━━━─── • ───━━━═══╗<br>
 D e s c r i p t i o n<br>

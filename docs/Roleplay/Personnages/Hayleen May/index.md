@@ -24,7 +24,7 @@ image: "Hayleen_portrait.png"
 # Capacités
 #### Pouvoirs et attributs
    
-Hayleen est une sorcière démone : elle est capable d’[[Invocation d'arme|invoquer]], via des incantations, plusieurs objets différents, qu’elle peut [[Sortilège|ensuite enchanter et renforcer]]. 
+Hayleen est une sorcière démone : elle est capable d’[[Invocation d'armes|invoquer]], via des incantations, plusieurs objets différents, qu’elle peut [[Sortilège|ensuite enchanter et renforcer]]. 
 Son corps est naturellement plus agile, rapide, et solide qu’une personne “lambda”, notamment via l’utilisation de “circuit magique”, tatouages légèrement transparents qui parcourent l’ensemble de son corps, et qui deviennent rouges lorsqu’elle déploie sa magie. 
 En outre, en plus de pouvoir invoquer des objets, elle peut incanter pour renforcer des objets non-invoqués, mais aussi ses alliés et ami, ainsi qu’elle-même. 
 

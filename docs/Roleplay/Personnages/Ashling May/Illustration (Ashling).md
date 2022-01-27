@@ -6,8 +6,6 @@ update: False
 title: "Illustration"
 category: "Roleplay/Personnages/Ashling May"
 ---
----
-
 # 2017
 ![[Ref 2017.png|+grid]]![[Ashling hermite.png|+grid]]
 ![[Clothes ref.png|+grid]]

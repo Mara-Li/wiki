@@ -36,7 +36,7 @@ where type = "Fiche"
 **Métier :** Hackeuse – Crackeuse – Étudiante (à ses heures perdues) – Player Killer
 
 # ──────༺ Physique ༻──────
-→ [[Illustration Ashling|Références]]
+→ [[Illustration (Ashling)|Références]]
 
 **Yeux** : Bleus
 **Cheveux** : Roux, longs, souvent attachés en chignons 
