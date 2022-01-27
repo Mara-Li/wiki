@@ -18,7 +18,6 @@ Nom du perso/
 │  ├─ RP rattaché 1 (*)
 ├─ Fiche RP 2
 ├─ Nom du perso (*)
-
 ```
 
 
