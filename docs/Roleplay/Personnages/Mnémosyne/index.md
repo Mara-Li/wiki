@@ -5,7 +5,7 @@ date: "21-09-2021"
 category: "Roleplay/Personnages/Mnémosyne"
 description: "Référence générale de Mnémosyne"
 type: "OC"
-alias: "Némo, Mnémosyne, Nemo, index"
+alias: "Némo, Mnémosyne, Nemo, (i) Mnémosyne"
 title: "Mnémosyne"
 image: "Mnémosyne"
 ---
