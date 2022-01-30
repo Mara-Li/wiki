@@ -132,16 +132,17 @@ P o u v o i r s<br>
 ╚═══━━━─── • ───━━━═══╝</h1>
 
 <h2 align="center">──────༺ Attributs généraux : Façonneur ༻──────</h2>
-Les façonneurs sont capables de modifier la forme et les caractéristiques d'un objet, sans en modifier les attributs élémentaire. 
+Les façonneurs sont capables de modifier la forme et les caractéristiques d'un objet, sans en modifier les attributs élémentaire. Ce pouvoir se décompose en deux parties :
+- La recomposition, où les objets sont remodelés pour en former d'autres,
+- L'altération, qui modifient les caractéristiques d'un objets.
 
-Le pouvoir d'Hayleen se retrouve en deux parties :
-- La 
-
-
+Hayleen, pour le moment, maîtrise le Façonnage uniquement sur les objets de hua **d'eau** et de **terre**, principalement composé de **bois**.
 
 ### ◌ Inconvénients ◌
 - À chaque fois qu'Hayleen renforce un attribut, un autre s'affaiblie. 
-- 
+- Un objet ne peut pas être altéré à outrance. Si tel est le cas, ce dernier sera détruit.
+- Une altération n'est pas éternelle.
+- Il est impossible de rajouter des attributs qui n'existent pas : du papier reste du papier, même renforcé.
 
  <h2 align="center">──────༺ Capacités ༻──────</h2>
 ❖ — Nom (Passif) — ❖
