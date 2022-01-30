@@ -1,4 +1,5 @@
 ---
+title: "(Lagendia) Hayleen May"
 date: "23-01-2022"
 category: "Roleplay/Personnages/Hayleen May"
 share: True
@@ -49,7 +50,7 @@ Les Grimalkins présentent peu de traits liés à leur parent, ce qui rend l'ide
 - Des yeux dorés, rouges ou violets. 
 - Des cheveux et une peau claire.
 
-Leur maîtrise du Hua ne ressemble pas non plus à celui de leur géniteur et semble lié à l'enchantement.
+Leur maîtrise du Hua ne ressemble pas non plus à celui de leur géniteur et reste très vaste, chaque Grimalkin étant unique. 
 
 Les Grimalkins ont souvent des caractères explosifs et une curiosité presque malsaine vis-à-vis de l'Hua et la magie en général. Vue parfois comme une malédiction, il n'était pas rare que les Grimalkins se prennent en charge entre elles. 
 Aujourd'hui, les Grimalkins se font beaucoup plus rares sans qu'il soit possible d'en identifier une cause. 
@@ -130,10 +131,17 @@ H i s t o i r e<br>
 P o u v o i r s<br>
 ╚═══━━━─── • ───━━━═══╝</h1>
 
-<h2 align="center">──────༺ Attributs généraux ༻──────</h2>
-### ◌ Avantages ◌
-### ◌ Inconvénients ◌
+<h2 align="center">──────༺ Attributs généraux : Façonneur ༻──────</h2>
+Les façonneurs sont capables de modifier la forme et les caractéristiques d'un objet, sans en modifier les attributs élémentaire. 
 
+Le pouvoir d'Hayleen se retrouve en deux parties :
+- La 
+
+
+
+### ◌ Inconvénients ◌
+- À chaque fois qu'Hayleen renforce un attribut, un autre s'affaiblie. 
+- 
 
  <h2 align="center">──────༺ Capacités ༻──────</h2>
 ❖ — Nom (Passif) — ❖

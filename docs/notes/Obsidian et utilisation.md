@@ -42,6 +42,7 @@ Ce qu'Obsidian a changé dans l'écriture des fiches, c'est que j'ai tout à un 
 Alors oui, certains font des trucs super jolie/aesthetic sur leur fiche mais pour être honnête je préfère un truc utilisable (surtout sur tel) qu'un truc BG.
 
 Point bonus : Les CSSclass me permettent aussi d'avoir un affichage spécifique sur un fichier précis. Du genre, une fiche en cours ? Je mets une typo qui fait brouillon. C'est jolie pour les yeux, et ça permet de savoir où on se situe visuellement.
+*(Note : Ma typo pref pour ça c'est [Fantasque Sans Mono](https://github.com/belluzj/fantasque-sans), une chouette typo Open-Source monotype donc pratique pour lire.)*
 
 # Pour résumé
 Du coup, par rapport à un gros fichier GDOC avec une page de garde, je décompose en plusieurs petit fichier avec un index, qui sera à la racine du dossier. L'index pointe vers les fichiers donc j'ouvre un fichier et j'ai comme si c'était un fichier "unique" et pas plusieurs fichiers mis bout à bout. 
