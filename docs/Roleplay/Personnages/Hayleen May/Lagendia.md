@@ -3,8 +3,6 @@ title: "(Lagendia) Hayleen May"
 date: "23-01-2022"
 category: "Roleplay/Personnages/Hayleen May"
 share: True
-obsidianUIMode: "source"
-cssclass: "draft"
 description: "(Lagendia) Fiche de Hayleen May"
 type: "Fiche"
 state: "📝"
