@@ -1,4 +1,0 @@
----
-publish: True
----
-![[Illustration (Némo)]]
