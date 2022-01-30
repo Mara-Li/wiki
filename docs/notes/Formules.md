@@ -1,0 +1,7 @@
+---
+folder: "school"
+---
+# Formules
+
+```folderv
+```

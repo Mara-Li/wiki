@@ -9,10 +9,3 @@ def hello(value):
 
 
 Commande `show interfaces`
-
-| tab    | tab  |
-| ------ | ---- |
-| Coucou | truc |
-| 
-EZRZ2EROPZ
-RPZE|      |

@@ -1,0 +1,40 @@
+---
+obsidianUIMode: "preview"
+publish: True
+type: "Index, Idée"
+---
+```folderv
+```
+
+
+# Liste de pouvoirs
+- Invoquer un stand avec l’aide d’un téléphone (donc gérer la batterie du téléphone à chaque invocation)
+- [[Nécromancie]]
+- [[Contrôle élémentaires]]
+- [[Contrôle du sang]]
+- [[Téléportation]]
+- [[Invocation d'armes]]
+- [[Technomage]]
+- [[Sortilège]]
+- [[Alchimie]]
+- [[Soins]]
+- [[Molécule ]]
+- [[Mutations]]
+- [[Talents]]
+- [[Contrôle de fils]]
+- [[Super physique]]
+- [[Prédictions]]
+- [[Illusion]]
+- [[Télékinésie]]
+- [[Télépathie]]
+- [[Gravité]]
+- [[Spiritisme]]
+- [[Charisme]]
+- [[Technopathe]]
+- [[Écrit]]
+- [[Double]]
+- [[Météo]]
+- [[Estompage]]
+- [[Biomasse]]
+- [[Suggestion]]
+- [[Pixellisation]]
