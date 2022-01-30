@@ -114,7 +114,7 @@ Sinon, pour ses vêtements, elle est du genre à préférer les trucs proches du
 
 # Relations
 - [[Salem]] : Père adoptif
-- [[Zéphyr]]
+- [[Alazée]]
 - [[Mnémosyne]]
 - **Vrai père** : Un descendant de Gilgamesh — Babylone
 - **Mère** : ???
