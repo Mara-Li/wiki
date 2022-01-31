@@ -120,7 +120,7 @@ Sinon, pour ses vêtements, elle est du genre à préférer les trucs proches du
 
 **Style vestimentaire** : Rock et naturel
 
-**⇒ [[Illustration (Némo)|Illustration]]**{: #left}  
+**⇒ [[Illustration (Hayleen)|Illustration]]**{: #left}  
 
 <h1 align="center">╔═══━━━─── • ───━━━═══╗<br>
 H i s t o i r e<br>
