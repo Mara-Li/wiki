@@ -1,9 +1,14 @@
 site_name: Seed
 site_description: A little owl
 site_url: https://www.mara-li.fr/
+repo_url: https://github.com/Mara-Li/Seed_publish
+repo_name: Seed
+edit_uri: edit/main/docs/
 
 theme:
     name: 'material'
+    icon:
+        repo: fontawesome/solid/seedling
     logo: assets/logo/favicons.png
     favicon: assets/logo/favicons.png
     custom_dir: overrides
