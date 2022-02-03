@@ -12,9 +12,9 @@ univers: "❌"
 ---
 $~$
 ```dataview
-table state AS Status
-FROM [[Ashling May]]
-where type = "Fiche"
+Table WITHOUT ID state as Status, (link(file.path, title)) as LINK 
+FROM [[#]]
+WHERE type="Fiche"
 ```
 
 

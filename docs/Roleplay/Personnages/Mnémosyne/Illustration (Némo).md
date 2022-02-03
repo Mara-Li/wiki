@@ -9,7 +9,7 @@ type: "Illustration"
 share: True
 title: "Illustration"
 ---
-→ [[Lagendia — Fiche]]
+→ [[Mnémosyne (Lagendia)]]
 ![[Némo & Grimmerald.png|Medhas-sm]] ![[Némo — Dolce 1.png|Dolce-sm]]
 
 ![[Némo guirlande Dolce.png|Dolce-sm]] ![[Némo portrait Dolce.png|Dolce-med]] ![[Némo half dolce.png|Dolce-med]]

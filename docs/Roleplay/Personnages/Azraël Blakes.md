@@ -10,8 +10,9 @@ doc: "MD"
 tag: ['OC', 'RP/Bibliothèque-Infinie']
 ---
 ```dataview
-table univers as RP, state
-FROM [[Azraël Blakes]]
+Table WITHOUT ID state as Status, (link(file.path, title)) as LINK 
+FROM [[#]]
+WHERE type="Fiche"
 ```
 
 ---

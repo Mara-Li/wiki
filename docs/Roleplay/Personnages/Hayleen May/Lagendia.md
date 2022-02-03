@@ -185,7 +185,7 @@ Salem ne devait pas être désarçonné. Elle était maligne, tout comme lui : i
 
 Il hocha la tête.
 
-— De toute façon, tu as prévu de rejoindre Etria. J'en ai juste profité. 
+— De toute façon, tu as prévu de rejoindre Etria avec [[Mnémosyne (Lagendia)|Némo]]. J'en ai juste profité. 
 
 Elle sourit. 
 
@@ -195,7 +195,10 @@ Il fit la moue.
 
 Elle lui sourit doucement, comme elle avait l'habitude, l'observant comme si c'était elle l'adulte et lui l'enfant.
 
-— T'inquiète, j'suis une grande fille. 
+— T'inquiète, j'suis une grande fille, et puis, tu connais Némo. Elle ne me laissera pas avoir d'ennuie.
+
+Il ricana. C'est sûr : Némo provoquerait les ennuis et Hayleen serait la plus sage des deux. Probablement.
+Il l'espérait, en tout cas. 
 <h1 align="center">╔═══━━━─── • ───━━━═══╗<br>
 P o u v o i r s<br>
 ╚═══━━━─── • ───━━━═══╝</h1>

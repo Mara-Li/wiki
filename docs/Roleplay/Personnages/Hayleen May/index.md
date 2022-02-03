@@ -10,6 +10,14 @@ univers: "❌"
 title: "Hayleen May"
 image: "Hayleen_portrait.png"
 ---
+```dataview
+Table WITHOUT ID state as Status, (link(file.path, title)) as LINK 
+FROM [[#]]
+WHERE type="Fiche"
+```
+
+
+
 
 # IDENTITÉ
 ![[Hayleen_portrait.png|+side]]
