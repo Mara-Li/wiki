@@ -44,3 +44,18 @@ for (var i = 0; i <ht.length;i++){
     }
 }
 document.innerHTML = ht;
+
+var cite = document.querySelectorAll('.citation');
+if (cite) {
+    for (var i = 0; i < cite.length; i++) {
+        var img = cite[i].innerHTML.match(/!?(\[{2}|\[).*(\]{2}|\))/gi)
+        if (img) {
+            for (var j = 0; j < img.length; j++) {
+                cite[i].innerHTML = cite[i].innerHTML.replace(img[j], '')
+            }
+            if (cite[i].innerText.trim().length < 2) {
+                cite[i].style.display='none';
+            }
+            }
+        }
+    }
