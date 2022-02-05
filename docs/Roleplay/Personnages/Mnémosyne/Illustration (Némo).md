@@ -10,9 +10,11 @@ share: True
 title: "Illustration"
 ---
 → [[Mnémosyne (Lagendia)]]
-![[Némo & Grimmerald.png|Medhas-sm]] ![[Némo — Dolce 1.png|Dolce-sm]]
+
+
+![[twitter_commission_Mnemosyne.png|500]]![[Némo & Grimmerald.png|Medhas-sm]] ![[Némo — Dolce 1.png|Dolce-sm]]
 
 ![[Némo guirlande Dolce.png|Dolce-sm]] ![[Némo portrait Dolce.png|Dolce-med]] ![[Némo half dolce.png|Dolce-med]]
 
-![[Rosa_Garcia_2.png|300]] ![[Rosa_Garcia_1 2.png|300]] ![[Mnemosyne.png|300]]
+![[Rosa_Garcia_2.png|300]]  ![[Mnemosyne.png|300]]
 ![[Mnémosyne Fullbody.jpeg]]

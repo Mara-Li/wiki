@@ -22,7 +22,7 @@ WHERE contains(file.folder, "Roleplay") and type != "OC" and type != "Fiche"
 
 ???+ info "Informations principales."
 	  
-	![[Rosa_Garcia_2.png|+side]]
+	![[twitter_commission_Mnemosyne.png|+side]]
 	**Prénom et nom** : Mnémosyne
 	_Alias :_ Némo
 	  

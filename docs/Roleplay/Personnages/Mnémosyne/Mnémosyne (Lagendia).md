@@ -17,6 +17,7 @@ WHERE type="Fiche" and contains(file.name, "Mnémosyne")
 ```
 
 
+![[twitter_commission_Mnemosyne.png|+side]]
  <h1 align="center">╔═══━━━─── • ───━━━═══╗<br>
 I n t r o d u c t i o n<br>
 ╚═══━━━─── • ───━━━═══╝</h1>
