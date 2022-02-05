@@ -17,7 +17,7 @@ WHERE type="Fiche"
 
 ```dataview
 LIST FROM [[#]]
-WHERE contains(file.folder, "Roleplay") and type != "OC"
+WHERE contains(file.folder, "Roleplay") and type != "OC" and type != "Fiche"
 ```
 
 ???+ info "Informations principales."
@@ -153,3 +153,5 @@ WHERE contains(file.folder, "Roleplay") and type != "OC"
 	**Armes** :
 	- Sa canne, ca compte ?
 
+
+![[Illustration (Némo)]]

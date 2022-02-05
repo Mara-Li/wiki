@@ -13,7 +13,7 @@ state: "🟢"
 ```dataview
 Table WITHOUT ID state as Status, (link(file.path, title)) as LINK 
 FROM [[#]]
-WHERE type="Fiche"
+WHERE type="Fiche" and contains(file.name, "Mnémosyne")
 ```
 
 
