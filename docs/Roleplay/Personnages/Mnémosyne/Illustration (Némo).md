@@ -8,13 +8,20 @@ alias: "Illustration, Némo dessin, dessin"
 type: "Illustration"
 share: True
 title: "Illustration"
+cssclass: "img-grid"
 ---
 → [[Mnémosyne (Lagendia)]]
 
+![[Nemo_funny_medhas.jpeg]]![[NemoXGrim_Medhas.jpeg]]
 
-![[twitter_commission_Mnemosyne.png|500]]![[Némo & Grimmerald.png|Medhas-sm]] ![[Némo — Dolce 1.png|Dolce-sm]]
+![[twitter_commission_Mnemosyne.png]]![[Némo & Grimmerald.png]]
 
-![[Némo guirlande Dolce.png|Dolce-sm]] ![[Némo portrait Dolce.png|Dolce-med]] ![[Némo half dolce.png|Dolce-med]]
+![[Némo — Dolce 1.png]]![[Némo guirlande Dolce.png]]
 
-![[Rosa_Garcia_2.png|300]]  ![[Mnemosyne.png|300]]
-![[Mnémosyne Fullbody.jpeg]]
+![[Némo portrait Dolce.png]]![[Némo half dolce.png]]
+
+![[Rosa_Garcia_2.png|300]] ![[Mnemosyne.png|300]]
+
+![[Nemo by Mogeckko.jpeg|1500]]![[Mnémosyne Fullbody.jpeg|1500]]
+
+![[Fanart Gabrioche.png|]]

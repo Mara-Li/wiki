@@ -12,9 +12,9 @@ image: "Quinn Jayzee.png"
 tag: ['OC', '❌', 'Futuriste', 'Pirate', 'SF', 'Humaine']
 ---
 ```dataview
-Table univers as RP, state
-FROM [[Quinn Jazee]]
-where !contains(type, "Index")
+Table WITHOUT ID state as Status, (link(file.path, title)) as LINK 
+FROM [[#]]
+WHERE type="Fiche"
 ```
 
 ---

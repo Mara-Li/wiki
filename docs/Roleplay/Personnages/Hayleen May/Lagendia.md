@@ -221,22 +221,22 @@ Hayleen, pour le moment, maîtrise le Façonnage uniquement sur les objets de hu
 *Lorsqu'elle ressent de l'adrénaline, les capacités magiques et physiques d'Hayleen sont renforcés. À partir d'un certain degré d'utilisation, les tatouages se mettent à brûler et la magie d'Hayleen lui échappe.* 
 
 ❖ — **Recombinaison** *(Actif)* — ❖
-*Bonus* : +5
+*Bonus* : +2
 *Cooldown* : 1 tour de recharge, deux objets maximum 
 *Domaine* : Hua de terre et d'eau
 *Description* : Hayleen crée un objet à partir de bois, à condition qu'elle en dispose près d'elle. De plus, elle ne peut pas posséder plus de deux objets en même temps. 
 
 ❖ — **Insufflation** *(Actif)* — ❖
-Bonus : +5
+Bonus : +2
 Cooldown : 1x/Jour
 Domaine : Hua
 Description : Hayleen introduit une grande quantité d'Hua dans un objet pour le détruire avec une grande force : elle le fait exploser. 
 
 ❖ — **Altération** *(Buff)* — ❖
-Bonus : +5
+Bonus : +2
 Cooldown : 2x par scène RP
 Domaine : Hua, Terre, Eau
-Effet : Bonus de 10 aux dés lors de l'utilisation de l'objet.
+Effet : Bonus de 3 aux dés lors de l'utilisation de l'objet
 Description : Hayleen améliore l'attribut d'un objet, mais affaiblie une autre. 
  
 [^1]: "Grimalkin" est un terme initialement associé à des chat-fées dans les légendes irlandaises, devenus plus généralement associé à la sorcellerie.

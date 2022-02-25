@@ -12,11 +12,10 @@ description: "Fiche de Ambre Loiseau"
 tag: ['OC', '❌', 'RP/Race/Zombie', 'Magie', 'Méchante']
 ---
 ```dataview
-table RP
-FROM "Ecriture/Personnages"
-WHERE original = "Ambre Loiseau"
+Table WITHOUT ID state as Status, (link(file.path, title)) as LINK 
+FROM [[#]]
+WHERE type="Fiche"
 ```
-
 
 ---
 
