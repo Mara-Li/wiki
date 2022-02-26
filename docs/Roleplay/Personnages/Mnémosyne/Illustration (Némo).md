@@ -12,7 +12,8 @@ cssclass: "img-grid"
 ---
 → [[Mnémosyne (Lagendia)]]
 
-![[Nemo_funny_medhas.jpeg]]![[NemoXGrim_Medhas.jpeg]]
+![[Nemo_funny_medhas.jpeg]] 
+![[Nemo_Grimm.jpeg]]
 
 ![[twitter_commission_Mnemosyne.png]]![[Némo & Grimmerald.png]]
 

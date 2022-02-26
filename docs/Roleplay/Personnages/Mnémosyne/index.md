@@ -15,11 +15,13 @@ WHERE type="Fiche"
 ```
 
 
+---
 ```dataview
 LIST FROM [[#]]
 WHERE contains(file.folder, "Roleplay") and type != "OC" and type != "Fiche"
 ```
 
+---
 ???+ info "Informations principales."
 	  
 	![[twitter_commission_Mnemosyne.png|+side]]

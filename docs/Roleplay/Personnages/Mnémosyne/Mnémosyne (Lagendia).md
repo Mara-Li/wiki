@@ -35,6 +35,8 @@ D e s c r i p t i o n<br>
 ╚═══━━━─── • ───━━━═══╝</h1>
 <h2 align="center">──────༺ Mental ༻──────</h2><br>
 
+
+
 $\qquad$Mnémosyne est une personne en apparence désinvolte et versatile. Elle apprécie s'amuser, et n'est pas du genre à déprimer sur les difficultés. Ce n'est pas le genre de personne à facilement détester les gens, et elle est plus à se méfier grand maximum. Il est donc extrêmement rare d'être détesté par Mnémosyne.
 
 Elle aime s'amuser et est alors amusante pour son entourage. Elle aime rire, et n'hésite pas à se moquer de sa condition d'aveugle ou d'amnésique. C'est le genre de personne décalée qui exagère volontairement sa maladresse et qui paraît tête en l'air.
@@ -87,6 +89,7 @@ Elle a une démarche plutôt droite, malgré le fait qu'elle s'aide tout le temp
 
 Son visage est assez ovale, avec un petit nez et des yeux très légèrement tombants, entièrement blanc — puisqu'il se trouve qu'elle est aveugle. Elle a des lèvres fines et une bouche bien dessinée. Enfin, elle possède de petites tâches de rousseurs sur l'ensemble du visage, mais surtout sur son nez et joues. 
 Notons : elle ne porte pas de lunettes de soleil, puisque cela la gêne fortement pour utiliser ses pouvoirs. 
+![[Nemo by Mogeckko.jpeg|+rside]]
 
 **Style vestimentaire** : Elle a un style plutôt décontracté, presque sportif. Elle apprécie les bottines, les longs manteaux en cuir souples, les pulls, mais aussi les pantalons cargo ou les jupes souples. Cela dit, puisqu'elle est aveugle, elle ne fait pas vraiment attention à son apparence. 
 Généralement, les couleurs qu'elle portera seront plutôt neutre, type marron, beige, voire bordeaux. 

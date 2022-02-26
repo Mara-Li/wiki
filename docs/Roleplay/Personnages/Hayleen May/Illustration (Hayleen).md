@@ -3,6 +3,7 @@ category: "Roleplay/Personnages/Hayleen May"
 share: True
 title: "Illustration"
 type: "Illustration"
+cssclass: "img-grid"
 ---
 
 ![[Hayleen May Portrait Gabrioche.jpeg|500]]![[COMMISSION_MARA_PP.png|500]]
