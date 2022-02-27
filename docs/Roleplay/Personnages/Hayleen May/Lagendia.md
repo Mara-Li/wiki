@@ -3,12 +3,13 @@ title: "(Lagendia) Hayleen May"
 date: "23-01-2022"
 category: "Roleplay/Personnages/Hayleen May"
 share: True
-description: "(Lagendia) Fiche de Hayleen May"
+description: "Fiche d'Hayleen May, pour Lagendia. Une élève Dragon Pourpre, contrôlant le bois et à fort caractère !"
 type: "Fiche"
 state: "🟢"
 univers: "Lagendia"
 tag: "RP/Lagendia/Fiche/PJ"
 image: "COMMISSION_MARA_PP.png"
+parent: [['Hayleen May']]
 ---
 
 ```dataview
@@ -28,7 +29,7 @@ I n t r o d u c t i o n<br>
 
 **Âge :** Entre 20 et 23 ans 
 **Race :** Grimalkin[^1]
-**Maison :** 
+**Maison :** Dragon Pourpre
 **Grade** : 
 **Parcours** : 
 
