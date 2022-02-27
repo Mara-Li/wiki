@@ -24,16 +24,16 @@ theme:
       primary: teal
       accent: light blue
       toggle:
-        icon: material/toggle-switch-off-outline
+        icon: material/weather-night
         name: Switch to dark mode
 
     # Dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: blue
-      accent: indigo
+      primary: blue grey
+      accent: light blue
       toggle:
-        icon: material/toggle-switch
+        icon: material/weather-sunny
         name: Switch to light mode
     features:
         - navigation.indexes
@@ -87,12 +87,14 @@ plugins:
   - awesome-pages
   - tooltipster-links
   - embed_file
+  - tags:
+      tags_file: hidden/tags.md
 extra_javascript:
   - assets/js/mathjax.js
   - assets/js/utils.js
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
-  - assets/js/tooltipster.bundle.js  
+  - assets/js/tooltipster.bundle.js
 extra_css:
     - assets/css/img-grids-floats.css
     - assets/css/utils.css

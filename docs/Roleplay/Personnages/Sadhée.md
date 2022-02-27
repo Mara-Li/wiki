@@ -8,7 +8,9 @@ description: "Stagiaire-apprentie au sein de la Fondation SCP, malgré ses pouvo
 type: "Fiche"
 state: "🟢"
 univers: "Sadhée"
-tag: "RP/Sadhée/Fiche/PJ"
+tags: 
+ - "RP"
+ - Sadhé
 ---
 
 # **─────༺ Présentation ༻─────**
