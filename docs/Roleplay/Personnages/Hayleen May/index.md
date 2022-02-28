@@ -121,5 +121,5 @@ WHERE type="Fiche"
 	- [[Mnémosyne]]
 	- **Vrai père** : Un descendant de Gilgamesh — Babylone
 	- **Mère** : ???
-	- [[Écho]] : **inité**{: #inité}{: .hash}  
+	- [[Écho]] : **inité**{: #inité .hash}  
 
