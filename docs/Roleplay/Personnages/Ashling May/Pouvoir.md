@@ -5,7 +5,7 @@ category: "Roleplay/Personnages/Ashling May"
 publish: True
 share: True
 title: "Pouvoir"
-type: "Référence"
+type: "Pouvoir"
 state: "❌"
 tag: ['Ashling-May/Référence', 'RP/Fiche', 'Pouvoir', 'Futuriste']
 ---

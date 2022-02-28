@@ -1,5 +1,5 @@
 ---
-type: "idées"
+type: "Informations, Idées"
 univers: "Resident Evil"
 obsidianUIMode: "preview"
 share: True
