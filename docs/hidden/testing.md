@@ -2,4 +2,4 @@
 share: True
 category: False
 ---
-**Initié**{: #Initié}{: .hash}  
+**Initié**{: #Initié .hash}  
