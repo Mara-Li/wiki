@@ -17,8 +17,9 @@ WHERE type="Fiche"
 
 ---
 ```dataview
-LIST FROM [[#]]
-WHERE contains(file.folder, "Roleplay") and type != "OC" and type != "Fiche"
+LIST 
+FROM "20. Roleplay/22. Personnages/Mnémosyne/Lagendia"
+WHERE type != "OC" and type != "Fiche"
 ```
 
 ---

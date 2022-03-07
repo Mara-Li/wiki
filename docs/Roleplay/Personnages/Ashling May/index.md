@@ -125,3 +125,6 @@ Ashling est une personne plutôt lâche, qui n'aime pas prendre des risques inut
 
  
 ![[Pouvoir#Technomage]]
+
+---
+![[Illustration (Ashling)]]

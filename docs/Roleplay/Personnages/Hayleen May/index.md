@@ -16,7 +16,7 @@ WHERE type="Fiche"
 
 
 - [[Blackwell Castle — Hayleen May]]
-- [[20. Roleplay/22. Personnages/Hayleen May/Lagendia/Lagendia|Hayleen May (Lagendia)]]
+- [[20. Compendium/22. Personnages/Hayleen May/Lagendia/Lagendia|Hayleen May (Lagendia)]]
 - [[Illustration (Hayleen)]]
 ![[Illustration (Hayleen)]]
 

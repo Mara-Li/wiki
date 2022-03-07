@@ -12,17 +12,13 @@ cssclass: "img-grid"
 ---
 → [[Mnémosyne (Lagendia)]]
 
-![[Nemo_funny_medhas.jpeg]] 
-![[Nemo_Grimm.jpeg]]
-
+![[Nemo_funny_medhas.jpeg]] ![[Nemo_Grimm.jpeg]]
 ![[twitter_commission_Mnemosyne.png]]![[Némo & Grimmerald.png]]
 
 ![[Némo — Dolce 1.png]]![[Némo guirlande Dolce.png]]
-
 ![[Némo portrait Dolce.png]]![[Némo half dolce.png]]
 
 ![[Rosa_Garcia_2.png|300]] ![[Mnemosyne.png|300]]
+![[Nemo by Mogeckko.jpeg]]![[Mnémosyne Fullbody.jpeg]]
 
-![[Nemo by Mogeckko.jpeg|1500]]![[Mnémosyne Fullbody.jpeg|1500]]
-
-![[Fanart Gabrioche.png|]]
+![[Fanart Gabrioche.png]]![[Mnémosyne robe - Farraige.png]]
