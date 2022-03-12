@@ -7,6 +7,7 @@ description: "Références pour Hayleen May"
 category: "Roleplay/Personnages/Hayleen May"
 title: "Hayleen May"
 image: "Hayleen_portrait.png"
+cover: "https://www.mara-li.fr/assets/img/Hayleen_portrait.png"
 ---
 ```dataview
 Table WITHOUT ID state as Status, (link(file.path, title)) as LINK 

@@ -21,4 +21,4 @@ cssclass: "img-grid"
 ![[Rosa_Garcia_2.png|300]] ![[Mnemosyne.png|300]]
 ![[Nemo by Mogeckko.jpeg]]![[Mnémosyne Fullbody.jpeg]]
 
-![[Fanart Gabrioche.png]]![[Mnémosyne robe - Farraige.png]]
+![[Fanart Gabrioche.png]]![[Mnémosyne robe - Farraige.png]]![[Panneau_némo.png]]![[Grimm_Nemo.jpg]]

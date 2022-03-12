@@ -6,7 +6,8 @@ category: "Roleplay/Personnages/Mnémosyne"
 description: "Référence générale de Mnémosyne"
 alias: "Némo, Mnémosyne, Nemo, (i) Mnémosyne"
 title: "Mnémosyne"
-image: "Mnémosyne"
+image: "twitter_commission_Mnemosyne.png"
+cover: "https://www.mara-li.fr/assets/img/twitter_commission_Mnemosyne.png"
 ---
 ```dataview
 Table WITHOUT ID state as Status, (link(file.path, title)) as LINK 
@@ -18,7 +19,7 @@ WHERE type="Fiche"
 ---
 ```dataview
 LIST 
-FROM "20. Roleplay/22. Personnages/Mnémosyne/Lagendia"
+FROM "20. Compendium/22. Personnages/Mnémosyne"
 WHERE type != "OC" and type != "Fiche"
 ```
 

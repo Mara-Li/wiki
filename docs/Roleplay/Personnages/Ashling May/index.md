@@ -7,6 +7,7 @@ type: "OC"
 category: "Roleplay/Personnages/Ashling May"
 doc: "Personnalisé"
 image: "Commission Feilyn.png"
+cover: "https://www.mara-li.fr/assets/img/Commission%20Feilyn.png"
 genre: "PJ"
 univers: "❌"
 ---
