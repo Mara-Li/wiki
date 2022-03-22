@@ -6,4 +6,3 @@ mkdocs-awesome-pages-plugin
 mdx_breakless_lists
 git+https://github.com/Mara-Li/mkdocs-tooltipster-links-plugin
 mkdocs-embed-file-plugins
-git+https://github.com/neurobin/mdx_wikilink_plus/
