@@ -3,7 +3,6 @@ date: "07-01-2022"
 category: "Roleplay/Personnages"
 share: True
 obsidianUIMode: "source"
-title: "(Sadhée V2) Eilwellyn Beausang"
 description: "Stagiaire-apprentie au sein de la Fondation SCP, malgré ses pouvoirs particuliers."
 type: "Fiche"
 state: "🟢"

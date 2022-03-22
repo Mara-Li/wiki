@@ -12,7 +12,12 @@ where type = "Fiche"
 ```
 
 
-![](https://media.discordapp.net/attachments/893456753352671243/951053860057780224/2021-12-05_15-13-55-081_Neneko_Bloodborne_Blur.png)
+>[!grid]
+> ![[Kara__BB.png]] 
+> ![[Kara_Full.png]]
+> 
+> ![[Kara_Portrait2.png|]]
+> ![[Kara_portrait.png|]]
 
 # ─────༺ Présentation ༻─────
 
