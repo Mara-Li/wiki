@@ -4,6 +4,7 @@ share: True
 description: "Fiche de Kara Grimalkin"
 type: "OC"
 cover: "https://i.imgur.com/3KnvPZd.jpg"
+folder: "Roleplay/Personnages"
 ---
 ```dataview
 table state AS Status
@@ -12,12 +13,12 @@ where type = "Fiche"
 ```
 
 
->[!grid]
-> ![[Kara__BB.png]] 
-> ![[Kara_Full.png]]
-> 
-> ![[Kara_Portrait2.png|]]
-> ![[Kara_portrait.png|]]
+!!! NOTE
+	 ![[Kara__BB.png]] 
+	 ![[Kara_Full.png]]
+	 
+	 ![[Kara_Portrait2.png|]]
+	 ![[Kara_portrait.png|]]
 
 # ─────༺ Présentation ༻─────
 
