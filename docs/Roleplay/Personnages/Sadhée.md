@@ -8,6 +8,7 @@ type: "Fiche"
 state: "🟢"
 univers: "Sadhée"
 tag: "RP/Sadhée/Fiche/PJ"
+title: "Eilwellyn Beausang"
 ---
 
 # **─────༺ Présentation ༻─────**

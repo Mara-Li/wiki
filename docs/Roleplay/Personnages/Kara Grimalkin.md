@@ -1,10 +1,10 @@
 ---
-date: "11-03-2022"
-share: True
-description: "Fiche de Kara Grimalkin"
-type: "OC"
-cover: "https://i.imgur.com/3KnvPZd.jpg"
 category: "Roleplay/Personnages"
+cover: "https://www.mara-li.fr/assets/img/Kara__BB.png"
+date: "11-03-2022"
+description: "Fiche de Kara Grimalkin"
+share: True
+type: "OC"
 ---
 ```dataview
 table state AS Status
@@ -13,7 +13,7 @@ where type = "Fiche"
 ```
 
 
-!!! NOTE "Illustrations"
+!!! grid "Illustrations"
 	 ![[Kara__BB.png]] 
 	 ![[Kara_Full.png]]
 	 
