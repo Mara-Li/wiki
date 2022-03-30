@@ -5,6 +5,7 @@ date: "11-03-2022"
 description: "Fiche de Kara Grimalkin"
 share: True
 type: "OC"
+univers: "FFXIV"
 ---
 ```dataview
 table state AS Status
@@ -20,6 +21,9 @@ where type = "Fiche"
 	 ![[Kara_Portrait2.png|]]
 	 ![[Kara_portrait.png|]]
 
+**FFXIV**{: #FFXIV .hash}  
+ **Gardemald**{: #Gardemald .hash}  
+
 # ─────༺ Présentation ༻─────
 
 **Nom** : 
@@ -33,7 +37,7 @@ where type = "Fiche"
 **Orientation sexuelle** : 
 
 *Race* :
-
+*Origine* : 
 # ──────༺ Capacités ༻──────
 **Pouvoirs** : 
 **Attributs** : 
