@@ -1,3 +1,0 @@
-[mkdocs.plugins]
-embed_file = mkdocs_embed_file_plugins.plugin:EmbedFile
-

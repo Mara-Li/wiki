@@ -1,4 +1,5 @@
 ---
+tag: "Lagendia"
 type: "OC"
 obsidianUIMode: "preview"
 share: True

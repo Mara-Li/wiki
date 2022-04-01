@@ -1,6 +1,7 @@
 ---
 category: "Roleplay/Personnages"
 cover: "https://www.mara-li.fr/assets/img/Kara__BB.png"
+image: "Kara__BB.png"
 date: "11-03-2022"
 description: "Fiche de Kara Grimalkin"
 share: True
@@ -26,27 +27,27 @@ where type = "Fiche"
 
 # ─────༺ Présentation ༻─────
 
-**Nom** : 
-**Prénom** : 
-*Alias* : 
+**Nom** : Grimalkin
+**Prénom** : Kara
 
-**Âge** :
-*Anniversaire* :
+**Âge** : 31 ans
+*Anniversaire* : 15e soleil de la 2e Lune ombrale 
+*Divinité* : Thaliak, l'Érudit 
 
-**Genre** : 
-**Orientation sexuelle** : 
+**Genre** : F
+**Orientation sexuelle** : Bi
 
-*Race* :
-*Origine* : 
+*Race* : Hyuroise 
+*Origine* : Gardemald (Colonie)
 # ──────༺ Capacités ༻──────
-**Pouvoirs** : 
-**Attributs** : 
+**Classe** : Chevalier Noir - Faucheur 
+**Attributs** : Après sa fusion avec 
 
 *Avantages* : 
 *Inconvénients* :
 
 # ──────༺ Physique ༻────── 
-*Taille*: 
+*Taille* : 
 *Poids* : 
 
 **Yeux** : 

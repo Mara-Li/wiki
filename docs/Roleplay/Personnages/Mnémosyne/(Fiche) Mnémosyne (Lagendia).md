@@ -1,4 +1,5 @@
 ---
+tag: "Lagendia"
 title: "(Lagendia) Mnémosyne"
 share: True
 date: "15-11-2021"
@@ -18,7 +19,7 @@ WHERE type="Fiche" and contains(file.name, "Mnémosyne")
 
 
 ![[twitter_commission_Mnemosyne.png|+side]]
- <h1 align="center">╔═══━━━─── • ───━━━═══╗<br>
+ <h1 style="text-align:center">╔═══━━━─── • ───━━━═══╗<br>
 I n t r o d u c t i o n<br>
 ╚═══━━━─── • ───━━━═══╝</h1>
 
@@ -30,11 +31,10 @@ I n t r o d u c t i o n<br>
 **Race :** Sanktae[^1] (*déchue*)
 **Statut :** Surveillante
 
- <h1 align="center">╔═══━━━─── • ───━━━═══╗<br>
+ <h1 style="text-align:center">╔═══━━━─── • ───━━━═══╗<br>
 D e s c r i p t i o n<br>
 ╚═══━━━─── • ───━━━═══╝</h1>
-<h2 align="center">──────༺ Mental ༻──────</h2><br>
-
+<h2 style="text-align:center">──────༺ Mental ༻──────</h2><br>
 
 
 $\qquad$Mnémosyne est une personne en apparence désinvolte et versatile. Elle apprécie s'amuser, et n'est pas du genre à déprimer sur les difficultés. Ce n'est pas le genre de personne à facilement détester les gens, et elle est plus à se méfier grand maximum. Il est donc extrêmement rare d'être détesté par Mnémosyne.
@@ -71,7 +71,7 @@ Son seul moyen de mentir est de mentir par omission, ce qu'elle n'hésite pas à
 ###### Peurs et phobies :
 Pour une raison obscure, Mnémosyne est terrifiée par les insectes. En dehors de ça, rien ne semble réellement l'effrayer.
 
-<h2 align="center">──────༺ Physique ༻──────</h2>
+<h2 style="text-align:center">──────༺ Physique ༻──────</h2>
 
 ![[Mnémosyne Fullbody.jpeg|+side]]
 
@@ -96,7 +96,7 @@ Généralement, les couleurs qu'elle portera seront plutôt neutre, type marron,
 
 **→ [[Illustration (Némo)|Illustration]]**{: #left}  
 
-<h1 align="center">╔═══━━━─── • ───━━━═══╗<br>
+<h1 style="text-align:center">╔═══━━━─── • ───━━━═══╗<br>
 H i s t o i r e<br>
 ╚═══━━━─── • ───━━━═══╝</h1>
 ### ⟦ Dix ans plus tôt ⟧
@@ -199,10 +199,10 @@ Némo, sans aucun but, mais curieuse, choisit de les rejoindre. Elle voulait ret
 
 Ils lui proposèrent, bien plus tard, de garder un œil (encore une blague de Salem) sur les étudiants de l'Académie, et elle accepta. Elle n'avait pas vraiment grand-chose à faire.
 
-<h1 align="center">╔═══━━━─── • ───━━━═══╗<br>
+<h1 style="text-align:center">╔═══━━━─── • ───━━━═══╗<br>
 P o u v o i r s<br>
 ╚═══━━━─── • ───━━━═══╝</h1>
-<h2 align="center">──────༺ Attributs généraux ༻──────</h2>
+<h2 style="text-align:center">──────༺ Attributs généraux ༻──────</h2>
 
 ### ◌ Les Sanktae ◌
 
@@ -230,7 +230,7 @@ Issue de sa fusion avec un être informe, [[20. Roleplay/_Archétype/Mnémosyne/
 
 ### ◌ Inconvénients ◌
 - Les Sanktae (et par extension, Némo) ne peuvent faire venir de la lumière de nulle part. Dans le cas d'un noir complet, il leur est quasiment impossible de faire appel à leur pouvoir, et leur auréole sera leur seule source de lumière. Cependant, il n'est pas réellement possible pour eux d'utiliser leur auréole comme source de lumière. Ceux qui ont tenté en sont morts. 
-- Némo est aveugle : Cependant, elle distingue les êtres vivants ou simplement animés. Pour le reste, elle utilise une cane *(cf [[Mnémosyne (Lagendia)#Trivia|trivia]])*
+- Némo est aveugle : Cependant, elle distingue les êtres vivants ou simplement animés. Pour le reste, elle utilise une cane *(cf [[(Fiche) Mnémosyne (Lagendia)#Trivia|trivia]])*
 	De plus, elle a tendance à se cogner partout.
 - Son pouvoir aveugle allié et ennemi.
 - Elle ne peut récupérer, d'aucune manière, la vue. 
@@ -241,7 +241,7 @@ Issue de sa fusion avec un être informe, [[20. Roleplay/_Archétype/Mnémosyne/
 - ==Sous forme Obsius, elle devient extrêmement sensible à la lumière, et il lui est impossible de faire appel aux ténèbres en cas de forte lumière.==
 
 
- <h2 align="center">──────༺ Capacités ༻──────</h2>
+ <h2 style="text-align:center">──────༺ Capacités ༻──────</h2>
 
 ❖ — **Écho astral** _(Passif)_ — ❖
 *En envoyant de la lumière sur les surfaces, Némo est capable de les distinguer. Elle le fait naturellement pour les êtres vivants, qu'elle voit sous forme de tâche colorée.*

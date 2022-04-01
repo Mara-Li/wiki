@@ -10,7 +10,9 @@ share: True
 title: "Illustration"
 cssclass: "img-grid"
 ---
-→ [[Mnémosyne (Lagendia)]]
+→ [[(Fiche) Mnémosyne (Lagendia)]]
+**Lagendia**{: #Lagendia .hash}  
+ 
 
 ![[Nemo_Medhas.png]]![[Nemo_funny_medhas.jpeg]] ![[Nemo_Grimm.jpeg]]
 ![[twitter_commission_Mnemosyne.png]]![[Némo & Grimmerald.png]]
