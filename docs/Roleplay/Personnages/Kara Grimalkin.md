@@ -16,11 +16,11 @@ where type = "Fiche"
 
 
 !!! grid "Illustrations"
-> ![[Kara__BB.png]] 
-> ![[Kara_Full.png]]
-> 
-> ![[Kara_Portrait2.png|]]
-> ![[Kara_portrait.png|]]
+	![[Kara__BB.png]] 
+	![[Kara_Full.png]]
+	
+	![[Kara_Portrait2.png|]]
+	![[Kara_portrait.png|]]
 
 **FFXIV**{: #FFXIV .hash}  
  **Gardemald**{: #Gardemald .hash}  
