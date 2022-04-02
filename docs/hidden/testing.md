@@ -23,3 +23,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam efficitur auctor
 
 
 ![[hidden/test2]]
+
+!!! NOTE
+		!!! NOTE
+			!!! NOTE
+				CC
