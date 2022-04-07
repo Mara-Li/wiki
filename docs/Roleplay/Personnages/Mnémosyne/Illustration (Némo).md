@@ -13,7 +13,7 @@ cssclass: "img-grid"
 → [[(Fiche) Mnémosyne (Lagendia)]]
 **Lagendia**{: #Lagendia .hash}  
  
-!!! GRID
+!!! NOTE
 	![[Nemo_Medhas.png]]![[Nemo_funny_medhas.jpeg]] ![[Nemo_Grimm.jpeg]] ![[twitter_commission_Mnemosyne.png]]![[Némo & Grimmerald.png]]
 	
 	![[Némo — Dolce 1.png]]![[Némo guirlande Dolce.png]] ![[Némo portrait Dolce.png|]] ![[Némo half dolce.png]]![[Rosa_Garcia_2.png|300]] ![[Mnemosyne.png|300]]
