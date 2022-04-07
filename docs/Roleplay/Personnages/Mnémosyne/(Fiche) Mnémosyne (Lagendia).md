@@ -18,11 +18,11 @@ WHERE type="Fiche" and contains(file.name, "Mnémosyne")
 ```
 
 
-![[twitter_commission_Mnemosyne.png|+side]]
+
  <h1 style="text-align:center">╔═══━━━─── • ───━━━═══╗<br>
 I n t r o d u c t i o n<br>
 ╚═══━━━─── • ───━━━═══╝</h1>
-
+![[twitter_commission_Mnemosyne.png|+side]]
 **Nom & Prénom :** Mnémosyne 
 *Alias* : Némo
 
@@ -30,8 +30,7 @@ I n t r o d u c t i o n<br>
 **Taille :** 1m80
 **Race :** Sanktae[^1] (*déchue*)
 **Statut :** Surveillante
-
- <h1 style="text-align:center">╔═══━━━─── • ───━━━═══╗<br>
+ <br><br><br><br><h1 style="text-align:center">╔═══━━━─── • ───━━━═══╗<br>
 D e s c r i p t i o n<br>
 ╚═══━━━─── • ───━━━═══╝</h1>
 <h2 style="text-align:center">──────༺ Mental ༻──────</h2><br>
