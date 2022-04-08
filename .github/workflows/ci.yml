@@ -17,7 +17,7 @@ jobs:
           pip install git+https://github.com/Mara-Li/mkdocs_obsidian_publish.git@github-actions
           for f in ${{ github.workspace}}/source/*
           do
-            if [[ "$f" == *md]] 
+            if [[ "$f" == *md ]] 
             then
               obs2mk --GA --keep file $f
             fi
