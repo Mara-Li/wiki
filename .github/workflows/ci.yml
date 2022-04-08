@@ -5,11 +5,19 @@ on:
       - master
       - main
 jobs:
+  python-working:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/setup-python@v3
+        with:
+          python-version: 3.10.2
+      - name: check folder 
+        uses: python -c "import os;print(os.getcwd())"
   deploy:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: actions/setup-python@v2
+      - uses: actions/setup-python@v3
         with:
           python-version: 3.10.2
       - name: Install Python dependencies
