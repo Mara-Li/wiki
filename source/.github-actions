@@ -1,5 +1,4 @@
 vault=''
-blog_path=os.getcwd()
 blog=https://www.mara-li.fr/
 share=share
 index_key=(i)
