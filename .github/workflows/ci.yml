@@ -15,7 +15,7 @@ jobs:
       - name: check folder 
         run: |
           pip install git+https://github.com/Mara-Li/mkdocs_obsidian_publish.git@github-actions
-          obs2mk --GA --keep file testing.md
+          obs2mk --GA --keep file "{{$ github.workspace}}/source/testing.md"
   deploy:
     runs-on: ubuntu-latest
     steps:
