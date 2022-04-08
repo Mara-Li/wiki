@@ -14,7 +14,7 @@ jobs:
       - name: check folder 
         run: |
           pip install seedir
-          python -c "import seedir as sd; import os; from pathlib import Path; sd.seedir(str(Path('${{ github.action_path }}').parent.parent))"
+          python -c "import seedir as sd; import os; from pathlib import Path; sd.seedir(str(Path('${{ github.event_path }}')))"
   deploy:
     runs-on: ubuntu-latest
     steps:
