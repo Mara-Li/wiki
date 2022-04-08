@@ -12,7 +12,7 @@ jobs:
         with:
           python-version: 3.10.2
       - name: check folder 
-        run: python -c "import os; from pathlib import Path; print(os.path.isfile(os.path.join((Path(os.getcwd()).parent.absolute, 'source', '.github-actions'))"
+        run: python -c "import os; from pathlib import Path; print(os.path.isfile(os.path.join(Path(os.getcwd()).parent.absolute(), 'source', '.github-actions')))"
   deploy:
     runs-on: ubuntu-latest
     steps:
