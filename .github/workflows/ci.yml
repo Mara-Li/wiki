@@ -14,8 +14,9 @@ jobs:
           python-version: 3.10.2
       - name: check folder 
         run: |
-          pip install seedir
-          python -c "import seedir as sd; import os; from pathlib import Path; sd.seedir(os.getcwd())"
+          pip install git+https://github.com/Mara-Li/mkdocs_obsidian_publish.git@github-actions
+          cd source
+          obs2mk --GA file testing.md
   deploy:
     runs-on: ubuntu-latest
     steps:
