@@ -12,7 +12,7 @@ jobs:
         with:
           python-version: 3.10.2
       - name: check folder 
-        run: python -c "import os; from pathlib import Path; import glob; file = [i for i in glob.iglob(str(os.getcwd()) + os.sep + "**", recursive=True)]; print(file)"
+        run: python -c 'import os; from pathlib import Path; import glob; file = [i for i in glob.iglob(str(os.getcwd()) + os.sep + \"**\", recursive=True)]; print(file)'
   deploy:
     runs-on: ubuntu-latest
     steps:
