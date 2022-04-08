@@ -19,9 +19,6 @@ jobs:
           do
             obs2mk --GA --keep file $f
           done
-      - name: clean source files
-        run: |
-          rm ${{github.workspace}}/source/*
       - name: Push new files
         run: |
           git config --global user.name 'mara-li'
@@ -41,3 +38,10 @@ jobs:
         with: 
           path: requirements.txt
       - run: mkdocs gh-deploy --force --clean
+  clean:
+    runs-on: ubuntu-latest
+    steps:
+     - uses: actions/checkout@v3
+     - uses: actions/setup-python@v3
+     - name: clean source files
+       run: rm ${{github.workspace}}/source/*
