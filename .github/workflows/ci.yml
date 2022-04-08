@@ -26,9 +26,11 @@ jobs:
           git add . 
           git commit -am "Updated blog 🎉"
           git push
-
+      - name: clean source files
+        run: rm ${{github.workspace}}/source/*
   deploy:
     runs-on: ubuntu-latest
+    needs: obs2mk
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-python@v3
@@ -39,10 +41,3 @@ jobs:
         with: 
           path: requirements.txt
       - run: mkdocs gh-deploy --force --clean
-  clean:
-    runs-on: ubuntu-latest
-    steps:
-     - uses: actions/checkout@v3
-     - uses: actions/setup-python@v3
-     - name: clean source files
-       run: rm ${{github.workspace}}/source/*
