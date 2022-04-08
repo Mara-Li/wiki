@@ -19,6 +19,8 @@ jobs:
           do
             obs2mk --GA --keep file $f
           done
+      - name: clean source files
+        run: rm ${{github.workspace}}/source/*
       - name: Push new files
         run: |
           git config --global user.name 'mara-li'
@@ -26,8 +28,7 @@ jobs:
           git add . 
           git commit -am "Updated blog 🎉"
           git push
-      - name: clean source files
-        run: rm ${{github.workspace}}/source/*
+
   deploy:
     runs-on: ubuntu-latest
     needs: obs2mk
