@@ -22,6 +22,7 @@ jobs:
               obs2mk --GA --keep file $f
             fi
           done
+          obs2mk --GA clean
       - name: clean source files
         run: rm ${{github.workspace}}/source/*
       - name: Push new files

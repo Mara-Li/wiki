@@ -20,7 +20,7 @@ WHERE type="Fiche"
 - [[Illustration (Hayleen)]]
 
 ![[Illustration (Hayleen)]]
-!!! NOTE "Identité"
+!!! note "Identité"
 	![[Hayleen_portrait.png|+side]]
 	**Prénom et nom :** Hayleen May  
 	*Alias :* Grimalkin
@@ -29,7 +29,7 @@ WHERE type="Fiche"
 	**Date de naissance :** 15 août 
 	**Race :** Sorcière démone  
 
-!!! NOTE "Pouvoir"
+!!! info "Pouvoir"
 	Hayleen est une sorcière démone : elle est capable d’[[Invocation d'armes|invoquer]], via des incantations, plusieurs objets différents, qu’elle peut [[Sortilège|ensuite enchanter et renforcer]]. 
 	Son corps est naturellement plus agile, rapide, et solide qu’une personne “lambda”, notamment via l’utilisation de “circuit magique”, tatouages légèrement transparents qui parcourent l’ensemble de son corps, et qui deviennent rouges lorsqu’elle déploie sa magie. 
 	En outre, en plus de pouvoir invoquer des objets, elle peut incanter pour renforcer des objets non-invoqués, mais aussi ses alliés et ami, ainsi qu’elle-même. 
@@ -49,7 +49,7 @@ WHERE type="Fiche"
 	**Circuits magiques** :  Les circuits magiques sont un deuxième système veineux renforçant la magie et le corps d’Hayleen. Cependant, ils ont tendance à chauffer lorsqu’elle les utilise. A partir d’un certain degré d’utilisation, la magie d’Hayleen est trop renforcée et lui échappe, ce qui aboutit généralement à des explosions.
 	Ces circuits ont été gravé à sa naissance ou peu après par sa mère.
 
-!!! NOTE "Personnalité"
+!!! info "Personnalité"
 	Hayleen n’est vraiment pas du genre à se faire marcher sur les pieds. Elle est sociable, certes, mais possède un fort caractère qui la font souvent foncer tête baissée dans tout ce qui est possible de tomber : piège, amour, bagarre, amitié… Elle n’est pas naïve. Juste qu’elle vit à fond. 
 	
 	Ayant perdu rapidement sa famille, elle est élevée par un ami de sa mère, un démon nommé Salem. Ce dernier l’a préparé au monde extérieur, mais elle n’a pas énormément connaissance du monde extérieur. En effet, son hybridation étrange fait que certaines personnes souhaitent sa mort, et il a dû la préparer à se défendre. 
@@ -82,7 +82,7 @@ WHERE type="Fiche"
 	- Musique : ==Joue du violoncelle==
 	- La lecture
 
-!!! NOTE "Physique"
+!!! info "Physique"
 	*Taille* : 1m70
 	*Poids* : 60kg
 	![+side](https://lh5.googleusercontent.com/YGkLl1TAv5q7Z5DXwwNlFJwuAjUUVv217w6Nd9uygb-fkhd4GZkXiqC25wy5Ehpr7tW1rwqiZlnLGaNL7vFiKgMflX-ILFLfJv2Dk0J8ImFEimxJs0ufmTOJX44LiddjGQdGSsdM)
@@ -102,7 +102,7 @@ WHERE type="Fiche"
 	- Sa magie est dorée
 	**Style vestimentaire** : Plutôt rock et naturel.
 
-!!! NOTE "Divers"
+!!! tip "Divers"
 	**Habitudes :**
 	- Du Kendo le matin
 	- Jouer du violoncelle dans l’après-midi.
@@ -114,7 +114,7 @@ WHERE type="Fiche"
 	- Des aiguilles qu’elle utilise pour faire ses chignons, plus en arme d’autodéfense quand elle n’a pas le temps d’incanter. 
 	- Un autre Katana, plus simple (car elle se bat à l’arme double), à la lame rouge.
 
-!!! NOTE "Relations"
+!!! tldr "Relations"
 	- [[Salem]] : Père adoptif
 	- [[Alazée]]
 	- [[Mnémosyne]]

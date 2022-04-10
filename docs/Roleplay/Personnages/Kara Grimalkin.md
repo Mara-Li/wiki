@@ -15,7 +15,7 @@ where type = "Fiche"
 ```
 
 
-!!! NOTE "Illustrations"
+!!! grid "Illustrations"
 	![[Kara__BB.png]] 
 	![[Kara_Full.png]]
 	

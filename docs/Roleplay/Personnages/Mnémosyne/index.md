@@ -24,7 +24,7 @@ WHERE type != "OC" and type != "Fiche"
 ```
 
 ---
-??? NOTE "Informations principales."
+??? info "Informations principales."
 	 ![[twitter_commission_Mnemosyne.png|+side]]
 	**Prénom et nom** : Mnémosyne
 	_Alias :_ Némo
@@ -35,7 +35,7 @@ WHERE type != "OC" and type != "Fiche"
 	**Race :** Ange Déchue
 	**Statut** : Surveillante
 
-??? NOTE "Capacités"
+??? tip "Capacités"
 	## Pouvoirs et attributs
 	
 	Némo possède deux formes distinctes :
@@ -80,7 +80,7 @@ WHERE type != "OC" and type != "Fiche"
 	- Némo est amnésique, elle a perdu une bonne partie de sa puissance et ne sait pas maîtriser Obsius.
 	- Elle **ne sait pas qu'elle est déchue**.
 
-??? NOTE "Mental"
+??? info "Mental"
 	## Personnalité
 	
 	| Défaut      | Qualité      |
@@ -120,7 +120,7 @@ WHERE type != "OC" and type != "Fiche"
 	**Peurs et phobies** :
 	Pour une raison obscure, Mnémosyne est terrifiée par les insectes. En dehors de ça, rien ne semble réellement effrayer l'ange.
 
-??? NOTE "Physique"
+??? info "Physique"
 	
 	_Taille :_ 1m80
 	_Poids_ : 60 kg
