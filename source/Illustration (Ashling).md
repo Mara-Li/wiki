@@ -26,16 +26,17 @@ category: Roleplay/Personnages/Ashling May
 
 ---
 # 2021
-![[Ashling_x_robot.png]]
+![[Ashling_x_robot.png|500]]
 
 ---
 # Autres
 >[!GRID]
 >![[ref1.png|+grid]] ![[ref2.png|+grid]]
+>
 >![[ref4.png|+grid]] ![[ref3.png|+grid]]
 
 
 ---
 
 # Commission:
-![[Commission Feilyn.png]]
+![[Commission Feilyn.png|500]]
