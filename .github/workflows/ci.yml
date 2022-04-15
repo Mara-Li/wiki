@@ -1,25 +1,10 @@
 name: ci
 on:
-  - workflow_dispatch
-  - push
-
+  workflow_dispatch
+  
 jobs:
-  path-filter:
-    runs-on: ubuntu-latest
-    outputs:
-      filtering: ${{ steps.filter.outputs.changes }}
-    steps:
-      - uses: actions/checkout@v2
-      - uses: dorny/paths-filter@v2
-        id: filter
-        with:
-          filters: |
-            changes:
-              - 'source/**'
   obs2mk:
     runs-on: ubuntu-latest
-    needs: path-filter
-    if: needs.path-filter.outputs.filtering == 'true'
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-python@v3
