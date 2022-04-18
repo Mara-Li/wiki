@@ -4,7 +4,7 @@ share: True
 ---
 Obsidian's Mkdocs Publication is an association between a github actions and a Material mkdocs template to get a personal wiki site based on your Obsidian Vault.
 
-<h1 align="center"><a href="https://mara-li.github.io/obsidian_mkdocs_publisher_docs/">Documentation</a></h1>
+<h1 style="text-align:center"><a href="https://mara-li.github.io/obsidian_mkdocs_publisher_docs/">Documentation</a></h1>
 
 # Useful links
 - [Main Repo](https://github.com/Mara-Li/obsidian_mkdocs_publisher)
