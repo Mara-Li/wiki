@@ -4,6 +4,7 @@ share: True
 category: "hidden"
 type: "Fiche"
 cover: "https://www.mara-li.fr/assets/img/Ambre_PP.jpeg"
+image: None
 ---
 ![[Ambre_PP.jpeg|+side]]
 
