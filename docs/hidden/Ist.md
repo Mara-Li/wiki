@@ -1,7 +1,7 @@
 ---
-title: Ambre Loiseau – Fiche IST
-share: true
-category: hidden
+title: "Ambre Loiseau – Fiche IST"
+share: True
+category: "hidden"
 ---
 ![[Ambre_PP.jpeg|+side]]
 **Nom** : Loiseau
