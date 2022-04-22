@@ -1,9 +1,9 @@
 .not_found {
     background-color: rgba(211, 211, 211, 0.521);
-    display: inline;
+    display: inline-block;
     color: grey;
     border-radius: 5px;
-    padding-right: 0;
+    padding-right: 3px;
     padding-left: 3px;
 }
 
