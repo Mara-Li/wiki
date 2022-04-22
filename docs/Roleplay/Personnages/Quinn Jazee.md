@@ -1,17 +1,23 @@
 ---
-folder: "Roleplay"
+folder: Roleplay
 date: "03-05-2021"
-category: "Roleplay/Personnages"
+category: Roleplay/Personnages
 testing: "Test: Test"
 publish: True
 share: True
-type: "OC"
-doc: "MD"
-univers: "❌"
+type: OC
+doc: MD
+univers: ❌
 update: False
-image: "Quinn Jayzee.png"
+image: Quinn Jayzee.png
 cover: "https://www.mara-li.fr/assets/img/Quinn%20Jayzee.png"
-tag: ['OC', '❌', 'Futuriste', 'Pirate', 'SF', 'Humaine']
+tags: 
+- OC
+- ❌
+- Futuriste
+- Pirate
+- SF
+- Humaine
 ---
 ```dataview
 Table WITHOUT ID state as Status, (link(file.path, title)) as LINK 
