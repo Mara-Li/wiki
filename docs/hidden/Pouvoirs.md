@@ -1,11 +1,12 @@
 ---
-obsidianUIMode: preview
-share: true
-category: hidden
-type: Index, Idée
+obsidianUIMode: "preview"
+share: True
+category: "hidden"
+type: "Index, Idée"
 ---
 ```folderv
 ```
+
 
 # Liste de pouvoirs
 - Invoquer un stand avec l’aide d’un téléphone (donc gérer la batterie du téléphone à chaque invocation)

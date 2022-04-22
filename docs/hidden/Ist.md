@@ -4,7 +4,8 @@ share: True
 category: "hidden"
 type: "Fiche"
 cover: "https://www.mara-li.fr/assets/img/Ambre_PP.jpeg"
-image: None
+image: "Ambre_PP.jpeg"
+description: "Une mini-V2 d'Ambre, pour le jour où je vais vraiment réécrire son caractère. Elle est passée d'une meuf mims bizarre à une énorme psycho vnr quand même."
 ---
 ![[Ambre_PP.jpeg|+side]]
 
