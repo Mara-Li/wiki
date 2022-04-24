@@ -1,12 +1,12 @@
 ---
-date: 24-12-2019
+date: "24-12-2019"
 type: OC
-share: true
+share: True
 description: Data sur Blaika
-cover: https://i.pinimg.com/originals/86/1d/47/861d4738b357c85e787e334bdc840002.jpg
+cover: "https://i.pinimg.com/originals/86/1d/47/861d4738b357c85e787e334bdc840002.jpg"
 image: Blaika.jpg
 category: Roleplay/Personnages
-tags:
+tags: 
 - OC
 - Magie
 - Années30
@@ -19,6 +19,7 @@ Table WITHOUT ID state as Status, (link(file.path, title)) as LINK
 FROM [[#]]
 WHERE type="Fiche"
 ```
+
 ![[Blaïka.jpg|+side]]
 **Nom** : Yermakova
 **Prénom** : Blaïka
@@ -57,7 +58,7 @@ Abigael a pris à parti Vladimir en utilisant une des plus puissante techniques 
 Quatre ans plus tard, sa haine du Grimnoir et surtout d’Abigael ne disparait pas, et elle continue de chercher vengeance, n’arrivant pas vraiment à faire son deuil. 
 
 # Pouvoirs : FRIGO
-*Cryokinésie* #left 
+***Cryokinésie***{: #left}  
 *Capacité spéciale* : 
 - **Ukrepleniye** : Blaïka utilise le contrôle de son sang pour renforcer son corps, notamment ses muscles. Elle peut accéder à la force et à la résistance d’une Brute quand elle active cette capacité. 
 	- Type : Soutien (personnel)
