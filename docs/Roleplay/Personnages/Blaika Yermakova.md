@@ -59,19 +59,21 @@ Quatre ans plus tard, sa haine du Grimnoir et surtout d’Abigael ne disparait p
 
 # Pouvoirs : FRIGO
 ***Cryokinésie***{: #left}  
-*Capacité spéciale* : 
+<u style="font-style:italic;">Capacité spéciale</u>:
 - **Ukrepleniye** : Blaïka utilise le contrôle de son sang pour renforcer son corps, notamment ses muscles. Elle peut accéder à la force et à la résistance d’une Brute quand elle active cette capacité. 
 	- Type : Soutien (personnel)
 	- Effet : Augmente ses dégâts de 15% et augmente sa force et sa résistance (-2 à tous les dés).
 - **Krov' moikh predkov** :  Blaïka fait apparaître des centaines de piques de glaces qui embrochent ses ennemis sur une zone d’environ 50m.
 	- *Type* : Burst
-*Kanji* : 
+
+<u style="font-style:italic;">Kanji</u>: 
 -   Force
 -   Guérison
 -   Force
 -   Vitalité
-![[Blaika Yermakova-24-04-2022.png|+side]]
+
 # Descriptions
+![[Blaika Yermakova-24-04-2022.png|+side]]
 ## Physique
 Blaïka est une grande femme rousse aux cheveux longs, bien qu’elle les attache souvent en queue de cheval ou en natte. Elle a une cicatrice qui barre son oeil droit et sa joue, et ses mains sont abimés par les entraînement et sa vie dans les steppes russes. Elle est très musclée et est du genre à faire peur.  Elle a des yeux bleus très clairs et de légères tâches de rousseurs sur la majorité de son corps, qui est lui aussi recouvert de cicatrices. Elle a un petit nez et un visage plutôt harmonieux. Mais ces cicatrices la rendent plus imposante qu’elle ne l’est réellement. En règle générale, c’est une jolie femme qu’il ne faut pas vraiment embêter.
 
