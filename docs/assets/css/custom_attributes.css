@@ -104,16 +104,12 @@
 }
 
 .md-typeset .admonition.grid p:not(.admonition-title) {
-    display: flex;
-    margin-block-start: 0;
-    margin-block-end: 0;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 .md-typeset .admonition.grid img {
     display: table-cell;
     vertical-align: middle;
     padding: 1px;
-    width: 75%;
-    height: 75%;
 }
