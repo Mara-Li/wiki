@@ -37,7 +37,7 @@ category: hidden
 
 ---
 
- # Cristallisation
+# Cristallisation
  - Une personne perdant son idéal devient **amorphe** et se cristallise peu à peu.
  - Plusieurs phase :
 	 - Apparition de cauchemar
