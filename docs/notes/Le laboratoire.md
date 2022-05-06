@@ -2,8 +2,8 @@
 date: "02-05-2022"
 share: True
 obsidianUIMode: source
-title: None
-description: None
+title: 
+description: 
 type: Fiche
 state: 🔳
 univers: Le laboratoire
