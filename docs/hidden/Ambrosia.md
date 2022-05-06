@@ -29,7 +29,9 @@ Résumé de l'univers :
 - Chaque personne a un Idéal. Pas d'idéal → mort
 - Par définition, il est impossible d'atteindre l'idéal. Le but d'une vie est de le faire grandir, évoluer, s'en approcher le plus possible;
 - Un idéal est changeant, notamment par les découvertes des personnes. 
------
+
+---
+
  # Cristallisation
  - Une personne perdant son idéal devient **amorphe** et se cristallise peu à peu.
  - Plusieurs phase :
