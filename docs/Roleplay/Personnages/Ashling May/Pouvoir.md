@@ -1,20 +1,25 @@
 ---
-folder: "Roleplay"
+folder: Roleplay
 date: "12-06-2021"
-category: "Roleplay/Personnages/Ashling May"
-publish: True
+category: Roleplay/Personnages/Ashling May
 share: True
-title: "Pouvoir"
-type: "Pouvoir"
-state: "❌"
-tag: ['Ashling-May/Référence', 'RP/Fiche', 'Pouvoir', 'Futuriste']
+title: Pouvoirs
+type: Pouvoir
+state: ❌
+tags: 
+- Ashling-May/Référence
+- RP/Fiche
+- Pouvoir
+- Futuriste
 ---
 Ref: [[Ashling May]]
-# [[Technomage]]
+
+# [[Invocation d'armes|Technomage]]
 
 En prenant sa forme d’Ekraminarok, elle peut faire apparaître un clavier sur lequel elle peut taper ses « sorts ». Elle peut faire apparaître n’importe quelles armes qu’elle maîtrisera parfaitement. Elle peut aussi faire des sorts pour booster elle-même ou d’autres personnes. Elle peut analyser ses adversaires, mais ça ne lui sert surtout que pour améliorer ses compétences. De plus, elle possède ce qu'elle appelle un ULTIME, qui fait apparaître cinq armes lasers qui tirent en même temps avant de disparaître.
 
 ## Type d'invocations
+
 - Des armes de poings, limite avant réinvocation : 10 balles - Deux maximums
 - Des armes de longues distance, limite avant réinvocation : 5 balles - Une seule maximum
 - Des lames dites longues (>=60 cm) : 10 “coups” portés avant réinvocation - Deux maximums
@@ -22,12 +27,14 @@ En prenant sa forme d’Ekraminarok, elle peut faire apparaître un clavier sur 
 - Lances : 10 coups - Une seule maximum
 
 ## Type de boost
+
 Ils ne boostent que les capacités humaines, et non les pouvoirs. Ils peuvent augmenter jusqu'à 50% de la capacités de la personne ciblée.
 - Vitesse
 - Endurance
 - Force
 
 ## Limites
+
 - Taille des armes invoquées : 80 cm (maximum)
 - Les buff ne durent que trois tours
 - Elle ne peut superposer que trois buff
@@ -38,8 +45,8 @@ Ils ne boostent que les capacités humaines, et non les pouvoirs. Ils peuvent au
 - Ses snipers invoqués ont 500 m de porté.
 - En forme d'Ekraminarok, ses lunettes lui permettent de voir ses cooldown et buff, ainsi que ses statistiques.
 
-
 # [[Technopathe]]
+
 Ashling est capable de se transporter dans la plupart des objets électronique et système informatique, à des degrés très divers, pouvant aller du simple contrôle psychique à un transfert mental.
 
 *Malus* : 

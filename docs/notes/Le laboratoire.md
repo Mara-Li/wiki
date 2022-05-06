@@ -1,16 +1,14 @@
 ---
-date: 02-05-2022
-share: true
+date: "02-05-2022"
+share: True
 obsidianUIMode: source
-title: 
-description: 
+title: None
+description: None
 type: Fiche
 state: 🔳
 univers: Le laboratoire
-tags: RP/Le-laboratoire/Fiche/PJ
+tags: "RP/Le-laboratoire/Fiche/PJ"
 ---
-
-%% [[Éden]]%%
 
  <h1 style="text-align:center">╔═══━━━─── • ───━━━═══╗<br>
 I n t r o d u c t i o n<br>

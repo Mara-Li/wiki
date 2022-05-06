@@ -1,28 +1,29 @@
 ---
-date: 08-09-2019
-publish: true
-share: true
-update: false
+date: "08-09-2019"
+publish: True
+share: True
+update: False
 type: OC
 doc: iframe
 univers: ❌
 title: Ambre Loiseau
 category: Roleplay/Personnages
 description: Fiche de Ambre Loiseau
-cover: https://i.imgur.com/9ac8aiR.png
-tag:
+cover: "https://i.imgur.com/9ac8aiR.png"
+cssclass: cards
+tags: 
 - OC
 - ❌
 - RP/Race/Zombie
 - Magie
 - Méchante
-cssclass: cards
 ---
 ```dataview
 TABLE ("![img|200](" + cover + ")") as image
 FROM [[#]]
 WHERE type="Fiche"
 ```
+
 ---
 $~$
  ![[Ambre_PP.jpeg|+side]]
@@ -38,7 +39,6 @@ $~$
 
 <h1 align="center">CONTROLE DE LA BIOMASSE – VIRUS ZOMBIE</h1>
 
-%% [[Biomasse]] %%  
 Décrit comme un zombie et infectée par un virus unique, elle est capable de se modifier physiquement. Elle peut créer des excroissances de chaire ou d’os, modifier sa peau pour être plus solide ou simplement pour frapper plus fort. Elle peut se régénérer à l’infini, mais il lui faut un laps de temps plus ou moins long en fonction de ses blessures. De plus, elle a des réflexes qui sont énormément améliorés.
 
 ## Le lazarus

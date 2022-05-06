@@ -60,23 +60,17 @@ where type = "Fiche"
 
 
 # ──────༺ Mental ༻────── 
-```agtable
-tableId: 220412013243
+
 |Aime|Aime pas|
 |----|----|
 |||
 |||
-```
 
 
-```agtable
-id: 546984987987
 |Qualité|Défaut|
 |----|----|
 |||
 |||
-```
-
 
 **Peurs** : 
 **Tempérament** : 

@@ -1,14 +1,14 @@
 ---
-tag: "Lagendia"
-title: "(Lagendia) Mnémosyne"
+title: (Lagendia) Mnémosyne
 share: True
 date: "15-11-2021"
 description: "Fiche de Mnémosyne, adaptée à Légendia. Sanktae surveillante."
-category: "Roleplay/Personnages/Mnémosyne"
-univers: "Lagendia"
-type: "Fiche"
-image: "Mnémosyne"
-state: "🟢"
+category: Roleplay/Personnages/Mnémosyne
+univers: Lagendia
+type: Fiche
+image: Mnémosyne
+state: 🟢
+tags: Lagendia
 ---
 
 ```dataview
@@ -34,7 +34,6 @@ I n t r o d u c t i o n<br>
 D e s c r i p t i o n<br>
 ╚═══━━━─── • ───━━━═══╝</h1>
 <h2 style="text-align:center">──────༺ Mental ༻──────</h2><br>
-
 
 $\qquad$Mnémosyne est une personne en apparence désinvolte et versatile. Elle apprécie s'amuser, et n'est pas du genre à déprimer sur les difficultés. Ce n'est pas le genre de personne à facilement détester les gens, et elle est plus à se méfier grand maximum. Il est donc extrêmement rare d'être détesté par Mnémosyne.
 
@@ -69,7 +68,6 @@ Son seul moyen de mentir est de mentir par omission, ce qu'elle n'hésite pas à
 
 ###### Peurs et phobies :
 Pour une raison obscure, Mnémosyne est terrifiée par les insectes. En dehors de ça, rien ne semble réellement l'effrayer.
-
 <h2 style="text-align:center">──────༺ Physique ༻──────</h2>
 
 ![[Mnémosyne Fullbody.jpeg|+side]]

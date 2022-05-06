@@ -1,5 +1,4 @@
 ---
-tag: Lagendia
 RP: Lagendia
 title: Lagendia (brouillon) Kara Grimalkin
 category: Roleplay/Personnages/Kara Grimalkin
@@ -8,6 +7,7 @@ share: True
 description: "Brouillon de la fiche de Kara, attendant que je puisse la faire"
 type: Fiche
 state: ✒️
+tags: Lagendia
 ---
 ```dataview
 LIST

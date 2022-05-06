@@ -1,14 +1,14 @@
 ---
-tag: "Lagendia"
-type: "OC"
-obsidianUIMode: "preview"
+type: OC
+obsidianUIMode: preview
 share: True
 date: "18-05-2020"
-description: "Références pour Hayleen May"
-category: "Roleplay/Personnages/Hayleen May"
-title: "Hayleen May"
-image: "Hayleen_portrait.png"
+description: Références pour Hayleen May
+category: Roleplay/Personnages/Hayleen May
+title: Hayleen May
+image: Hayleen_portrait.png
 cover: "https://www.mara-li.fr/assets/img/Hayleen_portrait.png"
+tags: Lagendia
 ---
 ```dataview
 Table WITHOUT ID state as Status, (link(file.path, title)) as LINK 

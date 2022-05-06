@@ -1,12 +1,12 @@
 ---
-type: "OC"
+type: OC
 date: "21-09-2021"
 share: True
-category: "Roleplay/Personnages/Mnémosyne"
-description: "Référence générale de Mnémosyne"
+category: Roleplay/Personnages/Mnémosyne
+description: Référence générale de Mnémosyne
 alias: "Némo, Mnémosyne, Nemo, (i) Mnémosyne"
-title: "Mnémosyne"
-image: "twitter_commission_Mnemosyne.png"
+title: Mnémosyne
+image: twitter_commission_Mnemosyne.png
 cover: "https://www.mara-li.fr/assets/img/twitter_commission_Mnemosyne.png"
 ---
 ```dataview

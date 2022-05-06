@@ -1,15 +1,15 @@
 ---
 date: "12-06-2020"
 share: True
-title: "Ashling May"
+title: ─────༺ Présentation ༻─────
 alias: "Ashling, Ash, index"
-type: "OC"
-category: "Roleplay/Personnages/Ashling May"
-doc: "Personnalisé"
-image: "Commission Feilyn.png"
+type: OC
+category: Roleplay/Personnages/Ashling May
+doc: Personnalisé
+image: Commission Feilyn.png
 cover: "https://www.mara-li.fr/assets/img/Commission%20Feilyn.png"
-genre: "PJ"
-univers: "❌"
+genre: PJ
+univers: ❌
 ---
 $~$
 ```dataview
@@ -20,7 +20,9 @@ WHERE type="Fiche"
 
 
 ---
+
 # ─────༺ Présentation ༻─────
+
 ![[Commission Feilyn.png|+side]]
 **Nom** : May
 **Prénoms** : Ashling
@@ -31,12 +33,14 @@ WHERE type="Fiche"
 **Alignement** : Chaotique Mauvaise
 
 ## ─────༺ État Civil ༻─────
+
 **Origines** : Irlandaise
 **Nationalité** : Américaine
 **Anniversaire** : 30/10
 **Métier :** Hackeuse – Crackeuse – Étudiante (à ses heures perdues) – Player Killer
 
 # ──────༺ Physique ༻──────
+
 → [[Illustration (Ashling)|Références]]
 
 **Yeux** : Bleus
@@ -52,9 +56,8 @@ Lorsqu'elle ne sort pas, elle apprécie les tenues décontractés tel que les jo
 
 Notons que si elle est en "infiltration", elle va se vêtir de vêtement sombres et d'une longue veste noire. 
 
-
-
 # ──────༺ Mental ༻──────
+
 **Défauts** : Égocentrique, lâche, avare
 **Qualité** : Nerd, génie, 
 **Tempérament** : Chaotique, solitaire
@@ -71,6 +74,7 @@ Notons que si elle est en "infiltration", elle va se vêtir de vêtement sombres
 **Objectifs** : Devenir riche, mondialement connue, immortelle. 
 
 ##### Mental Version1
+
 Ashling ne parlera jamais de sa famille, et pour cause : elle considère ne pas en avoir une. Cela est faux, mais elle n’est plus en contact avec eux depuis ses seize ans. Peu après ses dix-huit ans, ils ont même arrêté de lui envoyer de l’argent pour ses études. Elle a donc grandi seule et livrée à elle-même. Pas étonnant qu’elle soit… Comme ça. Cela dit, elle ne va jamais s’en plaindre.
 
 Elle a une seule et unique peur, celle de mourir car elle elle considère surtout que la richesse ne sert à rien si on est mort. Du coup, elle est très lâche et préfère s’enfuir quand elle voit qu’elle a des chances de mourir, ou encore changer de camp si les choses tournent au vinaigre. Elle le sait, bien qu’elle refuse de se l’avouer, et c’est une des raisons pour lesquels elle refuse de travailler en groupe, même dans l’hacking. Elle ne prend aussi jamais parti dans une guerre ou sur son MMO.
@@ -92,6 +96,7 @@ Comme dit plus tôt, elle a pour ambition d’être riche, et mondialement connu
 Sinon, c’est une anarchiste ultra capitaliste (logique) ultra radicale qui rêve de détruire l’état et toutes les formes de contrôles. Elle veut le chaos et serait prête à tout – sauf perdre son argent, faut pas déconner – pour le provoquer.
 
 ##### Mental Version2
+
 Ashling May est une personne douteuse, dans tous les points. Déjà, elle ne pense littéralement qu’à elle, et ne s’intéresse aux autres uniquement pour ce qu’ils peuvent lui apporter : de l’argent. Pour elle, tout se vend, si bien qu’elle est devenue une informatrice importante sur le darknet.
 
 Ashling est une personne dramatique, qui en fait toujours des caisses dans ce qu’elle fait, avec un talent certain pour l’art dramatique.
@@ -103,21 +108,21 @@ Son pouvoir lui ayant permis d'être une informaticienne de génie et elle fait 
 Ashling aime s'amuser et les jeux-vidéos. Elle est totalement obsédée par les grenouilles, et une tête de grenouille stylisée lui sert de logo.
 Quand elle n'est pas sur les réseaux à parcourir des centaines d'informations, elle joue à MMORPG, où elle est connue sous le pseudo d'Ekraminarok, et elle s'y amuse en PVP afin de détruire un maximum de joueurs, pour se sentir supérieure aux autres. Son jeu favori est Exasys Online, et elle est une des joueuses N°1 en PVP, considérée comme certains comme une pro-gamer, car elle peut parfois participer à des compétitions et gagner.
 Elle ne supporte pas la triche, et ne va pas hésiter à détruire les tricheurs par ses propres moyens.
-Enfin, elle connaît de nombreux secrets sur Exasys, qui est l'un des MMO les plus vastes à l'heure actuel, et elle y a carrément créée des classes et systèmes de jeux grâce au gameplay particulier... Mais ceci est une autre histoire.
+Enfin, elle connaît de nombreux secrets sur Exasys, qui est l'un des MMO les plus vastes à l'heure actuel, et elle y a carrément créée des classes et systèmes de jeux grâce au gameplay particulier… Mais ceci est une autre histoire.
 Dans tous les cas, personne ne prend Ashling — ou plutôt Ekraminarok — à la légère sur un jeu.
 
 Le soucis dans toute ses histoires, c'est que beaucoup de ces morceaux de caractères sont faux. Malgré son aspect très égoïste, Ashling s'attache aux autres, ce qu'elle déteste, car à ses yeux c'est une énorme forme de faiblesse.
 
 Ashling est une personne plutôt lâche, qui n'aime pas prendre des risques inutilement, et a peur de la mort. Mais, malgré tout, elle aime jouer, et peut prendre parfois des risques lorsque la récompense le justifie.
 
-
-
 ## ──────༺ Talents ༻──────
+
 - Parle chinois et russe. En mélangeant les deux langues, elle s’est créée un codage qui lui permet d’éviter d’être pistée.
 - Hacking
 - Surdouée en informatique et mathématiques
 
 ## ──────༺ Trivia ༻──────
+
 - Elle a un accent russe quand elle parle en chinois et vice versa.
 - Elle est très très myope.
 - Elle élève une grenouille. Oui.

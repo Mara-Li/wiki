@@ -1,6 +1,6 @@
 ---
 share: True
-title: "Comment j'utilise Obsidian"
+title: Comment j'utilise Obsidian
 ---
 Comme je l'ai déjà dit dans [[Pourquoi Obsidian]], mon utilisation du logiciel diffère assez des autres utilisateurs. 
 En effet, j'utilise une hiérarchie de dossier principalement, notamment parce que c'est aussi plus facile d'y naviguer directement depuis l'explorateur et, personnellement j'ai moins de soucis pour parcourir mentalement.

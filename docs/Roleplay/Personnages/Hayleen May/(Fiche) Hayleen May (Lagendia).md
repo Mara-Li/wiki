@@ -1,15 +1,15 @@
 ---
-title: "(Lagendia) Hayleen May"
+title: (Lagendia) Hayleen May
 alias: "Fiche Hayleen May, Hayleen Fiche, Lagendia Fiche Hayleen"
 date: "23-01-2022"
-category: "Roleplay/Personnages/Hayleen May"
+category: Roleplay/Personnages/Hayleen May
 share: True
 description: "Fiche d'Hayleen May, pour Lagendia. Une élève Dragon Pourpre, contrôlant le bois et à fort caractère !"
-type: "Fiche"
-state: "🟢"
-univers: "Lagendia"
-tag: "Lagendia"
-image: "COMMISSION_MARA_PP.png"
+type: Fiche
+state: 🟢
+univers: Lagendia
+image: COMMISSION_MARA_PP.png
+tags: Lagendia
 ---
 ```dataview
 LIST

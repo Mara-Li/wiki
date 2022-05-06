@@ -1,11 +1,11 @@
 ---
 type: "Informations, Idées"
-univers: "Resident Evil"
-obsidianUIMode: "preview"
+univers: Resident Evil
+obsidianUIMode: preview
 share: True
 date: "26-10-2021"
-description: "Info sur le mini rp Resident Evil"
-category: "Roleplay/Idées/Zombie Project"
+description: Info sur le mini rp Resident Evil
+category: Roleplay/Idées/Zombie Project
 ---
 [Serveur](https://discord.gg/qGKFutdY4R)
 

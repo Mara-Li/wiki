@@ -1,7 +1,7 @@
 ---
-obsidianUIMode: "preview"
+obsidianUIMode: preview
 share: True
-category: "hidden"
+category: hidden
 type: "Index, Idée"
 ---
 ```folderv
@@ -31,7 +31,6 @@ type: "Index, Idée"
 - [[Gravité]]
 - [[Spiritisme]]
 - [[Charisme]]
-- [[Technopathe]]
 - [[Écrit]]
 - [[Double]]
 - [[Météo]]
@@ -39,3 +38,5 @@ type: "Index, Idée"
 - [[Biomasse]]
 - [[Suggestion]]
 - [[Pixellisation]]
+- [[Zombie]]
+- [[Technopathe]]

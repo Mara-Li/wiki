@@ -1,14 +1,16 @@
 ---
-folder: "Roleplay"
+folder: Roleplay
 date: "29-06-2019"
 share: True
-category: "Roleplay/Personnages"
-type: "OC"
-name: "Azraël Blakes"
-univers: "Bibliothèque Infinie"
-doc: "MD"
-tag: ['OC', 'RP/Bibliothèque-Infinie']
+category: Roleplay/Personnages
+type: OC
+name: Azraël Blakes
+univers: Bibliothèque Infinie
+doc: MD
 cover: "https://i.imgur.com/9mRMewR.png"
+tags: 
+- OC
+- RP/Bibliothèque-Infinie
 ---
 ```dataview
 Table WITHOUT ID state as Status, (link(file.path, title)) as LINK 
