@@ -2,7 +2,7 @@
 share: True
 category: hidden
 ---
-Résumé de l'univers : 
+# Résumé de l'univers : 
 - Utopie 
 - Magie illimité
 - Le corps des gens != pas leur vrai corps
@@ -16,6 +16,9 @@ Résumé de l'univers :
 - Pas de guerre ou maladie
 - Connaisse des concepts qu'ils n'ont jamais vécu et dont il n'existe aucune trace (mort, guerre, pauvreté, maladie)
 - Jeunesse éternelle
+
+---
+
 # Le flux
 - Fluide de la planète
 - Les vivants y entrent et reste +- longtemps 
@@ -23,6 +26,8 @@ Résumé de l'univers :
 - Reviennent à des endroit précis avec leur souvenir, mais en "meilleur forme". 
 - La magie évolue à partir du flux
 - Plus on reste longtemps hors du flux, moins la santé mentale reste bonne, cf [[#Idéal]]
+
+---
 
 # Idéal
 - Résume l'ambition, idéaux, but d'une personne. Sans elle, la personne se [[#Cristallisation|cristallise]] et perd contrôle de sa magie.
@@ -53,6 +58,8 @@ Les cauchemars racontent toujours les mêmes choses : un monde sans magie, avec 
 - Cet oublie ne se fait pas d'un coup, mais peu à peu.
 - Difficile de savoir si c'est l'accès aux souvenirs lié à la personne cristallisé qui est bloqué, ou les souvenirs complètement effacé. 
 
+---
+
 # Le monde
 Note : La pop est fixé à 1milliards d'hab en tout mais beaucoup sont dans le flux. Malgré tout, il existe un recensement des personnes dans et hors du flux. 
 → les personnes cristallisées disparaissent complètement des registres. 
@@ -63,9 +70,13 @@ Note : La pop est fixé à 1milliards d'hab en tout mais beaucoup sont dans le f
 - Le Conseil a pour rôle de guider les différents instituts et recherches et parfois de trancher dans les rares conflits. 
 - Ils adoptent généralement des positions d'observateur face aux évènements. 
 
+---
+
 # Environnement
 Il existe une ville agencée autour d'une immense tour contenant l'ensemble des registres du flux et des recherches menées par l'humanité. Le reste de la planète est sauvage, avec beaucoup de chose à découvrir. Il est possible notamment de découvrir des ruines à divers endroits de la planète, si bien qu'il existe aussi des Archéologues. Personne ne comprend pourquoi ses ruines existent, puisqu'il n'existe aucune archive en parlant. Les théories vont de bon train... 
 
+
+---
 
 # La magie
 ## Les concepts
