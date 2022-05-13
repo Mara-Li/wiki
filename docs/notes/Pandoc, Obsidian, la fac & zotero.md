@@ -1,7 +1,6 @@
 ---
-share: true
+share: True
 ---
-
 Souvent, on peut se demander "mais comment, bon dieu on peut continuer à utiliser word pour nos mémoires ?" car Word-google doc a de nombreux (très nombreux) problème. 
 
 Ici, mon problème principal était lié à ma documentation. En effet, dès que mes profs éditaient le fichier, ma biblio sautait et je n'avais que mes numéros et mes yeux pour pleurer. Pas très ouf pour s'y retrouver n'est-ce pas ? Surtout quand on peut écrire facilement en Markdown un fichier où citer un tableau, graphique, ou un document équivaut à citer le numéro du tableau, image, ou une clé unique de citation créée par BibLatex.
@@ -33,22 +32,28 @@ Note : Le chemin complet vers exort sera nommé `Users\export` mais vous devez m
 
 Vous êtes obligé de doubler tous les `\` sous Windows. 
 
->[!WARNING]
->Vos images ne sont pas trouvées magiquement par pandoc, n'oubliez pas de créer un dossier dans lequel elles seront rangés & nommée. 
->Ici, le dossier sera nommée `Users\export\attachment`
+!!! WARNING
+	Vos images ne sont pas trouvées magiquement par pandoc, n'oubliez pas de créer un dossier dans lequel elles seront rangés & nommée. 
+	Ici, le dossier sera nommée `Users\export\attachment`
 
 Dans `default.yml` : 
 ```yml
 filters:
 	- 'Users\\export\\pagebreak.lua'
 	- pandoc-xnos
-csl: 'Users\\export\\style-zotero.csl' #Style zotero téléchargé précédemment
-bibliography: 'Users\\export\\bibliography.bib' #Bibliography exportée précédemment 
-resource-path: ['Users\\export\\attachment'] #N'oubliez pas les []
-data-dir: 'Users\\mon_memoire' #Dossier contenant les fichiers markdown de votre mémoire
-reference-doc: 'Users\\export\\custom-reference.docx' #Le fichier docx téléchargé prédemment
+csl: 'Users\\export\\style-zotero.csl' **Style**{: #Style .hash}  
+ zotero téléchargé précédemment
+bibliography: 'Users\\export\\bibliography.bib' **Bibliography**{: #Bibliography .hash}  
+ exportée précédemment 
+resource-path: ['Users\\export\\attachment'] **N**{: #N .hash}  
+'oubliez pas les []
+data-dir: 'Users\\mon_memoire' **Dossier**{: #Dossier .hash}  
+ contenant les fichiers markdown de votre mémoire
+reference-doc: 'Users\\export\\custom-reference.docx' **Le**{: #Le .hash}  
+ fichier docx téléchargé prédemment
 citeproc: true
-from: markdown+lists_without_preceding_blankline+spaced_reference_links+hard_line_breaks+yaml_metadata_block+implicit_figures #Permet d'écrire du markdown plus facilement
+from: markdown+lists_without_preceding_blankline+spaced_reference_links+hard_line_breaks+yaml_metadata_block+implicit_figures **Permet**{: #Permet .hash}  
+ d'écrire du markdown plus facilement
 standalone: true
 metadata-file: 'Users\\export\\page.yml' 
 input-files: # Contiendra tous les fichiers qui seront "compilé" pour créer votre mémoire. Ci-dessous un exemple
@@ -61,22 +66,24 @@ to: docx
 output-file: 'User\\export\\Memoire_Master_2.docx'
 ```
 
+
 Ensuite, dans le fichier `page.yml` : (donné à titre d'exemple)
 Les images sont sous forme : `![description](nom de l'image)`. Pandoc cherchera automatiquement le même nom dans `resource-path` définie dans `default.yml`.
 ```yml
 title: |
 	![logo-lyon1](Logo_lyon1.png)  
-	\
+
 	Nom du mémoire
-#Les deux espace après le lien vers l'image est EXTRÊMEMENT important ! Ne les oubliez pas.
+**Les**{: #Les .hash}  
+ deux espace après le lien vers l'image est EXTRÊMEMENT important ! Ne les oubliez pas.
 author: 
 	- Nom Prénom
 	- Fonction
 	# Je mets ici plein de truc pour la mise en forme
 date: |
 	Date de la soutenance
-	\
-	\
+
+
 	![Logo_laboratoire](logo_laboratoire){style="width=60%"}  
 # Je mets le logo du laboratoire en fin, avec un style afin de permettre à pandoc de forcer le centrage de l'image.
 subtitle: |
@@ -94,6 +101,7 @@ tablenos-plus-name: tableau
 fignos-plus-name: figure
 ```
 
+
 # L'écriture
 Maintenant, vous pouvez utiliser n'importe quel logiciel pour ouvrir des fichiers markdown pour rédiger votre mémoire. 
 Personnellement, j'utilise [Obsidian](https://obsidian.md/)avec [Pandoc Reference List](https://github.com/mgmeyers/obsidian-pandoc-reference-list)et [Zotero Desktop Connector](https://github.com/mgmeyers/obsidian-zotero-desktop-connector)
@@ -106,7 +114,8 @@ Pour :
 	| Tableau | X |
 	|:--------|---|
 	|Truc|Machin|
-	Table: Demonstration d'une table {#tbl:id1}
+	Table: Demonstration d'une table {**tbl**{: #tbl .hash}  
+:id1}
 	```
 	- Ensuite, pour citer un tableau : "`+@tbl:id1` est un simple tableau.""
 	Notons que vous pouvez citer des tableaux dans différents fichiers, avec l'aide de l'id qui doit être unique.
@@ -114,8 +123,8 @@ Pour :
 	- `![Caption description](image.png){#fig:img-1}`
 	- Et pour citer : `+@fig:img-1`
 Pandoc xnos utilise à chaque fois la même idée de citation, avec toujours un `{#type:id}` où chaque `id` est unique, et `type` peut être `fig`, `tbl`... 
->[!note]
->Juste pour info, vous aurez un warning de la part de citeproc, qui n'aura aucun impact sur l'export
+!!! note
+	Juste pour info, vous aurez un warning de la part de citeproc, qui n'aura aucun impact sur l'export
 
 # La commande pandoc
 Maintenant que tout semble configuré, il vous suffit plus qu'à lancer la commande pour compiler le rapport. 
@@ -123,4 +132,5 @@ Maintenant que tout semble configuré, il vous suffit plus qu'à lancer la comma
 ```sh
 pandoc --defaults "User\Export\default.yml"
 ```
+
 Oui, c'est tout, puisque toute la configuration se trouve dans le fichier `default.yml`
