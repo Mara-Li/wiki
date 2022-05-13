@@ -37,7 +37,7 @@ Vous êtes obligé de doubler tous les `\` sous Windows.
 	Ici, le dossier sera nommée `Users\export\attachment`
 
 Dans `default.yml` : 
-```yml
+```yaml
 filters:
 	- 'Users\\export\\pagebreak.lua'
 	- pandoc-xnos
@@ -69,7 +69,7 @@ output-file: 'User\\export\\Memoire_Master_2.docx'
 
 Ensuite, dans le fichier `page.yml` : (donné à titre d'exemple)
 Les images sont sous forme : `![description](nom de l'image)`. Pandoc cherchera automatiquement le même nom dans `resource-path` définie dans `default.yml`.
-```yml
+```yaml
 title: |
 	![logo-lyon1](Logo_lyon1.png)  
 
@@ -109,14 +109,14 @@ Personnellement, j'utilise [Obsidian](https://obsidian.md/)avec [Pandoc Referenc
 Pour :
 - Citer un article : Copier/coller la clé pandoc tel que : `[@auteurNomannée]` comme `[@chenAgeassociatedSARSCoV2Breakthrough]` (astuce : chercher ses clés dans google vous donnera l'article aussi 😊)
 - Citer et nommé un tableau : 
-	- Créé votre tableau tel que : 
-	```md
-	| Tableau | X |
-	|:--------|---|
-	|Truc|Machin|
+	- Créé votre tableau tel que :   
+	```md  
+	| Tableau | X |  
+	|:--------|---|  
+	|Truc|Machin|  
 	Table: Demonstration d'une table {**tbl**{: #tbl .hash}  
-:id1}
-	```
+:id1}  
+	```  
 	- Ensuite, pour citer un tableau : "`+@tbl:id1` est un simple tableau.""
 	Notons que vous pouvez citer des tableaux dans différents fichiers, avec l'aide de l'id qui doit être unique.
 - Pour les images : 
