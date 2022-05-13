@@ -41,19 +41,13 @@ Dans `default.yml` :
 filters:
 	- 'Users\\export\\pagebreak.lua'
 	- pandoc-xnos
-csl: 'Users\\export\\style-zotero.csl' **Style**{: #Style .hash}  
- zotero téléchargé précédemment
-bibliography: 'Users\\export\\bibliography.bib' **Bibliography**{: #Bibliography .hash}  
- exportée précédemment 
-resource-path: ['Users\\export\\attachment'] **N**{: #N .hash}  
-'oubliez pas les []
-data-dir: 'Users\\mon_memoire' **Dossier**{: #Dossier .hash}  
- contenant les fichiers markdown de votre mémoire
-reference-doc: 'Users\\export\\custom-reference.docx' **Le**{: #Le .hash}  
- fichier docx téléchargé prédemment
+csl: 'Users\\export\\style-zotero.csl' #Style zotero téléchargé précédemment
+bibliography: 'Users\\export\\bibliography.bib' #Bibliography exportée précédemment 
+resource-path: ['Users\\export\\attachment'] #N'oubliez pas les []
+data-dir: 'Users\\mon_memoire' #Dossier contenant les fichiers markdown de votre mémoire
+reference-doc: 'Users\\export\\custom-reference.docx' #Le fichier docx téléchargé prédemment
 citeproc: true
-from: markdown+lists_without_preceding_blankline+spaced_reference_links+hard_line_breaks+yaml_metadata_block+implicit_figures **Permet**{: #Permet .hash}  
- d'écrire du markdown plus facilement
+from: markdown+lists_without_preceding_blankline+spaced_reference_links+hard_line_breaks+yaml_metadata_block+implicit_figures #Permet d'écrire du markdown plus facilement
 standalone: true
 metadata-file: 'Users\\export\\page.yml' 
 input-files: # Contiendra tous les fichiers qui seront "compilé" pour créer votre mémoire. Ci-dessous un exemple
@@ -72,18 +66,17 @@ Les images sont sous forme : `![description](nom de l'image)`. Pandoc cherchera 
 ```yaml
 title: |
 	![logo-lyon1](Logo_lyon1.png)  
-
+	\
 	Nom du mémoire
-**Les**{: #Les .hash}  
- deux espace après le lien vers l'image est EXTRÊMEMENT important ! Ne les oubliez pas.
+#Les deux espace après le lien vers l'image est EXTRÊMEMENT important ! Ne les oubliez pas.
 author: 
 	- Nom Prénom
 	- Fonction
 	# Je mets ici plein de truc pour la mise en forme
 date: |
 	Date de la soutenance
-
-
+	\
+	\
 	![Logo_laboratoire](logo_laboratoire){style="width=60%"}  
 # Je mets le logo du laboratoire en fin, avec un style afin de permettre à pandoc de forcer le centrage de l'image.
 subtitle: |
@@ -114,8 +107,7 @@ Pour :
 	| Tableau | X |  
 	|:--------|---|  
 	|Truc|Machin|  
-	Table: Demonstration d'une table {**tbl**{: #tbl .hash}  
-:id1}  
+	Table: Demonstration d'une table {#tbl:id1}  
 	```  
 	- Ensuite, pour citer un tableau : "`+@tbl:id1` est un simple tableau.""
 	Notons que vous pouvez citer des tableaux dans différents fichiers, avec l'aide de l'id qui doit être unique.
