@@ -57,7 +57,9 @@ De plus, elle est capable d'utiliser cette biomasse "excédentaire" pour régén
 <h1 style="text-align:center">╔═══━━━─── • ───━━━═══╗<br>
 D e s c r i p t i o n<br>
 ╚═══━━━─── • ───━━━═══╝</h1>
+
 ![[IMG_1314.jpg|+side]]
+
 ## ──────༺ Physique ༻──────
 
 ► **Yeux** : Rouge
