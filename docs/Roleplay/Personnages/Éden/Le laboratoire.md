@@ -4,7 +4,7 @@ share: True
 obsidianUIMode: source
 title: Éden 28500
 description: Personnage pour un RP
-category: Roleplay/Éden
+category: Roleplay/Personnages/Éden
 type: Fiche
 univers: Le laboratoire
 tags: "RP/Le-laboratoire/Fiche/PJ"
