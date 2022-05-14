@@ -7,7 +7,11 @@ description: Personnage pour un RP
 category: Roleplay/Personnages/Éden
 type: Fiche
 univers: Le laboratoire
-tags: "RP/Le-laboratoire/Fiche/PJ"
+tags: 
+- RP
+- Le-laboratoire
+- Fiche
+- PJ
 ---
  <h1 style="text-align:center">╔═══━━━─── • ───━━━═══╗<br>
 I n t r o d u c t i o n<br>
