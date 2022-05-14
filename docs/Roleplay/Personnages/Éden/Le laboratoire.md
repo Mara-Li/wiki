@@ -9,7 +9,6 @@ type: Fiche
 univers: Le laboratoire
 tags: "RP/Le-laboratoire/Fiche/PJ"
 ---
-
  <h1 style="text-align:center">╔═══━━━─── • ───━━━═══╗<br>
 I n t r o d u c t i o n<br>
 ╚═══━━━─── • ───━━━═══╝</h1>
