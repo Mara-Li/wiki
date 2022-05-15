@@ -27,11 +27,11 @@ jobs:
         run: rm ${{github.workspace}}/source/*
       - name: Push new files
         run: |
-          git pull
           git config --global user.name 'github-actions'
           git config --global user.email 'github-actions@users.noreply.github.com'
           git add . 
-          git commit -am "Updated blog 🎉"
+          output=$(git status --porcelain | tr -d '\n' | tr -d 'M' |tr -d '??')
+          git commit -am "Updated with : ${output}"
           git push
       - name: Install Python dependencies
         uses: py-actions/py-dependency-install@v3
