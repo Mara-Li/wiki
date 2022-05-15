@@ -1,15 +1,15 @@
 ---
 date: "12-06-2020"
 share: True
-title: ─────༺ Présentation ༻─────
+title: Hayleen May
 alias: "Ashling, Ash, index"
+description: "Ashling May, mon premier et meilleur des OC. Une étudiante douée d'un talent certains en informatique, fan de jeux vidéos et doté d'un énorme égo. Lâche et égoïste, ainsi que très vénale."
 type: OC
 category: Roleplay/Personnages/Ashling May
 doc: Personnalisé
 image: Commission Feilyn.png
 cover: "https://www.mara-li.fr/assets/img/Commission%20Feilyn.png"
 genre: PJ
-univers: ❌
 ---
 $~$
 ```dataview
