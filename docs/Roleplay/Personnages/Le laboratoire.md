@@ -7,6 +7,7 @@ description: "Éden est une zombie adorable, diplomate, qui écoute les autres e
 category: Roleplay/Personnages
 type: Fiche
 univers: Le laboratoire
+image: IMG_1314.jpg
 tags: 
 - RP
 - Le-laboratoire
