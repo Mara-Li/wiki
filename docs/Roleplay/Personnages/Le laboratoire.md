@@ -41,8 +41,7 @@ De plus, elle est capable d'utiliser cette biomasse "excédentaire" pour régén
 - Elle est obligée d'ingérer de grandes quantités de nourriture afin de générer sa biomasse. Cette nourriture ne peut qu'être des protéines (végétale ou animale) ou des glucides. 
 - Dans le cas où elle est affamée, son corps se détraque et elle devient totalement amorphe. Généralement, elle finit par se replier et s'endormir, le temps de se régénérer. En cas d'absence de nourriture, elle convertira les réserves de son corps afin de rester active, assez pour se nourrir, en tout cas.
 - Le feu cautérise ses plaies et empêche leur régénération. 
-- Un tir dans la tête pourrait (normalement) la tuer. Cependant, son corps pouvant se renforcer, il faudrait la prendre par surprise. 
-- Lui tirer dans le cœur la plonge dans le coma pendant une heure et demie. 
+- Un tir dans la tête et le cœur pourrait (normalement) la tuer. Cependant, son corps pouvant se renforcer, il faudrait la prendre par surprise. 
 - Elle est incapable de ressentir les différences de températures. Elle est ainsi capable de survivre jusqu'à -20 °C mais devient paralysée au-dessous de 30 °C[^1] si elle n'est pas correctement préparée. 
 - Elle sent moins la douleur qu'une personne normale. 
 
@@ -105,29 +104,23 @@ H i s t o i r e<br>
 
 ### ⟦ Passé ⟧
 
-Tout commence avec un cadavre, comme il en existe des milliers d'autres. Assassinée, suicidée, accidentée, inconnue. Des noms sur une liste, des faux noms, des Jane Doe. Des femmes oubliées, que personne n'a connu et ne reconnaîtra. Des anonymes.
+Tout commence par un accident de voiture, comme il en existe des milliers d'autres. Une jeune femme accidentée, trouvée au bord de la route. Respirant encore… Si on les y aide. Des presque mortes. Des noms sur une liste, des faux noms, des Jane Doe. Des femmes oubliées, que personne n'a connu et reconnaîtra  Des anonymes.
 
-Ces cadavres font la part belle à la sciences… Ou au Laboratoire mal intensionné. Ce ce qui est arrivé à Éden.
-Enfin, plutôt, au corps qu'habite Éden actuellement. 
+Ces futurs cadavres font souvent la part belle à la science… Ou au Laboratoire mal intentionné. Ce ce qui est arrivé à Éden. Enfin, plutôt, au corps qu'habite Éden actuellement.
 
-Dans ce corps, sous la supervision d'un scientifique intéressée par les effets du Sérum non pas sur les vivants, mais les cadavre, fut injecté le Sérum. Évidemment, il n'y eu pas vraiment de hasard. Séquençage génétique, maintient artificiel en vie, tout fu pensé et calculer pour éviter des échecs de l'expérience.
+Dans ce corps, sous la supervision d'un scientifique intéressée par les effets du Sérum, fut injecté le Sérum. Évidemment, il n'y eut pas réellement de hasard. Séquençage génétique, maintien artificiel en vie, tout fut pensé et calculé pour éviter des échecs de l'expérience.
 
-Cela ne rata pas.
+Cela ne manqua pas.
 
-Dès les premières minutes après l'injection, le corps eut des mouvements. Son coeur se remit à battre, naturellement. Au bout de quelque heures, le corps 28500 n'avait plus besoin d'assistance artificiel pour rester en vie.
-Elle était… En vie.
+Dès les premières minutes après l'injection, le corps eut des mouvements. Les yeux se rouvrirent. Son cœur pouvait repartir sans assistance. Son cerveau fonctionnait. Ses yeux, ses mains, ses pieds, bougeaient. 
 
-L'être ramené ouvrit les yeux.
+Les dommages à son cerveau, causé par le long coma, l'empêchant de fonctionner furent soignés. Mais sa mémoire… Effacée.
 
-Les dommages à son cerveau l'empêchant de fonctionner furent soigné. Mais la mémoire… Effacée. 
+Les premières heures, jours, furent compliqués…. La rééducation couplée aux expériences n'aidait pas. Elle n'était, évidemment pas, une nouveau-née. Elle savait parler, marcher, nager, manger. Mais elle n'avait pas de nom, ni de souvenir.
 
-Les premières heures, jours, furent compliqué…. La rééducation couplée aux expériences n'aidaient pas. 
-Elle n'était, évidemment pas, un nouveau née. Elle savait parler, marcher, nager, manger. Mais elle n'avait pas de nom, ni de souvenir. 
+Le scientifique charge d'elle la nomma "Éden", car elle était un peu un paradis, un but à atteindre pour l'humanité : l'immortalité. Enfin, presque.
 
-Le scientifique qui était charge d'elle la nomma "Éden", car elle était un peu un paradis, un but à atteindre pour l'humanité : l'immortalité.
-Enfin, presque.
-
-Parfois, certains souvenir revenaient  à elle. Plus des concepts, des connaissances, lié à la biologie, l'informatique, le monde qui l'entourait, qu'autre chose. Dans tous les cas, Éden considère que la personne qu'elle était avant de mourir l'était réellement, morte. Elle était quelqu'un d'autres, avec ses propres goûts, pensées, et sa … Propre histoire.
+Parfois, certains souvenirs revenaient à elle. Plus des concepts, des connaissances, lié à la biologie, l'informatique, le monde qui l'entourait, qu'autre chose. Dans tous les cas, Éden considère que la personne qu'elle était avant de mourir l'était réellement, morte. Elle était quelqu'un d'autres, avec ses propres goûts, pensées et sa… Propre histoire.
 
 ### ⟦ Souvenir ⟧
 
