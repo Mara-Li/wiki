@@ -3,7 +3,7 @@ on:
   workflow_dispatch
 
 jobs:
-  obs2mk:
+  build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
@@ -13,7 +13,6 @@ jobs:
       - name: obs2mk source files
         run: |
           pip install obs2mk
-          pip install -r requirements.txt
           for f in ${{ github.workspace}}/source/*
           do
             echo $f
@@ -22,11 +21,14 @@ jobs:
               obs2mk --GA --keep file "$f"
             fi
           done
-          obs2mk --GA clean
+          obs2mk --GA clean    
+      - name: Mkdocs build
+        run: |
+          pip install -r requirements.txt
           mkdocs gh-deploy --force --clean
       - name: clean source files
         run: rm ${{github.workspace}}/source/*
-      - name: Push new files
+      - name: Push updateds files
         run: |
           git config --global user.name 'github-actions'
           git config --global user.email 'github-actions@users.noreply.github.com'
