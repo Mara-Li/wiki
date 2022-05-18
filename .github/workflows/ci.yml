@@ -13,6 +13,7 @@ jobs:
       - name: obs2mk source files
         run: |
           pip install obs2mk
+          pip install -r requirements.txt
           for f in ${{ github.workspace}}/source/*
           do
             echo $f
@@ -22,6 +23,7 @@ jobs:
             fi
           done
           obs2mk --GA clean
+          mkdocs gh-deploy --force --clean
       - name: clean source files
         run: rm ${{github.workspace}}/source/*
       - name: Push new files
@@ -32,9 +34,3 @@ jobs:
           fileList=$(git status --porcelain | tr -d '\n' | tr -d 'M' |tr -d '??')
           git commit -am "🏓 Publishing from ObsidianMD\n ${fileList}"
           git push
-      - name: Install Python dependencies
-        uses: py-actions/py-dependency-install@v3
-        with: 
-          path: requirements.txt
-      - name: Build mkdocs
-        run: mkdocs gh-deploy --force --clean
