@@ -60,7 +60,20 @@ D e s c r i p t i o n<br>
 
 ## ──────༺ Physique ༻──────
 
-![[IMG_1314.jpg|+side]]
+![[IMG_1314.jpg|+side]] 
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ► **Yeux** : Rouge
 ► **Cheveux** : Blancs - Gris, mi-long, attachée en une queue de cheval (généralement)
