@@ -104,9 +104,11 @@ H i s t o i r e<br>
 
 ### ⟦ Passé ⟧
 
-Tout commence par un accident de voiture, comme il en existe des milliers d'autres. Une jeune femme accidentée, trouvée au bord de la route. Respirant encore… Si on les y aide. Des presque mortes. Des noms sur une liste, des faux noms, des Jane Doe. Des femmes oubliées, que personne n'a connu et reconnaîtra  Des anonymes.
+Tout commence par un accident de voiture, comme il en existe des milliers d'autres. Une jeune femme accidentée, trouvée au bord de la route. Respirant encore… Si on l'y aide. Des presque mortes. Des noms sur une liste, des faux noms, des Jane Doe. Des femmes oubliées, que personne n'a connu et reconnaîtra. 
 
-Ces futurs cadavres font souvent la part belle à la science… Ou au Laboratoire mal intentionné. Ce ce qui est arrivé à Éden. Enfin, plutôt, au corps qu'habite Éden actuellement.
+Des anonymes. 
+
+Ces futurs cadavres font souvent la part belle à la science… Ou au Laboratoire mal intentionné. C'est ce qui est arrivé à Éden. Enfin, plutôt, au corps qu'habite Éden actuellement.
 
 Dans ce corps, sous la supervision d'un scientifique intéressée par les effets du Sérum, fut injecté le Sérum. Évidemment, il n'y eut pas réellement de hasard. Séquençage génétique, maintien artificiel en vie, tout fut pensé et calculé pour éviter des échecs de l'expérience.
 
@@ -114,9 +116,9 @@ Cela ne manqua pas.
 
 Dès les premières minutes après l'injection, le corps eut des mouvements. Les yeux se rouvrirent. Son cœur pouvait repartir sans assistance. Son cerveau fonctionnait. Ses yeux, ses mains, ses pieds, bougeaient. 
 
-Les dommages à son cerveau, causé par le long coma, l'empêchant de fonctionner furent soignés. Mais sa mémoire… Effacée.
+Les dommages à son cerveau, causé par le coma et l'accident, l'empêchant de fonctionner furent soignés. Mais sa mémoire… Effacée.
 
-Les premières heures, jours, furent compliqués…. La rééducation couplée aux expériences n'aidait pas. Elle n'était, évidemment pas, une nouveau-née. Elle savait parler, marcher, nager, manger. Mais elle n'avait pas de nom, ni de souvenir.
+Les premières heures, jours, furent compliqués… La rééducation couplée aux expériences n'aidait pas. Elle n'était, évidemment pas, une nouveau-née. Elle savait parler, marcher, nager, manger. Mais elle n’avait ni nom, ni de souvenir.
 
 Le scientifique charge d'elle la nomma "Éden", car elle était un peu un paradis, un but à atteindre pour l'humanité : l'immortalité. Enfin, presque.
 
