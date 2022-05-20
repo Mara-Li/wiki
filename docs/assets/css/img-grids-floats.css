@@ -36,6 +36,13 @@ img[alt*="+side"]
     margin-left: var(--coremarg);
 }
 
+@media screen and (max-width:59.9375em){
+    img[alt*="+side"]
+    {
+        width: 12.5em;
+    }
+}
+
 img[alt*="+rside"]
 {
     width: 20em;
