@@ -1,6 +1,3 @@
 ---
-share: True  
+share: True
 ---
-
-
-
