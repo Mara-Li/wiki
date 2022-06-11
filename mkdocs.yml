@@ -12,7 +12,6 @@ theme:
         code: Ubuntu Mono
     language: fr
     palette:
-
     # Light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
@@ -84,6 +83,10 @@ markdown_extensions:
       preserve_tabs: true
 plugins:
   - search
+  - git-revision-date-localized:
+      type: date
+      fallback_to_build_date: true
+      locale: fr
   - ezlinks:
         wikilinks: true
   - mermaid2
@@ -91,7 +94,7 @@ plugins:
   - tooltipster-links
   - embed_file
   - tags:
-      tags_file: hidden/tags.md
+      tags_file: tags.md
 extra_javascript:
   - assets/js/mathjax.js
   - assets/js/utils.js

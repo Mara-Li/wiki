@@ -1,6 +1,6 @@
 ---
 template: blog.html
-title: Roleplay
-category: Roleplay
+title: Notes
+category: notes
 hidden: true
 ---

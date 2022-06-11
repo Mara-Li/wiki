@@ -7,6 +7,10 @@
     padding-left: 3px;
 }
 
+.md-tabs__item:nth-child(2) {
+    display: none;
+}
+
 [data-md-color-scheme="slate"] .not_found {
     color: rgb(182, 181, 181) !important;
     background-color: rgba(231, 232, 243, 0.185);
@@ -88,8 +92,8 @@
 
 [data-md-color-scheme="default"],
 [data-md-color-scheme="slate"] {
-      --md-primary-fg-color:  #477bbd;
-      --md-accent-fg-color: #477bbd
+      --md-primary-fg-color: #6096db;
+      --md-accent-fg-color: #2a7bc2
 }
 
 code {

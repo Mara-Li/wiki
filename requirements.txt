@@ -8,3 +8,4 @@ mkdocs-preview-links-plugin
 mkdocs-embed-file-plugins
 Markdown
 mkdocs_custom_fences
+mkdocs-git-revision-date-localized-plugin
