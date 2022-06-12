@@ -2,5 +2,5 @@
 template: blog.html
 title: Roleplay
 category: Roleplay
-hidden: true
+hidden: True
 ---
