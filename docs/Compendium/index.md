@@ -1,6 +1,6 @@
 ---
 template: blog.html
-title: Roleplay
-category: Roleplay
+title: Compendium
+category: Compendium
 hidden: True
 ---
