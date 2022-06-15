@@ -1,7 +1,7 @@
 name: ci
 on:
   workflow_dispatch:
-  push:
+  pull_request:
     branches:
       - main
     paths:
@@ -18,10 +18,9 @@ jobs:
         with:
           python-version: 3.10.4
       - name: get changed files
-        uses: tj-actions/changed-files@v21
+        uses: tj-actions/changed-files@v23
         id: changed-files
         with:
-          since_last_remote_commit: true
           separator: ";"
           quotepath: "false"
       - name: Install OBS2Mk
