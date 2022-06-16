@@ -8,9 +8,10 @@ type: Fiche
 univers: DLO
 tag: RP/DLO/Fiche/PJ
 image: Commission Feilyn.png
+category: Compendium/Ashling May
 ---
 
-%% [[../Compendium/Ashling May/Ashling May.md]] %%
+%% [[Ashling May.md]] %%
 
 <h1 style="text-align:center">╔═══━━━─── • ───━━━═══╗<br>
 P r é s e n t a t i o n <br>
