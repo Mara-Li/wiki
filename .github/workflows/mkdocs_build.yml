@@ -19,9 +19,9 @@ jobs:
     if: ${{ !startsWith(github.event.head_commit.message, '[PUBLISHER]') }}
     steps:
       - uses: actions/checkout@v2
-      - uses: actions/setup-python@v3
+      - uses: actions/setup-python@v4
         with:
-          python-version: 3.10.4
+          python-version: '3.10.4'
           cache: 'pip'
       - name: Install Python dependencies
         run: pip install -r requirements.txt
