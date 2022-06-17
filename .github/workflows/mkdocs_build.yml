@@ -18,11 +18,15 @@ jobs:
     runs-on: ubuntu-latest
     if: ${{ !startsWith(github.event.head_commit.message, '[PUBLISHER]') }}
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
       - uses: actions/setup-python@v4
         with:
           python-version: '3.10.4'
           cache: 'pip'
+          env:
+
       - name: Install Python dependencies
         run: pip install -r requirements.txt
       - name: set locale
@@ -31,7 +35,8 @@ jobs:
           lang=$(head -n 1 .github/.env)
           upperL="${lang^^}"
           newLang="$lang"_"$upperL".UTF-8
-          sudo locale-gen $lang
+          sudo locale-gen $newLang
           locale -a | grep $lang
           sudo update-locale LANG=$newLang
+          sudo update-locale LC_ALL=$newLang
       - run: mkdocs gh-deploy --force --clean
