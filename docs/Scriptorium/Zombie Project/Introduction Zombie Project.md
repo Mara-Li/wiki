@@ -1,11 +1,12 @@
 ---
 type: Idées
 univers: Resident Evil
-date: "26-10-2021"
+date: 26-10-2021
 obsidianUIMode: preview
-share: True
+share: true
 category: Scriptorium/Zombie Project
 ---
+
 [Serveur](https://discord.gg/qGKFutdY4R)
 
 ---

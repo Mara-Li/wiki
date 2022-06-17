@@ -1,6 +1,6 @@
 ---
 category: Scriptorium/Pentacle déchu
-share: True
+share: true
 ---
 Toutes les créatures et être sur Terre possèdent une âme. Mais les fonctionnements des âmes de chaque race sont différents.
 
