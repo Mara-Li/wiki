@@ -3,7 +3,7 @@ type: Informations, Idées
 univers: Resident Evil
 obsidianUIMode: preview
 share: true
-date: 26-10-2021
+date: 26/10/2021
 description: Info sur le mini rp Resident Evil
 category: Scriptorium/Zombie Project
 title: Zombie Project
@@ -29,4 +29,4 @@ Il est tout à fait possible d'introduire des éléments de différents univers,
 Il est possible de faire des personnages mutants.
 
 ---
-![[Introduction Zombie Project|Introduction]]
+![[30. Scriptorium/Zombie Project/Introduction|Introduction]]
