@@ -1,6 +1,6 @@
 ---
 category: Scriptorium/Pentacle déchu
-share: true
+share: True
 ---
 Bien que peu de personnes en parlent, les armes légendaires sont recherchées par les anges, les démons, mais aussi les humains.
  

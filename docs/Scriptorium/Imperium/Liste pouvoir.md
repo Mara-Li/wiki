@@ -1,5 +1,5 @@
 ---
-share: true
+share: True
 category: Scriptorium/Imperium
 ---
 **ADAPTATEUR** : Actif capable de modifier leur vêtements - ou équipements - pour en créer d’autres, que ce soit d’autres vêtements voires des armes. Très recherchés dans l’armée, ils ont tendance à travailler en solitaire. 

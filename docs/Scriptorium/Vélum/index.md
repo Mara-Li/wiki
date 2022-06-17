@@ -1,12 +1,11 @@
 ---
 category: Scriptorium/Vélum
-share: true
+share: True
 type: Contexte
 description: Contexte générale du RP
-tag:
-  - RP/Bibliothèque-Infinie/Description/Contexte
+tags: 
+- RP/Bibliothèque-Infinie/Description/Contexte
 ---
-
 _L'action se déroule en 2030, la technologie est légèrement plus avancée, et les objets techno-magiques sont courants dans le monde éthéré_
 
 "L'Humain ne peut voir que ce qu'il veut voir" _Adage Aralicien_

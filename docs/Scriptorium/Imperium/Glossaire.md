@@ -1,5 +1,5 @@
 ---
-share: true
+share: True
 category: Scriptorium/Imperium
 ---
 ACTIF: Terme générique pour désigner une personne douée de talent magique, si son lien avec le pouvoir est assez fort pour qu’elle exprime son dos à volonté et avec un meilleur contrôle que les passifs. Les actifs n’ont pas tous la même quantité de pouvoir à leur disposition. Certains sont plus doués que d’autres. La sagesse populaire affirme que les actifs ne disposent que d’un seul type de pouvoir.

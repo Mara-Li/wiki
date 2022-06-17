@@ -1,13 +1,12 @@
 ---
 category: Scriptorium/Vélum
-share: true
-publish: false
+share: True
+publish: False
 type: Description
 univers: Bibliothèque Infinie
 description: Liste des organisations du RP
-tag: RP/Bibliothèque-Infinie/Description/Groupe
+tags: "RP/Bibliothèque-Infinie/Description/Groupe"
 ---
-
 # L'Echo
 
 Organisation secrète du monde de l'Invisible, l'Echo est constituée en petit groupe indépendant mais ayant les mêmes valeurs : protéger l'Invisible.
@@ -17,7 +16,6 @@ Certains veulent voir l'écho comme une espèce de police du paranormale, mais l
 
 L'Echo n'a pas réellement de chef identifié, et chaque cellule est dirigée différemment. Généralement, les cellules communiques rarement entre elle, bien qu'il y ait des réunions lorsque des événement exceptionnels et menaçant l'équilibre visible - invisibles, apparaissent.
 
-%%tag: #Echo %%
 
 # Les Révélateurs
 
@@ -25,7 +23,6 @@ Contrairement à l'Echo, qui est une organisation avec une hiérarchie et des co
 
 L'Echo ne combat que les Révélateurs agressifs, mais sont fondamentalement opposé à cette philosophie.
 
-%%tag:: #Révélateur %%
 
 # Exdall
 
@@ -33,9 +30,7 @@ Entreprise de high-tech extrêmement populaire dans le monde Invisible, connu po
 
 Actuellement, Exdall travaille sur la conquête spatiale, et est dirigé par la jeune Eilwellyn Beausang, une génie qui en est la fondatrice.
 
-%%tag:: #Exdal %%
 
 # Le vatican
 Le Vatican est une organisation autoritaire qui cherche à réguler l'impact des Invisibles sur les visibles. Ils n'hésitent pas à faire preuve de violence et de force pour cela.
 Ils détestent le monde invisible profondément, et ont longtemps chercher à le détruire. Devant le fatalisme de cet impossibilité, ils ont abandonnés et ont pris parti pour les humains.
-
