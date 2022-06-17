@@ -33,5 +33,5 @@ jobs:
           newLang="$lang"_"upperL".UTF-8
           sudo locale-gen $lang
           locale -a | grep $lang
-          sudo update-locale LANG=$lang
+          sudo update-locale LANG=$newLang
       - run: mkdocs gh-deploy --force --clean
