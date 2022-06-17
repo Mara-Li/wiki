@@ -31,6 +31,5 @@ jobs:
           lang=$(head -n 1 .github/.env)
           sudo locale-gen $lang
           locale -a | grep $lang
-          langLocale="$lang.UTF-8"
-          sudo update-locale LANG=$langLocale
+          sudo update-locale LANG=$lang
       - run: mkdocs gh-deploy --force --clean
