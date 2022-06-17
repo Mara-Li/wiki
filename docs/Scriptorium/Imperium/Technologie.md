@@ -1,5 +1,5 @@
 ---
-share: True
+share: true
 category: Scriptorium/Imperium
 ---
 Bien que les années cinquante soient passés par là, l’unité 731 est la meilleure équipe de recherche mondiale, dépassant de ce fait les américains et Tesla. 
@@ -15,3 +15,5 @@ L’aviation est très rarement utilisée, et on utilise encore des petits bipla
 
 Les téléphones fixes sont très courants, et automatique, c'est-à-dire qu’il y n’a pas besoin d’opérateur pour joindre directement quelqu’un. Beaucoup de travaux planches pour les rendre portable et s’émanciper totalement de la radio. L’Impérium travaille aussi beaucoup sur l’espace et toutes les sciences existantes. Il y a aussi, grâce aux illusionnistes et aux sonores, beaucoup de films, qui servent notamment aux propagandes de l’Impérium, mais pas que.
  Enfin, au niveau des armes générales, la plupart du temps, les actifs choisissent d’eux même, mais on remarque pour les lourds une préférence générale pour les armes à feu lourdes tels que les mitrailleuses portables (dont ils compensent le recul grâce à leur pouvoir), pour les bougeurs, des armes de poings bien que les plus puissants optent pour une armure de combat, et pour les brutes une tendance aux armes contondante tel que les testubo (long bâton en métal d’environ un mètre vingt). Les arcanistes utilisent tous, sans exception, des cartes sur lesquelles ils marquent leurs sortilèges. La plupart des membres de la gardes fantômes, tels que les entropistes, lampes, estompeurs et voyageurs utilisent des sabres courts (Washikasi, tonto…).
+
+
