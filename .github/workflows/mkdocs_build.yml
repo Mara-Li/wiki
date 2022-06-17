@@ -25,19 +25,11 @@ jobs:
         uses: py-actions/py-dependency-install@v3
         with: 
           path: requirements.txt
-      - name: get local
-        id: yaml-data
-        uses: KJ002/read-yaml@main
-        with: 
-          file: ./mkdocs.yml
-          key-path: '["theme", "language"]'
       - name: set locale
         run: |
-          echo "${{ steps.yaml-data.outputs.data }}"
-          language=${{ steps.yaml-data.outputs.data }}
           sudo apt-get update && sudo apt-get install tzdata locales -y
           sudo locale-gen $language
-          upperL="${language^^}"
-          setLocale="$language"_"$upperL".utf8
+          language = ${{ secrets.LANGUAGE }}
+          setLocale="$language".utf8
           sudo update-locale LANG=$setLocale
       - run: mkdocs gh-deploy --force --clean
