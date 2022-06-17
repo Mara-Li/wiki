@@ -10,3 +10,4 @@ Markdown
 mkdocs_custom_fences
 mkdocs-git-revision-date-localized-plugin
 mkdocs-encryptcontent-plugin
+mkdocs-simple-hooks
