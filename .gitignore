@@ -1,5 +1,4 @@
 .vscode/settings.json
-overrides/partials/hooks.py
 docs/__pycache__/hooks.cpython*
 overrides/partials/__pycache__/hooks.*
 docs/assets/__pycache__/hooks.*
