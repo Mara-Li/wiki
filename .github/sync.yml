@@ -1,2 +1,3 @@
-Mara-Li/obsidian-mkdocs-publisher-template:
-  - overrides/
+obsidianMkdocs/obsidian-mkdocs-publisher-template:
+  - source: overrides/
+    dest: overrides/
