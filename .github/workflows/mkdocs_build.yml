@@ -39,4 +39,5 @@ jobs:
           locale -a | grep $lang
           sudo update-locale LANG=$newLang
           sudo update-locale LC_ALL=$newLang
+          export LC_ALL=$newLang
       - run: mkdocs gh-deploy --force --clean
