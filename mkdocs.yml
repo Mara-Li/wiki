@@ -87,6 +87,8 @@ plugins:
       type: date
       fallback_to_build_date: true
       locale: fr
+      custom_format: "%A %d %B %Y"
+      enable_creation_date: true
   - ezlinks:
         wikilinks: true
   - mermaid2
@@ -95,6 +97,9 @@ plugins:
   - embed_file
   - tags:
       tags_file: tags.md
+  - mkdocs-simple-hooks:
+      hooks:
+        on_env: "overrides.partials.hooks:on_env"
   - encryptcontent:
       title_prefix: '🔐'
       summary: 'Page privée'
