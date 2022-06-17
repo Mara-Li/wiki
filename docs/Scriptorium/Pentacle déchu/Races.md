@@ -1,6 +1,6 @@
 ---
 category: Scriptorium/Pentacle déchu
-share: true
+share: True
 ---
 Depuis toujours, les démons et les espers existent. Chaque personne possède un pouvoir : vitesse augmenté, téléportation, force, télékinésie… Mais il existe aussi l’occultisme, qui est un nom générique donné aux personnes vouant corps et âme à la lutte des maléfices et des démons. Ils ne sont pas forcés à être dans l’armée du Vatican, qu’on nomme plutôt « Soldat ».
 
@@ -46,4 +46,4 @@ Notons qu’on déconseille aux Invocateurs de se lier aux Anges et aux démons 
  
 Les anges déchus sont des rebus de la société, et ne sont dans aucun camp. Le plus souvent, ils travaillent avec les humains, mais dans l’ombre. Il n’est pas rare de croiser Lucifer dans le Vatican, par exemple.
 
-Comme les demi-démon, il existe les néphilim, qui sont des mi-humain, mi-ange, fruit de la passion entre un ancien ange (aujourd’hui déchu) et un humain ou une humaine, les anges de sexe féminin pouvant porter des enfants. 
+Comme les demi-démon, il existe les néphilim, qui sont des mi-humain, mi-ange, fruit de la passion entre un ancien ange (aujourd’hui déchu) et un humain ou une humaine, les anges de sexe féminin pouvant porter des enfants.

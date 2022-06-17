@@ -1,8 +1,7 @@
 ---
-share: true
+share: True
 category: Scriptorium/Imperium
 ---
-
 # Kanji
 
 Les kanji sont des sortilèges magiques japonais, très stylisés, posés sur des objets ou imprimé sur la peau, afin de permettre des enchantements. La plupart des armes, mais aussi les soldats, portent ses kanjis.
@@ -72,7 +71,7 @@ Les compétences sont des attaques spéciales que votre personnages a obtenue en
 - Passif : Utilisation naturelle de votre pouvoir, qui n'a pas besoin d'activation préalable. Ne nécessite pas de jet de dé.
 
 Les quatre premières compétences ont un CD de 3 tours et nécessite un lancé de dés. Pour les capacités de malus et de soutien qui durerait dans le temps, le CD ne s'active qu'après la fin de votre capacité. Ainsi, si votre capacité dure 3 tours, vous ne pourrez pas la réactiver juste après.
-Lorsque vous utilisez vos compétences, vous devez obligatoirement lancé un dés liés à la caractéristique de votre pouvoir. Les caractéristiques sont listés dans \#système-de-combat.
+Lorsque vous utilisez vos compétences, vous devez obligatoirement lancé un dés liés à la caractéristique de votre pouvoir. Les caractéristiques sont listés dans \**système-de-combat.**{: #système-de-combat. .hash}
 *Pour rappel, les dégâts offensifs sont automatiquement calculés*
 
 # Durée des compétence de soutien et d’altération d’état
@@ -93,4 +92,3 @@ Lorsque l'on multiplie, on ne prend pas en compte le "pourcent" (la division par
 La commande `!maths` permet de calculer votre score. Ainsi, si par exemple, vous lancez un boost qui fait habituellement 15% de soutien sur vos alliés, et que vous faites un UCC, vous allez faire $15*1,8$.
 
 ⚠️ Le calculs des dégâts des compétences offensives sont automatisés, vous n'avez donc pas besoin de vérifier le bonus multiplicateur. Cependant pour les compétences non-offensives, vous devrez calculer en fonction du multiplicateur.
-

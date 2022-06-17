@@ -1,5 +1,5 @@
 ---
-share: true
+share: True
 category: Scriptorium
 ---
 3348, trois cents après des guerres nucléaires, la terre est coincée dans un hiver nucléaire et les hommes se sont réfugiés sous terre, vivant grâce à la géothermie et se protégeant des mutants, humains semblable à des animaux, vivant à la surface.

@@ -1,8 +1,7 @@
 ---
-share: true
+share: True
 date: 17/12/2012
 ---
-
 ## Historique
 
 Le monde est aujourd’hui en 2045. Cela fait presque cent ans qu’il y eu la seconde guerre mondiale… Mais cela n’arrangea pas le monde. Loin de là.
@@ -151,114 +150,114 @@ Les civils peuvent bénéficier d'armes et de pouvoir en même temps, mais ! Les
 
 ## Personnages de NewCome
 
-> [!info] SIRIUS WADE
-> Nom : Wade
-> Prénom : Sirius
-> Âge : 51 ans
-> Implant : Force
-> Rôle : Chef des soldats
->Arme : Gatling / Arme à feu
->Nationalité : Union des pays libres [USA]
->
->Description physique : Sirius mesure environ deux mètres et fait peur à pas mal de monde, avec sa stature très musclée. Il avait des cheveux blonds par le passés, mais armée oblige, il les rase sans arrêt. Il porte toujours l'uniforme de NC, c'est à dire un treillis, un débardeur blanc, et des rangers. Beaucoup de personnes le disait beau, par le passé, mais il ne l'est plus du tout.
->
->Description mentale : Détruit par le meurtre de sa femme, il est très colérique et froid. Il est tombé amoureux d'Erika, car il lui rappelle sa femme. Il ne supporte pas Erin, qui est tout le contraire de lui, il a aussi des relations tendues avec son fils. Il était déjà dans l'armée avant NewCome et il connait Erin mieux que personne.
->
->Faiblesse : Très lent.
+!!! info "SIRIUS WADE"
+	Nom : Wade
+	Prénom : Sirius
+	Âge : 51 ans
+	Implant : Force
+	Rôle : Chef des soldats
+	Arme : Gatling / Arme à feu
+	Nationalité : Union des pays libres [USA]
+	
+	Description physique : Sirius mesure environ deux mètres et fait peur à pas mal de monde, avec sa stature très musclée. Il avait des cheveux blonds par le passés, mais armée oblige, il les rase sans arrêt. Il porte toujours l'uniforme de NC, c'est à dire un treillis, un débardeur blanc, et des rangers. Beaucoup de personnes le disait beau, par le passé, mais il ne l'est plus du tout.
+	
+	Description mentale : Détruit par le meurtre de sa femme, il est très colérique et froid. Il est tombé amoureux d'Erika, car il lui rappelle sa femme. Il ne supporte pas Erin, qui est tout le contraire de lui, il a aussi des relations tendues avec son fils. Il était déjà dans l'armée avant NewCome et il connait Erin mieux que personne.
+	
+	Faiblesse : Très lent.
 
 
-> [!info] William Wade
-> Nom : Wade
-> Prénom : William
-> Âge : 21 ans
-> Implant : Son implant lui permet d’interagir sans interface avec les ordinateurs.
-> Rôle : Chef de la divisions de cyberattaques et défenses
-> Nationalité : Union des pays libres [USA]
->
-> Description physique : A contrario de son père, William est un gringalet d'un mètre soixante-dix, assez maigre, aux cheveux blonds mi long et aux yeux bleus. Il porte des vêtements quasiment normaux, avec un tee-shirt blanc, une veste avec le logo des hackers, un jeans et des baskets. Cependant, étant myope, il porte des lunettes rectangulaires aux montures fines.  
->
-> Description mentale : Il déteste pas mal de monde dans NC, et n'a pas eu le choix pour ce qu'il voulait faire. Il est un génie informaticien et son père en a profité pour le faire rentrer dans l'armée. Très solitaire, il ne rêve qu'à la mort de son père qu'il déteste depuis le meurtre de sa mère. De plus, il souffre d'un syndrome d'Œdipe, ce qu'il fait que lui aussi est amoureux d'Erika.[^1]
->
->Faiblesse : Faible physiquement + ne sait pas se battre.
+!!! info "William Wade"
+	Nom : Wade
+	Prénom : William
+	Âge : 21 ans
+	Implant : Son implant lui permet d’interagir sans interface avec les ordinateurs.
+	Rôle : Chef de la divisions de cyberattaques et défenses
+	Nationalité : Union des pays libres [USA]
+	
+	Description physique : A contrario de son père, William est un gringalet d'un mètre soixante-dix, assez maigre, aux cheveux blonds mi long et aux yeux bleus. Il porte des vêtements quasiment normaux, avec un tee-shirt blanc, une veste avec le logo des hackers, un jeans et des baskets. Cependant, étant myope, il porte des lunettes rectangulaires aux montures fines.  
+	
+	Description mentale : Il déteste pas mal de monde dans NC, et n'a pas eu le choix pour ce qu'il voulait faire. Il est un génie informaticien et son père en a profité pour le faire rentrer dans l'armée. Très solitaire, il ne rêve qu'à la mort de son père qu'il déteste depuis le meurtre de sa mère. De plus, il souffre d'un syndrome d'Œdipe, ce qu'il fait que lui aussi est amoureux d'Erika.[^1]
+	
+	Faiblesse : Faible physiquement + ne sait pas se battre.
 
-> [!info] Erika Novalia
-> Nom : Novalia
-> Prénom : Erika
-> Âge : 21 ans
-> Particularité : Unique immunisée à l'Infection.
->Rôle : Chef des médecins
->Nationalité : Alliance des patries concitoyenne [Allemagne]
->
-> Description physique : Erika possède des cheveux bruns, lisses, arrivant dans le milieu de son dos, ainsi que des yeux orange, résultats de son immunité. Elle mesure seulement un mètre soixante et elle porte une blouse blanche sur des vêtements normaux. Elle n'a rien de particulier, mais est pourtant assez belle, car tout est harmonieux chez elle, jusqu'à sa voix.
-> Description mentale : Erika n'a que faire des deux hommes amoureux d'elle, insensible, elle est passionnée, comme Drane, des expériences. Elle n'hésite pas à torturer les infectés pour obtenir les informations qu'elle veut, et son immunité lui permet d'aller leur parler et paraître gentille sans aucun problème. Elle s'est injecté l'infection et c'est là que ces yeux, à la base marron, sont devenus orange et elle a compris qu'elle en étant immunisée.
-> Faiblesse : Faible physiquement + Ne sait pas se battre.
+!!! info "Erika Novalia"
+	Nom : Novalia
+	Prénom : Erika
+	Âge : 21 ans
+	Particularité : Unique immunisée à l'Infection.
+	Rôle : Chef des médecins
+	Nationalité : Alliance des patries concitoyenne [Allemagne]
+	
+	Description physique : Erika possède des cheveux bruns, lisses, arrivant dans le milieu de son dos, ainsi que des yeux orange, résultats de son immunité. Elle mesure seulement un mètre soixante et elle porte une blouse blanche sur des vêtements normaux. Elle n'a rien de particulier, mais est pourtant assez belle, car tout est harmonieux chez elle, jusqu'à sa voix.
+	Description mentale : Erika n'a que faire des deux hommes amoureux d'elle, insensible, elle est passionnée, comme Drane, des expériences. Elle n'hésite pas à torturer les infectés pour obtenir les informations qu'elle veut, et son immunité lui permet d'aller leur parler et paraître gentille sans aucun problème. Elle s'est injecté l'infection et c'est là que ces yeux, à la base marron, sont devenus orange et elle a compris qu'elle en étant immunisée.
+	Faiblesse : Faible physiquement + Ne sait pas se battre.
 
-> [!info] Lian Jen
-> Nom : Jen
-> Prénom : Lian
-> Âge : 18 ans
-> Implant : Implant oculaire, qui lui permet de voir les pièces et les plans juste en observant ce qu'il a autour de lui.
-> Rôle : Chef des mécaniciens
-> Nationalité : Alliance des patries concitoyenne [Chine]
-> 
-> Description physique : Lian, à la différence des autres membres du groupe, possède de longs cheveux noirs et est le plus petit, mesurant aux à l'entour des 1M59, tout en possédant une peau miel, à cause de ces origines asiatiques, voir chinoise. Il porte le plus souvent une salopette crasseuse et taché.
-> Description mentale : Lian est, contrairement à ces apparences, un ancien pilote surdoué. Très jeune, il devient un des plus éminents ingénieurs, et s'engage dans NC après plusieurs attentats où son petit frère périt. Il n'est pas, franchement, aimé des membres du groupe, et est assez solitaire. Il parle souvent chinois et est un bon meneur, sans plus. Il déteste plus que tout O. qui ne sait que détruire et tuer.
-> Faiblesse : Ne sait pas se battre + Fragile
+!!! info "Lian Jen"
+	Nom : Jen
+	Prénom : Lian
+	Âge : 18 ans
+	Implant : Implant oculaire, qui lui permet de voir les pièces et les plans juste en observant ce qu'il a autour de lui.
+	Rôle : Chef des mécaniciens
+	Nationalité : Alliance des patries concitoyenne [Chine]
+	
+	Description physique : Lian, à la différence des autres membres du groupe, possède de longs cheveux noirs et est le plus petit, mesurant aux à l'entour des 1M59, tout en possédant une peau miel, à cause de ces origines asiatiques, voir chinoise. Il porte le plus souvent une salopette crasseuse et taché.
+	Description mentale : Lian est, contrairement à ces apparences, un ancien pilote surdoué. Très jeune, il devient un des plus éminents ingénieurs, et s'engage dans NC après plusieurs attentats où son petit frère périt. Il n'est pas, franchement, aimé des membres du groupe, et est assez solitaire. Il parle souvent chinois et est un bon meneur, sans plus. Il déteste plus que tout O. qui ne sait que détruire et tuer.
+	Faiblesse : Ne sait pas se battre + Fragile
 
 ---
 
 ## Bird
 
-> [!info] Erin Walkyr
-> Âge : 25 
->Infection : Super vitesse
-> Rôle : Chef des combattants
-> Arme : Katana
-> Nationalité : Inconnue
->
-> Description physique : Erin possède des cheveux bleus assez longs qu'elle attache toujours en une queue de cheval, ainsi que des yeux verts. Elle porte une longue veste bleue, et une chemise noire. Son pantalon, lui, est noir aussi, et elle porte une cravate bleu et des bottes.
-> Elle a un visage et un nez fin, et elle est grande et mince. Elle n'est pas très belle, mais pas moche non plus.
-> Son infection se trouve sur son bas ventre.
->
-> Description mentale : Elle déteste O. et aime se battre, son Némésis est Sirius. Elle est toujours avec ces combattants et les considère largement supérieur aux Destructeurs. De plus, c'est une excellente combattante et assez silencieuse. Elle est une ancienne soldate ce qui fait qu'elle ressent peu d'émotion, surtout qu'elle a été créé par l'ancêtre de NC, avant l'infection, mais ça, elle ne le sait pas.
-> Faiblesse : Physiquement, ses coups ne sont pas très puissants.
+!!! info "Erin Walkyr"
+	Âge : 25 
+	Infection : Super vitesse
+	Rôle : Chef des combattants
+	Arme : Katana
+	Nationalité : Inconnue
+	
+	Description physique : Erin possède des cheveux bleus assez longs qu'elle attache toujours en une queue de cheval, ainsi que des yeux verts. Elle porte une longue veste bleue, et une chemise noire. Son pantalon, lui, est noir aussi, et elle porte une cravate bleu et des bottes.
+	Elle a un visage et un nez fin, et elle est grande et mince. Elle n'est pas très belle, mais pas moche non plus.
+	Son infection se trouve sur son bas ventre.
+	
+	Description mentale : Elle déteste O. et aime se battre, son Némésis est Sirius. Elle est toujours avec ces combattants et les considère largement supérieur aux Destructeurs. De plus, c'est une excellente combattante et assez silencieuse. Elle est une ancienne soldate ce qui fait qu'elle ressent peu d'émotion, surtout qu'elle a été créé par l'ancêtre de NC, avant l'infection, mais ça, elle ne le sait pas.
+	Faiblesse : Physiquement, ses coups ne sont pas très puissants.
 
-> [!info] O.
-> Nom : Kallem
-> Prénom : Isendril
-> Âge : 28 ans
-> Infection : Son infection devient explosive.
-> Rôle : Chef des Destructeurs
-> Nationalité : Coalition des cités-Etats [Elle vient sûrement des pays d'Arabie Saoudite] 
-> 
->Description physique : Elle porte un cache oeil sur son oeil droit et quand elle utilise son infection, la moitié de son visage se couvre de l'infection. Son oeil gauche est de couleur vert et elle a de longs cheveux roux bouclés, qui lui arrivent à la taille. Elle est de grande taille, mais très mince. Elle porte le plus souvent un haut en coton blanc, un pantalon large beige et des bottes lui arrivant aux genoux. Sa peau est bronzée, ce qui trahit ses origines. 
-> Description mentale : O. a pour passion les explosions, ce qui est logique pour son pouvoir. Elle aime la beauté des explosions et elle ne s'emmerde pour faire le moins de victime possible. Elle est celle qui permet toutes les opérations de Bird et la plus connue, car elle n'hésite pas à s'afficher devant les caméras. Elle n'aime pas Erin qui ne semble pas comprendre la beauté des explosions et son Némésis est Lian Jen, qui répare tout ce qu'elle détruit. Elle est une ancienne terroriste, déjà un peu tarré à la base.
-> Faiblesse : Elle ne sait pas du tout se battre. 
+!!! info "O."
+	Nom : Kallem
+	Prénom : Isendril
+	Âge : 28 ans
+	Infection : Son infection devient explosive.
+	Rôle : Chef des Destructeurs
+	Nationalité : Coalition des cités-Etats [Elle vient sûrement des pays d'Arabie Saoudite] 
+	
+	Description physique : Elle porte un cache oeil sur son oeil droit et quand elle utilise son infection, la moitié de son visage se couvre de l'infection. Son oeil gauche est de couleur vert et elle a de longs cheveux roux bouclés, qui lui arrivent à la taille. Elle est de grande taille, mais très mince. Elle porte le plus souvent un haut en coton blanc, un pantalon large beige et des bottes lui arrivant aux genoux. Sa peau est bronzée, ce qui trahit ses origines. 
+	Description mentale : O. a pour passion les explosions, ce qui est logique pour son pouvoir. Elle aime la beauté des explosions et elle ne s'emmerde pour faire le moins de victime possible. Elle est celle qui permet toutes les opérations de Bird et la plus connue, car elle n'hésite pas à s'afficher devant les caméras. Elle n'aime pas Erin qui ne semble pas comprendre la beauté des explosions et son Némésis est Lian Jen, qui répare tout ce qu'elle détruit. Elle est une ancienne terroriste, déjà un peu tarré à la base.
+	Faiblesse : Elle ne sait pas du tout se battre. 
 
-> [!info] Drane Harns
-> Nom : Drane
-> Prénom : Harns
-> Âge : 29 ans
-> Infection : contrôle de l'ADN
-> Rôle : Chef médical
-> Nationalité : Alliance des patries concitoyenne [Allemagne] 
-> 
-> Description physique : Drane a un beau physique, avec des cheveux blonds mi longs et des yeux bleus. Il est grand, mesurant environ 1m80, et juste un tout petit peu plus petit qu'O. Il porte tout le temps une longue blouse blanche avec dans le dos la marque de son clan. En dessous, il est habillé complètement de blanc, de la chemise aux chaussures. Son infection forme la double hélice de l'ADN sur son bras droit.
-> Description mentale : Il ne déteste pas vraiment des gens dans BIRD, bien qu'il n'apprécie pas vraiment Nove. C'est un homme passionné par l'ADN et il n'hésite pas à pratiquer le même genre d'expérience que NewCome, en secret, car si cela se faisait savoir, cela décrédibiliserait complètement BIRD. Seules les personnes de sa section sont au courant de ces expériences. Sa Némésis est Erika, qu'il trouve très intéressante.
-> Faiblesse : Comme O. il ne sait pas se battre. 
+!!! info "Drane Harns"
+	Nom : Drane
+	Prénom : Harns
+	Âge : 29 ans
+	Infection : contrôle de l'ADN
+	Rôle : Chef médical
+	Nationalité : Alliance des patries concitoyenne [Allemagne] 
+	
+	Description physique : Drane a un beau physique, avec des cheveux blonds mi longs et des yeux bleus. Il est grand, mesurant environ 1m80, et juste un tout petit peu plus petit qu'O. Il porte tout le temps une longue blouse blanche avec dans le dos la marque de son clan. En dessous, il est habillé complètement de blanc, de la chemise aux chaussures. Son infection forme la double hélice de l'ADN sur son bras droit.
+	Description mentale : Il ne déteste pas vraiment des gens dans BIRD, bien qu'il n'apprécie pas vraiment Nove. C'est un homme passionné par l'ADN et il n'hésite pas à pratiquer le même genre d'expérience que NewCome, en secret, car si cela se faisait savoir, cela décrédibiliserait complètement BIRD. Seules les personnes de sa section sont au courant de ces expériences. Sa Némésis est Erika, qu'il trouve très intéressante.
+	Faiblesse : Comme O. il ne sait pas se battre. 
 
-> [!info] Nove Shaman
-> Nom : Nove
-> Prénom : Shaman
-> Âge : 18 ans
+!!! info "Nove Shaman"
+	Nom : Nove
+	Prénom : Shaman
+	Âge : 18 ans
  > Infection : Elle peut rentrer physiquement à l'intérieur des objets reliés à un réseau, que ce soit wifi, Bluetooth, internet, ou même l'internet permis par les plantes OGM.
-> Rôle : Chef des Cyber
-> Nationalité : Alliance des patries concitoyenne [Russie] 
-> 
-> Description physique : Nove aux cheveux blancs et les yeux gris. Elle est de petite taille et assez mince, même si elle passe son temps à s'empiffrer de chips, et rester toujours assise sur une chaise. Elle a un accent russe malgré le fait que ces parents soit américains. Elle porte le plus souvent un jogging, un débardeur et reste pied nue. Lorsqu'elle se digitalise, elle porte les vêtements les plus appropriés pour le combat.
-> Il est à noter que son infection se trouve dans son dos, dans son dos. 
-> 
-> Description mentale : Elle aime beaucoup s'amuser avec son Némésis, William. Enfin, s'amuser étant détruire les réseaux internet de façon physique. Elle est une grande fan de toutes les technologies, et elle s'entend globalement bien avec les autres chefs de Bird, bien qu'elle ait quelque dispute avec Drane, étant aussi surdouée que lui. Elle suit ses propres objectifs et pour avoir le maximum de liberté, elle est rentrée dans le bird.
-> Faiblesse : En dehors du net, elle est particulièrement inutile.
+	Rôle : Chef des Cyber
+	Nationalité : Alliance des patries concitoyenne [Russie] 
+	
+	Description physique : Nove aux cheveux blancs et les yeux gris. Elle est de petite taille et assez mince, même si elle passe son temps à s'empiffrer de chips, et rester toujours assise sur une chaise. Elle a un accent russe malgré le fait que ces parents soit américains. Elle porte le plus souvent un jogging, un débardeur et reste pied nue. Lorsqu'elle se digitalise, elle porte les vêtements les plus appropriés pour le combat.
+	Il est à noter que son infection se trouve dans son dos, dans son dos. 
+	
+	Description mentale : Elle aime beaucoup s'amuser avec son Némésis, William. Enfin, s'amuser étant détruire les réseaux internet de façon physique. Elle est une grande fan de toutes les technologies, et elle s'entend globalement bien avec les autres chefs de Bird, bien qu'elle ait quelque dispute avec Drane, étant aussi surdouée que lui. Elle suit ses propres objectifs et pour avoir le maximum de liberté, elle est rentrée dans le bird.
+	Faiblesse : En dehors du net, elle est particulièrement inutile.
 
 [^1]: Note de l'autrice en 2022: Putain, j'étais cringe à l'époque

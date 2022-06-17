@@ -1,8 +1,7 @@
 ---
-share: true
+share: True
 category: Scriptorium/Imperium
 ---
-
 # Le mess
 
 ![[../../assets/img/cdi_mess.jpg|+side]]La cantine qui ne dort jamais et où il n'y règne qu'un vacarme infernale à toute heure de la journée. La nourriture est assez correct, mais est surtout destinée pour les soldats qui sont incapables de tenir correctement une poêle ou qui n'ont pas un rang assez élevé pour avoir leur propre quartier avec cuisine.
@@ -95,4 +94,3 @@ Situé un peu en amont de la salle des machines, l'accès y est strictement cont
 De plus, les installations sont contrôlés et reconnaissent la magie du pilote. Normalement, il est impossible, et bien de les "hacker". Il faut aussi des dizaines d'heures d'entraînement rien que pour apprendre à contrôler l'Arcadia, ce qui se fait plus par la pensé que par le physique. Une personnes non entrainé ou même préparé mourrait.
 
 Heureusement, la plupart des déplacements manuels se font par des barres à gouvernails.
-
