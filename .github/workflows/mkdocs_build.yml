@@ -29,7 +29,7 @@ jobs:
       - name: set locale
         run: |
           sudo apt-get update && sudo apt-get install tzdata locales -y
-          sudo locale-gen $language
+          sudo locale-gen ${{ secrets.LANGUAGE }}
           language = ${{ secrets.LANGUAGE }}
           setLocale="$language".utf8
           sudo update-locale LANG=$setLocale
