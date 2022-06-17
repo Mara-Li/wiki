@@ -57,4 +57,5 @@ jobs:
           git push
       - name: Ending summary
         run: |
+          pageLink=$(head -n 2 .github/.env | tail -1)
           echo "🎉 Published to $PAGE_LINK" >> $GITHUB_STEP_SUMMARY
