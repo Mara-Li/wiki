@@ -28,6 +28,7 @@ jobs:
         run: |
           sudo apt-get update && sudo apt-get install tzdata locales -y
           sudo locale-gen ${{ secrets.LANGUAGE }}
+          lang="fr_FR.utf8"
           setLocale="${{ secrets.LANGUAGE }}".utf8
-          sudo update-locale LANG=$setLocale
+          sudo update-locale LANG=$lang
       - run: mkdocs gh-deploy --force --clean
