@@ -1,15 +1,17 @@
 ---
-date: "16-05-2022"
-share: True
+date: 16-05-2022
+share: true
 obsidianUIMode: source
 title: Dusk Legends Online — Ashling May
 description: "Fiche d'Ashling May, alias Sola-UI, pour le RP Dusk Legends Online, un RP sur MMORPGVR."
 type: Fiche
 univers: DLO
+tag: RP/DLO/Fiche/PJ
 image: Commission Feilyn.png
 category: Compendium/Ashling May
-tags: RP/DLO/Fiche/PJ
 ---
+
+%% [[Ashling May.md]] %%
 
 <h1 style="text-align:center">╔═══━━━─── • ───━━━═══╗<br>
 P r é s e n t a t i o n <br>

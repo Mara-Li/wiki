@@ -1,6 +1,8 @@
 ---
 share: true
 category: Scriptorium
+title: Ambrosia
+description: Une idée comme une autre, brouillonnée
 ---
 
 # Résumé de l'univers : 
@@ -11,7 +13,7 @@ category: Scriptorium
 - Type de magie différente, niveau différent. Spécialisation;
 - Monde qui tourne autour de l'étude de cette magie 
 - Peu d'intérêt envers l'espace
-- Flux
+- [[#Le flux]]
 - Pas d'enfant, réincarnation à l'infinie 
 - Pas de notion de temps ni de mort (!= cristallisation)
 - Pas de guerre ou maladie
@@ -87,6 +89,16 @@ La magie créatrice permet de créer des êtres vivants, machines, objets. Avant
 - Si le prototype est validé, les recherches peuvent être menée dans les centres agrées 
 - Lorsque le créateur valide entièrement son concept, ce dernier devient Libre de droit et n'importe qui peut l'utiliser, créer .... En se rendant au Bureau des Concepts. 
 - Dans le cas où un Concept est jugé dangereux, il peut être détruit (sa magie créatrice retourna au flux) ou conservé dans des endroits spécifiques.
+
+# La réincarnation
+
+Pour se réincarner / reposer, les personnes entrent dans le flux par des grottes spécifique, qui existent à plusieurs points de la planète. Généralement vêtue d'une toge blanche, ils se plongent dans une piscines d'eau bleuté par le flux. Une fois leur corps plongée entièrement (jusqu'à la tête), ils se désagrègent et disparaît dans des concrétions causés par le flux, qui forme des colomnes. Ses colonnes brillent légèrement de couleur différentes (liés à la couleur de la magie de la personne) à chaque apparition et disparition.
+
+La réapparition est le processus inverse : Le corps se forme des pieds à la tête à la surface de l'eau, vêtue de la même toge qu'à l'arrivé.
+
+Lors d'un meurtre ou d'une mort accidentelle, le corps se désagrège au bout de plusieurs jours. Après cela, la personne rejoint le flux (qui existe partout). Elle réapparait dans une des grottes du flux (sans qu'on puisse deviner laquelle) vêtu d'une toge. 
+
+On ne sait pas pourquoi les personnes réapparaît toujours vêtu. 
 
 ---
 <u>Référence</u> :
