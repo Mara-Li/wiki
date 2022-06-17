@@ -30,7 +30,7 @@ jobs:
           sudo apt-get update && sudo apt-get install tzdata locales -y
           lang=$(head -n 1 .github/.env)
           upperL="${lang^^}"
-          newLang="$lang"_"upperL".UTF-8
+          newLang="$lang"_"$upperL".UTF-8
           sudo locale-gen $lang
           locale -a | grep $lang
           sudo update-locale LANG=$newLang
