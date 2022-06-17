@@ -28,7 +28,8 @@ jobs:
       - name: set locale
         run: |
           sudo apt-get update && sudo apt-get install tzdata locales -y
-          sudo locale-gen ${{ secrets.LANGUAGE }}
-          lang="${{ secrets.LANGUAGE }}.UTF-8"
-          sudo update-locale LANG=$lang
+          lang=$(head -n 1 .github/.env)
+          sudo locale-gen lang
+          langLocale="$lang.UTF-8"
+          sudo update-locale LANG=$langLocale
       - run: mkdocs gh-deploy --force --clean
