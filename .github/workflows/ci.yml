@@ -89,7 +89,7 @@ jobs:
     steps:
       - name: ending summary
         run: |
-          link="${{ needs.build.output.page_link }}"
+          link="${{ needs.build.outputs.page_link }}"
           echo "🎉 Successfully converted files and build documentation" >> $GITHUB_STEP_SUMMARY
           echo "Your blog is successfully build at $link" >> $GITHUB_STEP_SUMMARY
   on_nothing:
