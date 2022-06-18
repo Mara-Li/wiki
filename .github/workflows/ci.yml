@@ -68,19 +68,27 @@ jobs:
           git push
   ending_success:
     runs-on: ubuntu-latest
-    needs: build
-    if: always() && (needs.build.result == 'failure')
+    needs: [installation, build]
+    if: always() && (needs.installation.result == 'failure')
     steps: 
       - name: Ending summary
         run: |
           echo "⚠️ Error during build!!!" >> $GITHUB_STEP_SUMMARY
   ending_failure:
     runs-on: ubuntu-latest
-    needs: [build]
-    if: always() && (needs.build.result == 'success')
+    needs: [installation]
+    if: always() && (needs.installation.result == 'success')
     steps:
       - name: ending summary
         run: |
           LINK=$(head -n 1 .github/.env)
           echo "🎉 Successfully converted files and build documentation" >> $GITHUB_STEP_SUMMARY
           echo "Your blog is successfully build at $LINK" >> $GITHUB_STEP_SUMMARY
+  ending_nothing:
+    runs-on: ubuntu-latest
+    needs: build
+    if: needs.build.outputs.length-files == 0
+    steps:
+      - name: message
+        run: |
+          echo "🤔 Nothing to commit, ending" >> $GITHUB_STEP_SUMMARY 
