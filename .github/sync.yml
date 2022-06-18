@@ -1,3 +1,8 @@
-obsidianMkdocs/obsidian-mkdocs-publisher-template:
-  - source: overrides/
-    dest: overrides/
+group:
+  repos: |
+    obsidianMkdocs/obsidian-mkdocs-publisher-template
+    obsidianMkdocs/obsidian_mkdocs_publisher_docs
+  files:
+    - overrides/
+    - workflows/ci.yml
+    - mkdocs_build.yml
