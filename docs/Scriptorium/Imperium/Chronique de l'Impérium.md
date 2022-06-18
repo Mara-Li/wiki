@@ -1,7 +1,8 @@
 ---
-share: True
-category: Scriptorium/Imperium
+share: true
+category: "Scriptorium/Imperium"
 ---
+
 De 1800 à 1932, l'Empire du Japon, dirigée par l'Impératrice Masayori Noriyasu, contrôle environ toute l'Asie et l’Océanie. Seuls pays utilisant les actifs comme arme de guerre totale, ils massacrent les populations autochtones et les guerres sont nombreuses. Les normaux sont considérés comme du bétail pendant que les actifs sont élevés dans l'armée. Raciste et dure, les pays occidentaux maintiennent le statu Quo tout en créant de multiples embargos (Embargo américain de 1870 à 1943, faisant que les japonais sont obligés d'utiliser le dangereux hydrogène pour utiliser leurs dirigeables, véritables armes de guerres).
 
 L’armée japonaise est composée de trois corps bien hiérarchisés : les Gardes de Fer, fantassins de premières lignes, souvent accompagné de pouvoir extrêmement destructeur, les Gardes Fantômes, assassins étant le plus souvent des voyageurs et des estompeurs, et l’Unité 731, des engrenages, guérisseurs et chevaux pâles. Dans la garde de Fer se trouve l’aviation et la marine, qui sont des sous-groupes particuliers. Il existe un quatrième corps, les Juges, chargé de juger et tuer les traîtres. Dans chacun de ses corps (même l’aviation et la marine) se trouve un « Premier » : le plus puissant, qui dirige une grande partie du reste de son corps, travaille main dans la main avec l’Impératrice, et possède une grande liberté d’action. Cependant, de multiples résistances se créent, dont le "Grimnoir", organisation mondiale et secrète composés d'actifs et ayant pour but de protéger les normaux des actifs et les actifs des normaux, combattent activement l'Impérium. Ils manquent bien de réussir en 1932, en attaquant le dirigeable dans lequel se trouvait l'Impératrice et son mari, mais se font tous massacré.
