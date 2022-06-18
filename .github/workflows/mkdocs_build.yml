@@ -11,23 +11,18 @@ on:
       - 'docs/**'
       - 'mkdocs.yml'
       - 'requirements.txt'
-      - '.github/workflows/**'
 
 jobs:
   mkdocs:
     runs-on: ubuntu-latest
     if: ${{ !startsWith(github.event.head_commit.message, '[PUBLISHER]') }}
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v2
+      - uses: actions/setup-python@v3
         with:
-          fetch-depth: 0
-      - uses: actions/setup-python@v4
-        with:
-          python-version: '3.10.4'
-          cache: 'pip'
+          python-version: 3.10.2
       - name: Install Python dependencies
-        run: pip install -r requirements.txt
-      - name: mkdocs serve
-        run: |
-          mkdocs gh-deploy --force --clean
-        
+        uses: py-actions/py-dependency-install@v3
+        with: 
+          path: requirements.txt
+      - run: mkdocs gh-deploy --force --clean
