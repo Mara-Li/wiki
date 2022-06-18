@@ -119,5 +119,5 @@ WHERE type="Fiche"
 > - [[Mnémosyne]]
 > - **Vrai père** : Un descendant de Gilgamesh — Babylone
 > - **Mère** : ???
-> - [[../../notes/Écho.md]] : #inité
+> - [[../Echo/Écho.md]] : #inité
 
