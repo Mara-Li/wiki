@@ -1,10 +1,9 @@
 name: Publisher
 on:
-  workflow_dispatch:
   push:
     paths:
       - 'docs/**'
-    branches: ['main', 'master']
+    
 
 jobs:
   build:
