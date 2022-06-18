@@ -6,3 +6,4 @@ hidden: true
 ---
 hidden hihi
 test workflow
+test
