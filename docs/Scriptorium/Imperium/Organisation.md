@@ -1,7 +1,8 @@
 ---
-share: True
+share: true
 category: Scriptorium/Imperium
 ---
+
 # Section
 
 Au sein de l’impérium, il existe différentes sections : La section Russe, comprenant l’ex-URSS, la section Européenne, prenant en compte les pays européens, la section américaine, comprenant l’Amérique en entier, c’est-à-dire le nord, mais aussi latine et centrale, la section originale, qui comprend tous les pays asiatiques mais aussi l’Océanie et l’Australie, et enfin, la section Africaine, composée de l’Afrique mais aussi du Moyen-Orient. 
@@ -38,3 +39,4 @@ Comme il a déjà été dit, il existe, au seins des divisions, des grades : Les
 Les Premiers sont les plus puissants membres de leur division, les maîtres de leur pouvoirs et de leur force. Intelligent et fort, ils inspirent le respect à leurs paires et dirigent une grande partie du reste de son corps, travaillent main dans la main avec l’Impératrice, et possède une grande liberté d’action. Ils sont assistés par les Second, leur bras droits, souvent moins fort qu'eux, mais inspirant tout de même le respect. Manquer de respect à un Second, c'est manqué de respect à un Premier. Cependant, rare sont ceux qui abusent de leur position, et ils travaillent souvent en tandem avec leur "chef". Ils sont souvent plus accessible que les premiers, dans tous les cas. 
 
 Le cas des Premiers et Second est assez différent au sein de l'Unité 731 puisqu'étant une divisions de R&D (Recherche et Développement). Ce sont souvent des scientifiques de premiers ordres, souvent de puissants Engrenages. Ils peuvent paraître plus faible au combat, mais ils ont permis d'augmenter la force de frappe matériel de l'Empire à un point inimaginable.
+
