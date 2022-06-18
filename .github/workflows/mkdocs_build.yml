@@ -27,22 +27,7 @@ jobs:
           cache: 'pip'
       - name: Install Python dependencies
         run: pip install -r requirements.txt
-      - name: get locale from env
-        id: localeEnv
+      - name: mkdocs serve
         run: |
-          lang=$(head -n 1 .github/.env)
-          upperL="${lang^^}"
-          newLang="$lang"_"$upperL".utf8 >> $GITHUB_ENV
-      - name: set locale
-        run: |
-          sudo apt-get update && sudo apt-get install tzdata locales -y
-          lang=$(head -n 1 .github/.env)
-          upperL="${lang^^}"
-          newLang="$lang"_"$upperL".utf8
-          sudo locale-gen $newLang
-          locale -a | grep $lang
-          sudo update-locale LANG=$newLang
-          sudo update-locale LC_ALL=$newLang
-          date
           mkdocs gh-deploy --force --clean
         
