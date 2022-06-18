@@ -126,11 +126,11 @@ Ashling est une personne plutôt lâche, qui n'aime pas prendre des risques inut
 - Elle est très très myope.
 - Elle élève une grenouille. Oui.
 
-# [[Personnages/Pouvoir.md]]
+# [[Pouvoir.md]]
 
 %% [[../../notes/Invocation d'armes.md]], [[../../notes/Sortilège.md]] %%
  
-![[Personnages/Pouvoir.md#Technopathe]]
+![[Pouvoir.md#Technopathe]]
 
 ---
 ![[Illustration (Ashling)]]
