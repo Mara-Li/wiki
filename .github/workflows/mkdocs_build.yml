@@ -44,6 +44,5 @@ jobs:
           sudo update-locale LANG=$newLang
           sudo update-locale LC_ALL=$newLang
           date
-      - run: mkdocs gh-deploy --force --clean
-        env:
-          LC_ALL: ${{ env.newLang }}
+          mkdocs gh-deploy --force --clean
+        
