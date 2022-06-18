@@ -2,7 +2,7 @@ name: Publisher
 on: 
     push:
         branches: ['main', 'master']
-    
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -15,7 +15,7 @@ jobs:
         with:
           fetch-depth: 0
       - run: |
-          "# Building" >> $GITHUB_STEP_SUMMARY
+          echo "# Building" >> $GITHUB_STEP_SUMMARY
       - name: get changed files
         uses: tj-actions/changed-files@v23
         id: changed-files
@@ -72,7 +72,7 @@ jobs:
     steps: 
       - name: Ending summary
         run: |
-          echo "⚠️ Error during build!!! >> $GITHUB_STEP_SUMMARY
+          echo "⚠️ Error during build!!!" >> $GITHUB_STEP_SUMMARY
   ending_failure:
     runs-on: ubuntu-latest
     needs: [build]
@@ -82,4 +82,4 @@ jobs:
         run: |
           LINK=$(head -n 1 .github/.env)
           echo "🎉 Successfully converted files and build documentation" >> $GITHUB_STEP_SUMMARY
-          echo "Your blog is successfully build at $LINK"
+          echo "Your blog is successfully build at $LINK" >> $GITHUB_STEP_SUMMARY
