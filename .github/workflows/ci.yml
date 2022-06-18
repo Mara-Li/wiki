@@ -24,8 +24,10 @@ jobs:
       - name: set lg outputs
         id: lg_out
         run: |
-          changed=${{ needs.build.outputs.all_changed_files }}
+          changed=${{ steps.changed-files.outputs.all_changed_files }}
           lg_steps=${#changed}
+          echo "$changed"
+          echo "$lg_steps"
           echo "::set-output name=lg_files::$lg_steps"
           echo "::set-output name=changed-files::$changed"
   installation: 
