@@ -1,38 +1,46 @@
-name: mkdocs conversion
+name: Publisher
 on:
   workflow_dispatch:
   push:
     paths:
       - 'docs/**'
+    branches: ['main', 'master']
 
 jobs:
   build:
     runs-on: ubuntu-latest
     if: startsWith(github.event.head_commit.message, '[PUBLISHER]')
+    outputs:
+      changed-files: ${{ steps.changed-files.outputs.all_changed_files }}
     steps:
       - uses: actions/checkout@v3
         with:
           fetch-depth: 0
-      - uses: actions/setup-python@v3
-        with:
-          python-version: 3.10.4
+      - run: |
+          "# Building" >> $GITHUB_STEP_SUMMARY
       - name: get changed files
         uses: tj-actions/changed-files@v23
         id: changed-files
         with:
           separator: ";"
           quotepath: "false"
-          since_last_remote_commit: true
-      - name: Install OBS2Mk
+          since_last_remote_commit: true          
+  installation: 
+    runs-on: ubuntu-latest
+    needs: [build]
+    if:  ${#needs.build.outputs.all_changed_files} > 0 
+    steps:
+      - name: Requirements
         run: |
           pip install obs2mk --upgrade
+          pip install -r requirements.txt
       - name: generate markdown
         run: |
           echo "File processed:  " >> $GITHUB_STEP_SUMMARY
       - name: obs2mk source files
         run: |
           IFS=$';'
-          changed="${{ steps.changed-files.outputs.all_changed_files }}"
+          changed="${{ needs.build.outputs.all_changed_files }}"
           for file in $changed; do
             if [[ "$file" == *md ]] 
               then
@@ -43,7 +51,6 @@ jobs:
           unset IFS
       - name: Mkdocs build
         run: |
-          pip install -r requirements.txt
           mkdocs gh-deploy --force --clean
       - name: Push updateds files
         run: |
@@ -55,6 +62,21 @@ jobs:
           fileList=$(git status --porcelain | tr -d '\n' | tr -d 'M' |tr -d '??')
           git commit -m "🏓 Publishing from ObsidianMD" -m "${fileList}"
           git push
+  ending_success:
+    runs-on: ubuntu-latest
+    needs: build
+    if: always() && (needs.build.result == 'failure')
+    steps: 
       - name: Ending summary
         run: |
-          echo "🎉 Published to $PAGE_LINK" >> $GITHUB_STEP_SUMMARY
+          echo "⚠️ Error during build!!! >> $GITHUB_STEP_SUMMARY
+  ending_failure:
+    runs-on: ubuntu-latest
+    needs: [build]
+    if: always() && (needs.build.result == 'success')
+    steps:
+      - name: ending summary
+        run: |
+          LINK=$(head -n 1 .github/.env)
+          echo "🎉 Successfully converted files and build documentation" >> $GITHUB_STEP_SUMMARY
+          echo "Your blog is successfully build at $LINK"
