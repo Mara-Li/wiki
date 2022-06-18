@@ -1,13 +1,13 @@
 ---
-share: True
+share: true
 category: Scriptorium
 ---
-!!! info ""
-	Vous êtes morts.
+>[!info] 
+>Vous êtes morts.
 Cela arrive.
 Une fois mort, vous avez atterrit… Ailleurs. Oubliez cette idée de paradis, les mondes des morts sont bien différents.
  >
-	Votre mission est de maintenir l’Equilibre en combattant les Monstres du Chaos et les Créatures de l’Harmonie.
+>Votre mission est de maintenir l’Equilibre en combattant les Monstres du Chaos et les Créatures de l’Harmonie.
 Sans vous, les morts reviendront à la vie dans le Monde des Vivants, quelque ce soit la période.
 
 # Le monde des morts
