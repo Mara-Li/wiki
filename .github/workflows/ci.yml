@@ -22,7 +22,6 @@ jobs:
         with:
           separator: ";"
           quotepath: "false"
-          since_last_remote_commit: true
       - name: set lg outputs
         id: lg_out
         run: |
