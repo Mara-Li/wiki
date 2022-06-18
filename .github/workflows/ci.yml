@@ -50,7 +50,7 @@ jobs:
       - name: obs2mk source files
         run: |
           IFS=$';'
-          changed="${{ needs.build.outputs.changed-files.all_changed_files }}"
+          changed="${{ needs.build.outputs.changed-files }}"
           for file in $changed; do
             if [[ "$file" == *md ]] 
               then
