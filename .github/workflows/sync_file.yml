@@ -1,6 +1,8 @@
 name: Sync Files
 on: 
-  push
+  push:
+    paths:
+      - overrides/**
 
 jobs:
   sync:
