@@ -1,21 +1,21 @@
 ---
 category: Scriptorium/Pentacle déchu
-share: True
+share: true
 ---
 # Les chasseurs
 
 Les chasseurs sont des personnes ayant un contrôle sur les ombres. Habituellement armés d’arbalètes, ce sont les premiers qui vont combattre les monstres. Généralement, ils travaillent seuls ou en binômes. Ils sont le plus souvent des Soldats de l’armée du Vatican. 
-!!! info "Rareté : :rif_star::rif_star::rif_star::obs_star::obs_star:"
+>[!info] Rareté : :rif_star::rif_star::rif_star::obs_star::obs_star:
 
 # Les armateurs
 
 Les armateurs sont des mages pouvant donner des enchantements à des armes mais aussi des objets, voire à des gens, le plus souvent, ils travaillent dans l’armée humaine.  Ils sont capables de créer des sortilèges plus ou moins puissants, passif et actifs. Ils peuvent les poser aux moyens de runes sur des objets ou des gens.
-!!! info "Rareté : :rif_star::rif_star::rif_star::obs_star::obs_star:"
+>[!info] Rareté : :rif_star::rif_star::rif_star::obs_star::obs_star:
 
 # Les alchimistes
 
 Les alchimistes sont des sorciers capables de créer des potions. Les plus puissants sont capables de modifier les objets, mais ces derniers sont plutôt appelés « Adaptateurs » et sont infiniment plus rares.
-!!! info "Rareté : :rif_star::rif_star::obs_star::obs_star::obs_star:"
+>[!info] Rareté : :rif_star::rif_star::obs_star::obs_star::obs_star:
 
 # Les invocateurs
 
@@ -30,7 +30,7 @@ La plupart du temps les Invoqués vivent dans leurs mondes respectifs, il est ra
 
 Les Invocateurs vendent leur âme à leurs Créatures, ainsi, à leur mort, ils peuvent devenir leur esclave (ou non, cela dépend de leurs personnalités) mais surtout, les suivent partout. Ils sont liés à eux pour l’éternité et le lien ne peut être rompu. Notons qu’il est ainsi plus avantageux de se lier à un ange, car on est certains d’être au Paradis et de ne pas être torturé. Malheureusement, il est rare qu’un ange réponde à un invocateur. 
 
-!!! info "Rareté :  :rif_star::rif_star::rif_star::rif_star::rif_star:"
+>[!info] Rareté :  :rif_star::rif_star::rif_star::rif_star::rif_star: 
 
 # Les sorcières
 
@@ -48,4 +48,5 @@ Il est à noter que, contrairement aux Invocateurs, lorsqu’une Sorcière meurt
 Peu de Sorcière savent ce genre de chose, et il est impossible de savoir où va se rendre une Sorcière demi-Démone. 
 
 Leur démon, par contre, retournera aux Enfers. 
-!!! info "Rareté :  :rif_star::rif_star::rif_star::rif_star::rif_star:"
+>[!info] Rareté :  :rif_star::rif_star::rif_star::rif_star::rif_star: 
+
