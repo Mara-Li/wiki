@@ -1,5 +1,7 @@
 name: Publisher
-on: push
+on: 
+    push:
+        branches: ['main', 'master']
     
 jobs:
   build:
