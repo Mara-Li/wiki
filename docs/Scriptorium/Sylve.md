@@ -1,7 +1,8 @@
 ---
-share: True
+share: true
 category: Scriptorium
 ---
+
 ## Historique
 
 ### Synopsis
@@ -163,3 +164,4 @@ Il n’y a pas grand-chose à dire sur les vêtements civils, mais il est à not
 Comme dit plus haut, les armes à feu sont totalement inutilisées, et la plupart des gens préfèrent les armes à énergies (qu’on nomme « blaster »). Il existe de nombreuses armes avec des mixtes entre elles, et généralement, tous les soldats et mercenaires ont leurs préférences. 
 
 Il est à noter que les Ophrys n’aiment pas les armes à feu, et préfèrent l’utilisation de sabres en bois qu’ils utilisent en accord avec leurs pouvoirs, la plupart des ophrys maîtrisant de base le bois. Il est cependant possible que ce ne soit pas le cas, et les Ophrys font alors des armes sur-mesure, afin d’exploiter un maximum leur pouvoir.
+

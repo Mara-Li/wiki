@@ -132,7 +132,7 @@ La mage aux cheveux rouges se matérialisa à ses côtés.
 — Pas de survivant ? Dit-il.
 Elle secoua la tête:
 — Juste l'enfant.
-— Donc, tu es en train de me dire qu'une cellule *entière* de l'[[../../notes/Écho.md]] a été détruite, et qu'il reste juste une enfant ? Tu vas me sortir quoi, que l'enfant a survécu par le miracle du saint esprit par le pouvoir de l'amour ? 
+— Donc, tu es en train de me dire qu'une cellule *entière* de l'[[../Echo/Écho.md]] a été détruite, et qu'il reste juste une enfant ? Tu vas me sortir quoi, que l'enfant a survécu par le miracle du saint esprit par le pouvoir de l'amour ? 
 
 Salem n'aimait ni les coïncidences, ni les comptes de fées. [[../../Fiche RP/Alazée.md]] haussa les épaules.
 

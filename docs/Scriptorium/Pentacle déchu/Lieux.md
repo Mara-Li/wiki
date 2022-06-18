@@ -1,6 +1,6 @@
 ---
 category: Scriptorium/Pentacle déchu
-share: True
+share: true
 ---
 # Nibelhiem
 
@@ -34,4 +34,5 @@ Les habitants ne sont pas au courant pour ce monde alterné, et vivent tranquill
 Il y a quelque touriste en été, la plupart sont des randonneurs ou des occultistes curieux. 
 
 Il n’y a aucune église, aucun prêtre, ce qui rend cette ville particulièrement dangereuse lors des manifestations de Méta-humains ou de créature biblique. Mais, naturellement, ses derniers évitent de s’y rendre. 
-Il y a une drôle de puissance maléfique et ancestrale qui éloigne même les puissants démons.
+Il y a une drôle de puissance maléfique et ancestrale qui éloigne même les puissants démons. 
+

@@ -1,13 +1,14 @@
 ---
 category: Scriptorium/Vélum
-share: True
-publish: False
+share: true
+publish: false
 type: Description
 univers: Bibliothèque Infinie
 description: Présentation de la Bibliothèque Infinie
-tags: 
-- RP/Bibliothèque-Infinie/Description/Lieu
+tag:
+  - RP/Bibliothèque-Infinie/Description/Lieu
 ---
+
 Contrairement à ce qu'on pourrait penser, on n'entre pas dans la bibliothèque de l'Infinie, mais on y apparaît, lors qu’invité.
 La Bibliothèque, aux confins des rêves et de la conscience de l'Humanité, est une immense tour en spirale, si haute qu'il est impossible de voir le plafond... Et descendant si en profondeur, qu'il est impossible de savoir jusqu'où elle va.
 
