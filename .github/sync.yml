@@ -3,6 +3,7 @@ group:
     obsidianMkdocs/obsidian-mkdocs-publisher-template
     obsidianMkdocs/obsidian_mkdocs_publisher_docs
   files:
-    - overrides/
+    - source: overrides/
+      dest: overrides/
     - workflows/ci.yml
     - mkdocs_build.yml
