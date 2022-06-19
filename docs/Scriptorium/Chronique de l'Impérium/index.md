@@ -1,6 +1,6 @@
 ---
 share: true
-category: "Scriptorium/Imperium"
+category: "Scriptorium/Chronique de l'Impérium"
 ---
 
 De 1800 à 1932, l'Empire du Japon, dirigée par l'Impératrice Masayori Noriyasu, contrôle environ toute l'Asie et l’Océanie. Seuls pays utilisant les actifs comme arme de guerre totale, ils massacrent les populations autochtones et les guerres sont nombreuses. Les normaux sont considérés comme du bétail pendant que les actifs sont élevés dans l'armée. Raciste et dure, les pays occidentaux maintiennent le statu Quo tout en créant de multiples embargos (Embargo américain de 1870 à 1943, faisant que les japonais sont obligés d'utiliser le dangereux hydrogène pour utiliser leurs dirigeables, véritables armes de guerres).

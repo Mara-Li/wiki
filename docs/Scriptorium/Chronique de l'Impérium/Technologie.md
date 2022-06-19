@@ -1,6 +1,6 @@
 ---
 share: true
-category: Scriptorium/Imperium
+category: "Scriptorium/Chronique de l'Impérium"
 ---
 Bien que les années cinquante soient passés par là, l’unité 731 est la meilleure équipe de recherche mondiale, dépassant de ce fait les américains et Tesla. 
 
