@@ -1,17 +1,15 @@
 ---
-date: 07-01-2022
+date: "07-01-2022"
 category: Compendium
-share: true
+share: True
 obsidianUIMode: source
-description: Stagiaire-apprentie au sein de la Fondation SCP, malgré ses pouvoirs particuliers.
+description: "Stagiaire-apprentie au sein de la Fondation SCP, malgré ses pouvoirs particuliers."
 type: Fiche
 state: 🟢
 univers: Sadhée
-tag: RP/Sadhée/Fiche/PJ
 title: Eilwellyn Beausang
+tags: RP/Sadhée/Fiche/PJ
 ---
-
-%% [[../notes/Eilwellyn Beausang.md]] %%
 
 # **─────༺ Présentation ༻─────**
 ![[../assets/img/Pasted image 20220108012633.png|+side]]
