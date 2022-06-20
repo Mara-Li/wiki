@@ -20,7 +20,7 @@ jobs:
           cache: 'pip'
       - name: locate file
         run: |
-          $files = $(find . -path "{{ github.event.inputs.file }}" -printf '%p:::' | sed 's/:::$/\n/')
+          files=$(find . -path "{{ github.event.inputs.file }}" -printf '%p:::' | sed 's/:::$/\n/')
           IFS=$':::'
           for file in $files; do
             echo "$file"
