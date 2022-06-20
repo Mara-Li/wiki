@@ -1,0 +1,34 @@
+name: Publisher Manual
+on: 
+  workflow_dispatch:
+    inputs:
+      file:
+        type: string
+        description: File to convert by OBS2MK, glob pattern are supported (needed to convert a folder contents!)
+        required: true
+
+jobs:
+  get_file:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v2
+        with:
+          python-version: '3.10.4'
+          cache: 'pip'
+      - name: locate file
+        run: |
+          $files = $(find . -path "{{ github.event.inputs.file }}" -printf '%p:::' | sed 's/:::$/\n/')
+          IFS=$':::'
+          for file in $files; do
+            echo "$file"
+          done
+          unset IFS
+
+
+
+
+
+
