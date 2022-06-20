@@ -7,7 +7,8 @@ share: True
 description: "Brouillon de la fiche de Kara, attendant que je puisse la faire"
 type: Fiche
 state: ✒️
-tags: Lagendia
+tags: 
+ - Lagendia
 ---
 ```dataview
 LIST
