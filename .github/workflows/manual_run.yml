@@ -16,9 +16,8 @@ jobs:
           fetch-depth: 0
       - name: locate file
         run: |
-          find . -path *
-          for file in $(find . -path "{{ github.event.inputs.file }}"); do
-            echo "$file"
+          for i in $(find . -path "{{ inputs.file }}"); do
+            echo "$i"
           done
 
 
