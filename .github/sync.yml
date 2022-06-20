@@ -8,4 +8,4 @@ group:
     - .github/workflows/ci.yml
     - .github/workflows/mkdocs_build.yml
     - .github/workflows/manual_run.yml
-    - .github/workflows/uupdate_requirements.yml
+    - .github/workflows/update_requirements.yml
