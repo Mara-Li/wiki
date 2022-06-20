@@ -2,6 +2,7 @@ group:
   repos: |
     obsidianMkdocs/obsidian-mkdocs-publisher-template
     obsidianMkdocs/obsidian_mkdocs_publisher_docs
+    sandboxingRepo/obsidian-sandbox
   files:
     - source: overrides/
       dest: overrides/
@@ -9,3 +10,4 @@ group:
     - .github/workflows/mkdocs_build.yml
     - .github/workflows/manual_run.yml
     - .github/workflows/update_requirements.yml
+    - requirements.txt
