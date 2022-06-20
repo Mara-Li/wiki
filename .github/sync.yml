@@ -5,5 +5,5 @@ group:
   files:
     - source: overrides/
       dest: overrides/
-    - .github/workflows/ci.yml
-    - .github/workflows/mkdocs_build.yml
+    - source: .github/workflows/
+      dest: .github/workflows/
