@@ -120,5 +120,6 @@ extra_css:
     - assets/css/utils.css
     - assets/css/custom_attributes.css
     - assets/css/tooltipster.bundle.min.css
+    - assets/css/admonition.css
 extra:
   generator: false
