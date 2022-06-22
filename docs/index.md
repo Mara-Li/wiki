@@ -15,5 +15,3 @@ index: true
 
     !!! project "🇬🇧 [Obsidian Metacopy](https://github.com/Mara-Li/obsidian-metacopy)"
         Un plugin [Obsidian](https://www.obsidian.md/) qui permet de rapidement copier/coller une clé de frontmatter, et de créer des liens à partir du nom de ses notes et divers autres paramètres.
-
----
