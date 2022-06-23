@@ -10,7 +10,7 @@ share: True
 title: Illustration
 cssclass: "img-grid"
 ---
-→ [[(Fiche) index.md (Lagendia)]]
+→ [[(Fiche) Mnémosyne (Lagendia)]]
 **Lagendia**{: #Lagendia .hash} 
 
 !!! GRID "Medhas"
@@ -18,7 +18,7 @@ cssclass: "img-grid"
 	
 	![[../../assets/img/Némo & Grimmerald.png]] ![[../../assets/img/Grimm_Nemo.jpg]]
 	
-	![[index.md robe - Farraige.png]] ![[../../assets/img/Nemo_robe_medhas.png]] ![[../../assets/img/Nemo-Meme-Grimm.png]]
+	![[../../assets/img/Mnémosyne robe - Farraige.png]] ![[../../assets/img/Nemo_robe_medhas.png]] ![[../../assets/img/Nemo-Meme-Grimm.png]]
 
 !!! GRID "Phil"
 	![[../../assets/img/Némo — Dolce 1.png]] ![[../../assets/img/Némo guirlande Dolce.png]] ![[../../assets/img/Némo portrait Dolce.png|]]
@@ -28,7 +28,7 @@ cssclass: "img-grid"
 	![[../../assets/img/Fanart Gabrioche.png]]
 
 !!! GRID "Commission"
-	![[../../assets/img/twitter_commission_../../assets/img/Mnemosyne.png]] ![[index.md Fullbody.jpeg]] 
+	![[../../assets/img/twitter_commission_Mnemosyne.png]] ![[../../assets/img/Mnémosyne Fullbody.jpeg]] 
 	
 	![[../../assets/img/Rosa_Garcia_2.png|300]] ![[../../assets/img/Mnemosyne.png|300]]
 	
