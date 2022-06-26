@@ -1,14 +1,13 @@
 ---
 category: Scriptorium/Vélum
-share: true
+share: True
 type: Timeline
 univers: Bibliothèque Infinie
 name: Timeline
 description: La timeline de l'univers.
-tag:
-  - RP/Bibliothèque-Infinie/Timeline
+tags: 
+- RP/Bibliothèque-Infinie/Timeline
 ---
-
 ## Antiquité
 
 - 700 v.JC : Babylone devient la capitale de la magie sous la directioen du Roi Gilgamesh.
