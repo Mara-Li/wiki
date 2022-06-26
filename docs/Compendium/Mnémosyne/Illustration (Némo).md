@@ -9,6 +9,7 @@ type: Illustration
 share: True
 title: Illustration
 cssclass: "img-grid"
+banner: "https://www.mara-li.fr/assets/img/twitter_commission_Mnemosyne.png"
 ---
 → [[(Fiche) Mnémosyne (Lagendia)]]
 **Lagendia**{: #Lagendia .hash} 
