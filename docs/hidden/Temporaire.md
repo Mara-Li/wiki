@@ -1,5 +1,5 @@
 ---
-share: true
+share: True
 category: hidden
 ---
 I
@@ -28,7 +28,7 @@ Hello.
 
 
 
->[!note]
->>[!note]
->>coucou
 
+> [!note]
+> >[!note]
+> >coucou
