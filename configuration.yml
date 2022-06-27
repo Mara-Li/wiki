@@ -1,11 +1,4 @@
 minimal:
-  configuration:
-    input: null
-    output: null
-  frontmatter:
-    category:
-      default value: notes
-      key: category
-    index: (i)
-    share: share
-  weblink: null
+    convert:
+        admonition: false
+        hashtags: true
