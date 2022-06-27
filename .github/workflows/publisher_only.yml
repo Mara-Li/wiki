@@ -1,4 +1,4 @@
-name: mkdocs_build
+name: Building Mkdocs Page
 
 on:
   workflow_dispatch:
