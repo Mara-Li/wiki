@@ -95,6 +95,8 @@ plugins:
   - awesome-pages
   - tooltipster-links
   - embed_file
+  - custom-attributes:
+      file: 'assets/css/custom_attributes.css'
   - tags:
       tags_file: tags.md
   - mkdocs-simple-hooks:
