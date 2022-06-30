@@ -39,6 +39,7 @@ markdown_extensions:
   - footnotes
   - nl2br
   - attr_list
+  - md_in_html
   - sane_lists
   - meta
   - smarty
@@ -53,14 +54,14 @@ markdown_extensions:
   - pymdownx.keys
   - pymdownx.mark
   - pymdownx.tilde
-  - markdown.extensions.md_in_html
   - pymdownx.highlight:
       use_pygments: true
       anchor_linenums: true
   - pymdownx.tasklist:
        custom_checkbox: true
   - pymdownx.emoji:
-      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
   - admonition
   - toc:
       permalink: true
@@ -102,6 +103,7 @@ plugins:
   - mkdocs-simple-hooks:
       hooks:
         on_env: "overrides.partials.hooks:on_env"
+        on_page_markdown: "overrides.partials.comments:on_page_markdown"
   - encryptcontent:
       title_prefix: '🔐'
       summary: 'Page privée'
@@ -124,5 +126,6 @@ extra_css:
     - assets/css/custom_attributes.css
     - assets/css/tooltipster.bundle.min.css
     - assets/css/admonition.css
+    - assets/css/pillar-grids.css
 extra:
   generator: false
