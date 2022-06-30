@@ -126,6 +126,6 @@ extra_css:
     - assets/css/custom_attributes.css
     - assets/css/tooltipster.bundle.min.css
     - assets/css/admonition.css
-    - assets/css/pillar-grids.css
+    - assets/css/grid.css
 extra:
   generator: false
