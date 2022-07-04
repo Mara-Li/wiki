@@ -1,5 +1,10 @@
 ---
 share: true
+category: outils/tutoriel
+tags:
+- Pandoc
+- Obsidian
+- Tutoriel
 ---
 
 Souvent, on peut se demander "mais comment, bon dieu on peut continuer à utiliser word pour nos mémoires ?" car Word-google doc a de nombreux (très nombreux) problème. 

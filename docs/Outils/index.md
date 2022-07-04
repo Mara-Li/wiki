@@ -1,6 +1,6 @@
 ---
 template: blog.html
 title: Notes
-category: notes
+category: Outils
 hidden: True
 ---

@@ -1,6 +1,6 @@
 ---
 share: true
-title: Pourquoi Obsidian ?
+category: Outils
 ---
 
 # Introduction

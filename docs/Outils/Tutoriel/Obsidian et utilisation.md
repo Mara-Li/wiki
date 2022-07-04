@@ -1,6 +1,9 @@
 ---
 share: true
-title: "Comment j'utilise Obsidian"
+category: outils/tutoriel
+tags:
+- Obsidian
+- Tutoriel
 ---
 
 Comme je l'ai déjà dit dans [[Pourquoi Obsidian.md]], mon utilisation du logiciel diffère assez des autres utilisateurs. 
