@@ -1,6 +1,9 @@
 ---
 share: true
 category: Outils
+tags: 
+- Outils
+- Obsidian
 ---
 
 # Introduction
