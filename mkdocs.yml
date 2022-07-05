@@ -34,6 +34,9 @@ theme:
         - navigation.top
         - navigation.tabs
         - navigation.tabs.sticky
+        - navigation.instant
+        - search.suggest
+        - search.highlight
 # Extensions
 markdown_extensions:
   - footnotes
@@ -72,9 +75,6 @@ markdown_extensions:
         - name: dataview
           class: dataview
           format: !!python/name:pymdownx.superfences.fence_div_format
-        - name: agtable
-          class: agtable
-          format: !!python/name:mkdocs_custom_fences.md_render.md_sub_render
         - name: folderv
           class: folderv
           format: !!python/name:pymdownx.superfences.fence_div_format
@@ -102,8 +102,8 @@ plugins:
       tags_file: tags.md
   - mkdocs-simple-hooks:
       hooks:
-        on_env: "overrides.partials.hooks:on_env"
-        on_page_markdown: "overrides.partials.comments:on_page_markdown"
+        on_env: "overrides.hooks.on_env:on_env"
+        on_page_markdown: "overrides.hooks.on_page_markdown:on_page_markdown"
   - encryptcontent:
       title_prefix: '🔐'
       summary: 'Page privée'
