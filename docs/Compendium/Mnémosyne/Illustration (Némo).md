@@ -14,27 +14,27 @@ tags:
 → [[(Fiche) Mnémosyne (Lagendia)]]
 
 > [!GRID] Medhas
-> ![[Illustration (Némo)]] ![[Illustration (Némo)]] ![[Illustration (Némo)]] 
+> ![[../../assets/img/Nemo_Medhas.png]] ![[../../assets/img/Nemo_funny_medhas.jpeg]] ![[../../assets/img/Nemo_Grimm.jpeg]] 
 > 
-> ![[Illustration (Némo)]] ![[Illustration (Némo)]]
+> ![[../../assets/img/Némo & Grimmerald.png]] ![[../../assets/img/Grimm_Nemo.jpg]]
 > 
-> ![[Illustration (Némo)]] ![[Illustration (Némo)]] ![[Illustration (Némo)]]
+> ![[../../assets/img/Mnémosyne robe - Farraige.png]] ![[../../assets/img/Nemo_robe_medhas.png]] ![[../../assets/img/Nemo-Meme-Grimm.png]]
 
 > [!GRID] Phil
-> ![[Illustration (Némo)]] ![[Illustration (Némo)]] ![[Illustration (Némo)|]]
-> ![[Illustration (Némo)]] ![[Illustration (Némo)]]
+> ![[../../assets/img/Némo — Dolce 1.png]] ![[../../assets/img/Némo guirlande Dolce.png]] ![[../../assets/img/Némo portrait Dolce.png|]]
+> ![[../../assets/img/Némo half dolce.png]] ![[../../assets/img/Panneau_némo.png]]
 
 > [!GRID] Gabrioche
-> ![[Illustration (Némo)]]
+> ![[../../assets/img/Fanart Gabrioche.png]]
 
->[!GRID] Chaa
-> ![[Illustration (Némo)]]
+> [!GRID] Chaa
+> ![[../../assets/img/Chaa_Nemo_Rodon.png]]
 
 
 >[!GRID] Commission
->![[Illustration (Némo)]] ![[Illustration (Némo)]] 
+>![[../../assets/img/twitter_commission_Mnemosyne.png]] ![[../../assets/img/Mnémosyne Fullbody.jpeg]] 
 >
->![[Illustration (Némo)|300]] ![[Illustration (Némo)|300]]
+>![[../../assets/img/Rosa_Garcia_2.png|300]] ![[../../assets/img/Mnemosyne.png|300]]
 >
-> ![[Illustration (Némo)]] ![[Illustration (Némo)]]
+> ![[../../assets/img/Nemo by Mogeckko.jpeg]] ![[../../assets/img/Némo_lillyth.jpg]]
 >
