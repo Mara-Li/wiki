@@ -129,3 +129,4 @@ extra_css:
     - assets/css/grid.css
 extra:
   generator: false
+  SEO: 'assets/logo/LOGO_SEO.png'
