@@ -19,9 +19,9 @@ from pathlib import Path
 import re
 
 def main():
-    parser = argparse.ArgumentParser(description='Create a category in the database.')
+    parser = argparse.ArgumentParser(description='Create a new category your mkdocs documentations from your docs (or configured directory).')
     parser.add_argument('name', help='Name of the category.')
-    parser.add_argument('--parent', help='Parent category.')
+    parser.add_argument('--parent', help='Parent category, in path. Example : "category/subcategory"')
     parser.add_argument('--description', help='Description of the category.')
     parser.add_argument('--toc', help='hide toc', action='store_true')
     parser.add_argument('--nav', help='hide nav', action='store_true')
