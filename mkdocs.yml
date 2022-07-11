@@ -121,12 +121,14 @@ extra_javascript:
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
   - assets/js/tooltipster.bundle.js
 extra_css:
-    - assets/css/img-grids-floats.css
-    - assets/css/utils.css
+    - assets/css/template/img-grids-floats.css
+    - assets/css/template/utils.css
+    - assets/css/template/blog.css
+    - assets/css/template/tooltipster.bundle.min.css
+    - assets/css/template/grid.css
     - assets/css/custom_attributes.css
-    - assets/css/tooltipster.bundle.min.css
     - assets/css/admonition.css
-    - assets/css/grid.css
+    - assets/css/customization.css
 extra:
   generator: false
   SEO: 'assets/logo/LOGO_SEO.png'

@@ -3,6 +3,7 @@ group:
     - source: overrides/
       dest: overrides/
     - requirements.txt
+    - docs/assets/css/template
     repos: |
       obsidianMkdocs/obsidian-mkdocs-publisher-template
       obsidianMkdocs/obsidian_mkdocs_publisher_docs
