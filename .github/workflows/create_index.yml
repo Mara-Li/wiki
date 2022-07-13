@@ -54,6 +54,7 @@ jobs:
             toc_hide='--toc'
           fi
           if [[ ${{inputs.nav_hide}} -eq true ]]
+          then
             nav_hide='--nav'
           fi
           if [[ ${{inputs.description}} ]]
@@ -61,7 +62,9 @@ jobs:
             description='--description ${{inputs.description}}'
           fi
           if [[ ${{ inputs.path }} ]]
+          then
             parent='--parent ${{inputs.path}}'
+          fi
           echo "::set-env name=toc_hide::$toc_hide"
           echo "::set-env name=nav_hide::$nav_hide"
           echo "::set-env name=description::$description"
