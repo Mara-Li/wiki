@@ -61,9 +61,9 @@ jobs:
           then
             description='--description ${{github.events.inputs.description}}'
           fi
-          if [[ ${{ github.events.path }} -ne '']]
+          if [[ ${{ github.events.inputs.path }} -ne '']]
           then
-            parent='--parent ${{github.events.path}}'
+            parent='--parent ${{github.events.inputs.path}}'
           fi
           echo "::set-env name=toc_hide::$toc_hide"
           echo "::set-env name=nav_hide::$nav_hide"
