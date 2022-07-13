@@ -29,9 +29,9 @@ jobs:
     steps:
       - name: echo variable
         run: |
-          echo "Category name : ${{ inputs.category_name }}"
-          echo "Parent path : ${{ inputs.path }}"
-          echo "Description : ${{ inputs.description }}"
+          echo "Category name : ${{ github.events.inputs.category_name }}"
+          echo "Parent path : ${{ github.events.inputs.path }}"
+          echo "Description : ${{ github.events.inputs.description }}"
           echo "Hide toc : ${{ inputs.toc_hide }}"
           echo "Hide nav : ${{ inputs.nav_hide }}"
       - name: checkout repo
