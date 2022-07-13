@@ -79,7 +79,7 @@ def main():
     if not args.dry_run:
         create_category(path, index)
     else:
-        print(f'Creating category with the following arguments :{args}')
+        print(f'Creating category with the following arguments : {args}')
         print(f'Path : {path}')
         print(f'Index : {index}')
     
