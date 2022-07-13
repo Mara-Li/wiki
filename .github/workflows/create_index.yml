@@ -27,6 +27,11 @@ jobs:
   runner:
     runs-on: ubuntu-latest
     steps:
-      - name: Echo inputs
+      - name: echo variable
         run: |
-          echo ${{ inputs.category_name}} ${{inputs.toc_hide}}"
+          echo "Category name : ${{ inputs.category_name }}"
+          echo "Parent path : ${{ inputs.path }}"
+          echo "Description : ${{ inputs.description }}"
+          echo "Hide toc : ${{ toc_hide }}"
+          echo "Hide nav : ${{ nav_hide }}"
+          
