@@ -50,10 +50,10 @@ jobs:
           nav_hide=''
           description=''
           parent=''
-          desc = "${{ github.events.inputs.description }}"
-          desc_len = ${#desc}
-          path = "${{ github.events.inputs.path }}"
-          path_len = ${#path}
+          desc="${{ github.events.inputs.description }}"
+          desc_len=${#desc}
+          path="${{ github.events.inputs.path }}"
+          path_len=${#path}
           if [[ ${{inputs.toc_hide}} -eq true ]]
           then
             toc_hide='--toc'
