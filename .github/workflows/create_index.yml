@@ -43,12 +43,34 @@ jobs:
           cache: 'pip'
       - name: Install requirements
         run: pip install pyyaml
-      - name: Dry run
+      - name: Arguments
         run: |
+          toc_hide=''
+          nav_hide=''
+          description=''
+          parent=''
           if [[ ${{inputs.toc_hide}} -eq true ]]
           then
-            echo "coucou"
+            toc_hide='--toc'
           fi
+          if [[ ${{inputs.nav_hide}} -eq true ]]
+            nav_hide='--nav'
+          fi
+          if [[ ${{inputs.description}} ]]
+          then
+            description='--description ${{inputs.description}}'
+          fi
+          if [[ ${{ inputs.path }} ]]
+            parent='--parent ${{inputs.path}}'
+          echo "::set-env name=toc_hide::$toc_hide"
+          echo "::set-env name=nav_hide::$nav_hide"
+          echo "::set-env name=description::$description"
+          echo "::set-env name=parent::$parent"
+      - name: get args
+        run: |
+          echo $toc_hide
+          
+
 
 
 
