@@ -52,9 +52,9 @@ jobs:
           nav_hide=''
           description=''
           parent=''
-          desc="${{ github.events.inputs.description }}"
+          desc="${{ inputs.description }}"
           desc_len=${#desc}
-          path="${{ github.events.inputs.path }}"
+          path="${{ inputs.path }}"
           path_len=${#path}
           if [[ ${{inputs.toc_hide}} -eq true ]]
           then
@@ -84,6 +84,7 @@ jobs:
         run: |
           git config --global user.name 'github-actions'
           git config --global user.email 'github-actions@users.noreply.github.com'
+
 
 
 
