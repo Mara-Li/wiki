@@ -57,9 +57,9 @@ jobs:
           then
             nav_hide='--nav'
           fi
-          if [[ ${{github.events.description}} -ne '' ]]
+          if [[ ${{github.events.inputs.description}} -ne '' ]]
           then
-            description='--description ${{github.events.description}}'
+            description='--description ${{github.events.inputs.description}}'
           fi
           if [[ ${{ github.events.path }} -ne '']]
           then
