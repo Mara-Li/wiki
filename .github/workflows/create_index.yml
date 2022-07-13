@@ -58,7 +58,7 @@ jobs:
           then
             nav_hide='--nav'
           fi
-          if [[ "${{github.events.inputs.description}}" -ge 1 ]]
+          if [[ "${{github.events.inputs.description}}" -ne '' ]]
           then
             description='--description ${{github.events.inputs.description}}'
           fi
