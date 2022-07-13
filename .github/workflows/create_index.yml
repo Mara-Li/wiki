@@ -65,45 +65,53 @@ jobs:
           if [[ ${{inputs.dry_run}} -eq true ]]
           then
             dry_run='--dry-run'
+            echo "--dry-run"
           fi
           if [[ ${{inputs.toc_hide}} -eq true ]]
           then
             toc_hide='--toc'
+            echo "--toc"
           fi
           if [[ ${{inputs.nav_hide}} -eq true ]]
           then
             nav_hide='--nav'
+            echo "--nav"
           fi
           if [[ $desc_len -ge 1 ]]
           then
             description='--description "${{inputs.description}}"'
+            echo $description
           fi
           if [[ $path_len -ge 1 ]]
           then
             parent='--parent "${{inputs.path}}"'
+            echo $parent
           fi
           echo "::set-output name=dry_run::$dry_run"
           echo "::set-output name=toc_hide::$toc_hide"
           echo "::set-output name=nav_hide::$nav_hide"
           echo "::set-output name=description::$description"
           echo "::set-output name=parent::$parent"
-      - name: dry-run
+      - name: Creating index
         run: |
           echo "🐍 Creating category"
           python3 category.py "${{ inputs.category_name }}" ${{steps.args.outputs.dry_run}} ${{ steps.args.outputs.toc_hide }} ${{ steps.args.outputs.nav_hide }} ${{ steps.args.outputs.description }} ${{ steps.args.outputs.parent }}
       - name: Set github accounts
         if: ${{ inputs.dry_run == false }}
         run: |
+          echo "🗃️ Set github accounts"
           git config --global user.name 'github-actions'
           git config --global user.email 'github-actions@users.noreply.github.com'
       - name: mkdocs build
         if: ${{ inputs.dry_run == false }}
         run: |
+          echo "💠Deploy to mkdocs"
           pip install -r requirements.txt
           mkdocs gh-deploy --force --clean
       - name: Push new files
         if: ${{ inputs.dry_run == false }}
         run: |
+          echo "📤 Push to repository"
           git pull
           rm -rf ./site/
           git add .
