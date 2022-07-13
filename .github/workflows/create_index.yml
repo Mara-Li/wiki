@@ -34,4 +34,28 @@ jobs:
           echo "Description : ${{ inputs.description }}"
           echo "Hide toc : ${{ inputs.toc_hide }}"
           echo "Hide nav : ${{ inputs.nav_hide }}"
+      - name: checkout repo
+        uses: actions/checkout@v3
+      - name: Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+          cache: 'pip'
+      - name: Dry run
+        run: |
+          if [[ ${{inputs.toc_hide}} && ${{inputs.nav_hide}} ]]
+            then
+              python3 category.py ${{inputs.category_name}} --dry-run --parent ${{inputs.path}} --description ${{inputs.description}} --toc --nav
+          elif [[ ${{inputs.toc_hide}} ]]
+            then
+              python3 category.py ${{inputs.category_name}} --dry-run --parent ${{inputs.path}} --description ${{inputs.description}} --toc
+          elif [[ ${{inputs.nav_hide}} ]]
+            then
+              python3 category.py ${{inputs.category_name}} --dry-run --parent ${{inputs.path}} --description ${{inputs.description}} --nav
+          else
+            python3 category.py ${{inputs.category_name}} --dry-run --parent ${{inputs.path}} --description ${{inputs.description}}
+          fi
+
+
+
 
