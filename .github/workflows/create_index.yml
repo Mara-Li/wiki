@@ -62,7 +62,7 @@ jobs:
           desc_len=${#desc}
           path="${{ inputs.path }}"
           path_len=${#path}
-          if [[ ${{inputs.dry_run}} -eq true]]
+          if [[ ${{inputs.dry_run}} -eq true ]]
           then
             dry_run='--dry-run'
           fi
