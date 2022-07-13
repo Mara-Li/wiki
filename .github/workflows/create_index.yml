@@ -44,6 +44,7 @@ jobs:
       - name: Install requirements
         run: pip install pyyaml
       - name: Arguments
+        id: args
         run: |
           echo '🔁 gettings arguments'
           toc_hide=''
@@ -54,6 +55,8 @@ jobs:
           desc_len=${#desc}
           path="${{ github.events.inputs.path }}"
           path_len=${#path}
+          echo $path_len
+          echo $desc_len
           if [[ ${{inputs.toc_hide}} -eq true ]]
           then
             toc_hide='--toc'
@@ -70,13 +73,14 @@ jobs:
           then
             parent='--parent ${{github.events.inputs.path}}'
           fi
-          echo "::set-env name=toc_hide::$toc_hide"
-          echo "::set-env name=nav_hide::$nav_hide"
-          echo "::set-env name=description::$description"
-          echo "::set-env name=parent::$parent"
+          echo "::set-output name=toc_hide::$toc_hide"
+          echo "::set-output name=nav_hide::$nav_hide"
+          echo "::set-output name=description::$description"
+          echo "::set-output name=parent::$parent"
       - name: get args
         run: |
-          echo $toc_hide
+          echo ${{ steps.args.outputs.toc_hide }}
+          echo ${{ steps.args.outputs.description }}
           
 
 
