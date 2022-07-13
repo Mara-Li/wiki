@@ -62,17 +62,17 @@ jobs:
           desc_len=${#desc}
           path="${{ inputs.path }}"
           path_len=${#path}
-          if [[ "${{inputs.dry_run}}" -eq "true" ]]
+          if [[ "${{inputs.dry_run}}" == "true" ]]
           then
             dry_run='--dry-run'
             echo "--dry-run"
           fi
-          if [[ "${{inputs.toc_hide}}" -eq "true" ]]
+          if [[ "${{inputs.toc_hide}}" == "true" ]]
           then
             toc_hide='--toc'
             echo "--toc"
           fi
-          if [[ "${{inputs.nav_hide}}" -eq "true" ]]
+          if [[ "${{inputs.nav_hide}}" == "true" ]]
           then
             nav_hide='--nav'
             echo "--nav"
