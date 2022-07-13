@@ -5,7 +5,7 @@ group:
     - requirements.txt
     - docs/assets/css/template
     - .github/workflows/create_index.yml
-    - .github/workflows/publisher_only.yml
+    - .github/workflows/mkdocs_build.yml
     repos: |
       obsidianMkdocs/obsidian-mkdocs-publisher-template
       obsidianMkdocs/obsidian_mkdocs_publisher_docs
