@@ -66,11 +66,11 @@ jobs:
           fi
           if [[ $desc_len -ge 1 ]]
           then
-            description='--description "${{github.events.inputs.description}}"'
+            description='--description "${{inputs.description}}"'
           fi
           if [[ $path_len -ge 1 ]]
           then
-            parent='--parent "${{github.events.inputs.path}}"'
+            parent='--parent "${{inputs.path}}"'
           fi
           echo "::set-output name=toc_hide::$toc_hide"
           echo "::set-output name=nav_hide::$nav_hide"
@@ -84,8 +84,13 @@ jobs:
         run: |
           git config --global user.name 'github-actions'
           git config --global user.email 'github-actions@users.noreply.github.com'
-
-
+      - name: Push new files
+        continue-on-error: true
+        run: |
+          git pull
+          git add .
+          git commit -am "Index created"
+          git push
 
 
 
