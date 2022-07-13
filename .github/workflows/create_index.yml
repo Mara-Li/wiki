@@ -45,17 +45,9 @@ jobs:
         run: pip install pyyaml
       - name: Dry run
         run: |
-          if [[ ${{inputs.toc_hide}} && ${{inputs.nav_hide}} ]]
-            then
-              python3 category.py ${{inputs.category_name}} --dry-run --parent ${{inputs.path}} --description ${{inputs.description}} --toc --nav
-          elif [[ ${{inputs.toc_hide}} ]]
-            then
-              python3 category.py ${{inputs.category_name}} --dry-run --parent ${{inputs.path}} --description ${{inputs.description}} --toc
-          elif [[ ${{inputs.nav_hide}} ]]
-            then
-              python3 category.py ${{inputs.category_name}} --dry-run --parent ${{inputs.path}} --description ${{inputs.description}} --nav
-          else
-            python3 category.py ${{inputs.category_name}} --dry-run --parent ${{inputs.path}} --description ${{inputs.description}}
+          if [[ ${{inputs.toc_hide}} -eq true ]]
+          then
+            echo "coucou"
           fi
 
 
