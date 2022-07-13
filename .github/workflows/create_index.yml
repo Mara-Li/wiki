@@ -57,13 +57,13 @@ jobs:
           then
             nav_hide='--nav'
           fi
-          if [[ ${{inputs.description}} ]]
+          if [[ ${{github.events.description}} -ne '' ]]
           then
-            description='--description ${{inputs.description}}'
+            description='--description ${{github.events.description}}'
           fi
-          if [[ ${{ inputs.path }} ]]
+          if [[ ${{ github.events.path }} -ne '']]
           then
-            parent='--parent ${{inputs.path}}'
+            parent='--parent ${{github.events.path}}'
           fi
           echo "::set-env name=toc_hide::$toc_hide"
           echo "::set-env name=nav_hide::$nav_hide"
