@@ -21,7 +21,6 @@ import re
 def create_category(path, index_contents):
     path.mkdir(parents=True, exist_ok=True)
     index_file = Path(path, 'index.md')
-    print(f'Creating category on {path} with the following index :\n {index_contents}')
     with open(index_file, 'w', encoding='utf-8') as f:
         f.write(index_contents.lstrip())
 
@@ -77,11 +76,16 @@ def main():
     path, description_yaml, hider, description_contents = resolving_args(args, docs_dir)
     index = index_contents(args.name, description_yaml, hider, description_contents)
     if not args.dry_run:
+        print('📤 Creating category 📤...')
+        print(f'\nArguments used :\n- Name: {args.name}\n- Parents: {args.parent}\n- Description: {args.description}\n- Toc: {args.toc}\n- Nav: {args.nav}\n')
+        print(f'📌 Creating with path : {path}')
         create_category(path, index)
+        print('Category created ! 🎉')
     else:
-        print(f'Creating category with the following arguments : {args}')
-        print(f'Path : {path}')
-        print(f'Index : {index}')
+        print('🐍 Dry Run 🐍')
+        print(f'\nArguments used :\n- Name: {args.name}\n- Parents: {args.parent}\n- Description: {args.description}\n- Toc: {args.toc}\n- Nav: {args.nav}\n')
+        print(f'🚃 Path : {path}')
+        print(f'🗃️ Index : {index}')
     
 
 if __name__ == "__main__":
