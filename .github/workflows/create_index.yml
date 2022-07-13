@@ -32,6 +32,6 @@ jobs:
           echo "Category name : ${{ inputs.category_name }}"
           echo "Parent path : ${{ inputs.path }}"
           echo "Description : ${{ inputs.description }}"
-          echo "Hide toc : ${{ toc_hide }}"
-          echo "Hide nav : ${{ nav_hide }}"
-          
+          echo "Hide toc : ${{ inputs.toc_hide }}"
+          echo "Hide nav : ${{ inputs.nav_hide }}"
+
