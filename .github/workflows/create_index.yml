@@ -58,11 +58,11 @@ jobs:
           then
             nav_hide='--nav'
           fi
-          if [[ ${#${{github.events.inputs.description}} } -ge 1 ]]
+          if [[ "${{github.events.inputs.description}}" -ge 1 ]]
           then
             description='--description ${{github.events.inputs.description}}'
           fi
-          if [[ ${#${{ github.events.inputs.path }} } -ge 1]]
+          if [[ "${{ github.events.inputs.path }}" -ne '']]
           then
             parent='--parent ${{github.events.inputs.path}}'
           fi
