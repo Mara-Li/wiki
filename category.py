@@ -21,6 +21,7 @@ import re
 def create_category(path, index_contents):
     path.mkdir(parents=True, exist_ok=True)
     index_file = Path(path, 'index.md')
+    print(f'Creating category on {path} with the following index :\n {index_contents}')
     with open(index_file, 'w', encoding='utf-8') as f:
         f.write(index_contents.lstrip())
 
@@ -44,7 +45,7 @@ def resolving_args(args, docs_dir):
     else:
         path = Path(docs_dir, args.name)
     if args.description:
-        description_yaml = '\ndescription:' + args.description
+        description_yaml = '\ndescription: ' + args.description
         description_contents = args.description
     else:
         description_yaml = ''

@@ -23,6 +23,10 @@ on:
         type: boolean
         required: false
         description: "Hide the navigation menu in the index file."
+      dry_run:
+        type: boolean
+        required: false
+        description: "Do not create new category index, just log."
 jobs:
   runner:
     runs-on: ubuntu-latest
@@ -33,8 +37,9 @@ jobs:
           echo "Category name : ${{ inputs.category_name }}"
           echo "Parent path : ${{ inputs.path }}"
           echo "Description : ${{ inputs.description }}"
-          echo "Hide toc : ${{ inputs.toc_hide }}"
-          echo "Hide nav : ${{ inputs.nav_hide }}"
+          echo "Hide toc ? ${{ inputs.toc_hide }}"
+          echo "Hide nav ? ${{ inputs.nav_hide }}"
+          echo "Dry run ? ${{ inputs.dry_run }}"
       - name: checkout repo
         uses: actions/checkout@v3
       - name: Python
@@ -50,12 +55,17 @@ jobs:
           echo 🔁 gettings arguments
           toc_hide=''
           nav_hide=''
+          dry_run=''
           description=''
           parent=''
           desc="${{ inputs.description }}"
           desc_len=${#desc}
           path="${{ inputs.path }}"
           path_len=${#path}
+          if [[ ${{inputs.dry_run}} -eq true]]
+          then
+            dry_run='--dry-run'
+          fi
           if [[ ${{inputs.toc_hide}} -eq true ]]
           then
             toc_hide='--toc'
@@ -72,25 +82,34 @@ jobs:
           then
             parent='--parent "${{inputs.path}}"'
           fi
+          echo "::set-output name=dry_run::$dry_run"
           echo "::set-output name=toc_hide::$toc_hide"
           echo "::set-output name=nav_hide::$nav_hide"
           echo "::set-output name=description::$description"
           echo "::set-output name=parent::$parent"
       - name: dry-run
         run: |
-          echo "🐍 Creating category [dry-run]"
-          python3 category.py "${{ inputs.category_name }}" --dry-run ${{ steps.args.outputs.toc_hide }} ${{ steps.args.outputs.nav_hide }} ${{ steps.args.outputs.description }} ${{ steps.args.outputs.parent }}
+          echo "🐍 Creating category"
+          python3 category.py "${{ inputs.category_name }}" ${{steps.args.outputs.dry_run}} ${{ steps.args.outputs.toc_hide }} ${{ steps.args.outputs.nav_hide }} ${{ steps.args.outputs.description }} ${{ steps.args.outputs.parent }}
       - name: Set github accounts
+        if: ${{ inputs.dry_run == false }}
         run: |
           git config --global user.name 'github-actions'
           git config --global user.email 'github-actions@users.noreply.github.com'
+      - name: mkdocs build
+        if: ${{ inputs.dry_run == false }}
+        run: |
+          pip install -r requirements.txt
+          mkdocs gh-deploy --force --clean
       - name: Push new files
-        continue-on-error: true
+        if: ${{ inputs.dry_run == false }}
         run: |
           git pull
+          rm -rf ./site/
           git add .
           git commit -am "Index created"
           git push
+
 
 
 
