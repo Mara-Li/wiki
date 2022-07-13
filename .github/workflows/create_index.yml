@@ -1,4 +1,4 @@
-name: create index
+name: Index Creation
 
 on: 
   workflow_dispatch:
