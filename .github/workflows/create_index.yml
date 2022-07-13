@@ -41,6 +41,8 @@ jobs:
         with:
           python-version: '3.10'
           cache: 'pip'
+      - name: Install requirements
+        run: pip install pyyaml
       - name: Dry run
         run: |
           if [[ ${{inputs.toc_hide}} && ${{inputs.nav_hide}} ]]
