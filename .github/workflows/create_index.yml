@@ -50,6 +50,10 @@ jobs:
           nav_hide=''
           description=''
           parent=''
+          desc = "${{ github.events.inputs.description }}"
+          desc_len = ${#desc}
+          path = "${{ github.events.inputs.path }}"
+          path_len = ${#path}
           if [[ ${{inputs.toc_hide}} -eq true ]]
           then
             toc_hide='--toc'
@@ -58,11 +62,11 @@ jobs:
           then
             nav_hide='--nav'
           fi
-          if [[ "${{github.events.inputs.description}}" -ne '' ]]
+          if [[ $desc_len -ge 1 ]]
           then
             description='--description ${{github.events.inputs.description}}'
           fi
-          if [[ "${{ github.events.inputs.path }}" -ne '']]
+          if [[ $path_len -ge 1 ]]
           then
             parent='--parent ${{github.events.inputs.path}}'
           fi
