@@ -33,13 +33,13 @@ jobs:
     steps:
       - name: echo variable
         run: |
-          echo 📫 Commands arguments
-          echo "Category name : ${{ inputs.category_name }}" >> $GITHUB_STEP_SUMMARY
-          echo "Parent path : ${{ inputs.path }}" >> $GITHUB_STEP_SUMMARY
-          echo "Description : ${{ inputs.description }}" >> $GITHUB_STEP_SUMMARY
-          echo "Hide toc ? ${{ inputs.toc_hide }}" >> $GITHUB_STEP_SUMMARY
-          echo "Hide nav ? ${{ inputs.nav_hide }}" >> $GITHUB_STEP_SUMMARY
-          echo "Dry run ? ${{ inputs.dry_run }}" >> $GITHUB_STEP_SUMMARY
+          echo "📫 Commands arguments" >> $GITHUB_STEP_SUMMARY
+          echo "- Category name : ${{ inputs.category_name }}" >> $GITHUB_STEP_SUMMARY
+          echo "- Parent path : ${{ inputs.path }}" >> $GITHUB_STEP_SUMMARY
+          echo "- Description : ${{ inputs.description }}" >> $GITHUB_STEP_SUMMARY
+          echo "- Hide toc ? ${{ inputs.toc_hide }}" >> $GITHUB_STEP_SUMMARY
+          echo "- Hide nav ? ${{ inputs.nav_hide }}" >> $GITHUB_STEP_SUMMARY
+          echo "- Dry run ? ${{ inputs.dry_run }}" >> $GITHUB_STEP_SUMMARY
       - name: checkout repo
         uses: actions/checkout@v3
       - name: Python
@@ -97,10 +97,9 @@ jobs:
         run: |
           echo "🐍 Creating category"
           echo "---" >> $GITHUB_STEP_SUMMARY
-          echo "# Python " >> $GITHUB_STEP_SUMMARY
-          echo "```" >> $GITHUB_STEP_SUMMARY
+          echo "\`\`\`" >> $GITHUB_STEP_SUMMARY
           python3 category.py "${{ inputs.category_name }}" ${{steps.args.outputs.dry_run}} ${{ steps.args.outputs.toc_hide }} ${{ steps.args.outputs.nav_hide }} ${{ steps.args.outputs.description }} ${{ steps.args.outputs.parent }} >> $GITHUB_STEP_SUMMARY
-          echo "```" >> $GITHUB_STEP_SUMMARY
+          echo "\`\`\`" >> $GITHUB_STEP_SUMMARY
       - name: Set github accounts
         if: ${{ inputs.dry_run == false }}
         run: |
