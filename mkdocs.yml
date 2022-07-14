@@ -4,8 +4,8 @@ site_url: https://www.mara-li.fr/
 
 theme:
     name: 'material'
-    logo: assets/logo/favicons.png
-    favicon: assets/logo/favicons.png
+    logo: assets/meta/favicons.png
+    favicon: assets/meta/favicons.png
     custom_dir: overrides
     font:
         text: Karla
@@ -133,4 +133,4 @@ extra_css:
     - assets/css/customization.css
 extra:
   generator: false
-  SEO: 'assets/logo/LOGO_SEO.png'
+  SEO: 'assets/meta/LOGO_SEO.png'
