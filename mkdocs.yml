@@ -95,7 +95,9 @@ plugins:
   - mermaid2
   - awesome-pages
   - tooltipster-links
-  - embed_file
+  - embed_file:
+      callouts: true
+      custom-attributes: 'assets/css/custom_attributes.css'
   - custom-attributes:
       file: 'assets/css/custom_attributes.css'
   - tags:
