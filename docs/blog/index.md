@@ -9,3 +9,5 @@ hide:
   - navigation
   - toc
 ---
+
+Un moyen simple et efficace de partager mes petites pensées
