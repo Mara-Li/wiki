@@ -1,10 +1,9 @@
 group:
   - files: 
     - requirements.txt
-  - repos: |
+    repos: |
       obsidianMkdocs/obsidian-mkdocs-publisher-template
       sandboxingRepo/obsidian-sandbox
-
   - files:
     - source: overrides/
       dest: overrides/
