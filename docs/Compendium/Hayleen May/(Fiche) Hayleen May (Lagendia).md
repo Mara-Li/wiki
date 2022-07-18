@@ -63,7 +63,7 @@ Hayleen est aussi une personne très loyale, amicale, et gentille. Elle n'hésit
 
 Elle a aussi la très mauvaise habitude de tomber amoureuse un peu trop facilement, et se dit parfois qu'elle finira à jamais célibataire. Sentimentalement, Hayleen n'est pas trop mature. 
 
-N'ayant pas de souvenir avant ses cinq ans et son adoption par [[../../Fiche RP/../../Fiche RP/../../Fiche RP/../../Fiche RP/Salem.md.md.md.md]], elle ne cherche pas en particulier à trouver les raisons de la disparition de ses parents, mais plus à comprendre ce que sont les Grimalkin et pourquoi elles existent. 
+N'ayant pas de souvenir avant ses cinq ans et son adoption par [[Salem]], elle ne cherche pas en particulier à trouver les raisons de la disparition de ses parents, mais plus à comprendre ce que sont les Grimalkin et pourquoi elles existent. 
 Elle entretien avec son père adoptif une excellente relation, bien qu'elle juge qu'il la limite trop. 
 
 ##### __*Aime*__ :
