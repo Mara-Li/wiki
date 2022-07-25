@@ -82,8 +82,8 @@ Elle entretien avec son père adoptif une excellente relation, bien qu'elle juge
 - Les cerises
 
 ##### __*Trivia*__ : 
-- [[../../Fiche RP/../../Fiche RP/../../Fiche RP/../../Fiche RP/Salem.md.md.md.md]] a été tout bonnement incapable de trouver l'âge d'Hayleen lorsqu'il l'a trouvé. Comme il est flemmard, il lui a attribué l'âge de quatre ans, mais il est possible qu'elle soit plus jeune ou plus vieille. 
-- De même, [[../../Fiche RP/../../Fiche RP/../../Fiche RP/../../Fiche RP/Salem.md.md.md.md]] a décidé que son anniversaire serait le jour de son adoption. 
+- [[Salem]] a été tout bonnement incapable de trouver l'âge d'Hayleen lorsqu'il l'a trouvé. Comme il est flemmard, il lui a attribué l'âge de quatre ans, mais il est possible qu'elle soit plus jeune ou plus vieille. 
+- De même, [[Salem]] a décidé que son anniversaire serait le jour de son adoption. 
 
 ##### __*Peurs & phobies*__ 
 Principalement, mourir et échouer.
@@ -125,7 +125,7 @@ H i s t o i r e<br>
 ╚═══━━━─── • ───━━━═══╝</h1>
 ### ⟦ Dix-huit ans plus tôt ⟧
 
-Il pleuvait sur la grande brûlée. [[../../Fiche RP/../../Fiche RP/../../Fiche RP/../../Fiche RP/Salem.md.md.md.md]] avait enfoncé ses mains ses poches alors qu'il observait autour de lui. Qu'est-ce qu'il foutait là, au juste ? Une sensation désagréable lui collait à la peau, alors qu'il sortait une cigarette.
+Il pleuvait sur la grande brûlée. [[Salem]] avait enfoncé ses mains ses poches alors qu'il observait autour de lui. Qu'est-ce qu'il foutait là, au juste ? Une sensation désagréable lui collait à la peau, alors qu'il sortait une cigarette.
 
 La mage aux cheveux rouges se matérialisa à ses côtés.
 
