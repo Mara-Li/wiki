@@ -13,7 +13,7 @@ tag:
 - Futuriste
 ---
 
-Ref: [[index.md]]
+%% Ref: [[index.md]] %%
 
 # Technomage
 
