@@ -39,7 +39,8 @@ I n t r o d u c t i o n<br>
 **Maison :** /
 **Parcours** : Maître
 **Spécialité** : Maître tactique[^2]
- <h2 style="text-align:center">╔═══━━━─── • ───━━━═══╗<br>
+
+<h2 style="text-align:center">╔═══━━━─── • ───━━━═══╗<br>
 D e s c r i p t i o n<br>
 ╚═══━━━─── • ───━━━═══╝</h2>
 <h3 style="text-align:center">──────༺ Race ༻──────</h3>
@@ -66,7 +67,7 @@ Le clan O’Quies est un clan de rapaces nocturnes, habitués à la chasse et l�
 
 <h3 style="text-align:center">──────༺ Physique ༻──────</h3>
 
-> [!infobox|left]
+> [!infobox inline]
 > ![[../assets/img/Silence_Autumn.jpeg|cover hsmall]]
 > *Taille* : 1m55
 > *Poids* : 50kg
