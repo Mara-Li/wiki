@@ -4,4 +4,3 @@ share: true
 title: Temporaire
 ---
 
-[[../Compendium/Mnémosyne/Fiche|Fiche némo]]
