@@ -83,6 +83,7 @@ markdown_extensions:
       preserve_tabs: true
 plugins:
   - search
+  - meta-descriptions
   - git-revision-date-localized:
       type: date
       fallback_to_build_date: true
@@ -137,3 +138,5 @@ extra_css:
 extra:
   generator: false
   SEO: 'assets/meta/LOGO_SEO.png'
+  pagination: false
+  pagination_translation: 'postes dans'
