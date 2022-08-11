@@ -4,4 +4,4 @@ share: true
 title: Temporaire
 ---
 
-![test](../assets/img/Ref.png)
+![](../assets/img/Ref.png)
