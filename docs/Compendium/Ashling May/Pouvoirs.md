@@ -13,7 +13,7 @@ tag:
 - Futuriste
 ---
 
- %% Ref: [[index]] %%
+%% Ref: [[index]] %%
 
 # [[Technomage|Technomage]]
 

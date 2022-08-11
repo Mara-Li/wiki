@@ -138,5 +138,7 @@ extra_css:
 extra:
   generator: false
   SEO: 'assets/meta/LOGO_SEO.png'
-  pagination: false
-  pagination_translation: 'postes dans'
+  pagination: true
+  pagination_message: false
+  pagination_translation: ''
+
