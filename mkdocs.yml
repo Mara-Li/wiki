@@ -138,7 +138,10 @@ extra_css:
 extra:
   generator: false
   SEO: 'assets/meta/LOGO_SEO.png'
-  pagination: true
-  pagination_message: false
-  pagination_translation: ''
-
+  blog_list:
+    pagination: true
+    pagination_message: false
+    pagination_translation: ''
+  hooks:
+    strip_comments: true
+    fix_heading: true
