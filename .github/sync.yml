@@ -7,6 +7,8 @@ group:
   - files:
     - source: overrides/
       dest: overrides/
+      exclude: |
+        404.html
     - docs/assets/css/template
     - .github/workflows/create_index.yml
     - .github/workflows/mkdocs_build.yml
