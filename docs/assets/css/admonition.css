@@ -16,17 +16,17 @@
 
 .md-typeset :is(.power) > :is(.admonition-title, summary) {
     color: rgb(var(--power));
-    background-color: rgba(var(--power), 0.4);
+    background-color: rgba(var(--power), 0.3);
 }
 
 .md-typeset :is(.buff) > :is(.admonition-title, summary) {
     color: rgb(var(--buff));
-    background-color: rgba(var(--buff), 0.4);
+    background-color: rgba(var(--buff), 0.3);
 }
 
 .md-typeset :is(.passif)> :is(.admonition-title, summary) {
     color: rgb(var(--passif));
-    background-color: rgba(var(--passif),0.4);
+    background-color: rgba(var(--passif),0.3);
 }
 
 .md-typeset :is(.note)> :is(.admonition-title,
