@@ -9,6 +9,7 @@ group:
       dest: overrides/
       exclude: |
         404.html
+        partials/comments.html
     - docs/assets/css/template
     - .github/workflows/create_index.yml
     - .github/workflows/mkdocs_build.yml
