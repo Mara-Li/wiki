@@ -1,9 +1,8 @@
 <h1 align="center">Hi 👋, I'm Mara-Li</h1>
-<h3 align="center">A student who love programming</h3>
 
 <p align="center"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=mara-li" alt="mara-li" /></a> </p>
 
-<p align="center"> <a href="https://twitter.com/mara__li" target="blank"><img src="https://img.shields.io/twitter/follow/mara__li?logo=twitter&style=for-the-badge" alt="mara__li" /></a> </p>
+<p align="center"> <a href="https://twitter.com/mara__li" target="blank"><img src="https://img.shields.io/twitter/follow/Lisandra__S?logo=twitter&style=for-the-badge" alt="Lisandra__S" /></a> </p>
 
 - 🌱 I’m currently learning **Python and Typescript**
 
@@ -11,7 +10,7 @@
 
 - 💬 Ask me about **Python**
 
-- 📫 How to reach me **mara-li@outlook.fr**
+- 📫 How to reach me **simonetti.lisandra@icloud.com**
 
 - ⚡ Fun fact **I'm french**
 
