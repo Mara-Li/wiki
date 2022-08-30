@@ -6,7 +6,7 @@
 
 - 🌱 I’m currently learning **Python and Typescript**
 
-- 👯 I’m looking to collaborate on [Mkdocs Publisher](https://github.com/Mara-Li/obsidian-mkdocs-publisher-plugin)
+- 👯 I’m looking to collaborate on [Mkdocs Publisher](https://github.com/ObsidianPublisher/obsidian-github-publisher)
 
 - 💬 Ask me about **Python**
 
