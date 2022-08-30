@@ -24,7 +24,7 @@
 <br><br>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=mara-li&show_icons=true&locale=en&layout=compact" alt="mara-li" />
-  <img src="https://github-readme-stats.vercel.app/api?username=mara-li&show_icons=true&locale=en" alt="mara-li" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=lisandra-dev&show_icons=true&locale=en&layout=compact" alt="lisandra-dev" />
+  <img src="https://github-readme-stats.vercel.app/api?username=lisandra-dev&show_icons=true&locale=en" alt="lisandra-dev" />
 </p>
 
