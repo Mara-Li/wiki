@@ -15,7 +15,14 @@ function UrlExists(url, type_url) {
     if (ref.includes('%5C')) {
         ref = ref.replace(/%5C/g, '/')
     }
-    url.href = ref
+    if (type_url === 0) {
+        url.href = ref
+        url.title = title
+    }
+    else if (type_url === 1) {
+        url.src = ref
+        url.alt = title
+    }
     var http = new XMLHttpRequest();
     http.open('GET', ref, true);
     http.onload=function(e) {
