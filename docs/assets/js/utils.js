@@ -9,6 +9,13 @@ function UrlExists(url, type_url) {
         ref = url.src
         title = url.alt
     }
+    if (ref.match(/index$/)) {
+        ref = ref.replace(/index$/, '')
+    }
+    if (ref.includes('%5C')) {
+        ref = ref.replace(/%5C/g, '/')
+    }
+    url.href = ref
     var http = new XMLHttpRequest();
     http.open('GET', ref, true);
     http.onload=function(e) {
