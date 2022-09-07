@@ -22,7 +22,7 @@ tags:
   - i
 ---
 
-../Compendium/Mnémosyne/index / Carnet
+index / Carnet
 → Fiche
 
 # Relations
