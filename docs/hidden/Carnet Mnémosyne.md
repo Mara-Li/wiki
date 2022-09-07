@@ -1,27 +1,17 @@
 ---
-tag: Lagendia
 type: Carnet
 univers: Lagendia
 title: Carnet Mnémosyne
 alias:
-  - Mnémosyne
-share: true
+- Mnémosyne
+share: false
 display: Mnémosyne
 short: Lagendia, Mnémosyne
 dataview: true
+share: true
 links: false
 embed: false
-tags:
-  - Lagendia
-  - L
-  - a
-  - g
-  - e
-  - n
-  - d
-  - i
 ---
-
 index / Carnet
 → Fiche
 
