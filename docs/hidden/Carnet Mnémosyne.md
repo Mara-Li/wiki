@@ -3,15 +3,24 @@ type: Carnet
 univers: Lagendia
 title: Carnet Mnémosyne
 alias:
-- Mnémosyne
-share: false
+  - Mnémosyne
+share: true
 display: Mnémosyne
 short: Lagendia, Mnémosyne
 dataview: true
-share: true
 links: false
 embed: false
+tags:
+  - L
+  - a
+  - g
+  - e
+  - n
+  - d
+  - i
+  - Lagendia
 ---
+
 index / Carnet
 → Fiche
 
