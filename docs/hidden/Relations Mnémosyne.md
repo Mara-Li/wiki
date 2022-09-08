@@ -1,7 +1,7 @@
 ---
 type: Carnet
 univers: Lagendia
-title: Carnet Mnémosyne
+title: Relations Mnémosyne
 alias:
   - Mnémosyne
 share: true
