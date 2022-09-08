@@ -9,8 +9,6 @@ display: Mnémosyne
 short: Lagendia, Mnémosyne
 dataview: true
 links: false
-removeEmbed: true
-embed: false
 tags:
   - Lagendia
 ---
@@ -62,10 +60,4 @@ index / Carnet
 
 
 > [!info]+ Lueurs
-
-
-
----
-
-# Illustration
-
+Lueurs
