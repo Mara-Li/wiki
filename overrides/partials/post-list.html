@@ -49,6 +49,7 @@
 {% if blog_pages|count > 0 %}
     {# count the number of pages #}
     {% set page_num = 1 %}
+    {% set page_html =  "" %}
     {% if config_pagination['pagination'] %}
         {% set page_num = (blog_pages|count / 10)|round(method='ceil')|int %}
         {% if config_pagination['pagination_translation'] %}
@@ -66,9 +67,13 @@
             >
                 <!-- <a href="#">&laquo;</a> -->
                 {% for pg_group in blog_pages|slice(page_num) %}
+                {% set page_html = "" %}
+                {% if config_pagination['pagination'] %}
+                    {% set page_html = "#page{{ loop.index }}" %}
+                {% endif %}
                 <a
                     class="page-number {% if loop.index==1 %}active{% endif%}"
-                    href="#page{{ loop.index }}"
+                    href="{{page_html}}"
                 >
                     {{ loop.index }}
                 </a>
@@ -162,10 +167,15 @@
                 id="pagination-bottom"
             >
                 <!-- <a href="#">&laquo;</a> -->
+                
                 {% for pg_group in blog_pages|slice(page_num) %}
+                {% set page_html = "" %}
+                {% if config_pagination['pagination'] %}
+                    {% set page_html = "#page{{ loop.index }}" %}
+                {% endif %}
                 <a
                     class="page-number {% if loop.index==1 %}active{% endif%}"
-                    href="#page{{ loop.index }}"
+                    href="{{page_html}}"
                 >
                     {{ loop.index }}
                 </a>
@@ -186,7 +196,9 @@
                 window.scrollTo(0, 0);
             }, 100);
         }
-
+    </script>
+    {% if config_pagination['pagination'] %}
+    <script>
         function activatePaginationLinks(name) {
             var pagination = document.getElementById("pagination-" + name);
             if (pagination) {
@@ -204,6 +216,7 @@
         }
 
         // show page 1 as default
+        
         window.location.hash = "#page1";
 
         // listen to hash change
