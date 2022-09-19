@@ -135,7 +135,7 @@ extra:
   generator: false
   SEO: 'assets/meta/LOGO_SEO.png'
   blog_list:
-    pagination: true
+    pagination: false
     pagination_message: false
     pagination_translation: ''
   hooks:
