@@ -1,6 +1,7 @@
 ---
 share: true
 type: Illustration
+name: Illustration_Ashling
 title: Illustration
 category: Compendium/Ashling May
 ---
