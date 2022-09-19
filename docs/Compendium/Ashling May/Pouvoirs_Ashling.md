@@ -55,7 +55,7 @@ Ils ne boostent que les capacités humaines, et non les pouvoirs. Ils peuvent au
 - Ses snipers invoqués ont 500 m de porté.
 - En forme d'Ekraminarok, ses lunettes lui permettent de voir ses cooldown et buff, ainsi que ses statistiques.
 
-# [[../../../Technopathe]]
+# Technopathe
 
 Ashling est capable de se transporter dans la plupart des objets électronique et système informatique, à des degrés très divers, pouvant aller du simple contrôle psychique à un transfert mental.
 
