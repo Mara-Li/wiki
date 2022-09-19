@@ -1,6 +1,9 @@
 name: Sync Files
 on: 
   push:
+    branches:
+      - master
+      - main
     paths:
       - overrides/**
       - .github/**
