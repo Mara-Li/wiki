@@ -117,3 +117,6 @@ code {
     width: 5%;
 }
 
+.tippy-box {
+    color: yellow !important;
+}
