@@ -13,12 +13,13 @@ short: Autumn, Lagendia
 dataview: true
 links: false
 name: Relations Autumn O'Quies
+category: Lagen
 ---
 
 
 %%Autumn O'Quies/ .%%
 %% ← Relations %%
-![[./Symbole relations]]
+![[../hidden/Symbole relations]]
 # Relations
 | Fichier                                                                                            | statut | avis                    |
 | -------------------------------------------------------------------------------------------------- | ------ | ----------------------- |
@@ -40,7 +41,7 @@ name: Relations Autumn O'Quies
 | Stydja Eyreya            | \-     | \-                      |
 | White                            | \-     | \-                      |
 | Adrian                           | \-     | \-                      |
-| Autumn O'Quies           | \-     | \-                      |
+| Autumn O'Quies (RE) | \-     | \-                      |
 | Eerhin Corlumett       | \-     | \-                      |
 | Koara                             | \-     | \-                      |
 | Quirell Grandfleuve | 🗒️    | 😥 (Elle lui fait peur) |
@@ -52,6 +53,7 @@ name: Relations Autumn O'Quies
 | Yû Kokatsune              | \-     | \-                      |
 | Candace                             | \-     | \-                      |
 | Ivan Borukl                     | ✅      | Sympas 😊               |
+| Mnémosyne (RE)               | \-     | \-                      |
 | Rachel Cornelis             | ✅      | 😥 Brrr…. Fait peur     |
 | Fenton Cassidy              | \-     | \-                      |
 | Ichida                              | ✅      | Neutre 😐               |
