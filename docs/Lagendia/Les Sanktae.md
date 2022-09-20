@@ -3,6 +3,7 @@ share: true
 date: 04-09-2022
 description: Le wiki des Sanctae, mis à jour au fur et à mesure des validations par les MJ et mes idées. Lore friendly.
 type: notes
+category: Lagendia
 ---
 [[../Compendium/Mnémosyne/index]]/ [[./Relations Mnémosyne|Lagendia]]/ [[.]]
 → [[20. Compendium/22. Personnages/Mnémosyne/Lagendia — Némo/Fiche#◌ Les Sanktae ◌|Généralité]]
