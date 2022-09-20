@@ -26,7 +26,7 @@ const tip = tippy(`.md-content a[href^="${blogURL}"]`, {
                         firstPara = firstPara.nextElementSibling;
                     }
                     else {
-                        firstPara = firstPara.innerText.replace('↩', '').replace('¶', '');
+                        firstPara = firstPara.innerText.replaceAll('↩', '').replaceAll('¶', '');
                     }
                     instance.popper.style.height = 'auto';
                     
