@@ -126,7 +126,6 @@ extra_css:
     - assets/css/template/img-grids-floats.css
     - assets/css/template/utils.css
     - assets/css/template/blog.css
-    - assets/css/template/tooltipster.bundle.min.css
     - assets/css/template/grid.css
     - assets/css/custom_attributes.css
     - assets/css/admonition.css
