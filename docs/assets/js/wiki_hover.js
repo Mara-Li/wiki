@@ -1,5 +1,4 @@
 const blogURL = location.origin = location.protocol + '//' + location.host;
-const template = document.querySelector(`.md-content a[href^="${blogURL}]"`)
 let position = ['top', 'right', 'bottom', 'left'];
 
 const tip = tippy(`.md-content a[href^="${blogURL}"]`, {
@@ -16,10 +15,24 @@ const tip = tippy(`.md-content a[href^="${blogURL}"]`, {
             .then(html => {
                 const parser = new DOMParser();
                 const doc = parser.parseFromString(html, 'text/html');
-                const firstPara = doc.querySelector('article');
+                let firstPara = doc.querySelector('article');
                 const element1 = document.querySelector(`[id^="tippy"]`);
                 element1.classList.add('tippy')
+                const partOfText = instance.reference.href.replace(/.*#/, '#');
+                if (partOfText.startsWith('#')) {
+                    firstPara = doc.querySelector(`[id="${partOfText.replace('#', '')}"]`);
+                    
+                    if (firstPara.tagName.startsWith('H')) {
+                        firstPara = firstPara.nextElementSibling;
+                    }
+                    else {
+                        firstPara = firstPara.innerText.replace('↩', '').replace('¶', '');
+                    }
+                    instance.popper.style.height = 'auto';
+                    
+                }
                 instance.setContent(firstPara);
+                
             })
             .catch(error => {
                 console.log(error);
