@@ -1,6 +1,6 @@
 ---
 share: true
-category: hidden
+category: Lagendia
 dataview: true
 name: Lagendia — Personnages data
 links: false
@@ -54,7 +54,7 @@ links: false
 
 | Fichier                                                                                | Joueur       | Race                                                                 | Âge           | Taille | Role         | Anniversaire |
 | -------------------------------------------------------------------------------------- | ------------ | -------------------------------------------------------------------- | ------------- | ------ | ------------ | ------------ |
-| Candace                 | Phil         | Chandelle                                                            | ~40 ans       | 1.76m  | Concierge    | /            |
+| Candace                 | Phil         | Chandelle                                                            | ~40 ans       | 1.76m  | Concierge    | 7/08         |
 | Ivan Borukl         | PatremTaurus | Humain                                                               | 45 ans        | 2.05m  | Surveillant  | /            |
 | Mnémosyne (RE)   | Mara         | Sanktae | 28-30 ans ans | 1.8m   | Surveillante | 15/06        |
 | Rachel Cornelis | MissLaoni    | Ombre                                                                | 117 ans       | 1.74m  | Surveillant  | 18/03        |
