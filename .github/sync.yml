@@ -14,7 +14,13 @@ group:
     - .github/workflows/create_index.yml
     - .github/workflows/mkdocs_build.yml
     - .github/workflows/update_requirements.yml
+    - docs/assets/js
     repos: |
       obsidianMkdocs/obsidian-mkdocs-publisher-template
       obsidianMkdocs/obsidian_mkdocs_publisher_docs
       sandboxingRepo/obsidian-sandbox
+  - files:
+    - source: assets/js/wiki_hover.js
+      dest: wiki_hover.js
+    repos: |
+      ObsidianPublisher/tooltips-internal-link
