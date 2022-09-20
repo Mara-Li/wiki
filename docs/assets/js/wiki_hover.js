@@ -1,4 +1,4 @@
-const blogURL = location.origin = location.protocol + '//' + location.host;
+const blogURL = location.origin ;
 let position = ['top', 'right', 'bottom', 'left'];
 
 const tip = tippy(`.md-content a[href^="${blogURL}"]`, {
