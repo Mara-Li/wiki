@@ -17,10 +17,10 @@ group:
     - docs/assets/js
     repos: |
       ObsidianPublisher/obsidian-mkdocs-publisher-template
-      ObsidianPublisher/obsidian_mkdocs_publisher_docs
+      ObsidianPublisher/obsidian-mkdocs-publisher-docs
       sandboxingRepo/obsidian-sandbox
   - files:
-    - source: assets/js/wiki_hover.js
+    - source: docs/assets/js/wiki_hover.js
       dest: wiki_hover.js
     repos: |
       ObsidianPublisher/tooltips-internal-link
