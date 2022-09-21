@@ -12,10 +12,14 @@
 .md-footer,
 .dataview,
 .folderv,
-.md-tabs__item:nth-child(2)
+.md-tabs__item:nth-child(2),
+.md-tabs__item:nth-child(4),
+.md-nav__item:nth-child(4)
 {
     display: none;
 }
+
+
 
 .md-nav--primary .md-nav__title[for="__drawer"] {
     font-size: xxx-large;
