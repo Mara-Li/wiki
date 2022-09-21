@@ -12,7 +12,6 @@ category: Compendium/Mnémosyne
 univers: Lagendia
 type: Fiche
 image: Némo_lillyth.jpg
-state: 🟢
 tags:
   - left
   - RP_Lagendia
