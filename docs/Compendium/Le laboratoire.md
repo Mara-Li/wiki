@@ -2,20 +2,39 @@
 date: 02-05-2022
 share: true
 obsidianUIMode: source
-title: Éden 28500
-description: "Éden est une zombie adorable, diplomate, qui écoute les autres et n'aime pas la violence."
+name: Éden 28500
+description: Éden est une zombie adorable, diplomate, qui écoute les autres et
+  n'aime pas la violence.
 category: Compendium
 type: Fiche
 univers: Le laboratoire
-tags: RP/Le-laboratoire/Fiche/PJ
+tags:
+  - R
+  - P
+  - /
+  - L
+  - e
+  - "-"
+  - l
+  - a
+  - b
+  - o
+  - r
+  - t
+  - i
+  - F
+  - c
+  - h
+  - J
+  - RP_Le-laboratoire_Fiche_PJ
 image: IMG_1314.jpg
 cover: https://www.mara-li.fr/assets/img/IMG_1314.jpg
 ---
 
-%% Parent:: [[Éden]] %%
-%% [Google docs](https://docs.google.com/document/d/1Do90LNHl8FXpdIShSMy4FPq8CQWuqflE0mES_BB8M9w/edit?usp=sharing) %%
 
-<h1 style="text-align:center">╔═══━━━─── • ───━━━═══╗<br>
+%% Parent:: [[../../Éden]] %%
+%% [Google docs](https://docs.google.com/document/d/1Do90LNHl8FXpdIShSMy4FPq8CQWuqflE0mES_BB8M9w/edit?usp=sharing) %%
+ <h1 style="text-align:center">╔═══━━━─── • ───━━━═══╗<br>
 I n t r o d u c t i o n<br>
 ╚═══━━━─── • ───━━━═══╝</h1>
 
@@ -29,7 +48,7 @@ I n t r o d u c t i o n<br>
 C a p a c i t é<br>
 ╚═══━━━─── • ───━━━═══╝</h1>
 
-%%  [[Zombie]]  %%
+%%  [[../../Zombie]]  %%
 
 **► Nature** : Transformation et renforcement
 
