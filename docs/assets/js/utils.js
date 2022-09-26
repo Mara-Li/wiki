@@ -18,15 +18,16 @@ function UrlExists(url, type_url) {
     if (type_url === 0) {
         url.href = ref
         url.title = title
+        if (title.length === 0) {
+            title = url.innerText
+            url.title = title
+        }
     }
     else if (type_url === 1) {
         url.src = ref
         url.alt = title
     }
-    if (title.length === 0) {
-        title = url.innerText;
-        url.title = title;
-    }
+
     var http = new XMLHttpRequest();
     http.open('GET', ref, true);
     http.onload = function (e) {

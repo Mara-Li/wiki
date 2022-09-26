@@ -3,15 +3,14 @@ obsidianUIMode: preview
 share: true
 category: hidden
 type: Index, Idée
-tags:
-  - M
-  - O
-  - C
-  - MOC
+tags: MOC
 ---
 
 ```folderv
 ```
+
+contexte^id
+
 
 # Liste de pouvoirs
 - Invoquer un stand avec l’aide d’un téléphone (donc gérer la batterie du téléphone à chaque invocation)
