@@ -1,14 +1,13 @@
 ---
+category: hidden
 obsidianUIMode: preview
 share: true
-category: hidden
 type: Index, Idée
 tags:
-  - M
-  - O
-  - C
   - MOC
 ---
+
+%% #MOC %%
 
 ```folderv
 ```
