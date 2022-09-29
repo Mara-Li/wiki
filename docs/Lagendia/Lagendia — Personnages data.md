@@ -3,11 +3,11 @@ category: Lagendia
 dataview: true
 description: Liste de tous les personnages de Lagendia avec quelque données
   issues de leur fiche
+image: Lagendia_logo.webp
 links: false
 name: Lagendia — Personnages data
 share: true
 title: Lagendia - Personnages
-image: Lagendia_logo.webp
 tags:
   - Lagendia
   - MOC
