@@ -26,6 +26,6 @@ group:
       ObsidianPublisher/tooltips-internal-link
   - files:
     - source: docs/Lagendia/Lagendia — Personnages data.md
-      dest: docs/Personnages/Liste des PJ.md
+      dest: docs/Personnages/PJ.md
     repos: |
        Lagendia-Roleplay/wiki
