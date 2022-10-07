@@ -27,5 +27,8 @@ group:
   - files:
     - source: docs/Lagendia/Lagendia — Personnages data.md
       dest: docs/Personnages/PJ.md
+    - source: docs/Lagendia/Sanktae/index.md
+      dest: docs/Espèces/Races intelligentes/Sanktae.md
     repos: |
        Lagendia-Roleplay/wiki
+       
