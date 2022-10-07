@@ -1,22 +1,22 @@
 ---
-univers: Lagendia
 category: Lagendia/Sanktae
 date: 04-09-2022
 description: "Sanktae, Race de @Mara#3000 - Ouverte à la participation mais MP Mara d'abord." 
 share: true
 type: notes
+univers: Lagendia
 ---
 %% [[../Compendium/Mnémosyne|Mnémosyne]]/ [[../Relations Mnémosyne|Lagendia]]/ [[.]]%%
 %%→ [[10. PROJECT/Lagendia/Mnémosyne/Fiche#◌ Les Sanktae ◌|Généralité]] %%
 
 > [!infobox|left]
 > <u>Auteur : </u> `@Mara#3000`
-> <u>Ouvert à la création : </u> 
+> <u>Ouvert à la création :</u>
 > - [x] Élève
 > - [x] Citoyen
 > - [x] Professeur
-> 
-> <u>Condition :</u> 
+>
+> <u>Condition :</u>
 > - Ils ne doivent pas y avoir de trop nombreux Sanktae.
 > - Les personnages (hors **déchu**) doivent adopter un comportement particulier vis à vis de Mnémosyne.
 - Être dont les pouvoirs apparaît sous **forme de contrôle de la lumière**
