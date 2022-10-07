@@ -4,9 +4,6 @@ on:
     branches:
       - master
       - main
-    paths:
-      - overrides/**
-      - .github/**
 
 jobs:
   sync:
