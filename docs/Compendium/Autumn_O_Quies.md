@@ -9,10 +9,12 @@ display: Fiche
 image: comms2.png
 share: true
 tags:
-  - RP/Lagendia/OC
-  - RP_Lagendia_OC
+  - RP_Lagendia
+  - Autumn
 type: Fiche
 univers: Lagendia
+name: Autumn_O_Quies
+title: Autumn O'Quies
 ---
 
 
@@ -23,7 +25,7 @@ I n t r o d u c t i o n<br>
 ![[../assets/img/comms2.png|+side]]**Nom & Prénom :** Autumn O’Quies
 *Surnom :* “Plume” (par sa mère) / “Mademoiselle” (son majordome) / “P’tite cheffe” (son cousin)
 **Âge :** 20 ans
-*Date d’anniversaire :* 19/06
+*Date d’anniversaire :* 22/09
 **Race :** Liberi[^1]
 **Maison :** Rat d’Azur
 **Parcours** : /
@@ -46,7 +48,7 @@ Le clan O’Quies est un clan de rapaces nocturnes, habitués à la chasse et l�
 - La composition des clans n’est pas forcément une seule et unique famille.
 - Chaque clan a sa propre politique
 - D’autres jeunes Liberi ont forcément rejoint Etria pour piquer la place d’Autumn en tant que future chef.
-- Les Liberi ont leur propre politique interne et n’hésite pas à se faire la guerre pour agrandir leur territoire, chaque clan a donc une garde rapprochée, communément appelée“La Garde”.[^2]
+- Les Liberi ont leur propre politique interne et n’hésite pas à se faire la guerre pour agrandir leur territoire, chaque clan a donc une garde rapprochée, communément appelée “La Garde”.[^2]
 - Généralement, les clans Liberi vivent dans les forêts, en hauteur.
 - Tous les Liberi savent siffler, qui est un élevé comme un art. Ils l’utilisent pour communiquer, et chaque clan a sa propre manière de siffler, avec ses propres codes.
 
@@ -75,7 +77,7 @@ Néanmoins Autumn est extrêmement curieuse et sensible à l’Histoire, et elle
 - S’endort régulièrement en cours
 - Peine à s’endormir le soir et aura tendance à ignorer le couvre-feu.
 - Compétitive et essaiera d’être la première élève.
-- Intriguée par l’[[../../Echo]]
+- Intriguée par l’[[../../Echo|Écho]]
 
 ##### __*Peurs & phobies*__
 Il lui arrive souvent de faire des cauchemars où elle perd toutes ses plumes.
@@ -128,7 +130,7 @@ P o u v o i r s<br>
 <h3 style="text-align:center">──────༺ Attributs généraux༻──────</h3>
 
 ##### Hua
-La maîtrise de l’Hua d’Autumn repose principalement sur sa maîtrise du vent et de l’air, qu’elle utilise aussi pour se déplacer et grimper aux arbres.
+La maîtrise de l’Hua d’Autumn repose principalement sur sa maîtrise de l'air, qu’elle utilise aussi pour se déplacer et grimper aux arbres.
 
 ##### Traits raciaux
 En dehors de son Hua, grâce à ses attributs physiques, Autumn a des sens extrêmement poussés et a passé toute sa vie à s’entrainer au combat. Elle est donc agile et rapide.
@@ -151,7 +153,7 @@ De plus, elle est **facilement éblouie**, car ses yeux sont habitués à la nui
 > Autumn crée un rafale de vent extrêmement bruyante qui repousse ses ennemis tout en les blessant.
 > *Bonus* : +5
 > *Cooldown* : 1x/jour
-> *Domaine* : Air
+> *Domaine* : Air + Hua
 
 > [!buff] ❖ — **Yeux de Rapace (Buff)** — ❖
 > Les yeux d’Autumn ont été entrainés pour pouvoir distinguer une cible sur de très grandes distances. Elle est donc capable de “zoomer” sur ces dernières afin de les viser.
