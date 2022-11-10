@@ -58,8 +58,10 @@ Avec les personnes qu'elle apprécie, ses alliés et sa famille, elle peut éton
 - La nourriture trop sucrée
 - Qu'on lui touche la queue.
 
-<h3 style="text-align:center"> ──────༺ Physique ༻──────</h3> > [!infobox|left]
-> ![[74BC6FE6-9721-47C9-8D9E-B18C2B89D258.png]]
+<h3 style="text-align:center"> ──────༺ Physique ༻──────</h3> 
+
+> [!infobox|left]
+> ![[../../assets/img/74BC6FE6-9721-47C9-8D9E-B18C2B89D258.png|74BC6FE6-9721-47C9-8D9E-B18C2B89D258.png]]
 > *Taille* : $1.90m$ (humaine) — $\sim3m$ (loup)
 > *Poids* : $80 kg$ (humaine) — $\sim640kg$ (loup)
 > *Yeux* : Bleus
@@ -91,7 +93,9 @@ La meute devenant le vassale d'un autre, Blaïka prend la difficile décision de
 > [!notes] Les Yermakov
 > ![[Yermakov]]
 
-<h2 style="text-align:center"> ╔═══━━━─── • ───━━━═══╗<br> P o u v o i r s<br> ╚═══━━━─── • ───━━━═══╝</h2> <h3 style="text-align:center"> ──────༺ Attributs généraux༻──────</h3> Blaïka est une louve du clan Yermakov, capable de contrôler la **glace** ($eau + air$) et de se transformer en loup-garou.
+<h2 style="text-align:center"> ╔═══━━━─── • ───━━━═══╗<br> P o u v o i r s<br> ╚═══━━━─── • ───━━━═══╝</h2> <h3 style="text-align:center"> ──────༺ Attributs généraux༻──────</h3> 
+
+Blaïka est une louve du clan Yermakov, capable de contrôler la **glace** ($eau + air$) et de se transformer en loup-garou.
 
 > [!info] Hua inné
 > $$glace = eau + air$$
@@ -132,7 +136,9 @@ La meute devenant le vassale d'un autre, Blaïka prend la difficile décision de
 > - *Effet :* +5 à ses jets de dés, pendant deux tours.
 
 
- <h2 style="text-align:center"> ╔═══━━━─── • ───━━━═══╗<br> T r i v i a <br> ╚═══━━━─── • ───━━━═══╝</h2> > [!note] Histoire
+<h2 style="text-align:center"> ╔═══━━━─── • ───━━━═══╗<br> T r i v i a <br> ╚═══━━━─── • ───━━━═══╝</h2> 
+ 
+> [!note] Histoire
 > - Son clan partage le même territoire que celui de [[Ivan Borukl]], et Blaïka a déjà rencontré sa famille.
 
 > [!info]- Battle thème
