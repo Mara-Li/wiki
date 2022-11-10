@@ -104,7 +104,7 @@ C'est au cours d'un accrochage avec une meute rivale que Blaïka manque de perdr
 La meute devenant le vassale d'un autre, Blaïka prend la difficile décision de s'exiler et rejoindre la Capitale. Sa meute vend d'ailleurs une bonne partie de ce qu'ils possédaient pour qu'elle puisse entrer dans la meilleure académie du pays, avec en tête un seul objectif : **récupérer la gloire perdue de son clan**.
 
 > [!notes] Les Yermakov
-> ![[Yermakov]]
+> ![[../../Lagendia/Yermakov|Yermakov]]
 
 <h2 style="text-align:center">╔═══━━━─── • ───━━━═══╗<br>
 P o u v o i r s<br>
