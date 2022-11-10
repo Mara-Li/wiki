@@ -93,7 +93,9 @@ La meute devenant le vassale d'un autre, Blaïka prend la difficile décision de
 > [!notes] Les Yermakov
 > ![[Yermakov]]
 
-<h2 style="text-align:center"> ╔═══━━━─── • ───━━━═══╗<br> P o u v o i r s<br> ╚═══━━━─── • ───━━━═══╝</h2> <h3 style="text-align:center"> ──────༺ Attributs généraux༻──────</h3> Blaïka est une louve du clan Yermakov, capable de contrôler la **glace** ($eau + air$) et de se transformer en loup-garou.
+<h2 style="text-align:center"> ╔═══━━━─── • ───━━━═══╗<br> P o u v o i r s<br> ╚═══━━━─── • ───━━━═══╝</h2> <h3 style="text-align:center"> ──────༺ Attributs généraux༻──────</h3> 
+
+Blaïka est une louve du clan Yermakov, capable de contrôler la **glace** ($eau + air$) et de se transformer en loup-garou.
 
 > [!info] Hua inné
 > $$glace = eau + air$$
@@ -134,7 +136,9 @@ La meute devenant le vassale d'un autre, Blaïka prend la difficile décision de
 > - *Effet :* +5 à ses jets de dés, pendant deux tours.
 
 
- <h2 style="text-align:center"> ╔═══━━━─── • ───━━━═══╗<br> T r i v i a <br> ╚═══━━━─── • ───━━━═══╝</h2> > [!note] Histoire
+<h2 style="text-align:center"> ╔═══━━━─── • ───━━━═══╗<br> T r i v i a <br> ╚═══━━━─── • ───━━━═══╝</h2> 
+ 
+> [!note] Histoire
 > - Son clan partage le même territoire que celui de [[Ivan Borukl]], et Blaïka a déjà rencontré sa famille.
 
 > [!info]- Battle thème
