@@ -25,7 +25,7 @@ I n t r o d u c t i o n<br>
 *Date de naissance* : 31/12
 
 **Race :** Loup-Garou
-**Maison :**
+**Maison :** Rat d'Azur
 **Grade** :
 **Parcours** :
 
@@ -39,7 +39,7 @@ Blaïka est un loup-garou des steppes glacées du nord. Comme la majorité des l
 Mais, ce qui distingue le clan Yermakov d'autres loups-garous est leur magie signature : ils sont capables d'utiliser la glace, dans leurs deux formes.
 Sous forme de loups, ils peuvent charger leur fourrure de glace, se créant de magnifiques boucliers. Leur fourrure bleue mirroite dans la neige, ce qui leur permet de se faufiler.
 
->[!note] À savoir
+> [!note] À savoir
 > Les juvéniles du clan Yermakov sont roux sous forme de loup, ce qui les rend très visible dans la neige, et donc très fragile. La couleur bleuté, causé par **leur Hua signature** vient peu à peu en grandissant.
 > Actuellement la fourrure de Blaïka est rousse au niveau du cou et du ventre, mais la majorité de sa fourrure visible est bleu.
 <h3 style="text-align:center">──────༺ Mental ༻──────</h3>
@@ -97,12 +97,14 @@ Le clan de Blaïka vivait au milieu de la tundra glacée du nord. Solitaires, le
 Les plus jeunes, traditionnellement, devait quitter la meute quelque mois à leur vingt ans (leur "maturité"), afin de prouver être capable de survivre et de maintenir le clan dans la toundra. Évidemment, la vie dans les terres sauvages est dangereuse, et ils partent à la fois préparé mais aussi avec diverses aides dans un sentier balisés.
 
 Malheureusement, ce n'est pas tout à fait comme ça que se sont déroulés les choses pour Blaïka. En effet, tout le long de la vie de la jeune femme, son clan a perdu de sa superbe peu à peu, son territoire se faisant grignoter par d'autres meutes, mais aussi par d'autres races.
-Par un enchainement malheureux d'alliance, le clan se retrouve impliqué dans les luttes qui ne sont pas les siennes et perd de plus en plus.
+Par un enchainement malheureux d'alliance, le clan se retrouve impliqué dans les luttes qui ne sont pas les siennes et se retrouve acculé.
 
 C'est au cours d'un accrochage avec une meute rivale que Blaïka manque de perdre son œil droit, et est marquée à jamais par une profonde cicatrice. Son cœur n'en cicatrisera non plus.
 
-Le territoire se réduisant comme peau de chagrin, Blaïka prend la difficile décision de s'exiler et rejoindre la Capitale. Sa meute vend d'ailleurs une bonne partie de ce qu'ils possédaient pour qu'elle puisse entrer dans la meilleure académie du pays, avec en tête un seul objectif : **récupérer la gloire perdue de son clan**.
+La meute devenant le vassale d'un autre, Blaïka prend la difficile décision de s'exiler et rejoindre la Capitale. Sa meute vend d'ailleurs une bonne partie de ce qu'ils possédaient pour qu'elle puisse entrer dans la meilleure académie du pays, avec en tête un seul objectif : **récupérer la gloire perdue de son clan**.
 
+> [!notes] Les Yermakov
+> ![[../../Lagendia/Yermakov|Yermakov]]
 
 <h2 style="text-align:center">╔═══━━━─── • ───━━━═══╗<br>
 P o u v o i r s<br>
@@ -146,7 +148,7 @@ Blaïka est une louve du clan Yermakov, capable de contrôler la **glace** ($eau
 
 > [!buff] ❖ — **Lunagaron** (*Buff*) — ❖
 > Blaïka prend sa forme de loup-garou et en bénéficie de ses bonus.
-> - *Cooldown :* Une fois par semaine. Une seconde transformation est possible uniquement si Blaïka subit un trop grand choc émotionnel ou physique. Elle n'aura cependant que très peu de contrôle sur sa seconde transformation. 
+> - *Cooldown :* Une fois par semaine. Une seconde transformation est possible uniquement si Blaïka subit un trop grand choc émotionnel ou physique. Elle n'aura cependant que très peu de contrôle sur sa seconde transformation.
 > $~~~~~$*Les Lunagarons se transforment moins souvent que leur cousin à cause de leur différences génétiques et de l'énergie demandée par la transformation*
 > - *Domaine :* Instinct
 > - *Effet :* +5 à ses jets de dés, pendant deux tours.
@@ -156,8 +158,8 @@ Blaïka est une louve du clan Yermakov, capable de contrôler la **glace** ($eau
 T r i v i a <br>
 ╚═══━━━─── • ───━━━═══╝</h2>
 
->[!note] Histoire
->- Son clan partage le même territoire que celui de [[../../../Ivan Borukl|Ivan Borukl]], et Blaïka a déjà rencontré sa famille.
+> [!note] Histoire
+> - Son clan partage le même territoire que celui de [[../../../Ivan Borukl|Ivan Borukl]], et Blaïka a déjà rencontré sa famille.
 
 > [!info]- Battle thème
 > - [Rekindle — Arknights](https://www.youtube.com/watch?v=XHwRNdJXLIM)

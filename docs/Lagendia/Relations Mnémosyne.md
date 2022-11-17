@@ -32,27 +32,33 @@ univers: Lagendia
 ## PJ
 | Fichier                                                                         | statut | Relation | avis                                                                   |
 | ------------------------------------------------------------------------------- | ------ | -------- | ---------------------------------------------------------------------- |
-| Farraige             | ✅      | 🙂       | \-                                                                     |
-| Nix Lumley         | \-     | \-       | \-                                                                     |
-| Penny                   | ✅      | 😐       | M'appelle par mon nom complet, et j'aime pas ça                        |
-| Shinri Meiyo     | \-     | \-       | \-                                                                     |
-| Aygül Nephthys | \-     | \-       | \-                                                                     |
-| Mezhyo Abhy       | \-     | \-       | \-                                                                     |
-| Tol                       | ✅      | 🥰       | \-                                                                     |
-| Franck Arnaud    | ✅      | 😐       | \-                                                                     |
+| Avalon Osoro      | \-     | \-       | \-                                                                     |
 | Gan                        | \-     | \-       | \-                                                                     |
 | Stydja Eyreya    | \-     | \-       | \-                                                                     |
 | White                    | \-     | \-       | \-                                                                     |
-| Blaïka (R)           | \-     | \-       | \-                                                                     |
-| Damas Aberforth | \-     | \-       | \-                                                                     |
-| Kortals Avana     | \-     | \-       | \-                                                                     |
+| Franck Arnaud    | ✅      | 😐       | \-                                                                     |
 | Hazel                    | ✅      | 🥰       | \-                                                                     |
-| Isaac Bergeron  | \-     | \-       | \-                                                                     |
 | Lony Pegmin        | \-     | \-       | \-                                                                     |
-| Ivan Borukl             | ✅      | 😘       | 20/20 would recommend, will retry                                      |
+| Isaac Bergeron  | \-     | \-       | \-                                                                     |
+| Laeroth Merlin  | \-     | \-       | \-                                                                     |
+| Tol                       | ✅      | 🥰       | \-                                                                     |
+| Kashi Maadsen   | ✅      | 🙂       | « Son chat a le même nom que Salem MDRRR »                             |
+| Mezhyo Abhy       | \-     | \-       | \-                                                                     |
+| Isil Amastacia | \-     | \-       | \-                                                                     |
+| Aygül Nephthys | \-     | \-       | \-                                                                     |
+| Farraige             | ✅      | 🙂       | \-                                                                     |
+| Alenski Pietro | \-     | \-       | \-                                                                     |
+| Nix Lumley         | \-     | \-       | \-                                                                     |
+| Penny                   | ✅      | 😐       | M'appelle par mon nom complet, et j'aime pas ça                        |
+| Shinri Meiyo     | \-     | \-       | \-                                                                     |
+| Kortals Avana     | ✅      | 🙂       | « Mon futur apprenti »                                                 |
+| Blaïka (RE)         | \-     | \-       | \-                                                                     |
+| Damas Aberforth | \-     | \-       | \-                                                                     |
 | Mnémosyne (RE)       | \-     | \-       | \-                                                                     |
+| Ivan Borukl             | ✅      | 😘       | 20/20 would recommend, will retry                                      |
 | David Stevensen           | \-     | \-       | \-                                                                     |
 | Ichida                      | ✅      | 😕       | Je ne l'aimais pas, je ne l'aime pas, et je ne l'aimerai pas.          |
+| Gaea Cleric            | \-     | \-       | \-                                                                     |
 | Raudhr                      | ✅      | 😥       | Me génère de l'anxiété sans que je sache pourquoi ; Mais BG quand même |
 | Ruby & Esther        | ✅      | 🤔       | A l'air funky                                                          |
 
