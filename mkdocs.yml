@@ -119,6 +119,7 @@ plugins:
 extra_javascript:
   - assets/js/mathjax.js
   - assets/js/utils.js
+  - assets/js/chirpy.js
   - assets/js/wiki_hover.js
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
