@@ -13,7 +13,6 @@ group:
     - docs/assets/css/template
     - .github/workflows/create_index.yml
     - .github/workflows/mkdocs_build.yml
-    - .github/workflows/update_requirements.yml
     - docs/assets/js
     repos: |
       ObsidianPublisher/obsidian-mkdocs-publisher-template
