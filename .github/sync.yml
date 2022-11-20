@@ -24,11 +24,3 @@ group:
       dest: wiki_hover.js
     repos: |
       ObsidianPublisher/tooltips-internal-link
-  - files:
-    - source: docs/Lagendia/Lagendia — Personnages data.md
-      dest: docs/Personnages/PJ.md
-    - source: "docs/Lagendia/Sanktae/index.md"
-      dest: "docs/Univers/Espèces/races/Sanktae.md"
-    repos: |
-       Lagendia-Roleplay/wiki
-       
