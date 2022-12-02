@@ -4,3 +4,4 @@ overrides/partials/__pycache__/hooks.*
 docs/assets/__pycache__/hooks.*
 __pycache__/**
 **/__pycache__/**
+**/lib/**
