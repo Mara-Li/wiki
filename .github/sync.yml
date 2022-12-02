@@ -1,6 +1,7 @@
 group:
   - files: 
     - requirements.txt
+    - .github/workflows/update_requirements.yml
     repos: |
       ObsidianPublisher/obsidian-mkdocs-publisher-template
       sandboxingRepo/obsidian-sandbox
@@ -13,7 +14,6 @@ group:
     - docs/assets/css/template
     - .github/workflows/create_index.yml
     - .github/workflows/mkdocs_build.yml
-    - .github/workflows/update_requirements.yml
     - docs/assets/js
     repos: |
       ObsidianPublisher/obsidian-mkdocs-publisher-template
@@ -24,11 +24,3 @@ group:
       dest: wiki_hover.js
     repos: |
       ObsidianPublisher/tooltips-internal-link
-  - files:
-    - source: docs/Lagendia/Lagendia — Personnages data.md
-      dest: docs/Personnages/PJ.md
-    - source: "docs/Lagendia/Sanktae/index.md"
-      dest: "docs/Univers/Espèces/races/Sanktae.md"
-    repos: |
-       Lagendia-Roleplay/wiki
-       
