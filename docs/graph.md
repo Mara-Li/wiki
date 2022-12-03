@@ -1,3 +1,9 @@
+---
+hide:
+  - navigation
+  - toc
+---
+
 <iframe id="test"
         title='test'
         src="../assets/graph.html"
