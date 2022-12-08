@@ -5,7 +5,7 @@ publish: false
 type: Description
 univers: Bibliothèque Infinie
 description: Présentation de la Bibliothèque Infinie
-tag:
+tags:
   - RP/Bibliothèque-Infinie/Description/Lieu
 ---
 

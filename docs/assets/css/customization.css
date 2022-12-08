@@ -9,11 +9,9 @@
 
 .md-nav__link[href*="tags"],
 .md-sidebar__inner > .md-nav.md-nav--primary.md-nav--lifted > .md-nav__title > .md-nav__button.md-logo > img,
-.md-footer,
 .dataview,
 .folderv,
-.md-tabs__item:nth-child(3),
-.md-tabs__item:nth-child(4)
+.md-tabs__item:nth-child(3)
 {
     display: none;
 }
@@ -26,6 +24,10 @@
 
 .md-typeset :is(.admonition, details) {
     font-size: 1em;
+}
+
+.md-footer__inner:not([hidden]) {
+    display: none;
 }
 
 [data-md-color-scheme="default"],

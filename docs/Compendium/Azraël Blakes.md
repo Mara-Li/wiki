@@ -7,7 +7,7 @@ type: OC
 name: Azraël Blakes
 univers: Bibliothèque Infinie
 doc: MD
-tag:
+tags:
 - OC
 - RP/Bibliothèque-Infinie
 cover: https://i.imgur.com/9mRMewR.png

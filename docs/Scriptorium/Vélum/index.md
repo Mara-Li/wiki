@@ -4,11 +4,11 @@ category: Scriptorium/Vélum
 share: true
 type: Contexte
 description: Contexte générale du RP
-tag:
-  - RP/Bibliothèque-Infinie/Description/Contexte
 tags:
-  - RP_Bibliothèque-Infinie_Description_Contexte
-  - RP/Bibliothèque-Infinie/Description/Contexte
+  - RP
+  - Bibliothèque-Infinie
+  - Description
+  - Contexte
 ---
 
 

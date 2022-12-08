@@ -131,7 +131,6 @@ extra_css:
     - assets/css/admonition.css
     - assets/css/customization.css
 extra:
-  generator: false
   SEO: 'assets/meta/LOGO_SEO.png'
   blog_list:
     pagination: false

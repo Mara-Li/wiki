@@ -8,7 +8,7 @@ univers: ❌
 category: Compendium
 description: Fiche de Ambre Loiseau
 cover: https://i.imgur.com/9ac8aiR.png
-tag:
+tags:
 - OC
 - ❌
 - RP/Race/Zombie
