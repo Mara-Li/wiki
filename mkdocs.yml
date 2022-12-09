@@ -132,6 +132,13 @@ extra_css:
     - assets/css/customization.css
 extra:
   SEO: 'assets/meta/LOGO_SEO.png'
+  social:
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/Mara__Li
+    - icon: fontawesome/brands/github
+      link: https://github.com/Lisandra-dev/
+    - icon: fontawesome/brands/mastodon
+      link: https://piaille.fr/@Mara__Li
   blog_list:
     pagination: false
     pagination_message: false
