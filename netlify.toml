@@ -1,5 +1,5 @@
 [build]
-  command = "mkdocs build"
+  command = "npm install -D netlify-plugin-cache && mkdocs build"
   publish = "site"
 [template]
   incoming-hooks = ["Contentful"]
