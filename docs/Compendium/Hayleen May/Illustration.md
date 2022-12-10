@@ -13,9 +13,9 @@ tags:
 
 
 %% #Lagendia %%
-%%[[./index|Hayleen May]]%%
+%%[[./index]]%%
 
 > [!GRID]
->![[Portrait_Gabi_Hayleen|Portrait_Gabi_Hayleen.jpeg]]![[COMMISSION_MARA_PP|COMMISSION_MARA_PP.png]]![[COMMISSION_FB_MARA|COMMISSION_FB_MARA.png]]
+> ![[../../assets/img/Portrait_Gabi_Hayleen.jpeg]]![[../../assets/img/COMMISSION_MARA_PP.png]]![[../../assets/img/COMMISSION_FB_MARA.png]]
 >
->![[Hayleen — Medhas|Hayleen — Medhas.png]]![[Hayleen|Hayleen.png]]![[Key_illu|Key_illu.png]]
+> ![[../../assets/img/Hayleen — Medhas.png]]![[../../assets/img/Hayleen.png]]![[../../assets/img/Key_illu.png]]
