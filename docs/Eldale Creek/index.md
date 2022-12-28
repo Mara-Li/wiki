@@ -2,5 +2,7 @@
 template: blog.html
 title: Eldale Creek
 category: Eldale Creek
-hidden: true
+hidden: True
+hide:
+- toc
 ---
