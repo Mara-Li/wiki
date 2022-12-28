@@ -1,5 +1,5 @@
 ---
-category: "Projects/Eldale Creek"
+category: "Compendium/Mnémosyne"
 display: Mnémosyne
 date: 12-11-2022
 description: "(Eldale Creek) Fiche de Mnémosyne"
@@ -7,6 +7,8 @@ image: Perseith_portrait.png
 share: true
 type: Fiche
 univers: "Eldale Creek"
+title: "(Eldale Creek) Mnémosyne Mémoria"
+name: "EldaleCreek_Mnémosyne_Fiche"
 ---
 <h1 style="text-align:right"> UNITED STATES OF AMERICA <br/>PERMANENT RESIDENT - ID CARD</h1>
 
@@ -16,7 +18,7 @@ univers: "Eldale Creek"
 **Height** : 5.90 feet (1.80m)
 **Weight** : 149,91 lb (68kg)
 **Eye color** : White
-**Specie** : [[./Sanktae_eldale|Sanktae]]
+**Specie** : [[../../Projects/Eldale Creek/Sanktae_eldale|Sanktae]]
 
 **Birth country** : Éminenthis (France)
 **Date of Birth :** 06/15/1952[^1]
@@ -228,7 +230,7 @@ Les pouvoirs de Némo se manifeste principalement sous forme de lumière, et ell
 
 **Inconvénients** : 
 - Elle ne peut faire venir la lumière de nulle part. Dans le cas d'un noir complet, elle ne peut faire appel à son pouvoir et elle ne peut pas utiliser son auréole comme source de magie (ceux l'ayant tenté en son mort.)
-- Némo est aveugle, bien qu'elle puisse utiliser la lumière afin de déceler les « [[./Mnémosyne_relation|Lueurs]] » des êtres vivants.
+- Némo est aveugle, bien qu'elle puisse utiliser la lumière afin de déceler les « [[../../Projects/Eldale Creek/Mnémosyne_relation|Lueurs]] » des êtres vivants.
 - Son pouvoir peut aveugler allié et ennemi.
 - Elle ne peut récupérer, d'aucune manière, la vue
 -  Son auréole est permanente et l'empêche de porter de chapeau. Si elle essaie, "elle a une migraine d'enfer, un peu comme être le passager du pire conducteur de la planète, tout en ayant la pire gueule de bois de sa vie."
@@ -287,7 +289,7 @@ Issue de sa fusion avec un être informe, Obsius est le domaine sombre de Mnémo
 
 ### [BGM](https://www.youtube.com/playlist?list=PLEoAQrEiQaVOaso110TSOqieA3gCoYMFd)
 
-### [[../../Compendium/Mnémosyne/Illustration_Némo|Illustration]]
+### [[./Illustration_Némo|Illustration]]
 
 ### [[Relations_Eldale_Némo|Relations]]
 
@@ -300,7 +302,7 @@ Issue de sa fusion avec un être informe, Obsius est le domaine sombre de Mnémo
 - Elle ne sait pas siffler, et pire, son sifflement est désagréable. 
 
 ---
-![[./Sanktae_eldale|Sanktae]]
+![[../../Projects/Eldale Creek/Sanktae_eldale|Sanktae]]
 
 
 [^1]: Fausse information, date réelle inconnue de fait de son amnésie.
