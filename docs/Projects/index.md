@@ -14,5 +14,4 @@ hide:
     🗒️ <u>Références</u> : Année 80/90/2000
     🎮 <u>Plateformes</u> : [Discord](https://t.co/6OVtMf8UVW)
     🎲 <u> GAME MASTER</u> : [Perseith](https://twitter.com/Perseith)
-
 </div>
