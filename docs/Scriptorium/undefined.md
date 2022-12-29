@@ -5,26 +5,27 @@ name: Ambrosia
 description: Une idée comme une autre, brouillonnée
 ---
 
-# Résumé de l'univers : 
+# Résumé de l'univers
 - Utopie 
 - Magie illimité
-- Le corps des gens != pas leur vrai corps
+- Le corps des gens $\ne$ pas leur vrai corps
 - Modif illimité sur le corps via magie
 - Type de magie différente, niveau différent. Spécialisation;
 - Monde qui tourne autour de l'étude de cette magie 
 - Peu d'intérêt envers l'espace
 - [[#Le flux]]
 - Pas d'enfant, réincarnation à l'infinie 
-- Pas de notion de temps ni de mort (!= cristallisation)
+- Pas de notion de temps ni de mort ($\ne$ cristallisation)
 - Pas de guerre ou maladie
 - Connaisse des concepts qu'ils n'ont jamais vécu et dont il n'existe aucune trace (mort, guerre, pauvreté, maladie)
 - Jeunesse éternelle
+
 
 ---
 
 # Le flux
 - Fluide de la planète
-- Les vivants y entrent et reste +- longtemps 
+- Les vivants y entrent et reste $\pm$ longtemps 
 - Ceux qui sont à l'intérieur observe à partir de la planète. 
 - Reviennent à des endroit précis avec leur souvenir, mais en "meilleur forme". 
 - La magie évolue à partir du flux
@@ -67,6 +68,8 @@ Les cauchemars racontent toujours les mêmes choses : un monde sans magie, avec 
 Note : La pop est fixé à 1milliards d'hab en tout mais beaucoup sont dans le flux. Malgré tout, il existe un recensement des personnes dans et hors du flux. 
 → les personnes cristallisées disparaissent complètement des registres. 
 
+Les humains de ce monde se nomment les « démiurges » 
+
 ## Le conseil 
 - Les humains sont dirigés par un conseil de 12 personnes choisie pour leur capacité, avec chacun une spécialité différente. 
 - Un membre du conseil peut choisir de le quitter à tout moment à condition de présenter un ou plusieurs successeur.
@@ -78,7 +81,7 @@ Note : La pop est fixé à 1milliards d'hab en tout mais beaucoup sont dans le f
 # Environnement
 Il existe une ville agencée autour d'une immense tour contenant l'ensemble des registres du flux et des recherches menées par l'humanité. Le reste de la planète est sauvage, avec beaucoup de chose à découvrir. Il est possible notamment de découvrir des ruines à divers endroits de la planète, si bien qu'il existe aussi des Archéologues. Personne ne comprend pourquoi ses ruines existent, puisqu'il n'existe aucune archive en parlant. Les théories vont de bon train... 
 
-%% Nombreuses ruines non découverte, sans savoir d'où et quand elle vienne-date%%
+%% Nombreuses ruines non découverte, sans savoir d'où et quand elle vienne-date %%
 
 ---
 
