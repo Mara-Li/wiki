@@ -9,4 +9,5 @@ __pycache__/**
 venv
 node_modules
 example.html
-graph.html
+**graph.html**
+docs/assets/graph.html
