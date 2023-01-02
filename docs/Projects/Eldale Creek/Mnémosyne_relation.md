@@ -1,9 +1,9 @@
 ---
-category: Projects/Eldale Creek/Mnémosyne
+category: Projects/Eldale Creek
 date: 14-11-2022
 description: Relations de Mnémosyne
 display: Carnet Relations
-name: Mnémosyne
+name: Mnémosyne_relation
 share: true
 title: "Mnémosyne — Relations"
 type: carnet
@@ -12,20 +12,20 @@ links:
  convert: false
 ---
 
-![[../../../hidden/Symbole relations|Symbole relations]]
+![[../../hidden/Symbole relations|Symbole relations]]
 
 | Fichier                                                                                      | statut | Relation | avis                                                                            |
 | -------------------------------------------------------------------------------------------- | ------ | -------- | ------------------------------------------------------------------------------- |
 | Abigail Brecker                     | ✅      | 🙂       | « Une fille sympa »                                                             |
-| Al'nyiran Iiblis                   | \-     | \-       | \-                                                                              |
 | Adrian Di. Bestia                 | \-     | \-       | \-                                                                              |
+| Al'nyiran Iiblis                   | \-     | \-       | \-                                                                              |
 | Allen Blake                             | \-     | \-       | \-                                                                              |
 | Ariel Cyrus                             | \-     | \-       | \-                                                                              |
 | Cornell Inksano                     | \-     | \-       | \-                                                                              |
 | Eerhin Corlumett                   | \-     | \-       | \-                                                                              |
 | Farraige Derrien                   | \-     | \-       | \-                                                                              |
-| Jake Enderson                         | \-     | \-       | \-                                                                              |
 | Howard Smith                           | ✅      | 😊       | « Je prendrai un malin plaisir à le faire chier jusqu'au restant de ses jours » |
+| Jake Enderson                         | \-     | \-       | \-                                                                              |
 | Jennifer Brooks                     | \-     | \-       | \-                                                                              |
 | Koara Kobain                           | 👀     | (croisé) | \-                                                                              |
 | Lily Robbins                           | ✅      | 😐       | « Cette pauvre enfant manque cruellement de culture »                           |
@@ -35,8 +35,8 @@ links:
 | Rithel Lithdeus                     | \-     | \-       | \-                                                                              |
 | Sacha Blackends                     | \-     | \-       | \-                                                                              |
 | Stella Étoile                         | ✅      | 🤩       | « On va faire de grandes choses ensemble ma p'tite »                            |
-| Vega Keith                               | \-     | \-       | \-                                                                              |
 | Tobias Junior Ravenshield | ✅      | 😘       | « DATE DATE DATE DATE »                                                         |
+| Vega Keith                               | \-     | \-       | \-                                                                              |
 | Adams Dielle                          | 💭     | \-       | (Connaît d'avant le début du RP)                                                |
 | Cherylin Weiss                      | \-     | \-       | \-                                                                              |
 | Clemy Lavender                      | \-     | \-       | \-                                                                              |
@@ -46,10 +46,10 @@ links:
 | Kurt McStonehammer              | \-     | \-       | \-                                                                              |
 | Lewis Michelle                      | \-     | \-       | \-                                                                              |
 | Meryl Velasco                        | ✅      | 😐       | \-                                                                              |
-| Ruby Ricci                              | \-     | \-       | \-                                                                              |
 | Russel Young                          | ✅      | 😐       | \-                                                                              |
-| Scott Parker                          | \-     | \-       | \-                                                                              |
+| Ruby Ricci                              | \-     | \-       | \-                                                                              |
 | Shelby Brown                          | \-     | \-       | \-                                                                              |
+| Scott Parker                          | \-     | \-       | \-                                                                              |
 | Suzy McKelly                          | ✅      | 🥰       | \-                                                                              |
 | Vanessa McHampton                | \-     | \-       | \-                                                                              |
 | Alazée O'Connor              | \-     | \-       | \-                                                                              |
