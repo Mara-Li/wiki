@@ -291,7 +291,7 @@ Issue de sa fusion avec un être informe, Obsius est le domaine sombre de Mnémo
 
 ### [[./Illustration_Némo|Illustration]]
 
-### [[Eldale_Relation_Némo|Relations]]
+### [[Relations_Eldale_Némo|Relations]]
 
 ### Capacités
 - Némo sait lire le braille.
