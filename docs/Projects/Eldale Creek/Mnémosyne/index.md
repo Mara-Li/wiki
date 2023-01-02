@@ -1,9 +1,9 @@
 ---
-category: Projects/Eldale Creek
+category: Projects/Eldale Creek/Mnémosyne
 date: 14-11-2022
 description: Relations de Mnémosyne
 display: Carnet Relations
-name: Mnémosyne_relation
+name: "Mnémosyne"
 share: true
 title: "Mnémosyne — Relations"
 type: carnet
@@ -12,7 +12,7 @@ links:
  convert: false
 ---
 
-![[../../hidden/Symbole relations|Symbole relations]]
+![[../../../hidden/Symbole relations|Symbole relations]]
 
 | Fichier                                                                                      | statut | Relation | avis                                                                            |
 | -------------------------------------------------------------------------------------------- | ------ | -------- | ------------------------------------------------------------------------------- |
@@ -22,10 +22,10 @@ links:
 | Allen Blake                             | \-     | \-       | \-                                                                              |
 | Ariel Cyrus                             | \-     | \-       | \-                                                                              |
 | Cornell Inksano                     | \-     | \-       | \-                                                                              |
-| Eerhin Corlumett                   | \-     | \-       | \-                                                                              |
 | Farraige Derrien                   | \-     | \-       | \-                                                                              |
-| Howard Smith                           | ✅      | 😊       | « Je prendrai un malin plaisir à le faire chier jusqu'au restant de ses jours » |
+| Eerhin Corlumett                   | \-     | \-       | \-                                                                              |
 | Jake Enderson                         | \-     | \-       | \-                                                                              |
+| Howard Smith                           | ✅      | 😊       | « Je prendrai un malin plaisir à le faire chier jusqu'au restant de ses jours » |
 | Jennifer Brooks                     | \-     | \-       | \-                                                                              |
 | Koara Kobain                           | 👀     | (croisé) | \-                                                                              |
 | Lily Robbins                           | ✅      | 😐       | « Cette pauvre enfant manque cruellement de culture »                           |
@@ -49,8 +49,8 @@ links:
 | Russel Young                          | ✅      | 😐       | \-                                                                              |
 | Ruby Ricci                              | \-     | \-       | \-                                                                              |
 | Shelby Brown                          | \-     | \-       | \-                                                                              |
-| Scott Parker                          | \-     | \-       | \-                                                                              |
 | Suzy McKelly                          | ✅      | 🥰       | \-                                                                              |
+| Scott Parker                          | \-     | \-       | \-                                                                              |
 | Vanessa McHampton                | \-     | \-       | \-                                                                              |
 | Alazée O'Connor              | \-     | \-       | \-                                                                              |
 | Jake O'Connor                  | \-     | \-       | \-                                                                              |
