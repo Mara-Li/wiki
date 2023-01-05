@@ -39,4 +39,6 @@ jobs:
           python3 -m venv venv
           # Install dependencies
           venv/bin/python3 -m pip install -r requirements.txt
-      - run: mkdocs gh-deploy
+      - run: |
+          source venv/bin/activate
+          mkdocs gh-deploy
