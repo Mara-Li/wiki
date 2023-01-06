@@ -33,25 +33,43 @@ jobs:
           python-version: '3.11'
           cache: 'pip'
       - id: python_cache
+        name: Check python cache
         uses: actions/cache@v3
         with:
           path: venv
           key: pip-${{ steps.setup_python.outputs.python-version }}-${{ hashFiles('requirements.txt') }}
-      - if: steps.python_cache.outputs.cache-hit != 'true'
+      - name: Install requirements
+        if: steps.python_cache.outputs.cache-hit != 'true'
         run: |
           if [ -d "venv" ]; then rm -rf venv; fi
           python3 -m venv venv
           venv/bin/python3 -m pip install -r requirements.txt
-      - name: Setup Pages
+      - name: Build Mkdocs
         id: pages
         uses: actions/configure-pages@v2
       - run: |
           source venv/bin/activate
           mkdocs build
-      - name: Upload SITE ARTIFACT
-        uses: actions/upload-pages-artifact@v1
+      - name: Archive artifact 
+        run: |
+          chmod -c -R +rX "$INPUT_PATH" | while read line; do
+            echo "::warning title=Invalid file permissions automatically fixed::$line"
+          done
+          tar \
+            --dereference --hard-dereference \
+            --directory "$INPUT_PATH" \
+            -cavf $RUNNER_TEMP/artifact.tar.bz2"
+            --exclude=.git \
+            --exclude=.github \
+            .
+        env:
+          INPUT_PATH: ./site
+      - name: Upload artifact
+        uses: ctions/upload-artifact@main
         with:
-          path: ./site
+          name: github-pages
+          path: ${{ runner.temp }}/artifact.tar.bz2
+          retention-days: 1
   deploy:
     environment:
       name: github-pages
