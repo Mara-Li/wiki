@@ -65,7 +65,7 @@ jobs:
         env:
           INPUT_PATH: ./site
       - name: Upload artifact
-        uses: ctions/upload-artifact@main
+        uses: actions/upload-artifact@main
         with:
           name: github-pages
           path: ${{ runner.temp }}/artifact.tar.bz2
