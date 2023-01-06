@@ -25,7 +25,10 @@ unused_images = [image for image in images if image not in used_images]
 
 # delete unused images
 
-print('Unused images:')
-for image in unused_images:
-    print(image)
-    os.remove(image)
+if unused_images:
+    print(f'Found {len(unused_images)} unused images in {assets_dir}. Deleting...')
+    for image in unused_images:
+        print(image)
+        os.remove(image)
+else:
+    print(f'Found no unused images in {assets_dir}.')
