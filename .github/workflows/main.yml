@@ -59,7 +59,7 @@ jobs:
           tar \
             --dereference --hard-dereference \
             --directory "$INPUT_PATH" \
-            -cavf "$RUNNER_TEMP/artifact.tar.bz2" \
+            -cvf "$RUNNER_TEMP/artifact.tar" \
             --exclude=.git \
             --exclude=.github \
             .
@@ -67,10 +67,10 @@ jobs:
           INPUT_PATH: site
           RUNNER_TEMP: ${{ runner.temp }}
       - name: Upload artifact
-        uses: actions/upload-artifact@main
+        uses: actions/upload-artifact@v3
         with:
           name: github-pages
-          path: ${{ runner.temp }}/artifact.tar.bz2
+          path: ${{ runner.temp }}/artifact.tar
           retention-days: 1
   deploy:
     environment:
