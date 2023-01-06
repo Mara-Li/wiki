@@ -5,10 +5,10 @@ alias:
   - Nemo
   - (i) Mnémosyne
 category: Compendium/Mnémosyne
-cover: https://www.mara-li.fr/assets/img/twitter_commission_Mnemosyne.png
+cover: https://www.mara-li.fr/assets/img/twitter_commission_Mnemosyne.jpeg
 date: 21-09-2021
 description: Référence générale de Mnémosyne
-image: twitter_commission_Mnemosyne.png
+image: twitter_commission_Mnemosyne.jpeg
 name: Mnémosyne
 share: true
 tags:
