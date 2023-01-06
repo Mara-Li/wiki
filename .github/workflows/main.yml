@@ -44,10 +44,11 @@ jobs:
           if [ -d "venv" ]; then rm -rf venv; fi
           python3 -m venv venv
           venv/bin/python3 -m pip install -r requirements.txt
-      - name: Build Mkdocs
+      - name: Configure Github Pages
         id: pages
         uses: actions/configure-pages@v2
-      - run: |
+      - name: Build Mkdocs
+        run: |
           source venv/bin/activate
           mkdocs build
       - name: Archive artifact 
@@ -58,7 +59,7 @@ jobs:
           tar \
             --dereference --hard-dereference \
             --directory "$INPUT_PATH" \
-            -cavf $RUNNER_TEMP/artifact.tar.bz2"
+            -cavf "$RUNNER_TEMP/artifact.tar.bz2"
             --exclude=.git \
             --exclude=.github \
             .
