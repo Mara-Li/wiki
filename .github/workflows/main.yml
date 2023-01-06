@@ -11,9 +11,17 @@ on:
       - 'docs/**'
       - 'mkdocs.yml'
       - 'requirements.txt'
-
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+  
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+  
 jobs:
-  mkdocs:
+  build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
@@ -25,20 +33,35 @@ jobs:
           python-version: '3.11'
           cache: 'pip'
       - id: python_cache
+        name: Check python cache
         uses: actions/cache@v3
         with:
           path: venv
           key: pip-${{ steps.setup_python.outputs.python-version }}-${{ hashFiles('requirements.txt') }}
       - if: steps.python_cache.outputs.cache-hit != 'true'
+        name: Recreate python cache
         run: |
-          # Check if venv exists (restored from secondary keys if any, and delete)
-          # You might not need this line if you only have one primary key for the venv caching
-          # I kept it in my code as a fail-safe
           if [ -d "venv" ]; then rm -rf venv; fi
-          # Re-create the venv
           python3 -m venv venv
-          # Install dependencies
           venv/bin/python3 -m pip install -r requirements.txt
-      - run: |
+      - name: Setup Pages
+        id: pages
+        uses: actions/configure-pages@v2
+      - name: Mkdocs build
+        run: |
           source venv/bin/activate
-          mkdocs gh-deploy
+          mkdocs build
+      - name: Upload pages artifact
+        uses: actions/upload-pages-artifact@v1
+        with:
+          path: ./site
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v1
