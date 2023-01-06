@@ -58,6 +58,7 @@ jobs:
           done
           echo "$INPUT_PATH will be ARCHIVED"
           cd $INPUT_PATH
+          ls 
           tar \
             --dereference --hard-dereference \
             -cavf "$RUNNER_TEMP/artifact.tar.bz2"
