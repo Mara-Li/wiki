@@ -57,6 +57,8 @@ jobs:
             echo "::warning title=Invalid file permissions automatically fixed::$line"
           done
           echo "$INPUT_PATH will be ARCHIVED in $RUNNER_TEMP"
+          ls -l $INPUT_PATH
+          ls -l $RUNNER_TEMP
           tar \
             --dereference --hard-dereference \
             --directory "$INPUT_PATH" \
