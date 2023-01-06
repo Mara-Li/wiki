@@ -63,7 +63,7 @@ jobs:
             -cavf "$RUNNER_TEMP/artifact.tar.bz2"
             --exclude=.git \
             --exclude=.github \
-            .
+            *
         env:
           INPUT_PATH: site
           RUNNER_TEMP: ${{ runner.temp }}
