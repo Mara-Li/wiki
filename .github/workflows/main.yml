@@ -57,15 +57,15 @@ jobs:
             echo "::warning title=Invalid file permissions automatically fixed::$line"
           done
           echo "$INPUT_PATH will be ARCHIVED in $RUNNER_TEMP"
-          ls -l $INPUT_PATH
-          ls -l $RUNNER_TEMP
+          ls -lR $INPUT_PATH | more
+          ls -lR $RUNNER_TEMP | more
           tar \
             --dereference --hard-dereference \
             --directory "$INPUT_PATH" \
             -cavf "$RUNNER_TEMP/artifact.tar.bz2"
             --exclude=.git \
             --exclude=.github \
-            *
+            .
         env:
           INPUT_PATH: site
           RUNNER_TEMP: ${{ runner.temp }}
