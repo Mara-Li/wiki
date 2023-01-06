@@ -17,13 +17,15 @@ jobs:
       - name: install pur
         run: pip install pur
       - name: Update requirements.txt
-        run: pur -r requirements.txt --skip mkdocs-encryptcontent-plugin,obsidiantools
+        run: pur -r requirements.txt
       - name: install requirements
         run: pip install -r requirements.txt
+      - name: Remove unused images
+        run: python find_unused_images.py
       - name: commit the new change (if found)
         continue-on-error: true
         run: |
           git config --global user.name 'github-actions'
           git config --global user.email 'github-actions@users.noreply.github.com'
-          git commit -am "Update requirements"
+          git commit -am "Update requirements & remove unused media"
           git push

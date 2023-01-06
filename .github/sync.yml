@@ -1,7 +1,6 @@
 group:
   - files: 
     - requirements.txt
-    - .github/workflows/update_requirements.yml
     repos: |
       ObsidianPublisher/obsidian-mkdocs-publisher-template
       sandboxingRepo/obsidian-sandbox
