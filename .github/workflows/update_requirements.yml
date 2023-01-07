@@ -21,7 +21,7 @@ jobs:
       - name: install requirements
         run: pip install -r requirements.txt
       - name: Remove unused images
-        run: python find_unused_images.py
+        run: python find_unused_media.py
       - name: commit the new change (if found)
         continue-on-error: true
         run: |
