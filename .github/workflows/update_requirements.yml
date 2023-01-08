@@ -18,10 +18,21 @@ jobs:
         run: pip install pur
       - name: Update requirements.txt
         run: pur -r requirements.txt
-      - name: install requirements
-        run: pip install -r requirements.txt
-      - name: Remove unused images
-        run: python find_unused_images.py
+      - name: check python cache
+        id: python_cache
+        uses: actions/cache@v3
+        with:
+          path: venv
+          key: pip-${{ steps.setup_python.outputs.python-version }}-${{ hashFiles('requirements.txt') }}
+      - if: steps.python_cache.outputs.cache-hit != 'true'
+        name: Recreate python cache
+        run: |
+          if [ -d "venv" ]; then rm -rf venv; fi
+          python3 -m venv venv
+          source venv/bin/activate
+          pip install -r requirements.txt
+      - name: Remove unused media
+        run: python find_unused_media.py
       - name: commit the new change (if found)
         continue-on-error: true
         run: |
