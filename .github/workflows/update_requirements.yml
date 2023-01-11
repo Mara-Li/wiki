@@ -2,6 +2,12 @@ name: update requirements
 
 on:
   workflow_dispatch:
+    inputs:
+      clean:
+        type: boolean
+        required: false
+        description: "Clean unused media"
+        default: true # Set this to false if you want to disable clean unused medias !!!
   schedule:
     - cron: '0 0 * * *'
 
@@ -32,6 +38,7 @@ jobs:
           source venv/bin/activate
           pip install -r requirements.txt
       - name: Remove unused media
+        if: ${{ github.event.inputs.clean == 'true' }}
         run: python find_unused_media.py
       - name: commit the new change (if found)
         continue-on-error: true
