@@ -1,5 +1,6 @@
 ---
 index: true
+comments: false
 template: blog.html
 title: Scriptorium
 category: Scriptorium

@@ -1,5 +1,6 @@
 ---
 index: true
+comments: false
 hide:
   - navigation
   - toc

@@ -1,6 +1,7 @@
 ---
 index: true
 template: index.html
+comments: false
 hide:
   - navigation
   - toc

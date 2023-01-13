@@ -1,5 +1,6 @@
 ---
 template: blog.html
+comments: false
 title: Lagendia
 category: Lagendia
 hidden: true

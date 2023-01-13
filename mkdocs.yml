@@ -139,6 +139,8 @@ extra_css:
     - assets/css/customization.css
 extra:
   SEO: 'assets/meta/LOGO_SEO.png'
+  comments: true
+  generate_graph: true
   social:
     - icon: fontawesome/brands/twitter
       link: https://twitter.com/Mara__Li
