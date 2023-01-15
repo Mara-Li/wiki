@@ -13,6 +13,7 @@ group:
     - docs/assets/css/template
     - .github/workflows/create_index.yml
     - docs/assets/js
+    - find_unused_media.py
     repos: |
       ObsidianPublisher/publisher-template-gh-pages
       ObsidianPublisher/publisher-template-netlify
