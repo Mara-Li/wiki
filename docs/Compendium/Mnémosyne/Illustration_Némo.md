@@ -41,4 +41,4 @@ image: Némo_Commission_BG+name.png
 > ![[../../assets/img/Nemo by Mogeckko.jpeg|Nemo by Mogeckko.jpeg]] ![[../../assets/img/Némo_lillyth.jpg|Némo_lillyth.jpg]]
 > ![[../../assets/img/Perseith - Némo.png|Perseith - Némo.png]]
 > ![[../../assets/img/Perseith_portrait.png|Perseith_portrait.png]]
-> ![[Némo_Commission_BG+name.png]]
+> ![[../../assets/img/Némo_Commission_bg+name.png]]
