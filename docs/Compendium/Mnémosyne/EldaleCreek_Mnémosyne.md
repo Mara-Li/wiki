@@ -35,7 +35,7 @@ $~$
 <h1 style="text-align:right; height:12px">BIOGRAPHIE</h1>
 
 ## Physique
-![[../../assets/img/Némo_Commission.png|+side]]
+![[../../assets/img/Némo_Commission_BG+name.png]]
 >[!infobox|left]
 > ![[../../assets/img/Nemo by Mogeckko avec arrière-plan supprimé.png|Nemo by Mogeckko avec arrière-plan supprimé.png]]
 > - *Couleur des yeux* : Blanc, translucide
