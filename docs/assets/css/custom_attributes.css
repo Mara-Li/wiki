@@ -48,6 +48,7 @@
     display: grid;
 }
 
+.md-typeset .admonition.grid .glightbox,
 .md-typeset .admonition.grid img {
     display: table-cell;
     vertical-align: middle;

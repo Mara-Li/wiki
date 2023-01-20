@@ -15,6 +15,7 @@ function UrlExists(url, type_url) {
     if (ref.includes('%5C')) {
         ref = ref.replace(/%5C/g, '/')
     }
+    ref = decodeURI(ref)
     if (type_url === 0) {
         url.href = ref
         url.title = title
@@ -93,7 +94,7 @@ for (var i = 0; i < img.length; i++) {
         img[i].width = size[0] > 0 ? size[0] : img[i].width
         img[i].height = size[1] > 0 ? size[1] : img[i].height
         img[i].alt = "";
-    } 
+    }
     var link = UrlExists(img[i], 1);
 }
 
