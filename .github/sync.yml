@@ -16,8 +16,7 @@ group:
     - find_unused_media.py
     - docs/tags.md
     repos: |
-      ObsidianPublisher/publisher-template-gh-pages
-      ObsidianPublisher/publisher-template-netlify
+      ObsidianPublisher/follow_template
       ObsidianPublisher/obsidian-mkdocs-publisher-docs
       sandboxingRepo/obsidian-sandbox
   - files:
