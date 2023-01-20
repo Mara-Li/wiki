@@ -50,7 +50,7 @@ jobs:
       - if: ${{ github.event.inputs.clean == 'true' }} && ${{ github.event.inputs.dry_run == 'false' }}
         name: Remove unused media
         run: python find_unused_media.py "${{ github.event.inputs.img_dir }}"
-      - if: ${{ github.event.inputs.dry_run == 'true' }}
+      - if: ${{ github.event.inputs.clean == 'true' }} && ${{ github.event.inputs.dry_run == 'true' }}
         name: Dry run
         run: python find_unused_media.py "${{ github.event.inputs.img_dir }}" --dry-run
       - name: commit the new change (if found)
