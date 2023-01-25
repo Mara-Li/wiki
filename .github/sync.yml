@@ -15,13 +15,13 @@ group:
     - docs/assets/js
     - find_unused_media.py
     - docs/tags.md
+    - .github/workflows/update_req_clean_medias.yml
     repos: |
       ObsidianPublisher/follow_template
       ObsidianPublisher/obsidian-mkdocs-publisher-docs
       sandboxingRepo/obsidian-sandbox
   - files:
     - .github/workflows/main.yml
-    - .github/workflows/update_requirements.yml
     repos: |
       ObsidianPublisher/publisher-template-gh-pages
   - files:
