@@ -36,11 +36,10 @@ jobs:
         run: |
           echo "WORKFLOW_TYPE=${{ env.WORKFLOW_TYPE }}" >> $GITHUB_OUTPUT
           echo "GENERATE_GRAPH=${{ env.GENERATE_GRAPH }}" >> $GITHUB_OUTPUT
-          isExist=false
+          echo "NETLIFY_SPECIAL=false" >> $GITHUB_OUTPUT
           if [ -f "requirements_action.txt" ]; then
-            isExist=true
+            echo "NETLIFY_SPECIAL=true" >> $GITHUB_OUTPUT
           fi
-          echo "NETLIFY_SPECIAL=$isExist" >> $GITHUB_OUTPUT
   netlify:
     needs: check-env
     runs-on: ubuntu-latest
