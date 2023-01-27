@@ -14,7 +14,7 @@ jobs:
           python-version: '3.11'
           cache: 'pip'
       - name: Get .env file
-        uses: xom9ikk/dotenv@master
+        uses: xom9ikk/dotenv@v2.1.0
         with:
           path: .github
           load_mode: strict
@@ -39,11 +39,11 @@ jobs:
           python3 -m venv venv
           source venv/bin/activate
           pip install -r requirements.txt
-      - if: ${{ env.CLEAN == 'true' }} && ${{ env.DRY_RUN == 'false' }} 
+      - if: ${{ env.CLEAN == 'true' && env.DRY_RUN == 'false' }} 
         name: Remove unused media
         run: python find_unused_media.py "$IMG_DIR"
-      - if: ${{ env.CLEAN == 'true'}} && ${{ env.DRY_RUN == 'true' }}
-        name: Dry run
+      - if: ${{ env.CLEAN == 'true' && env.DRY_RUN == 'true' }}
+        name: Find unused media (dry run)
         run: python find_unused_media.py "$IMG_DIR" --dry-run
       - name: commit the new change (if found)
         continue-on-error: true
