@@ -1,9 +1,4 @@
 group:
-  - files: 
-    - requirements.txt
-    repos: |
-      ObsidianPublisher/publisher-template-gh-pages
-      sandboxingRepo/obsidian-sandbox
   - files:
     - source: overrides/
       dest: overrides/
@@ -20,10 +15,6 @@ group:
       ObsidianPublisher/follow_template
       ObsidianPublisher/obsidian-mkdocs-publisher-docs
       sandboxingRepo/obsidian-sandbox
-  - files:
-    - .github/workflows/main.yml
-    repos: |
-      ObsidianPublisher/publisher-template-gh-pages
   - files:
     - source: docs/assets/js/wiki_hover.js
       dest: wiki_hover.js

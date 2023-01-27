@@ -1,0 +1,55 @@
+name: CI
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths: 
+      - 'README.md'
+      - 'overrides/**'
+      - 'docs/**'
+      - 'mkdocs.yml'
+      - 'requirements.txt'
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  deploy: 
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+      - id: setup_python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+      - name: Get .env file
+        uses: xom9ikk/dotenv@v2.1.0
+        with:
+          path: .github
+          load_mode: strict
+      - name: generate graph
+        if: ${{ env.WORKFLOW_TYPE != 'gh-pages' && env.GENERATE_GRAPH == 'true' }}
+        run: |
+          source venv/bin/activate
+          python generate_graph.py
+      - name: Push the generated graph
+        if: env.WORKFLOW_TYPE == 'netlify'
+        continue-on-error: true
+        run: |
+          git config --global user.name 'github-actions'
+          git config --global user.email 'github-actions@users.noreply.github.com'
+          git add .
+          git commit -am "[skip ci] Update generated graph"
+          git push
+      - name: Deploy to netlify
+        if: env.WORKFLOW_TYPE == 'netlify'
+        run: |
+          curl -X POST -d {} https://api.netlify.com/build_hooks/63d43ae707e3534c43e5b962
+      
