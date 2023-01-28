@@ -11,6 +11,8 @@ group:
     - find_unused_media.py
     - docs/tags.md
     - .github/workflows/update_req_clean_medias.yml
+    - source: .github/workflows/deploy.yml
+      dest: .github/workflows/advanced_deploy.yml
     repos: |
       ObsidianPublisher/follow_template
       ObsidianPublisher/obsidian-mkdocs-publisher-docs

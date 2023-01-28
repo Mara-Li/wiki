@@ -6,6 +6,6 @@ __pycache__/**
 **/__pycache__/**
 **/lib/**
 .cache
-venv
+venv*
 node_modules
 example.html
