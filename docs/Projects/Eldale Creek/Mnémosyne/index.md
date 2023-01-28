@@ -1,15 +1,15 @@
 ---
 category: Projects/Eldale Creek/Mnémosyne
+dataview: true
 date: 14-11-2022
 description: Relations de Mnémosyne
 display: Carnet Relations
+links:
+ convert: false
 name: "Mnémosyne"
 share: true
 title: "Mnémosyne — Relations"
 type: carnet
-dataview: true
-links:
- convert: false
 ---
 
 ![[../../../hidden/Symbole relations|Symbole relations]]
