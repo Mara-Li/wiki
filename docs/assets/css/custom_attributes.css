@@ -1,56 +1,55 @@
 .comments {
-    display: none;
+  display: none;
 }
 
 #left {
-    display: inline-block;
-    width: 100%;
-    text-align: right;
-    font-weight: normal;
+  display: inline-block;
+  width: 100%;
+  text-align: right;
+  font-weight: normal;
 }
 
 #u {
-    text-align: center;
-    display: block;
+  text-align: center;
+  display: block;
 }
 
 #tags {
-    background-color: rgba(142, 137, 137, 0.38);
-    border-radius: 5px;
+  background-color: rgba(142, 137, 137, 0.38);
+  border-radius: 5px;
 }
 
 .hash::before {
-    content: "#";
+  content: "#";
 }
 
-[data-md-color-scheme="default"] .hash
-{
-    color: #5f5f60;
-    border-radius: 5px;
-    background-color: #bfbcbca2;
-    padding-left: 5px;
-    padding-right: 5px;
+[data-md-color-scheme="default"] .hash {
+  color: #5f5f60;
+  border-radius: 5px;
+  background-color: #bfbcbca2;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 [data-md-color-scheme="slate"] .hash {
-    color: #e2e2e29a;
-    border-radius: 5px;
-    background-color: #6b6b6b1d;
-    padding-left: 5px;
-    padding-right: 5px;
+  color: #e2e2e29a;
+  border-radius: 5px;
+  background-color: #6b6b6b1d;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 .md-typeset .admonition.grid {
-    box-shadow: none;
+  box-shadow: none;
 }
 
 .md-typeset .admonition.grid p:not(.admonition-title) {
-    display: grid;
+  display: grid;
 }
 
 .md-typeset .admonition.grid .glightbox,
 .md-typeset .admonition.grid img {
-    display: table-cell;
-    vertical-align: middle;
-    grid-row: 2 / 4;
+  display: table-cell;
+  vertical-align: middle;
+  grid-row: 2 / 4;
 }
