@@ -19,13 +19,16 @@ hide:
 ---
 <div class="grid cards" markdown>
 
-!!! project "[Obsidian Mkdocs Publisher](https://obsidian-publisher.netlify.app/fr/)"
+!!! project "[Obsidian Mkdocs Publisher](https://obsidian-publisher.netlify.app/)"
     Une solution simple et élégante pour publier ses notes directement depuis [Obsidian](https://www.obsidian.md/) . Permet en outre d'envoyer ses fichiers vers n'importe quel repo hébergé sur GitHub.
 
-!!! project "[Obsidian Metacopy](https://github.com/Mara-Li/obsidian-metacopy)"
+!!! project "[Obsidian Metacopy](https://github.com/lisandra-dev/obsidian-metacopy)"
     Un plugin [Obsidian](https://www.obsidian.md/) qui permet de rapidement copier/coller une clé de frontmatter, et de créer des liens à partir du nom de ses notes et divers autres paramètres.
 
-!!! project "[Obsidian Group Snippets](https://github.com/Mara-Li/obsidian-group-snippets)"
+!!! project "[Obsidian Group Snippets](https://github.com/lisandra-dev/bsidian-group-snippets)"
     Un autre module pour [Obsidian](https://www.obidian.md) qui permet d'activer/désactiver automatiquement des groupes d'extraits CSS en fonction du thème/plateforme/jeu de couleur. 
+
+!!! project "[Create Note From Command](https://github.com/Lisandra-dev/obsidian-create-note-in-folder/)
+    Un plugin [Obsidian](https://www.obidian.md) qui permet de configurer des dossiers dans lesquels créer des notes à partir de commandes.
 
 </div>
