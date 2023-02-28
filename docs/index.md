@@ -31,4 +31,7 @@ hide:
 !!! project "[Create Note From Command](https://github.com/Lisandra-dev/obsidian-create-note-in-folder/)
     Un plugin [Obsidian](https://www.obidian.md) qui permet de configurer des dossiers dans lesquels créer des notes à partir de commandes.
 
+!!! project "[Canvas CSS Class](https://github.com/Lisandra-dev/obsidian-canvas-css-class)
+    Un plugin [Obsidian](https://www.obidian.md) qui permet d'ajouter des classes CSS à des canvas.
+
 </div>
