@@ -28,10 +28,10 @@ hide:
 !!! project "[Obsidian Group Snippets](https://github.com/lisandra-dev/bsidian-group-snippets)"
     Un autre module pour [Obsidian](https://www.obidian.md) qui permet d'activer/désactiver automatiquement des groupes d'extraits CSS en fonction du thème/plateforme/jeu de couleur. 
 
-!!! project "[Create Note From Command](https://github.com/Lisandra-dev/obsidian-create-note-in-folder/)
+!!! project "[Create Note From Command](https://github.com/Lisandra-dev/obsidian-create-note-in-folder/)"
     Un plugin [Obsidian](https://www.obidian.md) qui permet de configurer des dossiers dans lesquels créer des notes à partir de commandes.
 
-!!! project "[Canvas CSS Class](https://github.com/Lisandra-dev/obsidian-canvas-css-class)
+!!! project "[Canvas CSS Class](https://github.com/Lisandra-dev/obsidian-canvas-css-class)3
     Un plugin [Obsidian](https://www.obidian.md) qui permet d'ajouter des classes CSS à des canvas.
 
 </div>
