@@ -39,17 +39,3 @@
   padding-right: 5px;
 }
 
-.md-typeset .admonition.grid {
-  box-shadow: none;
-}
-
-.md-typeset .admonition.grid p:not(.admonition-title) {
-  display: grid;
-}
-
-.md-typeset .admonition.grid .glightbox,
-.md-typeset .admonition.grid img {
-  display: table-cell;
-  vertical-align: middle;
-  grid-row: 2 / 4;
-}

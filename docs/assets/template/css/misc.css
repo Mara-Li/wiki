@@ -122,26 +122,3 @@ code {
 .light#text {
   color: black;
 }
-
-.md-typeset .admonition.grid,
-.md-typeset details.grid,
-.md-typeset details.infobox,
-.md-typeset .admonition.infobox {
-  border-color: transparent;
-  background-color: transparent;
-}
-
-.md-typeset .grid > .admonition-title,
-.md-typeset .infobox > .admonition-title,
-.md-typeset .grid > .summary,
-.md-typeset .infobox > .summary {
-  display: none;
-}
-
-.md-typeset .grid > .admonition-title::before,
-.md-typeset .grid > summary::before,
-.md-typeset .infobox > .admonition-title::before {
-  background-color: transparent;
-  -webkit-mask-image: var(--md-admonition-icon--grid);
-  mask-image: var(--md-admonition-icon--grid);
-}
