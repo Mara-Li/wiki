@@ -124,6 +124,7 @@ extra_javascript:
   - assets/js/utils.js
   - assets/js/chirpy.js
   - assets/js/wiki_hover.js
+  - assets/js/url_exist.js
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
   - https://unpkg.com/mermaid/dist/mermaid.min.js
