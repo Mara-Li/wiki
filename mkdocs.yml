@@ -120,19 +120,10 @@ hooks:
   - overrides/hooks/on_page_markdown.py
   - overrides/hooks/on_env.py
 extra_javascript:
-  - assets/js/mathjax.js
-  - assets/js/utils.js
-  - assets/js/chirpy.js
-  - assets/js/wiki_hover.js
-  - assets/js/url_exist.js
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
   - https://unpkg.com/mermaid/dist/mermaid.min.js
 extra_css:
-    - assets/css/template/img-grids-floats.css
-    - assets/css/template/utils.css
-    - assets/css/template/blog.css
-    - assets/css/template/grid.css
     - assets/css/custom_attributes.css
     - assets/css/admonition.css
     - assets/css/customization.css
