@@ -5,10 +5,9 @@ group:
       exclude: |
         404.html
         partials/comments.html
-    - docs/assets/css/template
     - .github/workflows/create_index.yml
-    - docs/assets/js
     - find_unused_media.py
+    - docs/template
     - docs/tags.md
     - .github/workflows/update_req_clean_medias.yml
     - source: .github/workflows/deploy.yml
