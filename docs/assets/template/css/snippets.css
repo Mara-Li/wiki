@@ -28,6 +28,9 @@
 
 .admonition.infobox {
     float: left;
+    margin-right: .8rem;
+    margin-top: 0;
+    width: 11.7rem;
 }
 
 .md-typeset .admonition.grid {
