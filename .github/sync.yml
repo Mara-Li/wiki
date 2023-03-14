@@ -7,7 +7,7 @@ group:
         partials/comments.html
     - .github/workflows/create_index.yml
     - find_unused_media.py
-    - docs/template/
+    - docs/assets/template/
     - docs/tags.md
     - .github/workflows/update_req_clean_medias.yml
     - source: .github/workflows/deploy.yml
