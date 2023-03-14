@@ -29,8 +29,6 @@ function getHeightWidth(alt) {
   }
 }
 
-
-
 var p_img = /\.+\\/gi;
 var img = document.querySelectorAll("img");
 for (var i = 0; i < img.length; i++) {
