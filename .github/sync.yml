@@ -16,8 +16,4 @@ group:
       ObsidianPublisher/follow_template
       ObsidianPublisher/obsidian-mkdocs-publisher-docs
       sandboxingRepo/obsidian-sandbox
-  - files:
-    - source: docs/assets/template/js/wiki_hover.js
-      dest: wiki_hover.js
-    repos: |
-      ObsidianPublisher/tooltips-internal-link
+
