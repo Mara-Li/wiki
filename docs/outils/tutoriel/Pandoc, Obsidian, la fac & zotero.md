@@ -111,19 +111,23 @@ Pour :
 - Citer un article : Copier/coller la clé pandoc tel que : `[@auteurNomannée]` comme `[@chenAgeassociatedSARSCoV2Breakthrough]` (astuce : chercher ses clés dans google vous donnera l'article aussi 😊)
 - Citer et nommé un tableau :
 	- Créé votre tableau tel que :
-	```md  
+```md  
 	| Tableau | X |  
 	|:--------|---|  
 	|Truc|Machin|  
 	Table: Demonstration d'une table {#tbl:id1}  
-	```  
-	- Ensuite, pour citer un tableau : "`+@tbl:id1` est un simple tableau.""
+```
+
+- Ensuite, pour citer un tableau : "`+@tbl:id1` est un simple tableau."
+	
 	Notons que vous pouvez citer des tableaux dans différents fichiers, avec l'aide de l'id qui doit être unique.
 - Pour les images :
 	- `![Caption description](image.png){#fig:img-1}`
 	- Et pour citer : `+@fig:img-1`
+
 Pandoc xnos utilise à chaque fois la même idée de citation, avec toujours un `{#type:id}` où chaque `id` est unique, et `type` peut être `fig`, `tbl`…
->[!note]
+
+> [!note]
 > Juste pour info, vous aurez un warning de la part de citeproc, qui n'aura aucun impact sur l'export
 
 # La commande pandoc
