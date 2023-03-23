@@ -111,15 +111,13 @@ Pour :
 - Citer un article : Copier/coller la clé pandoc tel que : `[@auteurNomannée]` comme `[@chenAgeassociatedSARSCoV2Breakthrough]` (astuce : chercher ses clés dans google vous donnera l'article aussi 😊)
 - Citer et nommé un tableau :
 	- Créé votre tableau tel que :
-```md  
-	| Tableau | X |  
-	|:--------|---|  
-	|Truc|Machin|  
-	Table: Demonstration d'une table {#tbl:id1}  
-```
-
+  ```md  
+    | Tableau | X |  
+    |:--------|---|  
+    |Truc|Machin|  
+    Table: Demonstration d'une table {#tbl:id1}  
+  ```
 - Ensuite, pour citer un tableau : "`+@tbl:id1` est un simple tableau."
-	
 	Notons que vous pouvez citer des tableaux dans différents fichiers, avec l'aide de l'id qui doit être unique.
 - Pour les images :
 	- `![Caption description](image.png){#fig:img-1}`
