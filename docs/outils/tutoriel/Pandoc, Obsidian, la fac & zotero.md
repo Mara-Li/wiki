@@ -11,7 +11,7 @@ tags:
 ---
 
 
-Souvent, on peut se demander "mais comment, bon dieu on peut continuer à utiliser word pour nos mémoires ?" car Word-google doc a de nombreux (très nombreux) problème. 
+Souvent, on peut se demander "mais comment, bon dieu on peut continuer à utiliser word pour nos mémoires ?" car Word-google doc a de nombreux (très nombreux) problème.
 
 Ici, mon problème principal était lié à ma documentation. En effet, dès que mes profs éditaient le fichier, ma biblio sautait et je n'avais que mes numéros et mes yeux pour pleurer. Pas très ouf pour s'y retrouver n'est-ce pas ? Surtout quand on peut écrire facilement en Markdown un fichier où citer un tableau, graphique, ou un document équivaut à citer le numéro du tableau, image, ou une clé unique de citation créée par BibLatex.
 
@@ -21,9 +21,9 @@ Ici, je détaillerai les étapes pour écrire un rapport pour la Faculté de Lyo
 
 - [Pandoc](https://pandoc.org/) et [Python](https://pypi.org/)
 - [Zotero](https://www.zotero.org/) et son extension [Better BibTex](https://retorque.re/zotero-better-bibtex/)
--  [Pandoc xnos](https://github.com/tomduck/pandoc-xnos)
+- [Pandoc xnos](https://github.com/tomduck/pandoc-xnos)
 
-Une fois cela fait, pour faciliter votre boulot, vous pouvez créer un dossier "Export" pour faciliter la configuration. Dans ce fichier export, vous allez mettre : 
+Une fois cela fait, pour faciliter votre boulot, vous pouvez créer un dossier "Export" pour faciliter la configuration. Dans ce fichier export, vous allez mettre :
 - [Le filtre "lua" pour les pagebreak](https://raw.githubusercontent.com/pandoc/lua-filters/master/pagebreak/pagebreak.lua) (clic droit -> enregistrer sous)
 - [Le modèle docx adapté pour les mémoire de Lyon 1](https://docs.google.com/document/d/1P285wZw6rle2CIIC3f3HY3Ja64pHjQYq/edit?usp=sharing&ouid=109400928673768266798&rtpof=true&sd=true)
 
@@ -31,7 +31,7 @@ Ensuite, vous devez créer, dans le dossier d'export deux fichier [yaml](https:/
 
 # Configuration
 
-Afin de créer votre configuration, il reste encore deux étapes : 
+Afin de créer votre configuration, il reste encore deux étapes :
 - Exporter votre bibliothèque Zotero en format better bibtex, en activant la synchronisation.
 - Télécharger un modèle de citation (que vous pouvez retrouver [ici](https://www.zotero.org/styles))
 Pour plus de faciliter, placer ses deux fichier dans le dossier `export`.
@@ -40,13 +40,13 @@ Pour plus de faciliter, placer ses deux fichier dans le dossier `export`.
 
 Note : Le chemin complet vers export sera nommé `Users\export` mais vous devez modifier ce chemin par le véritable chemin ABSOLUE vers les fichiers. Sous windows, pour faciliter les choses : clic droit sur un fichier => Copier en tant que chemin d'accès.
 
-Vous êtes obligé de doubler tous les `\` sous Windows. 
+Vous êtes obligé de doubler tous les `\` sous Windows.
 
->[!WARNING]
-> Vos images ne sont pas trouvées magiquement par pandoc, n'oubliez pas de créer un dossier dans lequel elles seront rangés & nommée. 
+> [!WARNING]
+> Vos images ne sont pas trouvées magiquement par pandoc, n'oubliez pas de créer un dossier dans lequel elles seront rangés & nommée.
 > Ici, le dossier sera nommée `Users\export\attachment`
 
-Dans `default.yml` : 
+Dans `default.yml` :
 ```yaml
 filters:
 	- 'Users\\export\\pagebreak.lua'
@@ -104,30 +104,32 @@ fignos-plus-name: figure
 ```
 
 # L'écriture
-Maintenant, vous pouvez utiliser n'importe quel logiciel pour ouvrir des fichiers markdown pour rédiger votre mémoire. 
+Maintenant, vous pouvez utiliser n'importe quel logiciel pour ouvrir des fichiers markdown pour rédiger votre mémoire.
 Personnellement, j'utilise [Obsidian](https://obsidian.md/)avec [Pandoc Reference List](https://github.com/mgmeyers/obsidian-pandoc-reference-list)et [Zotero Desktop Connector](https://github.com/mgmeyers/obsidian-zotero-desktop-connector)
 
 Pour :
 - Citer un article : Copier/coller la clé pandoc tel que : `[@auteurNomannée]` comme `[@chenAgeassociatedSARSCoV2Breakthrough]` (astuce : chercher ses clés dans google vous donnera l'article aussi 😊)
-- Citer et nommé un tableau : 
-	- Créé votre tableau tel que :   
-	```md  
-	| Tableau | X |  
-	|:--------|---|  
-	|Truc|Machin|  
-	Table: Demonstration d'une table {#tbl:id1}  
-	```  
-	- Ensuite, pour citer un tableau : "`+@tbl:id1` est un simple tableau.""
+- Citer et nommé un tableau :
+	- Créé votre tableau tel que :
+  ```md  
+    | Tableau | X |  
+    |:--------|---|  
+    |Truc|Machin|  
+    Table: Demonstration d'une table {#tbl:id1}  
+  ```
+- Ensuite, pour citer un tableau : "`+@tbl:id1` est un simple tableau."
 	Notons que vous pouvez citer des tableaux dans différents fichiers, avec l'aide de l'id qui doit être unique.
-- Pour les images : 
+- Pour les images :
 	- `![Caption description](image.png){#fig:img-1}`
 	- Et pour citer : `+@fig:img-1`
-Pandoc xnos utilise à chaque fois la même idée de citation, avec toujours un `{#type:id}` où chaque `id` est unique, et `type` peut être `fig`, `tbl`... 
->[!note]
+
+Pandoc xnos utilise à chaque fois la même idée de citation, avec toujours un `{#type:id}` où chaque `id` est unique, et `type` peut être `fig`, `tbl`…
+
+> [!note]
 > Juste pour info, vous aurez un warning de la part de citeproc, qui n'aura aucun impact sur l'export
 
 # La commande pandoc
-Maintenant que tout semble configuré, il vous suffit plus qu'à lancer la commande pour compiler le rapport. 
+Maintenant que tout semble configuré, il vous suffit plus qu'à lancer la commande pour compiler le rapport.
 
 ```sh
 pandoc --defaults "User\Export\default.yml"
