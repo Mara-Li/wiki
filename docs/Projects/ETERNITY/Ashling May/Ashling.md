@@ -1,11 +1,11 @@
 ---
-category: PROJECTS/ETERNITY/Ashling May
+category: Projects/ETERNITY/Ashling May
 dataview: true
 date: 2023-04-02
-description: "Relations de Ashling « Sola UI » May dans le RP ETERNITY."
+description: Relations de Ashling « Sola UI » May dans le RP ETERNITY.
 links:
   convert: false
-name: "Ashling"
+name: Ashling
 share: true
 title: "[RELATIONS] ASHLING « SOLA-UI » MAY"
 type: carnet
