@@ -146,5 +146,3 @@ extra:
   hooks:
     strip_comments: true
     fix_heading: true
-
-
