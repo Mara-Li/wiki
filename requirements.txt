@@ -16,3 +16,4 @@ pillow==9.5.0
 mkdocs-glightbox==0.3.4
 mkdocs-minify-plugin==0.6.4
 obsidiantools==0.10.0
+pyvis==0.3.2
