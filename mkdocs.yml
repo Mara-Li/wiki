@@ -28,7 +28,7 @@ theme:
       accent: light blue
       toggle:
         icon: material/weather-sunny
-        name: Switch to light mode
+        name: Passer en mode clair
     features:
         - navigation.indexes
         - navigation.top
