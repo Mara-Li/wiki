@@ -128,7 +128,7 @@ extra_css:
 extra:
   SEO: 'assets/meta/LOGO_SEO.png'
   comments: true
-  generate_graph: false
+  generate_graph: true
   attachments: 'assets/img/' #folder where to store attachments
   no-auto-h1: true
   social:
