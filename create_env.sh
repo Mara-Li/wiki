@@ -1,1 +1,0 @@
-conda.exe env export | cut -f -1 -d "=" | grep -v "prefix" > environment.yml
