@@ -93,10 +93,6 @@ plugins:
       enable_creation_date: true
   - ezlinks:
         wikilinks: true
-  - mermaid2:
-      arguments:
-        theme: |
-          ^(JSON.parse(__md_get("__palette").index == 1)) ? 'dark' : 'light'
   - awesome-pages
   - embed_file:
       callouts: true
