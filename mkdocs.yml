@@ -19,7 +19,7 @@ theme:
       accent: light blue
       toggle:
         icon: material/weather-night
-        name: Switch to dark mode
+        name: Passer au mode sombre
 
     # Dark mode
     - media: "(prefers-color-scheme: dark)"
@@ -28,7 +28,7 @@ theme:
       accent: light blue
       toggle:
         icon: material/weather-sunny
-        name: Switch to light mode
+        name: Passer au mode clair
     features:
         - navigation.indexes
         - navigation.top
@@ -118,10 +118,10 @@ hooks:
 extra_javascript:
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
-  - https://obsidianpublisher.github.io/assets/dist/javascript.js
+  - https://cdn.jsdelivr.net/gh/ObsidianPublisher/assets/dist/javascript.js
 extra_css:
     - https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css
-    - https://obsidianpublisher.github.io/assets/dist/styles.css
+    - https://cdn.jsdelivr.net/gh/ObsidianPublisher/assets/dist/styles.css
     - assets/css/admonition.css
     - assets/css/custom_attributes.css
     - assets/css/customization.css
