@@ -9,17 +9,18 @@ tags:
   - MOC
 ---
 
+[[Projects/Eldale Creek/index.md]]
 
 %% #MOC %%
 
 # Liste de pouvoirs
 - Invoquer un stand avec l’aide d’un téléphone (donc gérer la batterie du téléphone à chaque invocation)
-- Nécromancie
+- [[Nécromancie]]
 - Contrôles élémentaires
 - Contrôle du sang
 - Téléportation
 - Invocation d'armes
-- Technomage
+- [[Technomage]]
 - Sortilège
 - Alchimie
 - Soins

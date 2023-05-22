@@ -12,3 +12,4 @@ example.html
 .idea
 Pipfile
 Pipfile.lock
+docs/assets/js/*
