@@ -2,7 +2,7 @@
 {% set title = config.site_name %}
 {% set description = config.site_description %}
 {% if page and page.meta %}
-    {% if page.is_homepage %}
+    {% if not page.is_homepage %}
         {% set title = page.title %}
     {% elif  page.meta.title %}
         {% set title = page.meta.title %}
