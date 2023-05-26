@@ -199,3 +199,45 @@
   box-shadow: none;
   border: none;
 }
+
+.admonition.wiki {
+  float: left;
+  margin-right: 0.8rem;
+  margin-top: 0;
+  width: min-content;
+}
+
+.md-typeset details.wiki,
+.md-typeset .admonition.wiki {
+  border-color: transparent;
+  background-color: transparent;
+}
+
+.md-typeset .wiki>.admonition-title::before {
+  background-color: transparent;
+  -webkit-mask-image: var(--md-admonition-icon--grid);
+  mask-image: var(--md-admonition-icon--grid);
+}
+
+.admonition.wiki > .admonition-title {
+  display: none;
+}
+
+.admonition.wiki h1 {
+  /* center */
+  text-align: center;
+}
+
+.admonition.wiki table thead tr {
+  display: none;
+}
+
+.admonition.wiki table {
+  font-size: 1em;
+  border: none
+}
+
+.admonition.wiki table tr td:first-child {
+  font-weight: bold;
+}
+
