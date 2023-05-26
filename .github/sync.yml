@@ -12,7 +12,7 @@ group:
     - source: .github/workflows/deploy.yml
       dest: .github/workflows/advanced_deploy.yml
     repos: |
-      ObsidianPublisher/follow_template
-      ObsidianPublisher/obsidian-mkdocs-publisher-docs
+      ObsidianPublisher/sync_template
+      ObsidianPublisher/docs
       sandboxingRepo/obsidian-sandbox
 
