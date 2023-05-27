@@ -5,12 +5,8 @@ group:
       exclude: |
         404.html
         partials/comments.html
-    - .github/workflows/create_index.yml
     - find_unused_media.py
     - docs/tags.md
-    - .github/workflows/update_req_clean_medias.yml
-    - source: .github/workflows/deploy.yml
-      dest: .github/workflows/advanced_deploy.yml
     repos: |
       ObsidianPublisher/sync_template
       ObsidianPublisher/docs
