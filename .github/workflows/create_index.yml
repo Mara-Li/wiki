@@ -28,6 +28,9 @@ on:
         required: false
         description: "Do not create new category index, just log."
 
+env:
+  author_email: ${{ secrets.AUTHOR_EMAIL }}
+
 jobs:
   run:
     uses: ObsidianPublisher/actions/.github/workflows/index.yml@main
@@ -38,8 +41,8 @@ jobs:
       toc_hide: ${{ inputs.toc_hide}}
       nav_hide: ${{ inputs.nav_hide}}
       dry_run: ${{ inputs.dry_run}}
+      author_email: ${{ github.env.author_email}}
+      author_name: "lisandra-dev"
     secrets:
       GH_PAT: ${{ secrets.GITHUB_TOKEN }}
-      author_email: ${{ secrets.AUTHOR_EMAIL }}
-      author_name: "lisandra-dev"
 
