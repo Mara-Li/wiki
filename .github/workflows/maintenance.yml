@@ -4,10 +4,6 @@ on:
   workflow_dispatch:
   schedule:
     - cron: '0 0 * * *'
-
-env:
-  AUTHOR_EMAIL: ${{ secrets.AUTHOR_EMAIL }}
-
 jobs:
   maintenance:      
     uses: ObsidianPublisher/actions/.github/workflows/maintenance.yml@main
