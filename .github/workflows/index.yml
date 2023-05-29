@@ -40,6 +40,6 @@ jobs:
       dry_run: ${{ inputs.dry_run}}
     secrets:
       GH_PAT: ${{ secrets.GITHUB_TOKEN }}
-      author_email: ${{ secrets.author_email }}
-      author_name: "lisandra-dev"
+      AUTHOR_EMAIL: ${{ secrets.author_email }}
+      AUTHOR_NAME: "lisandra-dev"
 

@@ -23,5 +23,5 @@ jobs:
     secrets:
       NETLIFY_HOOK: ${{ secrets.NETLIFY_HOOK }}
       GH_PAT: ${{ secrets.GH_PAT }}
-      author_email: ${{ secrets.AUTHOR_EMAIL }}
-      author_name: "lisandra-dev"
+      AUTHOR_EMAIL: ${{ secrets.AUTHOR_EMAIL }}
+      AUTHOR_NAME: "lisandra-dev"

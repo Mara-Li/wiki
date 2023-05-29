@@ -9,5 +9,5 @@ jobs:
     uses: ObsidianPublisher/actions/.github/workflows/maintenance.yml@main
     secrets:
       GH_PAT: ${{ secrets.GITHUB_TOKEN }}
-      author_email: ${{ secrets.AUTHOR_EMAIL }}
-      author_name: "lisandra-dev"
+      AUTHOR_EMAIL: ${{ secrets.AUTHOR_EMAIL }}
+      AUTHOR_NAME: "lisandra-dev"
