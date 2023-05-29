@@ -4,16 +4,8 @@ on:
   workflow_dispatch:
   schedule:
     - cron: '0 0 * * *'
-
-env:
-  AUTHOR_EMAIL: ${{ secrets.AUTHOR_EMAIL }}
-
 jobs:
   maintenance:
     uses: ObsidianPublisher/actions/.github/workflows/maintenance.yml@main
     secrets:
       GH_PAT: ${{ secrets.GITHUB_TOKEN }}
-    with:
-      author_email: ${{ github.env.AUTHOR_EMAIL }}
-      author_name: "lisandra-dev"
-    
