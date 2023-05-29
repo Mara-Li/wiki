@@ -5,11 +5,7 @@ on:
   schedule:
     - cron: '0 0 * * *'
 jobs:
-  maintenance:      
+  maintenance:
     uses: ObsidianPublisher/actions/.github/workflows/maintenance.yml@main
     secrets:
       GH_PAT: ${{ secrets.GITHUB_TOKEN }}
-      author_email: ${{ secrets.AUTHOR_EMAIL }}
-      author_name: "lisandra-dev"
-    
-    
