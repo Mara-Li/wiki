@@ -11,5 +11,3 @@ jobs:
       GH_PAT: ${{ secrets.GITHUB_TOKEN }}
       author_email: ${{ secrets.AUTHOR_EMAIL }}
       author_name: "lisandra-dev"
-    
-    
