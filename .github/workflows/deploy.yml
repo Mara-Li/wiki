@@ -17,15 +17,11 @@ permissions:
   pages: write
   id-token: write
 
-env:
-  author_email: ${{ secrets.AUTHOR_EMAIL }}
-
 jobs:
   deploy:
     uses: ObsidianPublisher/actions/.github/workflows/deploy.yml@main
     secrets:
       NETLIFY_HOOK: ${{ secrets.NETLIFY_HOOK }}
       GH_PAT: ${{ secrets.GH_PAT }}
-    with:
-      author_email: ${{ github.env.AUTHOR_EMAIL }}
+      author_email: ${{ secrets.AUTHOR_EMAIL }}
       author_name: "lisandra-dev"
