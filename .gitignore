@@ -12,4 +12,4 @@ example.html
 .idea
 Pipfile
 Pipfile.lock
-docs/assets/js/*
+docs/assets/js/dev.js
