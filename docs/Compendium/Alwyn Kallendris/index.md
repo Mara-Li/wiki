@@ -149,9 +149,9 @@ Alwyn est une éther capable de contrôler les forces électromagnétiques. Cela
 - **Dégât** : `3d5` + **Brûlure** 
 - L'objet peut nécessiter d'être lancé (`[Perception]`)
 - Ne fonctionne pas sur le vivant
-- La taille de l'objet ne peut pas dépasser celui de sa main (impossible de détruire un mur complet, seule la partie touchée par sa main sera brisée) |
-|  - Ne fonctionne pas sur les objets non-conducteurs |
- - Action gratuite
+- La taille de l'objet ne peut pas dépasser celui de sa main (impossible de détruire un mur complet, seule la partie touchée par sa main sera brisée)
+- Ne fonctionne pas sur les objets non-conducteurs
+- Action gratuite
 
 **[Onde de choc]**
 [Actif, 8 MANA]
