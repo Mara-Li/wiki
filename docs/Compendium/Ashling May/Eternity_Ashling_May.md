@@ -77,8 +77,8 @@ Le souci dans toutes ses histoires, c'est que beaucoup de ces morceaux de caract
 > | Intelligence | 65     |
 > | PV           |80|
 > |PV (hack)| 5      |
-> | Ressource | Batterie |
-> | Dégâts | +4 |
+> | Ressource | Batterie 20|
+> | Dégâts | +2 |
 
 Ashling a trouvé le moyen d'utiliser son pouvoir de manière inversée : Au lieu de projeter son esprit dans les objets et données électroniques, Ashling tire les données et les utilise pour créer n'importe quel objet, mais aussi créer des sortilèges.
 
@@ -155,7 +155,7 @@ Ashling possède maintenant un masque qui lui permet de voir ses statistiques, s
 Ashling possède des cicatrices liées à des incisions, sous les bras, aux niveaux des veines. Elle a aussi un tatouage à moitié effacé au niveau du cul avec un code barre lié aux expériences de la Shihai.
 Il y aussi une longue incision le long de sa colonne vertébrale.
 
-Le code correspondant au tatouage est `[63010]`, code arbitraire créée à partir du moment où elle a été inscrite dans le programme (à 6 mois de grossesse de sa mère), quand 10/30 corresponde à sa date de naissance.
+Le code correspondant au tatouage est `[63010]`, code arbitraire créée à partir du moment où elle a été inscrite dans le programme (à 6 mois de grossesse de sa mère), quand 10/30 correspondent à sa date de naissance.
 
 ![[../../assets/img/SOLAUI-1-1.png|+side]]
 ![[../../assets/img/ASH-LYNMAMECHI-1-1.png|+side]]
