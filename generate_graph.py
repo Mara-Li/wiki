@@ -16,7 +16,7 @@ def obsidian_graph():
     net.from_nx(graph)
     try:
         net.save_graph(str(Path.cwd() / "docs" / "assets" / "graph.html"))
-    except:
+    except:  # noqa: E722
         pass
     shutil.rmtree(Path.cwd() / "lib")
     return ""
