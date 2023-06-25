@@ -141,7 +141,7 @@ extra:
     - icon: fontawesome/brands/mastodon
       link: https://piaille.fr/@Mara__Li
   blog_list:
-    pagination: true
+    pagination: false
     pagination_message: false
     pagination_translation: ''
     no_page_found: 'Aucun article trouvé'
