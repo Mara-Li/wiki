@@ -37,15 +37,15 @@ tags:
 - Quelque groupe d'éthérés font des apparitions dans la vie humaines.
 - Les conquêtes embrumées forcent la plupart des éthérés à vivre caché parmi eux.
 - Les cités éthérées disparaissent pour finalement être incluses dans des cités embrumées.
-- <u>800</u> : **Période Heian** — Les éthérées font intégralement partie de la cour impériale Japonaise.
+- <u>800</u> : **Période Heian**—Les éthérées font intégralement partie de la cour impériale Japonaise.
 	- Nombreux en sont les membres ayant du sang magiques.
 	- La plupart peuvent percevoir les chimères, donnant naissances aux légendes telles que celles des Yokaï, Kami, ou Oni.
 - <u>1200</u> : Les éthérés protège le Japon de diverses invasions du continent, notamment celles des Mongoles, en provoquant diverses tempêtes et catastrophes.
-- <u>1345 - 1354</u> : **Peste noire** 
-	- Premières chasses aux "sorcières". 
-	- *Formation de l'Écho par Azraël et d'autres personnes* 
+- <u>1345 - 1354</u> : **Peste noire**
+	- Premières chasses aux "sorcières".
+	- *Formation de l'Écho par Azraël et d'autres personnes*
 	- Azraël détruit la source de la Peste puis disparait.
-	  
+
 <br>
 
 # Époque moderne

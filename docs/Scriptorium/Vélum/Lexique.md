@@ -1,9 +1,6 @@
 ---
 category: Scriptorium/Vélum
 description: Lexique du RP, pas dans l'ordre alphabétique
-dg-path: Scriptorium/Vélum/Lexique.md
-dg-publish: true
-publish: false
 share: true
 tag: RP/Bibliothèque-Infinie/Liste/Lexique
 type: Lexique
