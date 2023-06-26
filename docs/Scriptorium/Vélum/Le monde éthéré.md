@@ -1,6 +1,7 @@
 ---
 date: 2023-06-25
 share: true
+category: Scriptorium/Vélum
 ---
 Vivre en tant qu'Éthéré ne vous empêche pas de devoir respecter les lois du pays dans lequel vous vous trouvez. Et oui, être un démon n'empêche pas de devoir avoir une carte d'identité et de se rendre à l'ambassade !
 
