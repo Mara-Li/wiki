@@ -1,5 +1,7 @@
 ---
+icon: material/graph-outline
 index: true
+title: Graph
 comments: false
 hide:
   - navigation

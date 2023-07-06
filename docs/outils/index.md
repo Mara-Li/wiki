@@ -1,4 +1,5 @@
 ---
+icon: material/tools
 template: blog.html
 title: Notes
 category: Outils

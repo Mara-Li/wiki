@@ -1,4 +1,6 @@
 nav:
+    - index.md
+    - graph
     - ... | *.md
     - Compendium
     - Scriptorium

@@ -1,4 +1,5 @@
 ---
+icon: material/pen
 index: true
 comments: false
 template: blog.html

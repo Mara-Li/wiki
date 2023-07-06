@@ -1,4 +1,5 @@
 ---
+icon: simple/bookstack
 template: blog.html
 comments: false
 title: Compendium
