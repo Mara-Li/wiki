@@ -1,8 +1,8 @@
 ---
-icon: material/graph-outline
 index: true
 title: Graph
 comments: false
+icon: material/graph
 hide:
   - navigation
   - toc
