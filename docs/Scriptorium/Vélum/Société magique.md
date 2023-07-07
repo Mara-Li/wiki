@@ -21,7 +21,7 @@ Le but est de faire en sorte que les dossiers soient moins perdus à cause des d
 
 ## Police et armée
 
-la police et la gendarmerie ont une partie uniquement dédiée puisque les crimes faits par magie sont bien particuliers. Ils ont donc la même autorité que les policiers—ou gendarme—embrumés et opère directement au grand jour. Généralement, ils essaient d'éviter au maximum les Outbreaks sur les embrumés, mais cela devient de plus en plus difficile, sans parler que certains ne se prennent pas la tête d'être sympathique avec eux.
+la police et la gendarmerie ont une partie uniquement dédiée puisque les crimes faits par magie sont bien particuliers. Ils ont donc la même autorité que les policiers — ou gendarme — embrumés et opère directement au grand jour. Généralement, ils essaient d'éviter au maximum les Outbreaks sur les embrumés, mais cela devient de plus en plus difficile, sans parler que certains ne se prennent pas la tête d'être sympathique avec eux.
 
 De manière générale, les attaques éthérées sur les embrumées sont assez peu commune, et passe inaperçu (les embrumés ne comprenant pas vraiment ce qu'il leur arrive). Entre éthérés, ça dépend de la confiance faite à la police, des deux personnes impliqués… Et du fait qu'emprisonner un éthérés, ou suivre les "exploits" d'un immortel (peut-on considéré qu'un vampire immortel est un criminel de guerre…?) est compliqué.
 
@@ -35,7 +35,7 @@ Au sein de la police même, les éthérés seront généralement vus comme des c
 La seule exception est dans l'armée : les pays n'ont pas le droit d'engager des éthérés pour combattre, car les conséquences pourraient être terribles. Cela dit, ce n'est pas parce que c'est interdit que cela n'a pas été faits : nombreuses sont les expériences sur, pour et par les éthérés. À cause de cela, l'Echo était très actif durant la Seconde Guerre mondiale.
 Notons que seul Aralicia a, officiellement, une armée magique (bien qu'elle soit évidemment secrète pour les embrumés).
 
-En outre, tous les pays ont une section—gardée secrète—composés d'éthérés : la confiance n'exclue pas le contrôle.
+En outre, tous les pays ont une section — gardée secrète — composés d'éthérés : la confiance n'exclue pas le contrôle. On peut les considérer comme des sections d'espionnage et de contre-espionnage. 
 
 # Technologie
 
