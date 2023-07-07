@@ -12,7 +12,7 @@ sticker: 1f573-fe0f
 title: "[ETERNITY] Alwyn « Pathfinder » Kallendris"
 type: Fiche
 Univers: ETERNITY
-icon: rpg-awesome/Tidioactive
+icon: rpg-awesome/Radioactive
 ---
 %% original:: [[Alwyn Kallendris|Alwyn Kallendris]] %%
 
