@@ -1,10 +1,10 @@
 ---
+icon: tabler-icons/Radioactive
 category: Compendium/Alwyn Kallendris
 cover: _assets/_REFERENCES/Alwyn Kallendris/Alwyn Kallendris-1685400225620.png
 cssclass: novelist
 date: 2023-05-30
-description: Un génie égocentrique, qui a disparu pendant dix ans et qui est
-  revenue pour tout exploser. Littéralement.
+description: Un génie égocentrique, qui a disparu pendant dix ans et qui est revenue pour tout exploser. Littéralement.
 genre: PJ
 image: Alwyn Kallendris-1685400225620.png
 share: true
@@ -12,7 +12,6 @@ sticker: 1f573-fe0f
 title: "[ETERNITY] Alwyn « Pathfinder » Kallendris"
 type: Fiche
 Univers: ETERNITY
-icon: rpg-awesome/Radioactive
 ---
 %% original:: [[Alwyn Kallendris|Alwyn Kallendris]] %%
 

@@ -12,7 +12,7 @@ sticker: 1f3d3
 title: "[ETERNITY] ASHLING « SOLA UI » MAY"
 type: Fiche
 univers: ETERNITY
-icon: boxicons/BxsGame
+icon: fontawesome/solid/gamepad
 ---
 
 %% original : [[./index|Ashling May]] %%
