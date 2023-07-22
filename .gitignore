@@ -13,3 +13,4 @@ example.html
 Pipfile
 Pipfile.lock
 docs/assets/js/dev.js
+.ruff_cache
