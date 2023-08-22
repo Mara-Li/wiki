@@ -1,6 +1,6 @@
 ---
 icon: material/tools
-template: blog.html
+template: article.html
 title: Notes
 category: Outils
 comments: false

@@ -2,7 +2,7 @@
 icon: material/pen
 index: true
 comments: false
-template: blog.html
+template: article.html
 title: Scriptorium
 category: Scriptorium
 hidden: true

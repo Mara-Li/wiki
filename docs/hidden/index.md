@@ -1,5 +1,5 @@
 ---
-template: blog.html
+template: article.html
 title: Hidden
 comments: false
 category: Hidden

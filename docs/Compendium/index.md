@@ -1,6 +1,6 @@
 ---
 icon: simple/bookstack
-template: blog.html
+template: article.html
 comments: false
 title: Compendium
 category: Compendium
