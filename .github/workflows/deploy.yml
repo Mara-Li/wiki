@@ -20,10 +20,7 @@ permissions:
 jobs:
   deploy:
     uses: ObsidianPublisher/actions/.github/workflows/deploy.yml@main
-    with:
-      GENERATE_GRAPH: true
     secrets:
-      NETLIFY_HOOK: ${{ secrets.NETLIFY_HOOK }}
       GH_PAT: ${{ secrets.GH_PAT }}
       AUTHOR_EMAIL: ${{ secrets.AUTHOR_EMAIL }}
       AUTHOR_NAME: "lisandra-dev"
