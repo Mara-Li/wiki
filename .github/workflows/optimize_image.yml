@@ -8,7 +8,9 @@ on:
             - "**.jpe?g"
             - "**.gif"
             - "**.svg"
-
+    schedule:
+        - cron: "0 0 * * *"
+    workflow_dispatch:
 jobs:
     optimize-images:
         runs-on: ubuntu-latest
