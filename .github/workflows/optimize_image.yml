@@ -1,0 +1,22 @@
+name: Optimize images on PR
+on:
+    pull_request:
+        branches:
+            - main
+        paths:
+            - "**.png"
+            - "**.jpe?g"
+            - "**.gif"
+            - "**.svg"
+
+jobs:
+    optimize-images:
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v3
+            - name: optimize
+              uses: calibreapp/image-actions@main
+              with:
+                githubToken: ${{ secrets.GITHUB_TOKEN}}
+            
+            
