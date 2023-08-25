@@ -1,16 +1,9 @@
 name: Optimize images on PR
 on:
-    pull_request:
-        branches:
-            - main
-        paths:
-            - "**.png"
-            - "**.jpe?g"
-            - "**.gif"
-            - "**.svg"
     schedule:
-        - cron: "0 0 * * *"
+    - cron: "0 0 * * *"
     workflow_dispatch:
+    
 jobs:
     optimize-images:
         runs-on: ubuntu-latest
@@ -21,4 +14,11 @@ jobs:
               with:
                 githubToken: ${{ secrets.GITHUB_TOKEN}}
                 ignorePaths: "overrides/.icons/**"
-            
+            - name: "Commit & push"
+              uses: actions-js/push@master
+              with:
+                github_token: ${{ secrets.GITHUB_TOKEN }}
+                branch: ${{ github.ref }}
+                message: "[CI] Optimize images"
+
+                  
