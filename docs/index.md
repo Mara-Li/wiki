@@ -21,7 +21,7 @@ hide:
 ---
 <div class="grid cards" markdown>
 
-!!! project "[Obsidian Mkdocs Publisher](https://obsidian-publisher.netlify.app/)"
+!!! project "[Obsidian GitHub Publisher](https://obsidian-publisher.netlify.app/)"
     Une solution simple et élégante pour publier ses notes directement depuis [Obsidian](https://www.obsidian.md/) . Permet en outre d'envoyer ses fichiers vers n'importe quel repo hébergé sur GitHub.
 
 !!! project "[Obsidian Metacopy](https://github.com/lisandra-dev/obsidian-metacopy)"
@@ -35,5 +35,19 @@ hide:
 
 !!! project "[Canvas CSS Class](https://github.com/Lisandra-dev/obsidian-canvas-css-class)"
     Un plugin [Obsidian](https://www.obsidian.md/) qui permet d'ajouter des classes CSS à des canvas.
+
+!!! project "[Advanced Copy](https://github.com/Lisandra-dev/obsidian-advanced-copy)"
+    Un plugin [Obsidian](https://www.obsidian.md/) qui permet de copier des notes avec des options avancées, en transformant le texte en markdown.
+</div>
+
+---
+
+<div class="grid cards" markdown>
+
+!!! bot "[Knitting](https://github.com/Lisandra-dev/Knitting-bot)"
+    Un bot qui permet d'ajouter des membres à des fils, sans les pings.
+
+!!! bot "[Vélum](https://github.com/Lisandra-dev/Velum-bot)"
+    Le bot affilié à mon [RP discord](https://discord.gg/CDhenPz8Hc) qui sert au système de dé (à la DnD légèrement modifié), tickets et transcriptions, mais aussi la météo et les phases de la lunes.
 
 </div>
