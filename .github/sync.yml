@@ -9,7 +9,7 @@ group:
     - find_unused_media.py
     - docs/tags.md
     repos: |
-      ObsidianPublisher/sync_template
+      ObsidianPublisher/template-main
       ObsidianPublisher/docs
       sandboxingRepo/obsidian-sandbox
 
