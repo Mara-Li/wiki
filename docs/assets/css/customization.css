@@ -34,3 +34,13 @@
   --md-primary-fg-color: #6096db;
   --md-accent-fg-color: #2a7bc2;
 }
+
+.rside-10 img[alt*="+rside"] {
+  width: 10em;
+}
+
+.hr-title hr {
+  position: relative;
+  top: -1em;
+  border-bottom: 1px solid var(--md-default-fg-color--light);
+}
