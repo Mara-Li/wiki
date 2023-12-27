@@ -1,7 +1,8 @@
 ---
 date: 2017-02-20
 category:
-  - Compendium/Plasma
+  - Scriptorium
+  - Plasma
 share: true
 type:
   - Contexte

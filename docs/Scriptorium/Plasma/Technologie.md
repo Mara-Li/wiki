@@ -1,6 +1,7 @@
 ---
 category:
-  - Compendium/Plasma
+  - Scriptorium
+  - Plasma
 date: 2017-02-20
 description: La technologie utilisée dans mon univers nommé PLASMA. Très inspirée de divers livres de science-fiction tels que « Carbone Modifié » mais aussi W40K ou L'Étoile de Pandore.
 name: Technologie
