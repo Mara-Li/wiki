@@ -1,5 +1,5 @@
 .md-header,
-.md-nav--primary .md-nav__title[for="__drawer"] {
+.md-nav--primary .md-nav__title {
   background: var(--md-primary-fg-color)
     url(https://images.unsplash.com/photo-1520157646479-22f25713523d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80)
     left center/cover no-repeat;
