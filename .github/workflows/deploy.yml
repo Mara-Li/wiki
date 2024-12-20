@@ -32,7 +32,7 @@ jobs:
       - name: "Submodule fetching"
         continue-on-error: true
         run: |
-          git submodule update --init --recursive --checkout -f --remote -- "content"
+          git submodule update --init --recursive --checkout -f --remote -- "docs"
           git config --global user.name "GitHub Action"
           git config --global user.email "noreply@github.com"
           git commit -am "chore (update): fetch submodule"
