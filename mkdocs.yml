@@ -144,4 +144,9 @@ extra:
   hooks:
     strip_comments: true
     fix_heading: true
-  icon_folder: icons/
+  icons:
+    folder: "icons/"
+    default:
+      file: "file.svg"
+      folder: "folder-open.svg"
+      index: "index.svg"

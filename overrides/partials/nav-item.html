@@ -9,15 +9,22 @@
 {% endmacro %}
 {% macro render_content(nav_item, ref = nav_item) %}
   {% if nav_item.is_page and nav_item.meta.icon %}
-    {% set icon_path = config.extra["icon_folder"] ~ nav_item.meta.icon ~ ".svg" %}
-    {% if not icon_path | file_exists %}
-	    {% if nav_item.url | is_section %}
-		    {% set icon_path = config.extra["icon_folder"] ~ "folder-open.svg" %}
-	    {% else %}
-		    {% set icon_path = config.extra["icon_folder"] ~ "file.svg" %}
-	    {% endif %}
+    {% set icons_path = config.extra.icons.folder ~ nav_item.meta.icon ~ ".svg" %}
+    {% if not icons_path | icon_exists %}
+      {% set icons_path = config.extra.icons.folder ~ config.extra.icons.default.file %}
     {% endif %}
-    {% include icon_path %}
+    {% include icons_path %}
+  {% elif nav_item.is_index %}
+    {{nav_item | log}}
+    {% set icons_path = config.extra.icons.folder ~ config.extra.icons.default.index %}
+    {% include icons_path %}
+  {% elif nav_item.is_page %}
+    {% set icons_path = config.extra.icons.folder ~ config.extra.icons.default.file %}
+    {% include icons_path %}
+  {% else %}
+    {{ nav_item.title | log}}
+    {% set icons_path = config.extra.icons.folder ~ config.extra.icons.default.folder %}
+    {% include icons_path %}
   {% endif %}
   <span class="md-ellipsis">
     {{ ref.title }}

@@ -1,3 +1,4 @@
 [submodule "docs"]
 	path = docs
-	url = git@github.com:Plasma-roleplay/owlly-lab-content-mkdocs.git
+	url = git@github.com:Mara-Li/owlly-lab-content.git
+	branch = "mkdocs"

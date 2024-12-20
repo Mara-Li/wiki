@@ -148,7 +148,7 @@ def value_in_frontmatter(key, metadata):
     else:
         return None
 
-def file_exists(path, config):
+def icon_exists(path, config):
     path = Path(config['docs_dir'])/"_assets"/ path
     return Path(path).exists()
 
@@ -187,7 +187,7 @@ def on_env(env, config, files, **kwargs):
     env.filters["value_in_frontmatter"] = value_in_frontmatter
     env.filters["regex_replace"] = regex_replace
     env.filters["get_last_part_URL"] = get_last_part_URL
-    env.filters["file_exists"] = lambda path: file_exists(path, config)
+    env.filters["icon_exists"] = lambda path: icon_exists(path, config)
     env.filters["is_section"] = is_section
     env.filters["replace_by_name"] = replace_by_name
     env.filters["first"] = first
