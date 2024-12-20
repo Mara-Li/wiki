@@ -6,6 +6,7 @@ import urllib.parse
 import datetime
 from pathlib import Path
 
+import mkdocs.structure.pages
 from babel.dates import format_date
 from dateutil import parser
 
@@ -66,7 +67,7 @@ def log(text):
         str: An empty string.
     """
     print(text)
-    return ""
+    return text
 
 
 def time_time(time):
@@ -175,8 +176,20 @@ def value_in_frontmatter(key, metadata):
     else:
         return None
 
+def file_exists(path, config):
+    path = Path(config['docs_dir'])/"_static"/ path
+    return Path(path).exists()
+
+def is_section(path):
+    if isinstance(path, mkdocs.structure.pages.Page):
+       return False
+    return True
 
 def on_env(env, config, files, **kwargs):
+    static_path = os.path.join(config['docs_dir'], '_static')
+    if static_path not in env.loader.searchpath:
+        env.loader.searchpath.append(static_path)
+
     if config["extra"].get("generate_graph", True):
         obsidian_graph()
     env.filters["convert_time"] = time_time
@@ -189,4 +202,6 @@ def on_env(env, config, files, **kwargs):
     env.filters["value_in_frontmatter"] = value_in_frontmatter
     env.filters["regex_replace"] = regex_replace
     env.filters["get_last_part_URL"] = get_last_part_URL
+    env.filters["file_exists"] = lambda path: file_exists(path, config)
+    env.filters["is_section"] = is_section
     return env

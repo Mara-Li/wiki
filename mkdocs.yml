@@ -4,8 +4,8 @@ site_url: https://www.mara-li.fr/
 
 theme:
     name: 'material'
-    logo: assets/meta/favicons.png
-    favicon: assets/meta/favicons.png
+    logo: _assets/meta/favicons.png
+    favicon: _assets/meta/favicons.png
     custom_dir: overrides
     font:
         text: Karla
@@ -38,6 +38,7 @@ theme:
         - search.highlight
 # Extensions
 markdown_extensions:
+  - wikilinks
   - footnotes
   - nl2br
   - attr_list
@@ -63,8 +64,8 @@ markdown_extensions:
   - pymdownx.tasklist:
        custom_checkbox: true
   - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
       options:
         custom_icons:
           - overrides/.icons
@@ -88,31 +89,21 @@ markdown_extensions:
 plugins:
   - search
   - meta-descriptions
+  - awesome-pages
+  - blog:
+      blog_dir: blog
+      archive: false
   - git-revision-date-localized:
       type: date
       fallback_to_build_date: true
       locale: fr
       custom_format: "%A %d %B %Y"
       enable_creation_date: true
-  - ezlinks:
-        wikilinks: true
-  - awesome-pages
   - embed_file:
       callouts: true
-      custom-attributes: 'assets/css/custom_attributes.css'
+      custom-attributes: '_assets/css/custom_attributes.css'
   - custom-attributes:
-      file: 'assets/css/custom_attributes.css'
-  - tags:
-      tags_file: tags.md
-  - encryptcontent:
-      title_prefix: '🔐'
-      summary: 'Page privée'
-      placeholder: 'Mot de passe'
-      decryption_failure_message: 'Mot de passe invalide !'
-      encryption_info_message: "Vous n'avez pas accès à cette page"
-      search_index: 'encrypted'
-      password_button: True
-      password_button_text: '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" height="1em" width="1em"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M416 32h-64c-17.67 0-32 14.33-32 32s14.33 32 32 32h64c17.67 0 32 14.33 32 32v256c0 17.67-14.33 32-32 32h-64c-17.67 0-32 14.33-32 32s14.33 32 32 32h64c53.02 0 96-42.98 96-96V128C512 74.98 469 32 416 32zM342.6 233.4l-128-128c-12.51-12.51-32.76-12.49-45.25 0c-12.5 12.5-12.5 32.75 0 45.25L242.8 224H32C14.31 224 0 238.3 0 256s14.31 32 32 32h210.8l-73.38 73.38c-12.5 12.5-12.5 32.75 0 45.25s32.75 12.5 45.25 0l128-128C355.1 266.1 355.1 245.9 342.6 233.4z"/></svg>'
+      file: '_assets/css/custom_attributes.css'
   - callouts
   - glightbox
 hooks:
@@ -123,18 +114,18 @@ extra_javascript:
   - https://cdn.jsdelivr.net/gh/ObsidianPublisher/assets@main/dist/javascript.js
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
-  - assets/js/snippets.js
+  - _assets/js/snippets.js
 extra_css:
     - https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css
     - https://cdn.jsdelivr.net/gh/ObsidianPublisher/assets@main/dist/styles.css
-    - assets/css/admonition.css
-    - assets/css/custom_attributes.css
-    - assets/css/customization.css
+    - _assets/css/admonition.css
+    - _assets/css/custom_attributes.css
+    - _assets/css/customization.css
 extra:
-  SEO: 'assets/meta/LOGO_SEO.png'
+  SEO: '_assets/meta/LOGO_SEO.png'
   comments: true
   generate_graph: false
-  attachments: 'assets/img/' #folder where to store attachments
+  attachments: '_assets/img/' #folder where to store attachments
   no-auto-h1: true
   social:
     - icon: fontawesome/brands/twitter
@@ -151,3 +142,4 @@ extra:
   hooks:
     strip_comments: true
     fix_heading: true
+  icon_folder: icons/
