@@ -47,5 +47,7 @@ jobs:
       - name: Install dependencies
         run: pipenv install
       - name: Build
-        run: mkdocs gh-deploy --force
+        run: |
+          pipenv shell
+          mkdocs gh-deploy --force
 
