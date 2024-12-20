@@ -1,8 +1,6 @@
 name: Publish
 
 on:
-  repository_dispatch:
-      types: [build]
   workflow_dispatch:
   push:
     branches:
@@ -13,6 +11,8 @@ on:
       - 'docs/**'
       - 'mkdocs.yml'
       - 'requirements.txt'
+  repository_dispatch:
+    types: [build]
 
 permissions:
   contents: write
@@ -26,9 +26,17 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.GH_PAT }}
           fetch-depth: 0
           submodules: 'recursive'
+      - name: "Submodule fetching"
+        continue-on-error: true
+        run: |
+          git submodule update --init --recursive --checkout -f --remote -- "content"
+          git config --global user.name "GitHub Action"
+          git config --global user.email "noreply@github.com"
+          git commit -am "chore (update): fetch submodule"
+          git push
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
