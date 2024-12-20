@@ -25,6 +25,7 @@ mdx-breakless-lists = "*"
 
 [scripts]
 dev = "mkdocs serve"
+deploy = "mkdocs gh-deploy --force"
 
 [requires]
 python_version = "3.13"

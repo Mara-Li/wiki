@@ -48,6 +48,5 @@ jobs:
         run: pipenv install
       - name: Build
         run: |
-          pipenv shell
-          mkdocs gh-deploy --force
+          pipenv run deploy
 
