@@ -1,5 +1,3 @@
-import logging
-import shutil
 import os
 import re
 import urllib.parse
@@ -9,33 +7,6 @@ from pathlib import Path
 import mkdocs.structure.pages
 from babel.dates import format_date
 from dateutil import parser
-
-
-def obsidian_graph():
-    """Generates a graph of the Obsidian vault."""
-    # pylint: disable=import-outside-toplevel
-    import obsidiantools.api as otools
-
-    # pylint: disable=import-outside-toplevel``
-    from pyvis.network import Network
-
-    log = logging.getLogger("mkdocs.plugins." + __name__)
-    log.info("[OBSIDIAN GRAPH] Generating graph...")
-    vault_path = Path(Path.cwd(), "docs")
-    vault = otools.Vault(vault_path).connect().gather()
-    graph = vault.graph
-    net = Network(
-        height="750px", width="750px", font_color="#7c7c7c", bgcolor="transparent"
-    )
-    net.from_nx(graph)
-    try:
-        net.save_graph(str(Path.cwd() / "docs" / "assets" / "graph.html"))
-    except OSError:
-        pass
-    shutil.rmtree(Path.cwd() / "lib")
-    log.info("[OBSIDIAN GRAPH] Graph generated!")
-    return ""
-
 
 def get_last_part_URL(url):
     """Get the last part of an URL.
@@ -189,9 +160,6 @@ def on_env(env, config, files, **kwargs):
     static_path = os.path.join(config['docs_dir'], '_static')
     if static_path not in env.loader.searchpath:
         env.loader.searchpath.append(static_path)
-
-    if config["extra"].get("generate_graph", True):
-        obsidian_graph()
     env.filters["convert_time"] = time_time
     env.filters["iso_time"] = time_to_iso
     env.filters["time_todatetime"] = time_todatetime

@@ -6,11 +6,9 @@ on:
     - cron: '0 0 * * *'
 jobs:
   maintenance:
-    uses: ObsidianPublisher/actions/.github/workflows/maintenance.yml@main
+    uses: Enveloppe/actions/.github/workflows/maintenance.yml@main
     with:
       CLEAN: true
       DRY_RUN: false
     secrets:
       GH_PAT: ${{ secrets.GITHUB_TOKEN }}
-      AUTHOR_EMAIL: ${{ secrets.AUTHOR_EMAIL }}
-      AUTHOR_NAME: "lisandra-dev"

@@ -1,6 +1,8 @@
 name: Publish
 
 on:
+  repository_dispatch:
+      types: [build]
   workflow_dispatch:
   push:
     branches:
@@ -19,8 +21,23 @@ permissions:
 
 jobs:
   deploy:
-    uses: ObsidianPublisher/actions/.github/workflows/deploy.yml@main
-    secrets:
-      GH_PAT: ${{ secrets.GH_PAT }}
-      AUTHOR_EMAIL: ${{ secrets.AUTHOR_EMAIL }}
-      AUTHOR_NAME: "lisandra-dev"
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+          submodules: 'recursive'
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+          cache: "pipenv"
+      - name: Install pipenv
+        run: pip install pipenv
+      - name: Install dependencies
+        run: pipenv install
+      - name: Build
+        run: mkdocs gh-deploy --force
+
