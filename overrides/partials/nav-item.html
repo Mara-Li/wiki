@@ -15,14 +15,12 @@
     {% endif %}
     {% include icons_path %}
   {% elif nav_item.is_index %}
-    {{nav_item | log}}
     {% set icons_path = config.extra.icons.folder ~ config.extra.icons.default.index %}
     {% include icons_path %}
   {% elif nav_item.is_page %}
     {% set icons_path = config.extra.icons.folder ~ config.extra.icons.default.file %}
     {% include icons_path %}
   {% else %}
-    {{ nav_item.title | log}}
     {% set icons_path = config.extra.icons.folder ~ config.extra.icons.default.folder %}
     {% include icons_path %}
   {% endif %}
