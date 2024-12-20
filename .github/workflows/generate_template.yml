@@ -54,7 +54,7 @@ permissions:
 
 jobs:
   run:
-    uses: "ObsidianPublisher/actions/.github/workflows/template.yml@main"
+    uses: "Enveloppe/actions/.github/workflows/template.yml@main"
     with:
       site_name: ${{ inputs.site_name }}
       site_url: ${{ inputs.site_url }}
