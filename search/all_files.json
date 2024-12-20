@@ -1,0 +1,1544 @@
+[
+    {
+        "src_uri": "index.md",
+        "dest_uri": "./",
+        "name": "index",
+        "url": "./"
+    },
+    {
+        "src_uri": ".git",
+        "dest_uri": ".git",
+        "name": ".git",
+        "url": ".git"
+    },
+    {
+        "src_uri": ".gitkeep",
+        "dest_uri": ".gitkeep",
+        "name": ".gitkeep",
+        "url": ".gitkeep"
+    },
+    {
+        "src_uri": ".pages",
+        "dest_uri": ".pages",
+        "name": ".pages",
+        "url": ".pages"
+    },
+    {
+        "src_uri": "LICENSE",
+        "dest_uri": "LICENSE",
+        "name": "LICENSE",
+        "url": "LICENSE"
+    },
+    {
+        "src_uri": "tags.md",
+        "dest_uri": "tags/",
+        "name": "tags",
+        "url": "tags/"
+    },
+    {
+        "src_uri": ".github/workflows/deploy.yml",
+        "dest_uri": ".github/workflows/deploy.yml",
+        "name": "deploy",
+        "url": ".github/workflows/deploy.yml"
+    },
+    {
+        "src_uri": ".github/workflows/optimize.yml",
+        "dest_uri": ".github/workflows/optimize.yml",
+        "name": "optimize",
+        "url": ".github/workflows/optimize.yml"
+    },
+    {
+        "src_uri": "Compendium/index.md",
+        "dest_uri": "Compendium/",
+        "name": "index",
+        "url": "Compendium/"
+    },
+    {
+        "src_uri": "Compendium/Ambre Loiseau.md",
+        "dest_uri": "Compendium/Ambre%20Loiseau/",
+        "name": "Ambre Loiseau",
+        "url": "Compendium/Ambre%20Loiseau/"
+    },
+    {
+        "src_uri": "Compendium/Azra\u00ebl Blakes.md",
+        "dest_uri": "Compendium/Azra%C3%ABl%20Blakes/",
+        "name": "Azra\u00ebl Blakes",
+        "url": "Compendium/Azra%C3%ABl%20Blakes/"
+    },
+    {
+        "src_uri": "Compendium/Eldale_Creek_Sullivan.md",
+        "dest_uri": "Compendium/Eldale_Creek_Sullivan/",
+        "name": "Eldale_Creek_Sullivan",
+        "url": "Compendium/Eldale_Creek_Sullivan/"
+    },
+    {
+        "src_uri": "Compendium/Laurenzia Valentina.md",
+        "dest_uri": "Compendium/Laurenzia%20Valentina/",
+        "name": "Laurenzia Valentina",
+        "url": "Compendium/Laurenzia%20Valentina/"
+    },
+    {
+        "src_uri": "Compendium/Sara_white_blaster.md",
+        "dest_uri": "Compendium/Sara_white_blaster/",
+        "name": "Sara_white_blaster",
+        "url": "Compendium/Sara_white_blaster/"
+    },
+    {
+        "src_uri": "Compendium/Alwyn Kallendris/Eternity version.md",
+        "dest_uri": "Compendium/Alwyn%20Kallendris/Eternity%20version/",
+        "name": "Eternity version",
+        "url": "Compendium/Alwyn%20Kallendris/Eternity%20version/"
+    },
+    {
+        "src_uri": "Compendium/Ashling May/index.md",
+        "dest_uri": "Compendium/Ashling%20May/",
+        "name": "index",
+        "url": "Compendium/Ashling%20May/"
+    },
+    {
+        "src_uri": "Compendium/Ashling May/Eternity_Ashling_May.md",
+        "dest_uri": "Compendium/Ashling%20May/Eternity_Ashling_May/",
+        "name": "Eternity_Ashling_May",
+        "url": "Compendium/Ashling%20May/Eternity_Ashling_May/"
+    },
+    {
+        "src_uri": "Compendium/Ashling May/Illustration_Ashling.md",
+        "dest_uri": "Compendium/Ashling%20May/Illustration_Ashling/",
+        "name": "Illustration_Ashling",
+        "url": "Compendium/Ashling%20May/Illustration_Ashling/"
+    },
+    {
+        "src_uri": "Compendium/Ashling May/Pouvoirs_Ashling.md",
+        "dest_uri": "Compendium/Ashling%20May/Pouvoirs_Ashling/",
+        "name": "Pouvoirs_Ashling",
+        "url": "Compendium/Ashling%20May/Pouvoirs_Ashling/"
+    },
+    {
+        "src_uri": "Compendium/Bla\u00efka Yermakova/index.md",
+        "dest_uri": "Compendium/Bla%C3%AFka%20Yermakova/",
+        "name": "index",
+        "url": "Compendium/Bla%C3%AFka%20Yermakova/"
+    },
+    {
+        "src_uri": "Compendium/Bla\u00efka Yermakova/Eldale_Creek_Blaika.md",
+        "dest_uri": "Compendium/Bla%C3%AFka%20Yermakova/Eldale_Creek_Blaika/",
+        "name": "Eldale_Creek_Blaika",
+        "url": "Compendium/Bla%C3%AFka%20Yermakova/Eldale_Creek_Blaika/"
+    },
+    {
+        "src_uri": "Compendium/Bla\u00efka Yermakova/Illustration_Blaika.md",
+        "dest_uri": "Compendium/Bla%C3%AFka%20Yermakova/Illustration_Blaika/",
+        "name": "Illustration_Blaika",
+        "url": "Compendium/Bla%C3%AFka%20Yermakova/Illustration_Blaika/"
+    },
+    {
+        "src_uri": "Compendium/Hayleen May/index.md",
+        "dest_uri": "Compendium/Hayleen%20May/",
+        "name": "index",
+        "url": "Compendium/Hayleen%20May/"
+    },
+    {
+        "src_uri": "Compendium/Hayleen May/Illustration.md",
+        "dest_uri": "Compendium/Hayleen%20May/Illustration/",
+        "name": "Illustration",
+        "url": "Compendium/Hayleen%20May/Illustration/"
+    },
+    {
+        "src_uri": "Compendium/Kara Grimalkin/index.md",
+        "dest_uri": "Compendium/Kara%20Grimalkin/",
+        "name": "index",
+        "url": "Compendium/Kara%20Grimalkin/"
+    },
+    {
+        "src_uri": "Compendium/Lucrezia Valentina/index.md",
+        "dest_uri": "Compendium/Lucrezia%20Valentina/",
+        "name": "index",
+        "url": "Compendium/Lucrezia%20Valentina/"
+    },
+    {
+        "src_uri": "Compendium/Lucrezia Valentina/Arknights.md",
+        "dest_uri": "Compendium/Lucrezia%20Valentina/Arknights/",
+        "name": "Arknights",
+        "url": "Compendium/Lucrezia%20Valentina/Arknights/"
+    },
+    {
+        "src_uri": "Compendium/Mn\u00e9mosyne/index.md",
+        "dest_uri": "Compendium/Mn%C3%A9mosyne/",
+        "name": "index",
+        "url": "Compendium/Mn%C3%A9mosyne/"
+    },
+    {
+        "src_uri": "Compendium/Mn\u00e9mosyne/Illustration_Nemo.md",
+        "dest_uri": "Compendium/Mn%C3%A9mosyne/Illustration_Nemo/",
+        "name": "Illustration_Nemo",
+        "url": "Compendium/Mn%C3%A9mosyne/Illustration_Nemo/"
+    },
+    {
+        "src_uri": "Compendium/\u00c9den/index.md",
+        "dest_uri": "Compendium/%C3%89den/",
+        "name": "index",
+        "url": "Compendium/%C3%89den/"
+    },
+    {
+        "src_uri": "Compendium/\u00c9den/Eden_Loiseau.md",
+        "dest_uri": "Compendium/%C3%89den/Eden_Loiseau/",
+        "name": "Eden_Loiseau",
+        "url": "Compendium/%C3%89den/Eden_Loiseau/"
+    },
+    {
+        "src_uri": "Compendium/\u00c9den/eden_eldale.md",
+        "dest_uri": "Compendium/%C3%89den/eden_eldale/",
+        "name": "eden_eldale",
+        "url": "Compendium/%C3%89den/eden_eldale/"
+    },
+    {
+        "src_uri": "Compendium/\u00c9den/\u00c9den 28500.md",
+        "dest_uri": "Compendium/%C3%89den/%C3%89den%2028500/",
+        "name": "\u00c9den 28500",
+        "url": "Compendium/%C3%89den/%C3%89den%2028500/"
+    },
+    {
+        "src_uri": "Scriptorium/index.md",
+        "dest_uri": "Scriptorium/",
+        "name": "index",
+        "url": "Scriptorium/"
+    },
+    {
+        "src_uri": "Scriptorium/Ambrosia.md",
+        "dest_uri": "Scriptorium/Ambrosia/",
+        "name": "Ambrosia",
+        "url": "Scriptorium/Ambrosia/"
+    },
+    {
+        "src_uri": "Scriptorium/Givrure.md",
+        "dest_uri": "Scriptorium/Givrure/",
+        "name": "Givrure",
+        "url": "Scriptorium/Givrure/"
+    },
+    {
+        "src_uri": "Scriptorium/Infection.md",
+        "dest_uri": "Scriptorium/Infection/",
+        "name": "Infection",
+        "url": "Scriptorium/Infection/"
+    },
+    {
+        "src_uri": "Scriptorium/Le m\u00e9tro.md",
+        "dest_uri": "Scriptorium/Le%20m%C3%A9tro/",
+        "name": "Le m\u00e9tro",
+        "url": "Scriptorium/Le%20m%C3%A9tro/"
+    },
+    {
+        "src_uri": "Scriptorium/Sylve.md",
+        "dest_uri": "Scriptorium/Sylve/",
+        "name": "Sylve",
+        "url": "Scriptorium/Sylve/"
+    },
+    {
+        "src_uri": "Scriptorium/Chronique de l'Imp\u00e9rium/index.md",
+        "dest_uri": "Scriptorium/Chronique%20de%20l%27Imp%C3%A9rium/",
+        "name": "index",
+        "url": "Scriptorium/Chronique%20de%20l%27Imp%C3%A9rium/"
+    },
+    {
+        "src_uri": "Scriptorium/Chronique de l'Imp\u00e9rium/Bestiaire.md",
+        "dest_uri": "Scriptorium/Chronique%20de%20l%27Imp%C3%A9rium/Bestiaire/",
+        "name": "Bestiaire",
+        "url": "Scriptorium/Chronique%20de%20l%27Imp%C3%A9rium/Bestiaire/"
+    },
+    {
+        "src_uri": "Scriptorium/Chronique de l'Imp\u00e9rium/Glossaire.md",
+        "dest_uri": "Scriptorium/Chronique%20de%20l%27Imp%C3%A9rium/Glossaire/",
+        "name": "Glossaire",
+        "url": "Scriptorium/Chronique%20de%20l%27Imp%C3%A9rium/Glossaire/"
+    },
+    {
+        "src_uri": "Scriptorium/Chronique de l'Imp\u00e9rium/L'arcadia.md",
+        "dest_uri": "Scriptorium/Chronique%20de%20l%27Imp%C3%A9rium/L%27arcadia/",
+        "name": "L'arcadia",
+        "url": "Scriptorium/Chronique%20de%20l%27Imp%C3%A9rium/L%27arcadia/"
+    },
+    {
+        "src_uri": "Scriptorium/Chronique de l'Imp\u00e9rium/Liste pouvoir.md",
+        "dest_uri": "Scriptorium/Chronique%20de%20l%27Imp%C3%A9rium/Liste%20pouvoir/",
+        "name": "Liste pouvoir",
+        "url": "Scriptorium/Chronique%20de%20l%27Imp%C3%A9rium/Liste%20pouvoir/"
+    },
+    {
+        "src_uri": "Scriptorium/Chronique de l'Imp\u00e9rium/Organisation.md",
+        "dest_uri": "Scriptorium/Chronique%20de%20l%27Imp%C3%A9rium/Organisation/",
+        "name": "Organisation",
+        "url": "Scriptorium/Chronique%20de%20l%27Imp%C3%A9rium/Organisation/"
+    },
+    {
+        "src_uri": "Scriptorium/Chronique de l'Imp\u00e9rium/Syst\u00e8me de jeu.md",
+        "dest_uri": "Scriptorium/Chronique%20de%20l%27Imp%C3%A9rium/Syst%C3%A8me%20de%20jeu/",
+        "name": "Syst\u00e8me de jeu",
+        "url": "Scriptorium/Chronique%20de%20l%27Imp%C3%A9rium/Syst%C3%A8me%20de%20jeu/"
+    },
+    {
+        "src_uri": "Scriptorium/Chronique de l'Imp\u00e9rium/Technologie.md",
+        "dest_uri": "Scriptorium/Chronique%20de%20l%27Imp%C3%A9rium/Technologie/",
+        "name": "Technologie",
+        "url": "Scriptorium/Chronique%20de%20l%27Imp%C3%A9rium/Technologie/"
+    },
+    {
+        "src_uri": "Scriptorium/Pentacle d\u00e9chu/index.md",
+        "dest_uri": "Scriptorium/Pentacle%20d%C3%A9chu/",
+        "name": "index",
+        "url": "Scriptorium/Pentacle%20d%C3%A9chu/"
+    },
+    {
+        "src_uri": "Scriptorium/Pentacle d\u00e9chu/Armes l\u00e9gendaires.md",
+        "dest_uri": "Scriptorium/Pentacle%20d%C3%A9chu/Armes%20l%C3%A9gendaires/",
+        "name": "Armes l\u00e9gendaires",
+        "url": "Scriptorium/Pentacle%20d%C3%A9chu/Armes%20l%C3%A9gendaires/"
+    },
+    {
+        "src_uri": "Scriptorium/Pentacle d\u00e9chu/Capacit\u00e9 et transformation.md",
+        "dest_uri": "Scriptorium/Pentacle%20d%C3%A9chu/Capacit%C3%A9%20et%20transformation/",
+        "name": "Capacit\u00e9 et transformation",
+        "url": "Scriptorium/Pentacle%20d%C3%A9chu/Capacit%C3%A9%20et%20transformation/"
+    },
+    {
+        "src_uri": "Scriptorium/Pentacle d\u00e9chu/Groupes.md",
+        "dest_uri": "Scriptorium/Pentacle%20d%C3%A9chu/Groupes/",
+        "name": "Groupes",
+        "url": "Scriptorium/Pentacle%20d%C3%A9chu/Groupes/"
+    },
+    {
+        "src_uri": "Scriptorium/Pentacle d\u00e9chu/Les classes.md",
+        "dest_uri": "Scriptorium/Pentacle%20d%C3%A9chu/Les%20classes/",
+        "name": "Les classes",
+        "url": "Scriptorium/Pentacle%20d%C3%A9chu/Les%20classes/"
+    },
+    {
+        "src_uri": "Scriptorium/Pentacle d\u00e9chu/Lieux.md",
+        "dest_uri": "Scriptorium/Pentacle%20d%C3%A9chu/Lieux/",
+        "name": "Lieux",
+        "url": "Scriptorium/Pentacle%20d%C3%A9chu/Lieux/"
+    },
+    {
+        "src_uri": "Scriptorium/Pentacle d\u00e9chu/Races.md",
+        "dest_uri": "Scriptorium/Pentacle%20d%C3%A9chu/Races/",
+        "name": "Races",
+        "url": "Scriptorium/Pentacle%20d%C3%A9chu/Races/"
+    },
+    {
+        "src_uri": "Scriptorium/Pentacle d\u00e9chu/\u00c2mes et immortalit\u00e9s.md",
+        "dest_uri": "Scriptorium/Pentacle%20d%C3%A9chu/%C3%82mes%20et%20immortalit%C3%A9s/",
+        "name": "\u00c2mes et immortalit\u00e9s",
+        "url": "Scriptorium/Pentacle%20d%C3%A9chu/%C3%82mes%20et%20immortalit%C3%A9s/"
+    },
+    {
+        "src_uri": "Scriptorium/Zombie Project/index.md",
+        "dest_uri": "Scriptorium/Zombie%20Project/",
+        "name": "index",
+        "url": "Scriptorium/Zombie%20Project/"
+    },
+    {
+        "src_uri": "Scriptorium/Zombie Project/Introduction.md",
+        "dest_uri": "Scriptorium/Zombie%20Project/Introduction/",
+        "name": "Introduction",
+        "url": "Scriptorium/Zombie%20Project/Introduction/"
+    },
+    {
+        "src_uri": "_assets/css/admonition.css",
+        "dest_uri": "_assets/css/admonition.css",
+        "name": "admonition",
+        "url": "_assets/css/admonition.css"
+    },
+    {
+        "src_uri": "_assets/css/custom_attributes.css",
+        "dest_uri": "_assets/css/custom_attributes.css",
+        "name": "custom_attributes",
+        "url": "_assets/css/custom_attributes.css"
+    },
+    {
+        "src_uri": "_assets/css/customization.css",
+        "dest_uri": "_assets/css/customization.css",
+        "name": "customization",
+        "url": "_assets/css/customization.css"
+    },
+    {
+        "src_uri": "_assets/icons/index.svg",
+        "dest_uri": "_assets/icons/index.svg",
+        "name": "index",
+        "url": "_assets/icons/index.svg"
+    },
+    {
+        "src_uri": "_assets/icons/file.svg",
+        "dest_uri": "_assets/icons/file.svg",
+        "name": "file",
+        "url": "_assets/icons/file.svg"
+    },
+    {
+        "src_uri": "_assets/icons/folder-open.svg",
+        "dest_uri": "_assets/icons/folder-open.svg",
+        "name": "folder-open",
+        "url": "_assets/icons/folder-open.svg"
+    },
+    {
+        "src_uri": "_assets/icons/owl.svg",
+        "dest_uri": "_assets/icons/owl.svg",
+        "name": "owl",
+        "url": "_assets/icons/owl.svg"
+    },
+    {
+        "src_uri": "_assets/icons/boxicons/BxFile.svg",
+        "dest_uri": "_assets/icons/boxicons/BxFile.svg",
+        "name": "BxFile",
+        "url": "_assets/icons/boxicons/BxFile.svg"
+    },
+    {
+        "src_uri": "_assets/icons/fluent/pen.svg",
+        "dest_uri": "_assets/icons/fluent/pen.svg",
+        "name": "pen",
+        "url": "_assets/icons/fluent/pen.svg"
+    },
+    {
+        "src_uri": "_assets/icons/font-awesome-solid/WandMagicSparkles.svg",
+        "dest_uri": "_assets/icons/font-awesome-solid/WandMagicSparkles.svg",
+        "name": "WandMagicSparkles",
+        "url": "_assets/icons/font-awesome-solid/WandMagicSparkles.svg"
+    },
+    {
+        "src_uri": "_assets/icons/icon-brew/MessageBubble.svg",
+        "dest_uri": "_assets/icons/icon-brew/MessageBubble.svg",
+        "name": "MessageBubble",
+        "url": "_assets/icons/icon-brew/MessageBubble.svg"
+    },
+    {
+        "src_uri": "_assets/icons/remix-icons/GamepadLine.svg",
+        "dest_uri": "_assets/icons/remix-icons/GamepadLine.svg",
+        "name": "GamepadLine",
+        "url": "_assets/icons/remix-icons/GamepadLine.svg"
+    },
+    {
+        "src_uri": "_assets/icons/rpg-awesome/Knife.svg",
+        "dest_uri": "_assets/icons/rpg-awesome/Knife.svg",
+        "name": "Knife",
+        "url": "_assets/icons/rpg-awesome/Knife.svg"
+    },
+    {
+        "src_uri": "_assets/icons/rpg-awesome/MuscleUp.svg",
+        "dest_uri": "_assets/icons/rpg-awesome/MuscleUp.svg",
+        "name": "MuscleUp",
+        "url": "_assets/icons/rpg-awesome/MuscleUp.svg"
+    },
+    {
+        "src_uri": "_assets/icons/rpg-awesome/WolfHowl.svg",
+        "dest_uri": "_assets/icons/rpg-awesome/WolfHowl.svg",
+        "name": "WolfHowl",
+        "url": "_assets/icons/rpg-awesome/WolfHowl.svg"
+    },
+    {
+        "src_uri": "_assets/icons/simple-icons/bookstack.svg",
+        "dest_uri": "_assets/icons/simple-icons/bookstack.svg",
+        "name": "bookstack",
+        "url": "_assets/icons/simple-icons/bookstack.svg"
+    },
+    {
+        "src_uri": "_assets/icons/tabler-icons/Books.svg",
+        "dest_uri": "_assets/icons/tabler-icons/Books.svg",
+        "name": "Books",
+        "url": "_assets/icons/tabler-icons/Books.svg"
+    },
+    {
+        "src_uri": "_assets/icons/tabler-icons/Brain.svg",
+        "dest_uri": "_assets/icons/tabler-icons/Brain.svg",
+        "name": "Brain",
+        "url": "_assets/icons/tabler-icons/Brain.svg"
+    },
+    {
+        "src_uri": "_assets/icons/tabler-icons/Radioactive.svg",
+        "dest_uri": "_assets/icons/tabler-icons/Radioactive.svg",
+        "name": "Radioactive",
+        "url": "_assets/icons/tabler-icons/Radioactive.svg"
+    },
+    {
+        "src_uri": "_assets/img/Alwyn Kallendris-2.png",
+        "dest_uri": "_assets/img/Alwyn%20Kallendris-2.png",
+        "name": "Alwyn Kallendris-2",
+        "url": "_assets/img/Alwyn%20Kallendris-2.png"
+    },
+    {
+        "src_uri": "_assets/img/Alwyn Kallendris-portrait.png",
+        "dest_uri": "_assets/img/Alwyn%20Kallendris-portrait.png",
+        "name": "Alwyn Kallendris-portrait",
+        "url": "_assets/img/Alwyn%20Kallendris-portrait.png"
+    },
+    {
+        "src_uri": "_assets/img/Azra\u00ebl Blakes.png",
+        "dest_uri": "_assets/img/Azra%C3%ABl%20Blakes.png",
+        "name": "Azra\u00ebl Blakes",
+        "url": "_assets/img/Azra%C3%ABl%20Blakes.png"
+    },
+    {
+        "src_uri": "_assets/img/Bla\u00efka \u2014 Choupa.png",
+        "dest_uri": "_assets/img/Bla%C3%AFka%20%E2%80%94%20Choupa.png",
+        "name": "Bla\u00efka \u2014 Choupa",
+        "url": "_assets/img/Bla%C3%AFka%20%E2%80%94%20Choupa.png"
+    },
+    {
+        "src_uri": "_assets/img/Bla\u00efka \u2014 Portrait.jpg",
+        "dest_uri": "_assets/img/Bla%C3%AFka%20%E2%80%94%20Portrait.jpg",
+        "name": "Bla\u00efka \u2014 Portrait",
+        "url": "_assets/img/Bla%C3%AFka%20%E2%80%94%20Portrait.jpg"
+    },
+    {
+        "src_uri": "_assets/img/Bla\u00efka.jpg",
+        "dest_uri": "_assets/img/Bla%C3%AFka.jpg",
+        "name": "Bla\u00efka",
+        "url": "_assets/img/Bla%C3%AFka.jpg"
+    },
+    {
+        "src_uri": "_assets/img/CDI_Best_Rasp.png",
+        "dest_uri": "_assets/img/CDI_Best_Rasp.png",
+        "name": "CDI_Best_Rasp",
+        "url": "_assets/img/CDI_Best_Rasp.png"
+    },
+    {
+        "src_uri": "_assets/img/CDI_Bestiaire_2.png",
+        "dest_uri": "_assets/img/CDI_Bestiaire_2.png",
+        "name": "CDI_Bestiaire_2",
+        "url": "_assets/img/CDI_Bestiaire_2.png"
+    },
+    {
+        "src_uri": "_assets/img/CDI_Bestiaire_3.png",
+        "dest_uri": "_assets/img/CDI_Bestiaire_3.png",
+        "name": "CDI_Bestiaire_3",
+        "url": "_assets/img/CDI_Bestiaire_3.png"
+    },
+    {
+        "src_uri": "_assets/img/CDI_Bestiaire_C.png",
+        "dest_uri": "_assets/img/CDI_Bestiaire_C.png",
+        "name": "CDI_Bestiaire_C",
+        "url": "_assets/img/CDI_Bestiaire_C.png"
+    },
+    {
+        "src_uri": "_assets/img/CDI_Bestiaire_Masque.png",
+        "dest_uri": "_assets/img/CDI_Bestiaire_Masque.png",
+        "name": "CDI_Bestiaire_Masque",
+        "url": "_assets/img/CDI_Bestiaire_Masque.png"
+    },
+    {
+        "src_uri": "_assets/img/CDI_Iguane.png",
+        "dest_uri": "_assets/img/CDI_Iguane.png",
+        "name": "CDI_Iguane",
+        "url": "_assets/img/CDI_Iguane.png"
+    },
+    {
+        "src_uri": "_assets/img/CDI_Logo.png",
+        "dest_uri": "_assets/img/CDI_Logo.png",
+        "name": "CDI_Logo",
+        "url": "_assets/img/CDI_Logo.png"
+    },
+    {
+        "src_uri": "_assets/img/CDI_Map.png",
+        "dest_uri": "_assets/img/CDI_Map.png",
+        "name": "CDI_Map",
+        "url": "_assets/img/CDI_Map.png"
+    },
+    {
+        "src_uri": "_assets/img/Eden_portrait.png",
+        "dest_uri": "_assets/img/Eden_portrait.png",
+        "name": "Eden_portrait",
+        "url": "_assets/img/Eden_portrait.png"
+    },
+    {
+        "src_uri": "_assets/img/Eilwellyn \u2014 Fant\u00f4me.png",
+        "dest_uri": "_assets/img/Eilwellyn%20%E2%80%94%20Fant%C3%B4me.png",
+        "name": "Eilwellyn \u2014 Fant\u00f4me",
+        "url": "_assets/img/Eilwellyn%20%E2%80%94%20Fant%C3%B4me.png"
+    },
+    {
+        "src_uri": "_assets/img/Eldale Creek-Bla\u00efka.png",
+        "dest_uri": "_assets/img/Eldale%20Creek-Bla%C3%AFka.png",
+        "name": "Eldale Creek-Bla\u00efka",
+        "url": "_assets/img/Eldale%20Creek-Bla%C3%AFka.png"
+    },
+    {
+        "src_uri": "_assets/img/Full_liberi_Ambrose.png",
+        "dest_uri": "_assets/img/Full_liberi_Ambrose.png",
+        "name": "Full_liberi_Ambrose",
+        "url": "_assets/img/Full_liberi_Ambrose.png"
+    },
+    {
+        "src_uri": "_assets/img/Gab_PP.jpeg",
+        "dest_uri": "_assets/img/Gab_PP.jpeg",
+        "name": "Gab_PP",
+        "url": "_assets/img/Gab_PP.jpeg"
+    },
+    {
+        "src_uri": "_assets/img/IMG-1724175897199.png",
+        "dest_uri": "_assets/img/IMG-1724175897199.png",
+        "name": "IMG-1724175897199",
+        "url": "_assets/img/IMG-1724175897199.png"
+    },
+    {
+        "src_uri": "_assets/img/IMG-1724175900490.png",
+        "dest_uri": "_assets/img/IMG-1724175900490.png",
+        "name": "IMG-1724175900490",
+        "url": "_assets/img/IMG-1724175900490.png"
+    },
+    {
+        "src_uri": "_assets/img/IMG-1724175901707.png",
+        "dest_uri": "_assets/img/IMG-1724175901707.png",
+        "name": "IMG-1724175901707",
+        "url": "_assets/img/IMG-1724175901707.png"
+    },
+    {
+        "src_uri": "_assets/img/IMG-1724175902223.png",
+        "dest_uri": "_assets/img/IMG-1724175902223.png",
+        "name": "IMG-1724175902223",
+        "url": "_assets/img/IMG-1724175902223.png"
+    },
+    {
+        "src_uri": "_assets/img/IMG-1724175902857.png",
+        "dest_uri": "_assets/img/IMG-1724175902857.png",
+        "name": "IMG-1724175902857",
+        "url": "_assets/img/IMG-1724175902857.png"
+    },
+    {
+        "src_uri": "_assets/img/IMG-1724175903472.png",
+        "dest_uri": "_assets/img/IMG-1724175903472.png",
+        "name": "IMG-1724175903472",
+        "url": "_assets/img/IMG-1724175903472.png"
+    },
+    {
+        "src_uri": "_assets/img/IMG-1724175903753.png",
+        "dest_uri": "_assets/img/IMG-1724175903753.png",
+        "name": "IMG-1724175903753",
+        "url": "_assets/img/IMG-1724175903753.png"
+    },
+    {
+        "src_uri": "_assets/img/IMG-1724175904084.png",
+        "dest_uri": "_assets/img/IMG-1724175904084.png",
+        "name": "IMG-1724175904084",
+        "url": "_assets/img/IMG-1724175904084.png"
+    },
+    {
+        "src_uri": "_assets/img/IMG-1724175904155.png",
+        "dest_uri": "_assets/img/IMG-1724175904155.png",
+        "name": "IMG-1724175904155",
+        "url": "_assets/img/IMG-1724175904155.png"
+    },
+    {
+        "src_uri": "_assets/img/IMG-1724175904512.png",
+        "dest_uri": "_assets/img/IMG-1724175904512.png",
+        "name": "IMG-1724175904512",
+        "url": "_assets/img/IMG-1724175904512.png"
+    },
+    {
+        "src_uri": "_assets/img/IMG-1724175904875.png",
+        "dest_uri": "_assets/img/IMG-1724175904875.png",
+        "name": "IMG-1724175904875",
+        "url": "_assets/img/IMG-1724175904875.png"
+    },
+    {
+        "src_uri": "_assets/img/IMG-1724175905239.png",
+        "dest_uri": "_assets/img/IMG-1724175905239.png",
+        "name": "IMG-1724175905239",
+        "url": "_assets/img/IMG-1724175905239.png"
+    },
+    {
+        "src_uri": "_assets/img/IMG-1724175905661.png",
+        "dest_uri": "_assets/img/IMG-1724175905661.png",
+        "name": "IMG-1724175905661",
+        "url": "_assets/img/IMG-1724175905661.png"
+    },
+    {
+        "src_uri": "_assets/img/IMG-1724175906076.jpg",
+        "dest_uri": "_assets/img/IMG-1724175906076.jpg",
+        "name": "IMG-1724175906076",
+        "url": "_assets/img/IMG-1724175906076.jpg"
+    },
+    {
+        "src_uri": "_assets/img/IMG-1724175906552.png",
+        "dest_uri": "_assets/img/IMG-1724175906552.png",
+        "name": "IMG-1724175906552",
+        "url": "_assets/img/IMG-1724175906552.png"
+    },
+    {
+        "src_uri": "_assets/img/IMG-1724175907229.png",
+        "dest_uri": "_assets/img/IMG-1724175907229.png",
+        "name": "IMG-1724175907229",
+        "url": "_assets/img/IMG-1724175907229.png"
+    },
+    {
+        "src_uri": "_assets/img/IMG-1724175907668.png",
+        "dest_uri": "_assets/img/IMG-1724175907668.png",
+        "name": "IMG-1724175907668",
+        "url": "_assets/img/IMG-1724175907668.png"
+    },
+    {
+        "src_uri": "_assets/img/IMG-1724175908018.png",
+        "dest_uri": "_assets/img/IMG-1724175908018.png",
+        "name": "IMG-1724175908018",
+        "url": "_assets/img/IMG-1724175908018.png"
+    },
+    {
+        "src_uri": "_assets/img/IMG-1724175908566.png",
+        "dest_uri": "_assets/img/IMG-1724175908566.png",
+        "name": "IMG-1724175908566",
+        "url": "_assets/img/IMG-1724175908566.png"
+    },
+    {
+        "src_uri": "_assets/img/IMG-1724175909008.jpg",
+        "dest_uri": "_assets/img/IMG-1724175909008.jpg",
+        "name": "IMG-1724175909008",
+        "url": "_assets/img/IMG-1724175909008.jpg"
+    },
+    {
+        "src_uri": "_assets/img/IMG_0758.jpeg",
+        "dest_uri": "_assets/img/IMG_0758.jpeg",
+        "name": "IMG_0758",
+        "url": "_assets/img/IMG_0758.jpeg"
+    },
+    {
+        "src_uri": "_assets/img/Illustration-1720461635476.png",
+        "dest_uri": "_assets/img/Illustration-1720461635476.png",
+        "name": "Illustration-1720461635476",
+        "url": "_assets/img/Illustration-1720461635476.png"
+    },
+    {
+        "src_uri": "_assets/img/Illustration-1720461636258.png",
+        "dest_uri": "_assets/img/Illustration-1720461636258.png",
+        "name": "Illustration-1720461636258",
+        "url": "_assets/img/Illustration-1720461636258.png"
+    },
+    {
+        "src_uri": "_assets/img/Illustration-1720461637000.png",
+        "dest_uri": "_assets/img/Illustration-1720461637000.png",
+        "name": "Illustration-1720461637000",
+        "url": "_assets/img/Illustration-1720461637000.png"
+    },
+    {
+        "src_uri": "_assets/img/Illustration-1720461637407.jpg",
+        "dest_uri": "_assets/img/Illustration-1720461637407.jpg",
+        "name": "Illustration-1720461637407",
+        "url": "_assets/img/Illustration-1720461637407.jpg"
+    },
+    {
+        "src_uri": "_assets/img/Illustration-1720461637968.png",
+        "dest_uri": "_assets/img/Illustration-1720461637968.png",
+        "name": "Illustration-1720461637968",
+        "url": "_assets/img/Illustration-1720461637968.png"
+    },
+    {
+        "src_uri": "_assets/img/Illustration-1720461638214.png",
+        "dest_uri": "_assets/img/Illustration-1720461638214.png",
+        "name": "Illustration-1720461638214",
+        "url": "_assets/img/Illustration-1720461638214.png"
+    },
+    {
+        "src_uri": "_assets/img/Illustration-1720461638603.png",
+        "dest_uri": "_assets/img/Illustration-1720461638603.png",
+        "name": "Illustration-1720461638603",
+        "url": "_assets/img/Illustration-1720461638603.png"
+    },
+    {
+        "src_uri": "_assets/img/Illustration-1720461638883.png",
+        "dest_uri": "_assets/img/Illustration-1720461638883.png",
+        "name": "Illustration-1720461638883",
+        "url": "_assets/img/Illustration-1720461638883.png"
+    },
+    {
+        "src_uri": "_assets/img/Illustration-1724175897256.jpg",
+        "dest_uri": "_assets/img/Illustration-1724175897256.jpg",
+        "name": "Illustration-1724175897256",
+        "url": "_assets/img/Illustration-1724175897256.jpg"
+    },
+    {
+        "src_uri": "_assets/img/Illustration-1724175900652.jpeg",
+        "dest_uri": "_assets/img/Illustration-1724175900652.jpeg",
+        "name": "Illustration-1724175900652",
+        "url": "_assets/img/Illustration-1724175900652.jpeg"
+    },
+    {
+        "src_uri": "_assets/img/Illustration-1724175901856.png",
+        "dest_uri": "_assets/img/Illustration-1724175901856.png",
+        "name": "Illustration-1724175901856",
+        "url": "_assets/img/Illustration-1724175901856.png"
+    },
+    {
+        "src_uri": "_assets/img/Illustration-1724175902374.jpeg",
+        "dest_uri": "_assets/img/Illustration-1724175902374.jpeg",
+        "name": "Illustration-1724175902374",
+        "url": "_assets/img/Illustration-1724175902374.jpeg"
+    },
+    {
+        "src_uri": "_assets/img/Illustration-1724175903018.jpeg",
+        "dest_uri": "_assets/img/Illustration-1724175903018.jpeg",
+        "name": "Illustration-1724175903018",
+        "url": "_assets/img/Illustration-1724175903018.jpeg"
+    },
+    {
+        "src_uri": "_assets/img/Illustration-1724175903632.png",
+        "dest_uri": "_assets/img/Illustration-1724175903632.png",
+        "name": "Illustration-1724175903632",
+        "url": "_assets/img/Illustration-1724175903632.png"
+    },
+    {
+        "src_uri": "_assets/img/Illustration-1724175903839.png",
+        "dest_uri": "_assets/img/Illustration-1724175903839.png",
+        "name": "Illustration-1724175903839",
+        "url": "_assets/img/Illustration-1724175903839.png"
+    },
+    {
+        "src_uri": "_assets/img/Illustration-1724175904345.jpeg",
+        "dest_uri": "_assets/img/Illustration-1724175904345.jpeg",
+        "name": "Illustration-1724175904345",
+        "url": "_assets/img/Illustration-1724175904345.jpeg"
+    },
+    {
+        "src_uri": "_assets/img/Illustration-1724175904732.jpeg",
+        "dest_uri": "_assets/img/Illustration-1724175904732.jpeg",
+        "name": "Illustration-1724175904732",
+        "url": "_assets/img/Illustration-1724175904732.jpeg"
+    },
+    {
+        "src_uri": "_assets/img/Illustration-1724175905016.jpeg",
+        "dest_uri": "_assets/img/Illustration-1724175905016.jpeg",
+        "name": "Illustration-1724175905016",
+        "url": "_assets/img/Illustration-1724175905016.jpeg"
+    },
+    {
+        "src_uri": "_assets/img/Illustration-1724175905516.png",
+        "dest_uri": "_assets/img/Illustration-1724175905516.png",
+        "name": "Illustration-1724175905516",
+        "url": "_assets/img/Illustration-1724175905516.png"
+    },
+    {
+        "src_uri": "_assets/img/Illustration-1724175905929.jpeg",
+        "dest_uri": "_assets/img/Illustration-1724175905929.jpeg",
+        "name": "Illustration-1724175905929",
+        "url": "_assets/img/Illustration-1724175905929.jpeg"
+    },
+    {
+        "src_uri": "_assets/img/Illustration-1724175906314.jpeg",
+        "dest_uri": "_assets/img/Illustration-1724175906314.jpeg",
+        "name": "Illustration-1724175906314",
+        "url": "_assets/img/Illustration-1724175906314.jpeg"
+    },
+    {
+        "src_uri": "_assets/img/Illustration-1724175906757.jpg",
+        "dest_uri": "_assets/img/Illustration-1724175906757.jpg",
+        "name": "Illustration-1724175906757",
+        "url": "_assets/img/Illustration-1724175906757.jpg"
+    },
+    {
+        "src_uri": "_assets/img/Illustration-1724175907495.jpeg",
+        "dest_uri": "_assets/img/Illustration-1724175907495.jpeg",
+        "name": "Illustration-1724175907495",
+        "url": "_assets/img/Illustration-1724175907495.jpeg"
+    },
+    {
+        "src_uri": "_assets/img/Illustration-1724175907837.jpeg",
+        "dest_uri": "_assets/img/Illustration-1724175907837.jpeg",
+        "name": "Illustration-1724175907837",
+        "url": "_assets/img/Illustration-1724175907837.jpeg"
+    },
+    {
+        "src_uri": "_assets/img/Illustration-1724175908305.jpeg",
+        "dest_uri": "_assets/img/Illustration-1724175908305.jpeg",
+        "name": "Illustration-1724175908305",
+        "url": "_assets/img/Illustration-1724175908305.jpeg"
+    },
+    {
+        "src_uri": "_assets/img/Illustration-1724175908704.png",
+        "dest_uri": "_assets/img/Illustration-1724175908704.png",
+        "name": "Illustration-1724175908704",
+        "url": "_assets/img/Illustration-1724175908704.png"
+    },
+    {
+        "src_uri": "_assets/img/Illustration-1724175909134.jpeg",
+        "dest_uri": "_assets/img/Illustration-1724175909134.jpeg",
+        "name": "Illustration-1724175909134",
+        "url": "_assets/img/Illustration-1724175909134.jpeg"
+    },
+    {
+        "src_uri": "_assets/img/Illustration-1724175909459.jpeg",
+        "dest_uri": "_assets/img/Illustration-1724175909459.jpeg",
+        "name": "Illustration-1724175909459",
+        "url": "_assets/img/Illustration-1724175909459.jpeg"
+    },
+    {
+        "src_uri": "_assets/img/Illustration-1724175909765.png",
+        "dest_uri": "_assets/img/Illustration-1724175909765.png",
+        "name": "Illustration-1724175909765",
+        "url": "_assets/img/Illustration-1724175909765.png"
+    },
+    {
+        "src_uri": "_assets/img/Illustration-1724175909907.jpeg",
+        "dest_uri": "_assets/img/Illustration-1724175909907.jpeg",
+        "name": "Illustration-1724175909907",
+        "url": "_assets/img/Illustration-1724175909907.jpeg"
+    },
+    {
+        "src_uri": "_assets/img/Illustration-1724175910245.jpg",
+        "dest_uri": "_assets/img/Illustration-1724175910245.jpg",
+        "name": "Illustration-1724175910245",
+        "url": "_assets/img/Illustration-1724175910245.jpg"
+    },
+    {
+        "src_uri": "_assets/img/Illustration-1724175910600.jpg",
+        "dest_uri": "_assets/img/Illustration-1724175910600.jpg",
+        "name": "Illustration-1724175910600",
+        "url": "_assets/img/Illustration-1724175910600.jpg"
+    },
+    {
+        "src_uri": "_assets/img/Illustration-1724175910785.jpg",
+        "dest_uri": "_assets/img/Illustration-1724175910785.jpg",
+        "name": "Illustration-1724175910785",
+        "url": "_assets/img/Illustration-1724175910785.jpg"
+    },
+    {
+        "src_uri": "_assets/img/Kara Grimalkin.png",
+        "dest_uri": "_assets/img/Kara%20Grimalkin.png",
+        "name": "Kara Grimalkin",
+        "url": "_assets/img/Kara%20Grimalkin.png"
+    },
+    {
+        "src_uri": "_assets/img/Kara_Kimono-1-1.jpeg",
+        "dest_uri": "_assets/img/Kara_Kimono-1-1.jpeg",
+        "name": "Kara_Kimono-1-1",
+        "url": "_assets/img/Kara_Kimono-1-1.jpeg"
+    },
+    {
+        "src_uri": "_assets/img/Kei_Full.jpeg",
+        "dest_uri": "_assets/img/Kei_Full.jpeg",
+        "name": "Kei_Full",
+        "url": "_assets/img/Kei_Full.jpeg"
+    },
+    {
+        "src_uri": "_assets/img/Key_illu.png",
+        "dest_uri": "_assets/img/Key_illu.png",
+        "name": "Key_illu",
+        "url": "_assets/img/Key_illu.png"
+    },
+    {
+        "src_uri": "_assets/img/Le laboratoire-1724175897326.png",
+        "dest_uri": "_assets/img/Le%20laboratoire-1724175897326.png",
+        "name": "Le laboratoire-1724175897326",
+        "url": "_assets/img/Le%20laboratoire-1724175897326.png"
+    },
+    {
+        "src_uri": "_assets/img/Lucrezia - AK.png",
+        "dest_uri": "_assets/img/Lucrezia%20-%20AK.png",
+        "name": "Lucrezia - AK",
+        "url": "_assets/img/Lucrezia%20-%20AK.png"
+    },
+    {
+        "src_uri": "_assets/img/Lucrezia Valentina.png",
+        "dest_uri": "_assets/img/Lucrezia%20Valentina.png",
+        "name": "Lucrezia Valentina",
+        "url": "_assets/img/Lucrezia%20Valentina.png"
+    },
+    {
+        "src_uri": "_assets/img/Mara FB Sketch August 2.png",
+        "dest_uri": "_assets/img/Mara%20FB%20Sketch%20August%202.png",
+        "name": "Mara FB Sketch August 2",
+        "url": "_assets/img/Mara%20FB%20Sketch%20August%202.png"
+    },
+    {
+        "src_uri": "_assets/img/Mara_Illu.png",
+        "dest_uri": "_assets/img/Mara_Illu.png",
+        "name": "Mara_Illu",
+        "url": "_assets/img/Mara_Illu.png"
+    },
+    {
+        "src_uri": "_assets/img/Medhas_profil.png",
+        "dest_uri": "_assets/img/Medhas_profil.png",
+        "name": "Medhas_profil",
+        "url": "_assets/img/Medhas_profil.png"
+    },
+    {
+        "src_uri": "_assets/img/N\u00e9mo_Commission_BG+name.png",
+        "dest_uri": "_assets/img/N%C3%A9mo_Commission_BG%2Bname.png",
+        "name": "N\u00e9mo_Commission_BG+name",
+        "url": "_assets/img/N%C3%A9mo_Commission_BG%2Bname.png"
+    },
+    {
+        "src_uri": "_assets/img/PP_Perseith.png",
+        "dest_uri": "_assets/img/PP_Perseith.png",
+        "name": "PP_Perseith",
+        "url": "_assets/img/PP_Perseith.png"
+    },
+    {
+        "src_uri": "_assets/img/Pasted image 20220121203402.png",
+        "dest_uri": "_assets/img/Pasted%20image%2020220121203402.png",
+        "name": "Pasted image 20220121203402",
+        "url": "_assets/img/Pasted%20image%2020220121203402.png"
+    },
+    {
+        "src_uri": "_assets/img/Pasted image 20220121204230.png",
+        "dest_uri": "_assets/img/Pasted%20image%2020220121204230.png",
+        "name": "Pasted image 20220121204230",
+        "url": "_assets/img/Pasted%20image%2020220121204230.png"
+    },
+    {
+        "src_uri": "_assets/img/Pasted image 20220121205357.png",
+        "dest_uri": "_assets/img/Pasted%20image%2020220121205357.png",
+        "name": "Pasted image 20220121205357",
+        "url": "_assets/img/Pasted%20image%2020220121205357.png"
+    },
+    {
+        "src_uri": "_assets/img/Pasted image 20220126170658.png",
+        "dest_uri": "_assets/img/Pasted%20image%2020220126170658.png",
+        "name": "Pasted image 20220126170658",
+        "url": "_assets/img/Pasted%20image%2020220126170658.png"
+    },
+    {
+        "src_uri": "_assets/img/Pasted image 20220126171006.png",
+        "dest_uri": "_assets/img/Pasted%20image%2020220126171006.png",
+        "name": "Pasted image 20220126171006",
+        "url": "_assets/img/Pasted%20image%2020220126171006.png"
+    },
+    {
+        "src_uri": "_assets/img/Pasted image 20220126171043.png",
+        "dest_uri": "_assets/img/Pasted%20image%2020220126171043.png",
+        "name": "Pasted image 20220126171043",
+        "url": "_assets/img/Pasted%20image%2020220126171043.png"
+    },
+    {
+        "src_uri": "_assets/img/Pasted image 20220126172840.png",
+        "dest_uri": "_assets/img/Pasted%20image%2020220126172840.png",
+        "name": "Pasted image 20220126172840",
+        "url": "_assets/img/Pasted%20image%2020220126172840.png"
+    },
+    {
+        "src_uri": "_assets/img/Pasted image 20220126174208.png",
+        "dest_uri": "_assets/img/Pasted%20image%2020220126174208.png",
+        "name": "Pasted image 20220126174208",
+        "url": "_assets/img/Pasted%20image%2020220126174208.png"
+    },
+    {
+        "src_uri": "_assets/img/Perseith_full.png",
+        "dest_uri": "_assets/img/Perseith_full.png",
+        "name": "Perseith_full",
+        "url": "_assets/img/Perseith_full.png"
+    },
+    {
+        "src_uri": "_assets/img/Portrait - Picrew2.png",
+        "dest_uri": "_assets/img/Portrait%20-%20Picrew2.png",
+        "name": "Portrait - Picrew2",
+        "url": "_assets/img/Portrait%20-%20Picrew2.png"
+    },
+    {
+        "src_uri": "_assets/img/Quinn Jazee.png",
+        "dest_uri": "_assets/img/Quinn%20Jazee.png",
+        "name": "Quinn Jazee",
+        "url": "_assets/img/Quinn%20Jazee.png"
+    },
+    {
+        "src_uri": "_assets/img/Sara White.jpg",
+        "dest_uri": "_assets/img/Sara%20White.jpg",
+        "name": "Sara White",
+        "url": "_assets/img/Sara%20White.jpg"
+    },
+    {
+        "src_uri": "_assets/img/Spectre_CDI.png",
+        "dest_uri": "_assets/img/Spectre_CDI.png",
+        "name": "Spectre_CDI",
+        "url": "_assets/img/Spectre_CDI.png"
+    },
+    {
+        "src_uri": "_assets/img/avatar.png",
+        "dest_uri": "_assets/img/avatar.png",
+        "name": "avatar",
+        "url": "_assets/img/avatar.png"
+    },
+    {
+        "src_uri": "_assets/img/cdi2.png",
+        "dest_uri": "_assets/img/cdi2.png",
+        "name": "cdi2",
+        "url": "_assets/img/cdi2.png"
+    },
+    {
+        "src_uri": "_assets/img/cdi_arcadia.jpg",
+        "dest_uri": "_assets/img/cdi_arcadia.jpg",
+        "name": "cdi_arcadia",
+        "url": "_assets/img/cdi_arcadia.jpg"
+    },
+    {
+        "src_uri": "_assets/img/cdi_arcadia_3.jpg",
+        "dest_uri": "_assets/img/cdi_arcadia_3.jpg",
+        "name": "cdi_arcadia_3",
+        "url": "_assets/img/cdi_arcadia_3.jpg"
+    },
+    {
+        "src_uri": "_assets/img/cdi_arcadia_4.jpg",
+        "dest_uri": "_assets/img/cdi_arcadia_4.jpg",
+        "name": "cdi_arcadia_4",
+        "url": "_assets/img/cdi_arcadia_4.jpg"
+    },
+    {
+        "src_uri": "_assets/img/cdi_arcadia_5.jpg",
+        "dest_uri": "_assets/img/cdi_arcadia_5.jpg",
+        "name": "cdi_arcadia_5",
+        "url": "_assets/img/cdi_arcadia_5.jpg"
+    },
+    {
+        "src_uri": "_assets/img/cdi_arcadia_6.jpg",
+        "dest_uri": "_assets/img/cdi_arcadia_6.jpg",
+        "name": "cdi_arcadia_6",
+        "url": "_assets/img/cdi_arcadia_6.jpg"
+    },
+    {
+        "src_uri": "_assets/img/cdi_arcadia_7.jpg",
+        "dest_uri": "_assets/img/cdi_arcadia_7.jpg",
+        "name": "cdi_arcadia_7",
+        "url": "_assets/img/cdi_arcadia_7.jpg"
+    },
+    {
+        "src_uri": "_assets/img/cdi_mess.jpg",
+        "dest_uri": "_assets/img/cdi_mess.jpg",
+        "name": "cdi_mess",
+        "url": "_assets/img/cdi_mess.jpg"
+    },
+    {
+        "src_uri": "_assets/img/cid_arcadia_8.jpg",
+        "dest_uri": "_assets/img/cid_arcadia_8.jpg",
+        "name": "cid_arcadia_8",
+        "url": "_assets/img/cid_arcadia_8.jpg"
+    },
+    {
+        "src_uri": "_assets/img/download20240401021029.png",
+        "dest_uri": "_assets/img/download20240401021029.png",
+        "name": "download20240401021029",
+        "url": "_assets/img/download20240401021029.png"
+    },
+    {
+        "src_uri": "_assets/img/kris-thaler-pistol-rev3a.jpg",
+        "dest_uri": "_assets/img/kris-thaler-pistol-rev3a.jpg",
+        "name": "kris-thaler-pistol-rev3a",
+        "url": "_assets/img/kris-thaler-pistol-rev3a.jpg"
+    },
+    {
+        "src_uri": "_assets/img/maxresdefault.jpg",
+        "dest_uri": "_assets/img/maxresdefault.jpg",
+        "name": "maxresdefault",
+        "url": "_assets/img/maxresdefault.jpg"
+    },
+    {
+        "src_uri": "_assets/img/portrait.png",
+        "dest_uri": "_assets/img/portrait.png",
+        "name": "portrait",
+        "url": "_assets/img/portrait.png"
+    },
+    {
+        "src_uri": "_assets/img/pp_perseith.png",
+        "dest_uri": "_assets/img/pp_perseith.png",
+        "name": "pp_perseith",
+        "url": "_assets/img/pp_perseith.png"
+    },
+    {
+        "src_uri": "_assets/img/sghsfjgnfs.webp",
+        "dest_uri": "_assets/img/sghsfjgnfs.webp",
+        "name": "sghsfjgnfs",
+        "url": "_assets/img/sghsfjgnfs.webp"
+    },
+    {
+        "src_uri": "_assets/js/snippets.js",
+        "dest_uri": "_assets/js/snippets.js",
+        "name": "snippets",
+        "url": "_assets/js/snippets.js"
+    },
+    {
+        "src_uri": "_assets/meta/LOGO_SEO.png",
+        "dest_uri": "_assets/meta/LOGO_SEO.png",
+        "name": "LOGO_SEO",
+        "url": "_assets/meta/LOGO_SEO.png"
+    },
+    {
+        "src_uri": "_assets/meta/avatar_index.gif",
+        "dest_uri": "_assets/meta/avatar_index.gif",
+        "name": "avatar_index",
+        "url": "_assets/meta/avatar_index.gif"
+    },
+    {
+        "src_uri": "_assets/meta/error_404.svg",
+        "dest_uri": "_assets/meta/error_404.svg",
+        "name": "error_404",
+        "url": "_assets/meta/error_404.svg"
+    },
+    {
+        "src_uri": "_assets/meta/favicons.png",
+        "dest_uri": "_assets/meta/favicons.png",
+        "name": "favicons",
+        "url": "_assets/meta/favicons.png"
+    },
+    {
+        "src_uri": "_assets/meta/icon.png",
+        "dest_uri": "_assets/meta/icon.png",
+        "name": "icon",
+        "url": "_assets/meta/icon.png"
+    },
+    {
+        "src_uri": "_assets/meta/profile.png",
+        "dest_uri": "_assets/meta/profile.png",
+        "name": "profile",
+        "url": "_assets/meta/profile.png"
+    },
+    {
+        "src_uri": "blog/index.md",
+        "dest_uri": "blog/",
+        "name": "index",
+        "url": "blog/"
+    },
+    {
+        "src_uri": "blog/posts/Documentaire.md",
+        "dest_uri": "blog/posts/Documentaire/",
+        "name": "Documentaire",
+        "url": "blog/posts/Documentaire/"
+    },
+    {
+        "src_uri": "blog/posts/Pourquoi je n'aime pas Nier Automata.md",
+        "dest_uri": "blog/posts/Pourquoi%20je%20n%27aime%20pas%20Nier%20Automata/",
+        "name": "Pourquoi je n'aime pas Nier Automata",
+        "url": "blog/posts/Pourquoi%20je%20n%27aime%20pas%20Nier%20Automata/"
+    },
+    {
+        "src_uri": "hidden/.pages",
+        "dest_uri": "hidden/.pages",
+        "name": ".pages",
+        "url": "hidden/.pages"
+    },
+    {
+        "src_uri": "hidden/Exasys Online.md",
+        "dest_uri": "hidden/Exasys%20Online/",
+        "name": "Exasys Online",
+        "url": "hidden/Exasys%20Online/"
+    },
+    {
+        "src_uri": "hidden/Fiche.md",
+        "dest_uri": "hidden/Fiche/",
+        "name": "Fiche",
+        "url": "hidden/Fiche/"
+    },
+    {
+        "src_uri": "hidden/Kara_ref_img.md",
+        "dest_uri": "hidden/Kara_ref_img/",
+        "name": "Kara_ref_img",
+        "url": "hidden/Kara_ref_img/"
+    },
+    {
+        "src_uri": "hidden/Pouvoirs.md",
+        "dest_uri": "hidden/Pouvoirs/",
+        "name": "Pouvoirs",
+        "url": "hidden/Pouvoirs/"
+    },
+    {
+        "src_uri": "hidden/Symbole relations.md",
+        "dest_uri": "hidden/Symbole%20relations/",
+        "name": "Symbole relations",
+        "url": "hidden/Symbole%20relations/"
+    },
+    {
+        "src_uri": "hidden/Eldale Creek/\u00c9den Bonne-\u00c9toile/index.md",
+        "dest_uri": "hidden/Eldale%20Creek/%C3%89den%20Bonne-%C3%89toile/",
+        "name": "index",
+        "url": "hidden/Eldale%20Creek/%C3%89den%20Bonne-%C3%89toile/"
+    },
+    {
+        "src_uri": "hidden/Eldale Creek/\u00c9den Bonne-\u00c9toile/PHYSICS.md",
+        "dest_uri": "hidden/Eldale%20Creek/%C3%89den%20Bonne-%C3%89toile/PHYSICS/",
+        "name": "PHYSICS",
+        "url": "hidden/Eldale%20Creek/%C3%89den%20Bonne-%C3%89toile/PHYSICS/"
+    },
+    {
+        "src_uri": "hidden/Eldale Creek/\u00c9den Bonne-\u00c9toile/POWERS.md",
+        "dest_uri": "hidden/Eldale%20Creek/%C3%89den%20Bonne-%C3%89toile/POWERS/",
+        "name": "POWERS",
+        "url": "hidden/Eldale%20Creek/%C3%89den%20Bonne-%C3%89toile/POWERS/"
+    },
+    {
+        "src_uri": "hidden/Eldale Creek/\u00c9den Bonne-\u00c9toile/PSYCHIC.md",
+        "dest_uri": "hidden/Eldale%20Creek/%C3%89den%20Bonne-%C3%89toile/PSYCHIC/",
+        "name": "PSYCHIC",
+        "url": "hidden/Eldale%20Creek/%C3%89den%20Bonne-%C3%89toile/PSYCHIC/"
+    },
+    {
+        "src_uri": "hidden/Eldale Creek/\u00c9den Bonne-\u00c9toile/STORY.md",
+        "dest_uri": "hidden/Eldale%20Creek/%C3%89den%20Bonne-%C3%89toile/STORY/",
+        "name": "STORY",
+        "url": "hidden/Eldale%20Creek/%C3%89den%20Bonne-%C3%89toile/STORY/"
+    },
+    {
+        "src_uri": "outils/Obsidian.md",
+        "dest_uri": "outils/Obsidian/",
+        "name": "Obsidian",
+        "url": "outils/Obsidian/"
+    },
+    {
+        "src_uri": "outils/tutoriel/Obsidian et utilisation.md",
+        "dest_uri": "outils/tutoriel/Obsidian%20et%20utilisation/",
+        "name": "Obsidian et utilisation",
+        "url": "outils/tutoriel/Obsidian%20et%20utilisation/"
+    },
+    {
+        "src_uri": "outils/tutoriel/ZoteroPandocObsidianTuto.md",
+        "dest_uri": "outils/tutoriel/ZoteroPandocObsidianTuto/",
+        "name": "ZoteroPandocObsidianTuto",
+        "url": "outils/tutoriel/ZoteroPandocObsidianTuto/"
+    },
+    {
+        "src_uri": "assets/images/favicon.png",
+        "dest_uri": "assets/images/favicon.png",
+        "name": "favicon",
+        "url": "assets/images/favicon.png"
+    },
+    {
+        "src_uri": "assets/javascripts/bundle.88dd0f4e.min.js",
+        "dest_uri": "assets/javascripts/bundle.88dd0f4e.min.js",
+        "name": "bundle.88dd0f4e.min",
+        "url": "assets/javascripts/bundle.88dd0f4e.min.js"
+    },
+    {
+        "src_uri": "assets/javascripts/bundle.88dd0f4e.min.js.map",
+        "dest_uri": "assets/javascripts/bundle.88dd0f4e.min.js.map",
+        "name": "bundle.88dd0f4e.min.js",
+        "url": "assets/javascripts/bundle.88dd0f4e.min.js.map"
+    },
+    {
+        "src_uri": "assets/javascripts/lunr/min/lunr.ar.min.js",
+        "dest_uri": "assets/javascripts/lunr/min/lunr.ar.min.js",
+        "name": "lunr.ar.min",
+        "url": "assets/javascripts/lunr/min/lunr.ar.min.js"
+    },
+    {
+        "src_uri": "assets/javascripts/lunr/min/lunr.da.min.js",
+        "dest_uri": "assets/javascripts/lunr/min/lunr.da.min.js",
+        "name": "lunr.da.min",
+        "url": "assets/javascripts/lunr/min/lunr.da.min.js"
+    },
+    {
+        "src_uri": "assets/javascripts/lunr/min/lunr.de.min.js",
+        "dest_uri": "assets/javascripts/lunr/min/lunr.de.min.js",
+        "name": "lunr.de.min",
+        "url": "assets/javascripts/lunr/min/lunr.de.min.js"
+    },
+    {
+        "src_uri": "assets/javascripts/lunr/min/lunr.du.min.js",
+        "dest_uri": "assets/javascripts/lunr/min/lunr.du.min.js",
+        "name": "lunr.du.min",
+        "url": "assets/javascripts/lunr/min/lunr.du.min.js"
+    },
+    {
+        "src_uri": "assets/javascripts/lunr/min/lunr.el.min.js",
+        "dest_uri": "assets/javascripts/lunr/min/lunr.el.min.js",
+        "name": "lunr.el.min",
+        "url": "assets/javascripts/lunr/min/lunr.el.min.js"
+    },
+    {
+        "src_uri": "assets/javascripts/lunr/min/lunr.es.min.js",
+        "dest_uri": "assets/javascripts/lunr/min/lunr.es.min.js",
+        "name": "lunr.es.min",
+        "url": "assets/javascripts/lunr/min/lunr.es.min.js"
+    },
+    {
+        "src_uri": "assets/javascripts/lunr/min/lunr.fi.min.js",
+        "dest_uri": "assets/javascripts/lunr/min/lunr.fi.min.js",
+        "name": "lunr.fi.min",
+        "url": "assets/javascripts/lunr/min/lunr.fi.min.js"
+    },
+    {
+        "src_uri": "assets/javascripts/lunr/min/lunr.fr.min.js",
+        "dest_uri": "assets/javascripts/lunr/min/lunr.fr.min.js",
+        "name": "lunr.fr.min",
+        "url": "assets/javascripts/lunr/min/lunr.fr.min.js"
+    },
+    {
+        "src_uri": "assets/javascripts/lunr/min/lunr.he.min.js",
+        "dest_uri": "assets/javascripts/lunr/min/lunr.he.min.js",
+        "name": "lunr.he.min",
+        "url": "assets/javascripts/lunr/min/lunr.he.min.js"
+    },
+    {
+        "src_uri": "assets/javascripts/lunr/min/lunr.hi.min.js",
+        "dest_uri": "assets/javascripts/lunr/min/lunr.hi.min.js",
+        "name": "lunr.hi.min",
+        "url": "assets/javascripts/lunr/min/lunr.hi.min.js"
+    },
+    {
+        "src_uri": "assets/javascripts/lunr/min/lunr.hu.min.js",
+        "dest_uri": "assets/javascripts/lunr/min/lunr.hu.min.js",
+        "name": "lunr.hu.min",
+        "url": "assets/javascripts/lunr/min/lunr.hu.min.js"
+    },
+    {
+        "src_uri": "assets/javascripts/lunr/min/lunr.hy.min.js",
+        "dest_uri": "assets/javascripts/lunr/min/lunr.hy.min.js",
+        "name": "lunr.hy.min",
+        "url": "assets/javascripts/lunr/min/lunr.hy.min.js"
+    },
+    {
+        "src_uri": "assets/javascripts/lunr/min/lunr.it.min.js",
+        "dest_uri": "assets/javascripts/lunr/min/lunr.it.min.js",
+        "name": "lunr.it.min",
+        "url": "assets/javascripts/lunr/min/lunr.it.min.js"
+    },
+    {
+        "src_uri": "assets/javascripts/lunr/min/lunr.ja.min.js",
+        "dest_uri": "assets/javascripts/lunr/min/lunr.ja.min.js",
+        "name": "lunr.ja.min",
+        "url": "assets/javascripts/lunr/min/lunr.ja.min.js"
+    },
+    {
+        "src_uri": "assets/javascripts/lunr/min/lunr.jp.min.js",
+        "dest_uri": "assets/javascripts/lunr/min/lunr.jp.min.js",
+        "name": "lunr.jp.min",
+        "url": "assets/javascripts/lunr/min/lunr.jp.min.js"
+    },
+    {
+        "src_uri": "assets/javascripts/lunr/min/lunr.kn.min.js",
+        "dest_uri": "assets/javascripts/lunr/min/lunr.kn.min.js",
+        "name": "lunr.kn.min",
+        "url": "assets/javascripts/lunr/min/lunr.kn.min.js"
+    },
+    {
+        "src_uri": "assets/javascripts/lunr/min/lunr.ko.min.js",
+        "dest_uri": "assets/javascripts/lunr/min/lunr.ko.min.js",
+        "name": "lunr.ko.min",
+        "url": "assets/javascripts/lunr/min/lunr.ko.min.js"
+    },
+    {
+        "src_uri": "assets/javascripts/lunr/min/lunr.multi.min.js",
+        "dest_uri": "assets/javascripts/lunr/min/lunr.multi.min.js",
+        "name": "lunr.multi.min",
+        "url": "assets/javascripts/lunr/min/lunr.multi.min.js"
+    },
+    {
+        "src_uri": "assets/javascripts/lunr/min/lunr.nl.min.js",
+        "dest_uri": "assets/javascripts/lunr/min/lunr.nl.min.js",
+        "name": "lunr.nl.min",
+        "url": "assets/javascripts/lunr/min/lunr.nl.min.js"
+    },
+    {
+        "src_uri": "assets/javascripts/lunr/min/lunr.no.min.js",
+        "dest_uri": "assets/javascripts/lunr/min/lunr.no.min.js",
+        "name": "lunr.no.min",
+        "url": "assets/javascripts/lunr/min/lunr.no.min.js"
+    },
+    {
+        "src_uri": "assets/javascripts/lunr/min/lunr.pt.min.js",
+        "dest_uri": "assets/javascripts/lunr/min/lunr.pt.min.js",
+        "name": "lunr.pt.min",
+        "url": "assets/javascripts/lunr/min/lunr.pt.min.js"
+    },
+    {
+        "src_uri": "assets/javascripts/lunr/min/lunr.ro.min.js",
+        "dest_uri": "assets/javascripts/lunr/min/lunr.ro.min.js",
+        "name": "lunr.ro.min",
+        "url": "assets/javascripts/lunr/min/lunr.ro.min.js"
+    },
+    {
+        "src_uri": "assets/javascripts/lunr/min/lunr.ru.min.js",
+        "dest_uri": "assets/javascripts/lunr/min/lunr.ru.min.js",
+        "name": "lunr.ru.min",
+        "url": "assets/javascripts/lunr/min/lunr.ru.min.js"
+    },
+    {
+        "src_uri": "assets/javascripts/lunr/min/lunr.sa.min.js",
+        "dest_uri": "assets/javascripts/lunr/min/lunr.sa.min.js",
+        "name": "lunr.sa.min",
+        "url": "assets/javascripts/lunr/min/lunr.sa.min.js"
+    },
+    {
+        "src_uri": "assets/javascripts/lunr/min/lunr.stemmer.support.min.js",
+        "dest_uri": "assets/javascripts/lunr/min/lunr.stemmer.support.min.js",
+        "name": "lunr.stemmer.support.min",
+        "url": "assets/javascripts/lunr/min/lunr.stemmer.support.min.js"
+    },
+    {
+        "src_uri": "assets/javascripts/lunr/min/lunr.sv.min.js",
+        "dest_uri": "assets/javascripts/lunr/min/lunr.sv.min.js",
+        "name": "lunr.sv.min",
+        "url": "assets/javascripts/lunr/min/lunr.sv.min.js"
+    },
+    {
+        "src_uri": "assets/javascripts/lunr/min/lunr.ta.min.js",
+        "dest_uri": "assets/javascripts/lunr/min/lunr.ta.min.js",
+        "name": "lunr.ta.min",
+        "url": "assets/javascripts/lunr/min/lunr.ta.min.js"
+    },
+    {
+        "src_uri": "assets/javascripts/lunr/min/lunr.te.min.js",
+        "dest_uri": "assets/javascripts/lunr/min/lunr.te.min.js",
+        "name": "lunr.te.min",
+        "url": "assets/javascripts/lunr/min/lunr.te.min.js"
+    },
+    {
+        "src_uri": "assets/javascripts/lunr/min/lunr.th.min.js",
+        "dest_uri": "assets/javascripts/lunr/min/lunr.th.min.js",
+        "name": "lunr.th.min",
+        "url": "assets/javascripts/lunr/min/lunr.th.min.js"
+    },
+    {
+        "src_uri": "assets/javascripts/lunr/min/lunr.tr.min.js",
+        "dest_uri": "assets/javascripts/lunr/min/lunr.tr.min.js",
+        "name": "lunr.tr.min",
+        "url": "assets/javascripts/lunr/min/lunr.tr.min.js"
+    },
+    {
+        "src_uri": "assets/javascripts/lunr/min/lunr.vi.min.js",
+        "dest_uri": "assets/javascripts/lunr/min/lunr.vi.min.js",
+        "name": "lunr.vi.min",
+        "url": "assets/javascripts/lunr/min/lunr.vi.min.js"
+    },
+    {
+        "src_uri": "assets/javascripts/lunr/min/lunr.zh.min.js",
+        "dest_uri": "assets/javascripts/lunr/min/lunr.zh.min.js",
+        "name": "lunr.zh.min",
+        "url": "assets/javascripts/lunr/min/lunr.zh.min.js"
+    },
+    {
+        "src_uri": "assets/javascripts/lunr/tinyseg.js",
+        "dest_uri": "assets/javascripts/lunr/tinyseg.js",
+        "name": "tinyseg",
+        "url": "assets/javascripts/lunr/tinyseg.js"
+    },
+    {
+        "src_uri": "assets/javascripts/lunr/wordcut.js",
+        "dest_uri": "assets/javascripts/lunr/wordcut.js",
+        "name": "wordcut",
+        "url": "assets/javascripts/lunr/wordcut.js"
+    },
+    {
+        "src_uri": "assets/javascripts/workers/search.6ce7567c.min.js",
+        "dest_uri": "assets/javascripts/workers/search.6ce7567c.min.js",
+        "name": "search.6ce7567c.min",
+        "url": "assets/javascripts/workers/search.6ce7567c.min.js"
+    },
+    {
+        "src_uri": "assets/javascripts/workers/search.6ce7567c.min.js.map",
+        "dest_uri": "assets/javascripts/workers/search.6ce7567c.min.js.map",
+        "name": "search.6ce7567c.min.js",
+        "url": "assets/javascripts/workers/search.6ce7567c.min.js.map"
+    },
+    {
+        "src_uri": "assets/stylesheets/main.6f8fc17f.min.css",
+        "dest_uri": "assets/stylesheets/main.6f8fc17f.min.css",
+        "name": "main.6f8fc17f.min",
+        "url": "assets/stylesheets/main.6f8fc17f.min.css"
+    },
+    {
+        "src_uri": "assets/stylesheets/main.6f8fc17f.min.css.map",
+        "dest_uri": "assets/stylesheets/main.6f8fc17f.min.css.map",
+        "name": "main.6f8fc17f.min.css",
+        "url": "assets/stylesheets/main.6f8fc17f.min.css.map"
+    },
+    {
+        "src_uri": "assets/stylesheets/palette.06af60db.min.css",
+        "dest_uri": "assets/stylesheets/palette.06af60db.min.css",
+        "name": "palette.06af60db.min",
+        "url": "assets/stylesheets/palette.06af60db.min.css"
+    },
+    {
+        "src_uri": "assets/stylesheets/palette.06af60db.min.css.map",
+        "dest_uri": "assets/stylesheets/palette.06af60db.min.css.map",
+        "name": "palette.06af60db.min.css",
+        "url": "assets/stylesheets/palette.06af60db.min.css.map"
+    }
+]

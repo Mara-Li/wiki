@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+
+.md-header,
+.md-nav--primary .md-nav__title {
+  background: var(--md-primary-fg-color)
+    url(https://images.unsplash.com/photo-1520157646479-22f25713523d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80)
+    left center/cover no-repeat;
+}
+
+.md-tabs {
+  background-color: #00000094;
+}
+
+.md-nav__link[href*="tags"],
+.md-sidebar__inner
+  > .md-nav.md-nav--primary.md-nav--lifted
+  > .md-nav__title
+  > .md-nav__button.md-logo
+  > img,
+.dataview,
+.folderv,
+.md-tabs__item:nth-child(2) {
+  display: none;
+}
+
+.md-nav--primary .md-nav__title[for="__drawer"] {
+  font-size: xxx-large;
+}
+
+.md-typeset :is(.admonition, details) {
+  font-size: 1em;
+}
+
+[data-md-color-scheme="default"],
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: #6096db;
+  --md-accent-fg-color: #2a7bc2;
+}
+
+.rside-10 img[alt*="+rside"] {
+  width: 10em;
+}
+
+.hr-title hr {
+  position: relative;
+  top: -1em;
+  border-bottom: 1px solid var(--md-default-fg-color--light);
+}
+
+.special-elite h1 {
+  font-family: "Special Elite", cursive;
+}
+
+.md-typeset .admonition.border.wiki {
+  border-color: var(--md-typeset-table-color);
+}
+
+.md-typeset .admonition.border.wiki tr td {
+  border-top: 1px solid var(--md-typeset-table-color);
+}
+
+.md-typeset .admonition.right {
+  float: right;
+}
+
+.md-typeset .admonition.left {
+  float: left;
+}
