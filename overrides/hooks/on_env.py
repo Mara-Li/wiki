@@ -1,3 +1,4 @@
+
 import os
 import re
 import urllib.parse
@@ -38,7 +39,7 @@ def log(text):
         str: An empty string.
     """
     print(text)
-    return text
+    return ""
 
 
 def time_time(time):
@@ -148,8 +149,24 @@ def value_in_frontmatter(key, metadata):
         return None
 
 def file_exists(path, config):
-    path = Path(config['docs_dir'])/"_static"/ path
+    path = Path(config['docs_dir'])/"_assets"/ path
     return Path(path).exists()
+
+def replace_by_name(name: list[str]|str):
+    if isinstance(name, list):
+        return " ".join(name)
+    return name
+
+def first(name: list[str]|str):
+    if isinstance(name, list):
+        return name[0]
+    return name
+
+def links(name: list[str]|str):
+    if isinstance(name, list):
+        return "/".join(name)
+    return name
+            
 
 def is_section(path):
     if isinstance(path, mkdocs.structure.pages.Page):
@@ -157,7 +174,7 @@ def is_section(path):
     return True
 
 def on_env(env, config, files, **kwargs):
-    static_path = os.path.join(config['docs_dir'], '_static')
+    static_path = os.path.join(config['docs_dir'], '_assets')
     if static_path not in env.loader.searchpath:
         env.loader.searchpath.append(static_path)
     env.filters["convert_time"] = time_time
@@ -172,4 +189,7 @@ def on_env(env, config, files, **kwargs):
     env.filters["get_last_part_URL"] = get_last_part_URL
     env.filters["file_exists"] = lambda path: file_exists(path, config)
     env.filters["is_section"] = is_section
+    env.filters["replace_by_name"] = replace_by_name
+    env.filters["first"] = first
+    env.filters["links"] = links
     return env

@@ -9,6 +9,7 @@
           {% set icon_path = config.extra["icon_folder"] ~ "file.svg" %}
         {% endif %}
       {% endif %}
+      {% include icon_path %}
 	  {% endif %}
   {% endif %}
   {{ ref.title }}
