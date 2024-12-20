@@ -36,10 +36,22 @@
         "url": "tags/"
     },
     {
+        "src_uri": ".github/find_unused_media.py",
+        "dest_uri": ".github/find_unused_media.py",
+        "name": "find_unused_media",
+        "url": ".github/find_unused_media.py"
+    },
+    {
         "src_uri": ".github/workflows/deploy.yml",
         "dest_uri": ".github/workflows/deploy.yml",
         "name": "deploy",
         "url": ".github/workflows/deploy.yml"
+    },
+    {
+        "src_uri": ".github/workflows/find_unused_image.yml",
+        "dest_uri": ".github/workflows/find_unused_image.yml",
+        "name": "find_unused_image",
+        "url": ".github/workflows/find_unused_image.yml"
     },
     {
         "src_uri": ".github/workflows/optimize.yml",
@@ -1194,10 +1206,28 @@
         "url": "blog/posts/Documentaire/"
     },
     {
+        "src_uri": "blog/posts/Obsidian et utilisation.md",
+        "dest_uri": "blog/posts/Obsidian%20et%20utilisation/",
+        "name": "Obsidian et utilisation",
+        "url": "blog/posts/Obsidian%20et%20utilisation/"
+    },
+    {
+        "src_uri": "blog/posts/Obsidian.md",
+        "dest_uri": "blog/posts/Obsidian/",
+        "name": "Obsidian",
+        "url": "blog/posts/Obsidian/"
+    },
+    {
         "src_uri": "blog/posts/Pourquoi je n'aime pas Nier Automata.md",
         "dest_uri": "blog/posts/Pourquoi%20je%20n%27aime%20pas%20Nier%20Automata/",
         "name": "Pourquoi je n'aime pas Nier Automata",
         "url": "blog/posts/Pourquoi%20je%20n%27aime%20pas%20Nier%20Automata/"
+    },
+    {
+        "src_uri": "blog/posts/ZoteroPandocObsidianTuto.md",
+        "dest_uri": "blog/posts/ZoteroPandocObsidianTuto/",
+        "name": "ZoteroPandocObsidianTuto",
+        "url": "blog/posts/ZoteroPandocObsidianTuto/"
     },
     {
         "src_uri": "hidden/.pages",
@@ -1264,24 +1294,6 @@
         "dest_uri": "hidden/Eldale%20Creek/%C3%89den%20Bonne-%C3%89toile/STORY/",
         "name": "STORY",
         "url": "hidden/Eldale%20Creek/%C3%89den%20Bonne-%C3%89toile/STORY/"
-    },
-    {
-        "src_uri": "outils/Obsidian.md",
-        "dest_uri": "outils/Obsidian/",
-        "name": "Obsidian",
-        "url": "outils/Obsidian/"
-    },
-    {
-        "src_uri": "outils/tutoriel/Obsidian et utilisation.md",
-        "dest_uri": "outils/tutoriel/Obsidian%20et%20utilisation/",
-        "name": "Obsidian et utilisation",
-        "url": "outils/tutoriel/Obsidian%20et%20utilisation/"
-    },
-    {
-        "src_uri": "outils/tutoriel/ZoteroPandocObsidianTuto.md",
-        "dest_uri": "outils/tutoriel/ZoteroPandocObsidianTuto/",
-        "name": "ZoteroPandocObsidianTuto",
-        "url": "outils/tutoriel/ZoteroPandocObsidianTuto/"
     },
     {
         "src_uri": "assets/images/favicon.png",
