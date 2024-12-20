@@ -38,7 +38,6 @@ theme:
         - search.highlight
 # Extensions
 markdown_extensions:
-  - wikilinks
   - footnotes
   - nl2br
   - attr_list
@@ -99,11 +98,15 @@ plugins:
       locale: fr
       custom_format: "%A %d %B %Y"
       enable_creation_date: true
+  - ezlinks:
+      wikilinks: true
   - embed_file:
       callouts: true
       custom-attributes: '_assets/css/custom_attributes.css'
   - custom-attributes:
       file: '_assets/css/custom_attributes.css'
+  - tags:
+      tags_file: tags.md
   - callouts
   - glightbox
 hooks:
