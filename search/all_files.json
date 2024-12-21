@@ -24,6 +24,12 @@
         "url": ".pages"
     },
     {
+        "src_uri": "CNAME",
+        "dest_uri": "CNAME",
+        "name": "CNAME",
+        "url": "CNAME"
+    },
+    {
         "src_uri": "LICENSE",
         "dest_uri": "LICENSE",
         "name": "LICENSE",
