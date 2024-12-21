@@ -36,10 +36,10 @@
         "url": "tags/"
     },
     {
-        "src_uri": ".github/find_unused_media.py",
-        "dest_uri": ".github/find_unused_media.py",
-        "name": "find_unused_media",
-        "url": ".github/find_unused_media.py"
+        "src_uri": ".github/find_unused_image.py",
+        "dest_uri": ".github/find_unused_image.py",
+        "name": "find_unused_image",
+        "url": ".github/find_unused_image.py"
     },
     {
         "src_uri": ".github/workflows/deploy.yml",
