@@ -7,8 +7,6 @@ admonition.forEach((item) => {
 	}
 });
 
-//* CHIRPY */
-
 /**
  * @file Comments
  * @see https://chirpy.dev/
