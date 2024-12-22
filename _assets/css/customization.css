@@ -66,3 +66,24 @@
 .md-typeset .admonition.left {
   float: left;
 }
+
+img.vignette {
+  float: left;
+  width: auto;
+}
+
+@media (max-width: 768px) {
+  img.vignette {
+    float: left;
+    width: 6em; /* Réduit la taille de l'image */
+  }
+}
+
+@media (max-width: 480px) {
+  img.vignette {
+    float: none;
+    display: block;
+    margin: 0 auto;
+    width: auto; /* S'ajuste pour tenir sur de très petits écrans */
+  }
+}
