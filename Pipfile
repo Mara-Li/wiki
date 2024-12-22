@@ -6,7 +6,7 @@ name = "pypi"
 [packages]
 mkdocs = "*"
 mkdocs-material = "*"
-mkdocs-ezlinked-plugin = "*"
+mkdocs-obsidian-links = "*"
 mkdocs-awesome-pages-plugin = "*"
 mkdocs-embed-file-plugins = "*"
 mkdocs-custom-fences = "*"
