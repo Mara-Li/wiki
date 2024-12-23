@@ -83,3 +83,7 @@ div {
 .admonition.wiki {
     margin: 0 1em;
 }
+
+.md-typeset .headerlink {
+    display: block;
+}
