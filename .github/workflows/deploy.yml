@@ -10,7 +10,7 @@ on:
       - 'overrides/**'
       - 'docs/**'
       - 'mkdocs.yml'
-      - 'requirements.txt'
+      - 'uv.lock'
   repository_dispatch:
     types: [build]
 
