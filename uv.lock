@@ -683,15 +683,15 @@ wheels = [
 
 [[package]]
 name = "mkdocs-obsidian-links"
-version = "1.0.2"
+version = "1.0.3"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "mkdocs" },
     { name = "pygtrie" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/39/28/389e33337a4fca95eb79fefda102fbe84d5ff2249822ba0906b50835cf53/mkdocs_obsidian_links-1.0.2.tar.gz", hash = "sha256:8226a12e3a6b8546e139fc4a98a096bfc2b80dbaed83f0bc31c83a4d9da6dcee", size = 9847 }
+sdist = { url = "https://files.pythonhosted.org/packages/16/0b/8d54dc4a49f1923471fb009f2d9051ad34ff7ed87e593b6cdc6290da0c77/mkdocs_obsidian_links-1.0.3.tar.gz", hash = "sha256:435325f3160499ab2ff2dc1f86f0fffac0f019cc3869d4be23ee881871b15989", size = 1086014 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/e1/3c/5af82c53eee870666d8873742f15d0673f96eb1f40838f3c3517afe6906b/mkdocs_obsidian_links-1.0.2-py3-none-any.whl", hash = "sha256:765b6e42721c4a57217cd45a2deba0ad98685d278ff1730f68d7153c237560d9", size = 12566 },
+    { url = "https://files.pythonhosted.org/packages/1c/51/192a77110099d10e21dc79a495f0fd9ade76d0c257213a59be92b68828d1/mkdocs_obsidian_links-1.0.3-py2.py3-none-any.whl", hash = "sha256:31a4ac268f95ac8b8b32f36c9bba0e3c9e7f953c6f2c40daac721a3b490b772b", size = 12566 },
 ]
 
 [[package]]
@@ -815,15 +815,15 @@ wheels = [
 
 [[package]]
 name = "pymdown-extensions"
-version = "10.12"
+version = "10.13"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "markdown" },
     { name = "pyyaml" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/d8/0b/32f05854cfd432e9286bb41a870e0d1a926b72df5f5cdb6dec962b2e369e/pymdown_extensions-10.12.tar.gz", hash = "sha256:b0ee1e0b2bef1071a47891ab17003bfe5bf824a398e13f49f8ed653b699369a7", size = 840790 }
+sdist = { url = "https://files.pythonhosted.org/packages/49/87/4998d1aac5afea5b081238a609d9814f4c33cd5c7123503276d1105fb6a9/pymdown_extensions-10.13.tar.gz", hash = "sha256:e0b351494dc0d8d14a1f52b39b1499a00ef1566b4ba23dc74f1eba75c736f5dd", size = 843302 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/53/32/95a164ddf533bd676cbbe878e36e89b4ade3efde8dd61d0148c90cbbe57e/pymdown_extensions-10.12-py3-none-any.whl", hash = "sha256:49f81412242d3527b8b4967b990df395c89563043bc51a3d2d7d500e52123b77", size = 263448 },
+    { url = "https://files.pythonhosted.org/packages/86/7f/46c7122186759350cf523c71d29712be534f769f073a1d980ce8f095072c/pymdown_extensions-10.13-py3-none-any.whl", hash = "sha256:80bc33d715eec68e683e04298946d47d78c7739e79d808203df278ee8ef89428", size = 264108 },
 ]
 
 [[package]]
