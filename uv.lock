@@ -269,6 +269,7 @@ dependencies = [
     { name = "mkdocs-callouts" },
     { name = "mkdocs-custom-fences" },
     { name = "mkdocs-custom-tags-attributes" },
+    { name = "mkdocs-embed-file-plugin" },
     { name = "mkdocs-embed-file-plugins" },
     { name = "mkdocs-encryptcontent-plugin" },
     { name = "mkdocs-get-deps" },
@@ -309,72 +310,73 @@ dependencies = [
 
 [package.metadata]
 requires-dist = [
-    { name = "babel", specifier = ">=2.16.0" },
-    { name = "beautifulsoup4", specifier = ">=4.12.3" },
-    { name = "bracex", specifier = ">=2.5.post1" },
-    { name = "cairocffi", specifier = ">=1.7.1" },
-    { name = "cairosvg", specifier = ">=2.7.1" },
-    { name = "certifi", specifier = ">=2024.12.14" },
-    { name = "cffi", specifier = ">=1.17.1" },
-    { name = "charset-normalizer", specifier = ">=3.4.0" },
-    { name = "click", specifier = ">=8.1.8" },
-    { name = "colorama", specifier = ">=0.4.6" },
-    { name = "csscompressor", specifier = ">=0.9.5" },
-    { name = "cssselect2", specifier = ">=0.7.0" },
-    { name = "defusedxml", specifier = ">=0.7.1" },
-    { name = "ghp-import", specifier = ">=2.1.0" },
-    { name = "gitdb", specifier = ">=4.0.11" },
-    { name = "gitpython", specifier = ">=3.1.43" },
-    { name = "htmlmin2", specifier = ">=0.1.13" },
-    { name = "idna", specifier = ">=3.10" },
-    { name = "jinja2", specifier = ">=3.1.5" },
-    { name = "jsmin", specifier = ">=3.0.1" },
-    { name = "markdown", specifier = ">=3.7" },
-    { name = "markupsafe", specifier = ">=3.0.2" },
-    { name = "mdx-breakless-lists", specifier = ">=1.0.1" },
-    { name = "mdx-wikilink-plus", specifier = ">=1.4.1" },
-    { name = "mergedeep", specifier = ">=1.3.4" },
-    { name = "mkdocs", specifier = ">=1.6.1" },
-    { name = "mkdocs-awesome-pages-plugin", specifier = ">=2.10.1" },
-    { name = "mkdocs-callouts", specifier = ">=1.15.0" },
-    { name = "mkdocs-custom-fences", specifier = ">=0.1.2" },
-    { name = "mkdocs-custom-tags-attributes", specifier = ">=0.3.3" },
-    { name = "mkdocs-embed-file-plugins", specifier = ">=2.0.10" },
-    { name = "mkdocs-encryptcontent-plugin", specifier = ">=3.0.3" },
-    { name = "mkdocs-get-deps", specifier = ">=0.2.0" },
-    { name = "mkdocs-git-revision-date-localized-plugin", specifier = ">=1.3.0" },
-    { name = "mkdocs-glightbox", specifier = ">=0.4.0" },
-    { name = "mkdocs-material", specifier = ">=9.5.49" },
-    { name = "mkdocs-material-extensions", specifier = ">=1.3.1" },
-    { name = "mkdocs-meta-descriptions-plugin", specifier = ">=3.0.0" },
-    { name = "mkdocs-minify-plugin", specifier = ">=0.8.0" },
-    { name = "mkdocs-obsidian-links", specifier = ">=1.0.2" },
-    { name = "natsort", specifier = ">=8.4.0" },
-    { name = "packaging", specifier = ">=24.2" },
-    { name = "paginate", specifier = ">=0.5.7" },
-    { name = "pathspec", specifier = ">=0.12.1" },
-    { name = "pillow", specifier = ">=11.0.0" },
-    { name = "platformdirs", specifier = ">=4.3.6" },
-    { name = "pycparser", specifier = ">=2.22" },
-    { name = "pycryptodome", specifier = ">=3.21.0" },
-    { name = "pygments", specifier = ">=2.18.0" },
-    { name = "pymdown-extensions", specifier = ">=10.12" },
-    { name = "python-dateutil", specifier = ">=2.9.0.post0" },
-    { name = "python-frontmatter", specifier = ">=1.1.0" },
-    { name = "pytz", specifier = ">=2024.2" },
-    { name = "pyyaml", specifier = ">=6.0.2" },
-    { name = "pyyaml-env-tag", specifier = ">=0.1" },
-    { name = "regex", specifier = ">=2024.11.6" },
-    { name = "requests", specifier = ">=2.32.3" },
-    { name = "setuptools", specifier = ">=75.6.0" },
-    { name = "six", specifier = ">=1.17.0" },
-    { name = "smmap", specifier = ">=5.0.1" },
-    { name = "soupsieve", specifier = ">=2.6" },
-    { name = "tinycss2", specifier = ">=1.4.0" },
-    { name = "urllib3", specifier = ">=2.3.0" },
-    { name = "watchdog", specifier = ">=6.0.0" },
-    { name = "wcmatch", specifier = ">=10.0" },
-    { name = "webencodings", specifier = ">=0.5.1" },
+    { name = "babel" },
+    { name = "beautifulsoup4" },
+    { name = "bracex" },
+    { name = "cairocffi" },
+    { name = "cairosvg" },
+    { name = "certifi" },
+    { name = "cffi" },
+    { name = "charset-normalizer" },
+    { name = "click" },
+    { name = "colorama" },
+    { name = "csscompressor" },
+    { name = "cssselect2" },
+    { name = "defusedxml" },
+    { name = "ghp-import" },
+    { name = "gitdb" },
+    { name = "gitpython" },
+    { name = "htmlmin2" },
+    { name = "idna" },
+    { name = "jinja2" },
+    { name = "jsmin" },
+    { name = "markdown" },
+    { name = "markupsafe" },
+    { name = "mdx-breakless-lists" },
+    { name = "mdx-wikilink-plus" },
+    { name = "mergedeep" },
+    { name = "mkdocs" },
+    { name = "mkdocs-awesome-pages-plugin" },
+    { name = "mkdocs-callouts" },
+    { name = "mkdocs-custom-fences" },
+    { name = "mkdocs-custom-tags-attributes" },
+    { name = "mkdocs-embed-file-plugin", directory = "../mkdocs-embed_file-plugin" },
+    { name = "mkdocs-embed-file-plugins" },
+    { name = "mkdocs-encryptcontent-plugin" },
+    { name = "mkdocs-get-deps" },
+    { name = "mkdocs-git-revision-date-localized-plugin" },
+    { name = "mkdocs-glightbox" },
+    { name = "mkdocs-material" },
+    { name = "mkdocs-material-extensions" },
+    { name = "mkdocs-meta-descriptions-plugin" },
+    { name = "mkdocs-minify-plugin" },
+    { name = "mkdocs-obsidian-links" },
+    { name = "natsort" },
+    { name = "packaging" },
+    { name = "paginate" },
+    { name = "pathspec" },
+    { name = "pillow" },
+    { name = "platformdirs" },
+    { name = "pycparser" },
+    { name = "pycryptodome" },
+    { name = "pygments" },
+    { name = "pymdown-extensions" },
+    { name = "python-dateutil" },
+    { name = "python-frontmatter" },
+    { name = "pytz" },
+    { name = "pyyaml" },
+    { name = "pyyaml-env-tag" },
+    { name = "regex" },
+    { name = "requests" },
+    { name = "setuptools" },
+    { name = "six" },
+    { name = "smmap" },
+    { name = "soupsieve" },
+    { name = "tinycss2" },
+    { name = "urllib3" },
+    { name = "watchdog" },
+    { name = "wcmatch" },
+    { name = "webencodings" },
 ]
 
 [[package]]
@@ -522,6 +524,46 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/76/41/10c3f50367e6043200682de7b1feda4a077417437a2c3a44f9996fefd015/mkdocs-custom-tags-attributes-0.3.3.tar.gz", hash = "sha256:460812fa938272c92852fec3d824f798e44d580ef4a973321cd05a875147362f", size = 20819 }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/f0/29/e01b873322fe5a2820540e0197de4f8b18e9c85d4cce92e7f6e4180aa9c2/mkdocs_custom_tags_attributes-0.3.3-py3-none-any.whl", hash = "sha256:b7fdc87ae45f7ba59f3294bad9f51cc98e715922bd63ae68dab407b39a0eb619", size = 18744 },
+]
+
+[[package]]
+name = "mkdocs-embed-file-plugin"
+version = "2.0.11"
+source = { directory = "../mkdocs-embed_file-plugin" }
+dependencies = [
+    { name = "beautifulsoup4" },
+    { name = "markdown" },
+    { name = "mdx-wikilink-plus" },
+    { name = "mkdocs" },
+    { name = "mkdocs-callouts" },
+    { name = "mkdocs-custom-tags-attributes" },
+    { name = "pymdown-extensions" },
+    { name = "python-frontmatter" },
+    { name = "ruamel-yaml" },
+    { name = "setuptools" },
+]
+
+[package.metadata]
+requires-dist = [
+    { name = "beautifulsoup4" },
+    { name = "markdown" },
+    { name = "mdx-wikilink-plus" },
+    { name = "mkdocs" },
+    { name = "mkdocs-callouts" },
+    { name = "mkdocs-custom-tags-attributes" },
+    { name = "pymdown-extensions" },
+    { name = "python-frontmatter" },
+    { name = "ruamel-yaml" },
+    { name = "setuptools" },
+]
+
+[package.metadata.requires-dev]
+dev = [
+    { name = "build", specifier = ">=0.6.0" },
+    { name = "python-semantic-release", specifier = ">=9.15.2" },
+    { name = "rich", specifier = ">=13.9.4" },
+    { name = "ruff", specifier = ">=0.1.0" },
+    { name = "watchdog", specifier = ">=2.1.6" },
 ]
 
 [[package]]
@@ -901,6 +943,15 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/63/70/2bf7780ad2d390a8d301ad0b550f1581eadbd9a20f896afe06353c2a2913/requests-2.32.3.tar.gz", hash = "sha256:55365417734eb18255590a9ff9eb97e9e1da868d4ccd6402399eaf68af20a760", size = 131218 }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/f9/9b/335f9764261e915ed497fcdeb11df5dfd6f7bf257d4a6a2a686d80da4d54/requests-2.32.3-py3-none-any.whl", hash = "sha256:70761cfe03c773ceb22aa2f671b4757976145175cdfca038c02654d061d6dcc6", size = 64928 },
+]
+
+[[package]]
+name = "ruamel-yaml"
+version = "0.18.6"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/29/81/4dfc17eb6ebb1aac314a3eb863c1325b907863a1b8b1382cdffcb6ac0ed9/ruamel.yaml-0.18.6.tar.gz", hash = "sha256:8b27e6a217e786c6fbe5634d8f3f11bc63e0f80f6a5890f28863d9c45aac311b", size = 143362 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/73/67/8ece580cc363331d9a53055130f86b096bf16e38156e33b1d3014fffda6b/ruamel.yaml-0.18.6-py3-none-any.whl", hash = "sha256:57b53ba33def16c4f3d807c0ccbc00f8a6081827e81ba2491691b76882d0c636", size = 117761 },
 ]
 
 [[package]]
