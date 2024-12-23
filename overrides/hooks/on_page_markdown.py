@@ -3,7 +3,7 @@ import re
 
 def non_breaking_space(markdown):
     return re.sub(
-        "[\u00A0\u1680\u180E\u2000-\u200B\u202F\u205F\u3000\uFEFF]", "&emsp;", markdown
+        "[\u00a0\u1680\u180e\u2000-\u200b\u202f\u205f\u3000\ufeff]", "&emsp;", markdown
     )
 
 

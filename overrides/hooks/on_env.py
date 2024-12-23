@@ -1,4 +1,3 @@
-
 import os
 import re
 import urllib.parse
@@ -8,6 +7,7 @@ from pathlib import Path
 import mkdocs.structure.pages
 from babel.dates import format_date
 from dateutil import parser
+
 
 def get_last_part_URL(url):
     """Get the last part of an URL.
@@ -148,33 +148,38 @@ def value_in_frontmatter(key, metadata):
     else:
         return None
 
+
 def icon_exists(path, config):
-    path = Path(config['docs_dir'])/"_assets"/ path
+    path = Path(config["docs_dir"]) / "_assets" / path
     return Path(path).exists()
 
-def replace_by_name(name: list[str]|str):
+
+def replace_by_name(name: list[str] | str):
     if isinstance(name, list):
         return " ".join(name)
     return name
 
-def first(name: list[str]|str):
+
+def first(name: list[str] | str):
     if isinstance(name, list):
         return name[0]
     return name
 
-def links(name: list[str]|str):
+
+def links(name: list[str] | str):
     if isinstance(name, list):
         return "/".join(name)
     return name
-            
+
 
 def is_section(path):
     if isinstance(path, mkdocs.structure.pages.Page):
-       return False
+        return False
     return True
 
+
 def on_env(env, config, files, **kwargs):
-    static_path = os.path.join(config['docs_dir'], '_assets')
+    static_path = os.path.join(config["docs_dir"], "_assets")
     if static_path not in env.loader.searchpath:
         env.loader.searchpath.append(static_path)
     env.filters["convert_time"] = time_time
