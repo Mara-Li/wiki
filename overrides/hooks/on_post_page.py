@@ -4,7 +4,6 @@ from bs4 import BeautifulSoup
 def on_post_page(output, page, config) -> str :
     soup = BeautifulSoup(output, "html.parser")
     for a_tag in soup.find_all("a", {"class": "ezlinks_not_found"}) :
-        print(a_tag)
         a_tag["class"] = a_tag.get("class", []) + ["ezlinks_not_found"]
         new_tag = soup.new_tag("span")
         new_tag.string = a_tag.string or a_tag.get("href", "File not found")
