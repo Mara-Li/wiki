@@ -84,9 +84,3 @@ inline-quotes = "double"
 
 [tool.uv.sources]
 mkdocs-embed-file-plugin = { path = "../mkdocs-embed_file-plugin" }
-
-[dependency-groups]
-dev = [
-    "ipython>=8.31.0",
-    "ruamel-yaml>=0.18.6",
-]
