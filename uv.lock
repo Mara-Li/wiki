@@ -683,15 +683,15 @@ wheels = [
 
 [[package]]
 name = "mkdocs-obsidian-links"
-version = "1.0.3"
+version = "1.0.4"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "mkdocs" },
     { name = "pygtrie" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/16/0b/8d54dc4a49f1923471fb009f2d9051ad34ff7ed87e593b6cdc6290da0c77/mkdocs_obsidian_links-1.0.3.tar.gz", hash = "sha256:435325f3160499ab2ff2dc1f86f0fffac0f019cc3869d4be23ee881871b15989", size = 1086014 }
+sdist = { url = "https://files.pythonhosted.org/packages/bc/95/052abdd07053f79b3656966eb711c8a8b49f5eada81369668ee201f07841/mkdocs_obsidian_links-1.0.4.tar.gz", hash = "sha256:83c7c8ad97d7f54ab047c6a57d90acff32de2f861fb84fae0206559362c337c8", size = 1086009 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/1c/51/192a77110099d10e21dc79a495f0fd9ade76d0c257213a59be92b68828d1/mkdocs_obsidian_links-1.0.3-py2.py3-none-any.whl", hash = "sha256:31a4ac268f95ac8b8b32f36c9bba0e3c9e7f953c6f2c40daac721a3b490b772b", size = 12566 },
+    { url = "https://files.pythonhosted.org/packages/3c/79/affa68dda57eb1e75b3ab3bc703b4757a410e58cb5271f95223ce7ae2807/mkdocs_obsidian_links-1.0.4-py2.py3-none-any.whl", hash = "sha256:a9ccf3f454b77d1a8a7482581c6f12f0d223fca320785895af7540b22b041a2f", size = 12552 },
 ]
 
 [[package]]
