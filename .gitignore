@@ -14,3 +14,4 @@ docs/assets/js/dev.js
 .ruff_cache
 __pycache__
 site
+.venv

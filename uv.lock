@@ -340,7 +340,7 @@ requires-dist = [
     { name = "mkdocs-callouts" },
     { name = "mkdocs-custom-fences" },
     { name = "mkdocs-custom-tags-attributes" },
-    { name = "mkdocs-embed-file-plugin", directory = "../mkdocs-embed_file-plugin" },
+    { name = "mkdocs-embed-file-plugin" },
     { name = "mkdocs-embed-file-plugins" },
     { name = "mkdocs-encryptcontent-plugin" },
     { name = "mkdocs-get-deps" },
@@ -529,7 +529,7 @@ wheels = [
 [[package]]
 name = "mkdocs-embed-file-plugin"
 version = "2.0.11"
-source = { directory = "../mkdocs-embed_file-plugin" }
+source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "beautifulsoup4" },
     { name = "markdown" },
@@ -542,28 +542,9 @@ dependencies = [
     { name = "ruamel-yaml" },
     { name = "setuptools" },
 ]
-
-[package.metadata]
-requires-dist = [
-    { name = "beautifulsoup4" },
-    { name = "markdown" },
-    { name = "mdx-wikilink-plus" },
-    { name = "mkdocs" },
-    { name = "mkdocs-callouts" },
-    { name = "mkdocs-custom-tags-attributes" },
-    { name = "pymdown-extensions" },
-    { name = "python-frontmatter" },
-    { name = "ruamel-yaml" },
-    { name = "setuptools" },
-]
-
-[package.metadata.requires-dev]
-dev = [
-    { name = "build", specifier = ">=0.6.0" },
-    { name = "python-semantic-release", specifier = ">=9.15.2" },
-    { name = "rich", specifier = ">=13.9.4" },
-    { name = "ruff", specifier = ">=0.1.0" },
-    { name = "watchdog", specifier = ">=2.1.6" },
+sdist = { url = "https://files.pythonhosted.org/packages/0e/81/61dfa5726b9ac67971a13ffd12c782c0c202844474e55ac1ee56e162b457/mkdocs_embed_file_plugin-2.0.11.tar.gz", hash = "sha256:6500fc342ebf8e4373ffffad64f2d3b85320738aa72ea5fa6c8dc2ec286ed33a", size = 1642845 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/84/f6/4a4bdb04be00ecc5b8b791e6451eb972ed0235234fc2a03eaa45b16be39d/mkdocs_embed_file_plugin-2.0.11-py3-none-any.whl", hash = "sha256:016de92fd0683d2be06bdfccc7d3dc9ca42fc231a4d3d53ce0ad3c1c29cb0255", size = 21820 },
 ]
 
 [[package]]
