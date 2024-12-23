@@ -25,9 +25,9 @@
 <script>__md_scope=new URL("../../../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
 <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.min.js"></script>
 <script src="https://unpkg.com/tippy.js@6/dist/tippy-bundle.umd.js"></script>
-<link href="https://unpkg.com/tippy.js@6/animations/scale-subtle.css" rel="stylesheet">
-<link href="https://unpkg.com/tippy.js@6/themes/translucent.css" rel="stylesheet">
-<link crossorigin="anonymous" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" referrerpolicy="no-referrer" rel="stylesheet">
+<link href="https://unpkg.com/tippy.js@6/animations/scale-subtle.css" rel="stylesheet"/>
+<link href="https://unpkg.com/tippy.js@6/themes/translucent.css" rel="stylesheet"/>
+<link crossorigin="anonymous" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" referrerpolicy="no-referrer" rel="stylesheet"/>
 <meta content="summary_large_image" name="twitter:card"/>
 <meta content="https://www.blog.mara-li.fr/_assets/meta/LOGO_SEO.png" property="og:image"/>
 <meta content="https://www.blog.mara-li.fr/_assets/meta/LOGO_SEO.png" name="twitter:image"/>
@@ -37,7 +37,7 @@
 <meta content="Souvent, on peut se demander “mais comment, bon dieu on peut continuer à utiliser word pour nos mémoires ?” car Word-google doc a de nombreux (très nombreux) problème." name="og:description"/>
 <meta content="Souvent, on peut se demander “mais comment, bon dieu on peut continuer à utiliser word pour nos mémoires ?” car Word-google doc a de nombreux (très nombreux) problème." name="twitter:description"/>
 <script> document.title = "Pandoc, Obsidian, report & Zotero" </script>
-</link></link></link> <link href="../../../../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+<link href="../../../../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
     html.glightbox-open { overflow: initial; height: 100%; }
     .gslide-title { margin-top: 0px; user-select: text; }
     .gslide-desc { color: #666; user-select: text; }
@@ -1073,6 +1073,7 @@
 <p>Souvent, on peut se demander “mais comment, bon dieu on peut continuer à utiliser word pour nos mémoires ?” car Word-google doc a de nombreux (très nombreux) problème.</p>
 <p>Ici, mon problème principal était lié à ma documentation. En effet, dès que mes profs éditaient le fichier, ma biblio sautait et je n’avais que mes numéros et mes yeux pour pleurer. Pas très ouf pour s’y retrouver n’est-ce pas ? Surtout quand on peut écrire facilement en Markdown un fichier où citer un tableau, graphique, ou un document équivaut à citer le numéro du tableau, image, ou une clé unique de citation créée par BibLatex.</p>
 <p>Ici, je détaillerai les étapes pour écrire un rapport pour la Faculté de Lyon1 sans s’arracher les cheveux.</p>
+<!-- more -->
 <h2 id="les-logiciels">Les logiciels<a class="headerlink" href="#les-logiciels" title="Permanent link">¶</a></h2>
 <ul>
 <li><a href="https://pandoc.org/">Pandoc</a> et <a href="https://pypi.org/">Python</a></li>
@@ -1104,23 +1105,23 @@ Ici, le dossier sera nommée <code>Users\export\attachment</code></p>
 <div class="highlight"><pre><span></span><code><a href="#__codelineno-0-1" id="__codelineno-0-1" name="__codelineno-0-1"></a><span class="nt">filters</span><span class="p">:</span>
 <a href="#__codelineno-0-2" id="__codelineno-0-2" name="__codelineno-0-2"></a><span class="err">	</span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">'Users\\export\\pagebreak.lua'</span>
 <a href="#__codelineno-0-3" id="__codelineno-0-3" name="__codelineno-0-3"></a><span class="err">	</span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">pandoc-xnos</span>
-<a href="#__codelineno-0-4" id="__codelineno-0-4" name="__codelineno-0-4"></a><span class="nt">csl</span><span class="p">:</span><span class="w"> </span><span class="s">'Users\\export\\style-zotero.csl'</span><span class="w"> </span><span class="c1">#Style zotero téléchargé précédemment</span>
-<a href="#__codelineno-0-5" id="__codelineno-0-5" name="__codelineno-0-5"></a><span class="nt">bibliography</span><span class="p">:</span><span class="w"> </span><span class="s">'Users\\export\\bibliography.bib'</span><span class="w"> </span><span class="c1">#Bibliography exportée précédemment </span>
+<a href="#__codelineno-0-4" id="__codelineno-0-4" name="__codelineno-0-4"></a><span class="nt">csl</span><span class="p">:</span><span class="w"> </span><span class="s">'Users\\export\\style-zotero.csl'</span><span class="w"> </span><span class="err">*</span><span class="nv">*Style</span><span class="err">**</span><span class="p p-Indicator">{:</span><span class="w"> </span><span class="c1">#Style .hash} zotero téléchargé précédemment</span>
+<a href="#__codelineno-0-5" id="__codelineno-0-5" name="__codelineno-0-5"></a><span class="nt">bibliography</span><span class="p">:</span><span class="w"> </span><span class="s">'Users\\export\\bibliography.bib'</span><span class="w"> </span><span class="err">*</span><span class="nv">*Bibliography</span><span class="err">**</span><span class="p p-Indicator">{:</span><span class="w"> </span><span class="c1">#Bibliography .hash} exportée précédemment </span>
 <a href="#__codelineno-0-6" id="__codelineno-0-6" name="__codelineno-0-6"></a><span class="nt">resource-path</span><span class="p">:</span><span class="w"> </span><span class="p p-Indicator">[</span><span class="s">'Users\\export\\attachment'</span><span class="p p-Indicator">]</span><span class="w"> </span><span class="c1">#N'oubliez pas les []</span>
-<a href="#__codelineno-0-7" id="__codelineno-0-7" name="__codelineno-0-7"></a><span class="nt">data-dir</span><span class="p">:</span><span class="w"> </span><span class="s">'Users\\mon_memoire'</span><span class="w"> </span><span class="c1">#Dossier contenant les fichiers markdown de votre mémoire</span>
-<a href="#__codelineno-0-8" id="__codelineno-0-8" name="__codelineno-0-8"></a><span class="nt">reference-doc</span><span class="p">:</span><span class="w"> </span><span class="s">'Users\\export\\custom-reference.docx'</span><span class="w"> </span><span class="c1">#Le fichier docx téléchargé prédemment</span>
-<a href="#__codelineno-0-9" id="__codelineno-0-9" name="__codelineno-0-9"></a><span class="nt">citeproc</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">true</span>
-<a href="#__codelineno-0-10" id="__codelineno-0-10" name="__codelineno-0-10"></a><span class="nt">from</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">markdown+lists_without_preceding_blankline+spaced_reference_links+hard_line_breaks+yaml_metadata_block+implicit_figures</span><span class="w"> </span><span class="c1">#Permet d'écrire du markdown plus facilement</span>
-<a href="#__codelineno-0-11" id="__codelineno-0-11" name="__codelineno-0-11"></a><span class="nt">standalone</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">true</span>
-<a href="#__codelineno-0-12" id="__codelineno-0-12" name="__codelineno-0-12"></a><span class="nt">metadata-file</span><span class="p">:</span><span class="w"> </span><span class="s">'Users\\export\\page.yml'</span><span class="w"> </span>
+<a href="#__codelineno-0-7" id="__codelineno-0-7" name="__codelineno-0-7"></a><span class="nt">data-dir</span><span class="p">:</span><span class="w"> </span><span class="s">'Users\\mon_memoire'</span><span class="w"> </span><span class="err">*</span><span class="nv">*Dossier</span><span class="err">**</span><span class="p p-Indicator">{:</span><span class="w"> </span><span class="c1">#Dossier .hash} contenant les fichiers markdown de votre mémoire</span>
+<a href="#__codelineno-0-8" id="__codelineno-0-8" name="__codelineno-0-8"></a><span class="nt">reference-doc</span><span class="p">:</span><span class="w"> </span><span class="s">'Users\\export\\custom-reference.docx'</span><span class="w"> </span><span class="err">*</span><span class="nv">*Le</span><span class="err">**</span><span class="p p-Indicator">{:</span><span class="w"> </span><span class="c1">#Le .hash} fichier docx téléchargé prédemment</span>
+<a href="#__codelineno-0-9" id="__codelineno-0-9" name="__codelineno-0-9"></a><span class="nt">citeproc</span><span class="p">:</span><span class="w"> </span><span class="nv">true</span>
+<a href="#__codelineno-0-10" id="__codelineno-0-10" name="__codelineno-0-10"></a><span class="nv">from</span><span class="p p-Indicator">:</span><span class="w"> </span><span class="nv">markdown+lists_without_preceding_blankline+spaced_reference_links+hard_line_breaks+yaml_metadata_block+implicit_figures **Permet**</span><span class="p p-Indicator">{:</span><span class="w"> </span><span class="c1">#Permet .hash} d'écrire du markdown plus facilement</span>
+<a href="#__codelineno-0-11" id="__codelineno-0-11" name="__codelineno-0-11"></a><span class="nt">standalone</span><span class="p">:</span><span class="w"> </span><span class="nv">true</span>
+<a href="#__codelineno-0-12" id="__codelineno-0-12" name="__codelineno-0-12"></a><span class="nv">metadata-file</span><span class="p p-Indicator">:</span><span class="w"> </span><span class="s">'Users\\export\\page.yml'</span><span class="w"> </span>
 <a href="#__codelineno-0-13" id="__codelineno-0-13" name="__codelineno-0-13"></a><span class="nt">input-files</span><span class="p">:</span><span class="w"> </span><span class="c1"># Contiendra tous les fichiers qui seront "compilé" pour créer votre mémoire. Ci-dessous un exemple</span>
-<a href="#__codelineno-0-14" id="__codelineno-0-14" name="__codelineno-0-14"></a><span class="err">	</span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">'User\\mon_memoire\\Remerciements.md'</span>
-<a href="#__codelineno-0-15" id="__codelineno-0-15" name="__codelineno-0-15"></a><span class="err">	</span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">'User\\mon_memoire\\Abbréviations.md'</span><span class="w"> </span><span class="c1"># Je fais mes abbréviations à la main, mais pandoc permet aussi de faire un fichier automatiquement exprès</span>
-<a href="#__codelineno-0-16" id="__codelineno-0-16" name="__codelineno-0-16"></a><span class="err">	</span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">'User\\mon_memoire\\Résumé.md'</span>
-<a href="#__codelineno-0-17" id="__codelineno-0-17" name="__codelineno-0-17"></a><span class="err">	</span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">'User\\mon_memoire\\Introduction.md'</span>
-<a href="#__codelineno-0-18" id="__codelineno-0-18" name="__codelineno-0-18"></a><span class="c1"># Attention, les fichiers doivent être mis dans l'ordre dans lequel ils doivent être lu. </span>
-<a href="#__codelineno-0-19" id="__codelineno-0-19" name="__codelineno-0-19"></a><span class="nt">to</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">docx</span>
-<a href="#__codelineno-0-20" id="__codelineno-0-20" name="__codelineno-0-20"></a><span class="nt">output-file</span><span class="p">:</span><span class="w"> </span><span class="s">'User\\export\\Memoire_Master_2.docx'</span>
+<a href="#__codelineno-0-14" id="__codelineno-0-14" name="__codelineno-0-14"></a><span class="err">	</span><span class="nv">- 'User\\mon_memoire\\Remerciements.md'</span>
+<a href="#__codelineno-0-15" id="__codelineno-0-15" name="__codelineno-0-15"></a><span class="err">	</span><span class="nv">- 'User\\mon_memoire\\Abbréviations.md'</span><span class="w"> </span><span class="c1"># Je fais mes abbréviations à la main, mais pandoc permet aussi de faire un fichier automatiquement exprès</span>
+<a href="#__codelineno-0-16" id="__codelineno-0-16" name="__codelineno-0-16"></a><span class="err">	</span><span class="nv">- 'User\\mon_memoire\\Résumé.md'</span>
+<a href="#__codelineno-0-17" id="__codelineno-0-17" name="__codelineno-0-17"></a><span class="err">	</span><span class="nv">- 'User\\mon_memoire\\Introduction.md'</span>
+<a href="#__codelineno-0-18" id="__codelineno-0-18" name="__codelineno-0-18"></a><span class="nv"># Attention</span><span class="p p-Indicator">,</span><span class="w"> </span><span class="nv">les fichiers doivent être mis dans l'ordre dans lequel ils doivent être lu.</span><span class="w"> </span>
+<a href="#__codelineno-0-19" id="__codelineno-0-19" name="__codelineno-0-19"></a><span class="nv">to</span><span class="p p-Indicator">:</span><span class="w"> </span><span class="nv">docx</span>
+<a href="#__codelineno-0-20" id="__codelineno-0-20" name="__codelineno-0-20"></a><span class="nv">output-file</span><span class="p p-Indicator">:</span><span class="w"> </span><span class="s">'User\\export\\Memoire_Master_2.docx'</span>
 </code></pre></div></p>
 <p>Ensuite, dans le fichier <code>page.yml</code> : (donné à titre d’exemple)<br/>
 Les images sont sous forme : <code>![description](nom de l'image)</code>. Pandoc cherchera automatiquement le même nom dans <code>resource-path</code> définie dans <code>default.yml</code>.<br/>
@@ -1128,30 +1129,30 @@ Les images sont sous forme : <code>![description](nom de l'image)</code>. Pandoc
 <a href="#__codelineno-1-2" id="__codelineno-1-2" name="__codelineno-1-2"></a><span class="err">	</span><span class="kt">![logo-lyon1](Logo_lyon1.png)</span><span class="w">  </span>
 <a href="#__codelineno-1-3" id="__codelineno-1-3" name="__codelineno-1-3"></a><span class="l l-Scalar l-Scalar-Plain">&lt;br/&gt;</span>
 <a href="#__codelineno-1-4" id="__codelineno-1-4" name="__codelineno-1-4"></a><span class="err">	</span><span class="l l-Scalar l-Scalar-Plain">Nom du mémoire</span>
-<a href="#__codelineno-1-5" id="__codelineno-1-5" name="__codelineno-1-5"></a><span class="err">*</span><span class="nv">*Les</span><span class="err">**</span><span class="p p-Indicator">{:</span><span class="w"> </span><span class="c1">#Les .hash} deux espace après le lien vers l'image est EXTRÊMEMENT important ! Ne les oubliez pas.</span>
+<a href="#__codelineno-1-5" id="__codelineno-1-5" name="__codelineno-1-5"></a><span class="c1">#Les deux espace après le lien vers l'image est EXTRÊMEMENT important ! Ne les oubliez pas.</span>
 <a href="#__codelineno-1-6" id="__codelineno-1-6" name="__codelineno-1-6"></a><span class="nt">author</span><span class="p">:</span><span class="w"> </span>
-<a href="#__codelineno-1-7" id="__codelineno-1-7" name="__codelineno-1-7"></a><span class="err">	</span><span class="nv">- Nom Prénom</span>
-<a href="#__codelineno-1-8" id="__codelineno-1-8" name="__codelineno-1-8"></a><span class="err">	</span><span class="nv">- Fonction</span>
-<a href="#__codelineno-1-9" id="__codelineno-1-9" name="__codelineno-1-9"></a><span class="err">	</span><span class="nv"># Je mets ici plein de truc pour la mise en forme</span>
-<a href="#__codelineno-1-10" id="__codelineno-1-10" name="__codelineno-1-10"></a><span class="nv">date</span><span class="p p-Indicator">:</span><span class="w"> </span><span class="err">|</span>
-<a href="#__codelineno-1-11" id="__codelineno-1-11" name="__codelineno-1-11"></a><span class="err">	</span><span class="nv">Date de la soutenance</span>
-<a href="#__codelineno-1-12" id="__codelineno-1-12" name="__codelineno-1-12"></a><span class="nv">&lt;br/&gt;</span>
-<a href="#__codelineno-1-13" id="__codelineno-1-13" name="__codelineno-1-13"></a><span class="nv">&lt;br/&gt;</span>
-<a href="#__codelineno-1-14" id="__codelineno-1-14" name="__codelineno-1-14"></a><span class="err">	</span><span class="nv">!</span><span class="p p-Indicator">[</span><span class="nv">Logo_laboratoire</span><span class="p p-Indicator">]</span><span class="nv">(logo_laboratoire)</span><span class="p p-Indicator">{</span><span class="nv">style="width=60%"</span><span class="p p-Indicator">}</span><span class="w">  </span>
+<a href="#__codelineno-1-7" id="__codelineno-1-7" name="__codelineno-1-7"></a><span class="err">	</span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Nom Prénom</span>
+<a href="#__codelineno-1-8" id="__codelineno-1-8" name="__codelineno-1-8"></a><span class="err">	</span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Fonction</span>
+<a href="#__codelineno-1-9" id="__codelineno-1-9" name="__codelineno-1-9"></a><span class="err">	</span><span class="c1"># Je mets ici plein de truc pour la mise en forme</span>
+<a href="#__codelineno-1-10" id="__codelineno-1-10" name="__codelineno-1-10"></a><span class="nt">date</span><span class="p">:</span><span class="w"> </span><span class="p p-Indicator">|</span>
+<a href="#__codelineno-1-11" id="__codelineno-1-11" name="__codelineno-1-11"></a><span class="err">	</span><span class="l l-Scalar l-Scalar-Plain">Date de la soutenance</span>
+<a href="#__codelineno-1-12" id="__codelineno-1-12" name="__codelineno-1-12"></a><span class="l l-Scalar l-Scalar-Plain">&lt;br/&gt;</span>
+<a href="#__codelineno-1-13" id="__codelineno-1-13" name="__codelineno-1-13"></a><span class="l l-Scalar l-Scalar-Plain">&lt;br/&gt;</span>
+<a href="#__codelineno-1-14" id="__codelineno-1-14" name="__codelineno-1-14"></a><span class="err">	</span><span class="kt">![Logo_laboratoire](logo_laboratoire)</span><span class="p p-Indicator">{</span><span class="nv">style="width=60%"</span><span class="p p-Indicator">}</span><span class="w">  </span>
 <a href="#__codelineno-1-15" id="__codelineno-1-15" name="__codelineno-1-15"></a><span class="c1"># Je mets le logo du laboratoire en fin, avec un style afin de permettre à pandoc de forcer le centrage de l'image.</span>
-<a href="#__codelineno-1-16" id="__codelineno-1-16" name="__codelineno-1-16"></a><span class="nt">subname</span><span class="p">:</span><span class="w"> </span><span class="err">|</span>
-<a href="#__codelineno-1-17" id="__codelineno-1-17" name="__codelineno-1-17"></a><span class="nt">	Maître de stage</span><span class="p">:</span><span class="w"> </span><span class="nv">X Y</span>
-<a href="#__codelineno-1-18" id="__codelineno-1-18" name="__codelineno-1-18"></a><span class="err">	</span><span class="nv">Laboratoire d'accueil</span><span class="w"> </span><span class="p p-Indicator">:</span><span class="w"> </span><span class="nv">NOM</span>
-<a href="#__codelineno-1-19" id="__codelineno-1-19" name="__codelineno-1-19"></a><span class="err">	</span><span class="nv">ADRESSE</span>
-<a href="#__codelineno-1-20" id="__codelineno-1-20" name="__codelineno-1-20"></a><span class="err">	</span><span class="nv">CP VILLE PAYS</span>
-<a href="#__codelineno-1-21" id="__codelineno-1-21" name="__codelineno-1-21"></a><span class="nv">fig_caption</span><span class="p p-Indicator">:</span><span class="w"> </span><span class="nv">yes</span>
-<a href="#__codelineno-1-22" id="__codelineno-1-22" name="__codelineno-1-22"></a><span class="nv">numbersections</span><span class="p p-Indicator">:</span><span class="w"> </span><span class="nv">true</span>
-<a href="#__codelineno-1-23" id="__codelineno-1-23" name="__codelineno-1-23"></a><span class="nv">toc</span><span class="p p-Indicator">:</span><span class="w"> </span><span class="nv">true</span>
-<a href="#__codelineno-1-24" id="__codelineno-1-24" name="__codelineno-1-24"></a><span class="nv">toc-name</span><span class="p p-Indicator">:</span><span class="w"> </span><span class="nv">Sommaire</span>
-<a href="#__codelineno-1-25" id="__codelineno-1-25" name="__codelineno-1-25"></a><span class="nv">toc-depth</span><span class="p p-Indicator">:</span><span class="w"> </span><span class="nv">6</span>
-<a href="#__codelineno-1-26" id="__codelineno-1-26" name="__codelineno-1-26"></a><span class="nv">xnos-number-by-section</span><span class="p p-Indicator">:</span><span class="w"> </span><span class="nv">true</span>
-<a href="#__codelineno-1-27" id="__codelineno-1-27" name="__codelineno-1-27"></a><span class="nv">tablenos-plus-name</span><span class="p p-Indicator">:</span><span class="w"> </span><span class="nv">tableau</span>
-<a href="#__codelineno-1-28" id="__codelineno-1-28" name="__codelineno-1-28"></a><span class="nv">fignos-plus-name</span><span class="p p-Indicator">:</span><span class="w"> </span><span class="nv">figure</span>
+<a href="#__codelineno-1-16" id="__codelineno-1-16" name="__codelineno-1-16"></a><span class="nt">subname</span><span class="p">:</span><span class="w"> </span><span class="p p-Indicator">|</span>
+<a href="#__codelineno-1-17" id="__codelineno-1-17" name="__codelineno-1-17"></a><span class="err">	</span><span class="nt">Maître de stage</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">X Y</span>
+<a href="#__codelineno-1-18" id="__codelineno-1-18" name="__codelineno-1-18"></a><span class="err">	</span><span class="l l-Scalar l-Scalar-Plain">Laboratoire d'accueil</span><span class="w"> </span><span class="p p-Indicator">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">NOM</span>
+<a href="#__codelineno-1-19" id="__codelineno-1-19" name="__codelineno-1-19"></a><span class="err">	</span><span class="l l-Scalar l-Scalar-Plain">ADRESSE</span>
+<a href="#__codelineno-1-20" id="__codelineno-1-20" name="__codelineno-1-20"></a><span class="err">	</span><span class="l l-Scalar l-Scalar-Plain">CP VILLE PAYS</span>
+<a href="#__codelineno-1-21" id="__codelineno-1-21" name="__codelineno-1-21"></a><span class="nt">fig_caption</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">yes</span>
+<a href="#__codelineno-1-22" id="__codelineno-1-22" name="__codelineno-1-22"></a><span class="nt">numbersections</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">true</span>
+<a href="#__codelineno-1-23" id="__codelineno-1-23" name="__codelineno-1-23"></a><span class="nt">toc</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">true</span>
+<a href="#__codelineno-1-24" id="__codelineno-1-24" name="__codelineno-1-24"></a><span class="nt">toc-name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Sommaire</span>
+<a href="#__codelineno-1-25" id="__codelineno-1-25" name="__codelineno-1-25"></a><span class="nt">toc-depth</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">6</span>
+<a href="#__codelineno-1-26" id="__codelineno-1-26" name="__codelineno-1-26"></a><span class="nt">xnos-number-by-section</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">true</span>
+<a href="#__codelineno-1-27" id="__codelineno-1-27" name="__codelineno-1-27"></a><span class="nt">tablenos-plus-name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">tableau</span>
+<a href="#__codelineno-1-28" id="__codelineno-1-28" name="__codelineno-1-28"></a><span class="nt">fignos-plus-name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">figure</span>
 </code></pre></div></p>
 <h1 id="lecriture">L’écriture<a class="headerlink" href="#lecriture" title="Permanent link">¶</a></h1>
 <p>Maintenant, vous pouvez utiliser n’importe quel logiciel pour ouvrir des fichiers markdown pour rédiger votre mémoire.<br/>
@@ -1167,7 +1168,7 @@ Personnellement, j’utilise <a href="https://obsidian.md/">Obsidian</a>avec <a 
 <div class="highlight"><pre><span></span><code><a href="#__codelineno-2-1" id="__codelineno-2-1" name="__codelineno-2-1"></a>	| Tableau | X |  
 <a href="#__codelineno-2-2" id="__codelineno-2-2" name="__codelineno-2-2"></a>	|:--------|---|  
 <a href="#__codelineno-2-3" id="__codelineno-2-3" name="__codelineno-2-3"></a>	|Truc|Machin|  
-<a href="#__codelineno-2-4" id="__codelineno-2-4" name="__codelineno-2-4"></a>	Table: Demonstration d'une table {<span class="gs">**tbl**</span>{: <span class="ni">#tbl</span> .hash}:id1}  
+<a href="#__codelineno-2-4" id="__codelineno-2-4" name="__codelineno-2-4"></a>	Table: Demonstration d'une table {#tbl:id1}  
 </code></pre></div></p>
 </li>
 <li>
@@ -1197,7 +1198,7 @@ https://github.com/squidfunk/mkdocs-material/blob/master/src/partials/source-fil
 <small>
 <!-- mkdocs-git-revision-date-localized-plugin -->
 <u>Dernière mise à jour</u> :
-        <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">20 décembre 2024</span>
+        <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">22 décembre 2024</span>
 <!-- mkdocs-git-revision-date-plugin -->
 <br/>
 <u>Créé</u> :
