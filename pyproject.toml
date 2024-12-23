@@ -35,6 +35,7 @@ dependencies = [
     "mkdocs-callouts",
     "mkdocs-custom-fences",
     "mkdocs-custom-tags-attributes",
+    "mkdocs-embed-file-plugin",
     "mkdocs-embed-file-plugins",
     "mkdocs-encryptcontent-plugin",
     "mkdocs-get-deps",
@@ -80,3 +81,12 @@ exclude = ["tests", "docs", "build", "dist", "venv", "venv3", "venv3.6", "venv3.
 
 [tool.ruff.lint.flake8-quotes]
 inline-quotes = "double"
+
+[tool.uv.sources]
+mkdocs-embed-file-plugin = { path = "../mkdocs-embed_file-plugin" }
+
+[dependency-groups]
+dev = [
+    "ipython>=8.31.0",
+    "ruamel-yaml>=0.18.6",
+]
