@@ -36,7 +36,6 @@ dependencies = [
     "mkdocs-custom-fences",
     "mkdocs-custom-tags-attributes",
     "mkdocs-embed-file-plugin",
-    "mkdocs-embed-file-plugins",
     "mkdocs-encryptcontent-plugin",
     "mkdocs-get-deps",
     "mkdocs-git-revision-date-localized-plugin",

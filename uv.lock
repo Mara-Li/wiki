@@ -270,7 +270,6 @@ dependencies = [
     { name = "mkdocs-custom-fences" },
     { name = "mkdocs-custom-tags-attributes" },
     { name = "mkdocs-embed-file-plugin" },
-    { name = "mkdocs-embed-file-plugins" },
     { name = "mkdocs-encryptcontent-plugin" },
     { name = "mkdocs-get-deps" },
     { name = "mkdocs-git-revision-date-localized-plugin" },
@@ -341,7 +340,6 @@ requires-dist = [
     { name = "mkdocs-custom-fences" },
     { name = "mkdocs-custom-tags-attributes" },
     { name = "mkdocs-embed-file-plugin" },
-    { name = "mkdocs-embed-file-plugins" },
     { name = "mkdocs-encryptcontent-plugin" },
     { name = "mkdocs-get-deps" },
     { name = "mkdocs-git-revision-date-localized-plugin" },
@@ -545,26 +543,6 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/34/23/5022228dbf5ebdd858661388a94e8f027759b266c5bc80aefa84f639d064/mkdocs_embed_file_plugin-2.0.12.tar.gz", hash = "sha256:fa534a1de4b89ff5ad585bc724e95c2782562d03d5f2e3112935989f16df430b", size = 1642879 }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/7d/c8/e21ef39abcd318d66bc200be57259f95e5cc7552594ad5f05575f70965f7/mkdocs_embed_file_plugin-2.0.12-py3-none-any.whl", hash = "sha256:20c02926025b71af3ea4a29a92785bf98b419a3c545043c67ac38f17d16c503a", size = 21821 },
-]
-
-[[package]]
-name = "mkdocs-embed-file-plugins"
-version = "2.0.10"
-source = { registry = "https://pypi.org/simple" }
-dependencies = [
-    { name = "beautifulsoup4" },
-    { name = "markdown" },
-    { name = "mdx-wikilink-plus" },
-    { name = "mkdocs" },
-    { name = "mkdocs-callouts" },
-    { name = "mkdocs-custom-tags-attributes" },
-    { name = "pymdown-extensions" },
-    { name = "python-frontmatter" },
-    { name = "setuptools" },
-]
-sdist = { url = "https://files.pythonhosted.org/packages/61/53/faaea62f65bb24051328d933a819b497a018dfe73b9a15641f8ebcf1b22e/mkdocs_embed_file_plugins-2.0.10.tar.gz", hash = "sha256:091160455be12d91e2eb2c6174db85997b696128561ff645df7db99fe3bb5e68", size = 22519 }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/70/e2/9c8984eb3eab675764b0d499a63c05c1c0f66353c0f41e8541f3f13fd451/mkdocs_embed_file_plugins-2.0.10-py3-none-any.whl", hash = "sha256:299a0f65039057a36458b64b62605a469050a7c4db23423e93fb2590a6810b39", size = 21779 },
 ]
 
 [[package]]
