@@ -115,17 +115,18 @@ hooks:
   - overrides/hooks/on_env.py
   - overrides/hooks/on_post_page.py
 extra_javascript:
-  - _assets/js/mathjax.js
+  - _static/js/mathjax.js
   - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
-  - _assets/js/snippets.js
-  - _assets/js/tippy.js
+  - _static/js/snippets.js
+  - _static/js/patch.js
 
 extra_css:
     - https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css
     - https://cdn.jsdelivr.net/gh/ObsidianPublisher/assets@main/dist/styles.css
-    - _assets/css/admonition.css
-    - _assets/css/custom_attributes.css
-    - _assets/css/customization.css
+    - _static/css/admonition.css
+    - _static/css/custom_attributes.css
+    - _static/css/customization.css
+    - _static/css/styles.css
 extra:
   SEO: '_assets/meta/LOGO_SEO.png'
   comments: true
