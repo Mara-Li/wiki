@@ -33,7 +33,7 @@ jobs:
         uses: astral-sh/setup-uv@v4
         with:
             enable-cache: true
-            
+            cache-dependency-glob: "requirements**.txt"
       - name: "Submodule fetching"
         continue-on-error: true
         run: |
@@ -43,12 +43,9 @@ jobs:
           git commit -am "chore (update): fetch submodule"
           git push
       - name: Setup Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.13'
-          cache: "pip"
+        run: uv python install
       - name: Install dependencies
-        run: uv sync
+        run: uv pip install -r requirements.txt
       - name: Build
         run: |
          uv run mkdocs gh-deploy --force
