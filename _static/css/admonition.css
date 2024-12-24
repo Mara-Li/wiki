@@ -374,11 +374,11 @@
 }
 
 .admonition.infobox {
-    width: fit-content;
+    width: fit-content !important;
 }
 
 .admonition.wiki .md-typeset__scrollwrap {
-    margin: 0;
+    margin: 0 !important;
 }
 
 .admonition.wiki .md-typeset__table {
@@ -389,4 +389,8 @@
 .admonition.infobox,
 .admonition.wiki {
     margin: 0 1em;
+}
+
+.admonition.infobox .md-typeset__scrollwrap {
+  width: min-content;
 }

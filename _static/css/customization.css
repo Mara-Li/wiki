@@ -73,3 +73,7 @@ img.vignette {
     width: auto; /* S'ajuste pour tenir sur de très petits écrans */
   }
 }
+
+.md-typeset h1 {
+  margin-bottom: 0.5em !important;
+}
