@@ -282,7 +282,6 @@
   float: right;
 }
 
-
 .admonition.wiki h3,
 .admonition.wiki h1 {
   text-align: center;
@@ -332,4 +331,62 @@
 .admonition.wiki table tr td {
   border-top: 0;
   padding: 0.3em 1.25em;
+}
+
+.md-typeset .admonition.border.wiki {
+  border-color: var(--md-typeset-table-color);
+}
+
+.md-typeset .admonition.border.wiki tr td {
+  border-top: 1px solid var(--md-typeset-table-color);
+}
+
+.md-typeset .admonition.right {
+  float: right;
+}
+
+.md-typeset .admonition.left {
+  float: left;
+}
+
+.admonition.borderwiki {
+  float: left;
+  margin-right: 0.8rem;
+  margin-top: 0;
+  width: 11.7rem;
+}
+
+.admonition.Lwiki {
+  float: right;
+  margin-right: 0.8rem;
+  margin-top: 0;
+  width: 11.7rem;
+}
+
+
+.admonition.infobox table thead {
+  display: none;
+}
+
+.admonition.infobox:has(table) {
+  margin-top: 0;
+  box-shadow: none !important;
+}
+
+.admonition.infobox {
+    width: fit-content;
+}
+
+.admonition.wiki .md-typeset__scrollwrap {
+    margin: 0;
+}
+
+.admonition.wiki .md-typeset__table {
+    margin: 0;
+    padding: 0;
+}
+
+.admonition.infobox,
+.admonition.wiki {
+    margin: 0 1em;
 }

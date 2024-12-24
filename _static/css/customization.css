@@ -51,21 +51,7 @@
   font-family: "Special Elite", cursive;
 }
 
-.md-typeset .admonition.border.wiki {
-  border-color: var(--md-typeset-table-color);
-}
 
-.md-typeset .admonition.border.wiki tr td {
-  border-top: 1px solid var(--md-typeset-table-color);
-}
-
-.md-typeset .admonition.right {
-  float: right;
-}
-
-.md-typeset .admonition.left {
-  float: left;
-}
 
 img.vignette {
   float: left;
@@ -86,37 +72,4 @@ img.vignette {
     margin: 0 auto;
     width: auto; /* S'ajuste pour tenir sur de très petits écrans */
   }
-}
-
-.ezlinks_not_found {
-  background-color: rgba(211, 211, 211, 0.521);
-  display: inline-block;
-  color: grey;
-  border-radius: 5px;
-  padding-right: 3px;
-  padding-left: 3px;
-}
-
-[data-md-color-scheme="slate"] .ezlinks_not_found {
-  color: rgb(182, 181, 181) !important;
-  background-color: rgba(231, 232, 243, 0.185);
-}
-
-[data-md-color-scheme="slate"] .ezlinks_not_found:hover {
-  color: grey;
-  background-color: lightgrey;
-  cursor: not-allowed;
-  filter: saturate(200%);
-}
-
-[data-md-color-scheme="default"] .ezlinks_not_found:hover {
-  color: grey;
-  background-color: lightgrey;
-  cursor: not-allowed;
-  filter: saturate(200%);
-}
-
-.citation {
-    overflow: auto;
-    clear: both;
 }
