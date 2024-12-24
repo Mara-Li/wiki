@@ -33,4 +33,5 @@ inline-quotes = "double"
 [dependency-groups]
 dev = [
     "pur>=7.3.3",
+    "pyyaml>=6.0.2",
 ]
