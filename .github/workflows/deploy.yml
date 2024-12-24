@@ -33,7 +33,7 @@ jobs:
         uses: astral-sh/setup-uv@v4
         with:
             enable-cache: true
-            cache-dependency-glob: "uv.lock"
+            
       - name: "Submodule fetching"
         continue-on-error: true
         run: |
