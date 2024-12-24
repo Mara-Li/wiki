@@ -166,7 +166,7 @@ dependencies = [
 
 [package.metadata]
 requires-dist = [
-    { name = "babel", specifier = ">=2.16.0" },
+    { name = "babel" },
     { name = "beautifulsoup4" },
     { name = "mdx-breakless-lists" },
     { name = "mkdocs" },
