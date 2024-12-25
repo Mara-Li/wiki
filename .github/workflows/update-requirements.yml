@@ -30,7 +30,7 @@ jobs:
         continue-on-error: true
         run: |
           git config --global user.name "GitHub Action"
-          it config --global user.name "GitHub Action"
+          git config --global user.name "GitHub Action"
           git config --global user.email "noreply@github.com"
           git add requirements.txt
           git commit -m "chore (update): requirements.txt"
