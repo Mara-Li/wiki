@@ -1,0 +1,3 @@
+Enveloppe/mkdocs:
+  - source: overrides
+    target: overrides
