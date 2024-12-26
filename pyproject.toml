@@ -35,6 +35,8 @@ inline-quotes = "double"
 [dependency-groups]
 dev = [
     "pur>=7.3.3",
+    "requests>=2.32.3",
+    "rich>=13.9.4",
     "ruamel-yaml>=0.18.6",
     "ruff>=0.8.4",
 ]
