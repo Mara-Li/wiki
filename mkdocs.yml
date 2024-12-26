@@ -130,7 +130,8 @@ extra:
   SEO: '_assets/meta/LOGO_SEO.png'
   comments: true
   generate_graph: false
-  attachments: '_assets/img/'
+  attachments: 
+    folder: '_assets/img/'
   no-auto-h1: true
   social:
     - icon: fontawesome/brands/github

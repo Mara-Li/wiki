@@ -20,6 +20,7 @@ dependencies = [
     "mkdocs-obsidian-links",
     "beautifulsoup4",
     "babel",
+    "ruamel-yaml>=0.18.6",
 ]
 
 [tool.ruff.lint]
@@ -34,4 +35,6 @@ inline-quotes = "double"
 dev = [
     "pur>=7.3.3",
     "pyyaml>=6.0.2",
+    "ruamel-yaml>=0.18.6",
+    "ruff>=0.8.4",
 ]
