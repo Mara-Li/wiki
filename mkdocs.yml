@@ -8,7 +8,7 @@ theme:
     favicon: _assets/meta/favicons.png
     custom_dir: overrides
     font:
-        text: Jost
+        text: Inclusive Sans
         code: Reddit Mono
     language: fr
     palette:
