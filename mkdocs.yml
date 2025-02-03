@@ -8,15 +8,15 @@ theme:
     favicon: _assets/meta/favicons.png
     custom_dir: overrides
     font:
-        text: Karla
-        code: Ubuntu Mono
+        text: Jost
+        code: Reddit Mono
     language: fr
     palette:
     # Light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: teal
-      accent: light blue
+      primary: custom
+      accent: custom
       toggle:
         icon: material/weather-night
         name: Passer au mode sombre
@@ -24,8 +24,8 @@ theme:
     # Dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: blue grey
-      accent: light blue
+      primary: custom
+      accent: custom
       toggle:
         icon: material/weather-sunny
         name: Passer en mode clair
@@ -106,8 +106,7 @@ plugins:
       custom-attributes: '_static/css/custom_attributes.css'
   - custom-attributes:
       file: '_static/css/custom_attributes.css'
-  - tags:
-      tags_file: tags.md
+  - tags
   - callouts
   - glightbox
 hooks:
@@ -126,6 +125,7 @@ extra_css:
     - _static/css/custom_attributes.css
     - _static/css/customization.css
     - _static/css/styles.css
+    - _static/css/
 extra:
   SEO: '_assets/meta/LOGO_SEO.png'
   comments: true
@@ -143,7 +143,7 @@ extra:
     no_page_found: 'Aucun article trouvé'
   hooks:
     strip_comments: true
-    fix_heading: true
+    fix_heading: false
   icons:
     folder: "icons/"
     default:
