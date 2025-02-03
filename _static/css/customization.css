@@ -1,4 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Neucha&family=Special+Elite&display=swap');
+
+
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: #a89191;
+  --md-accent-fg-color: #b5aeae;
+  --md-default-bg-color: #2e261f;
+  --h2-color: hsla(32, 48%, 85%, 1);
+  --h1-color: hsl(34, 76%, 94%);
+  --md-default-fg-color: hsla(34, 39%, 74%, 1);
+}
+
+[data-md-color-scheme="default"] {
+  --md-primary-fg-color: #765151;
+  --md-accent-fg-color: #5e4343;
+  --md-default-bg-color: #f8f5f1;
+  --md-default-fg-color: hsla(31, 45%, 24%, 1);
+  --h2-color: #b89578;
+  --h1-color: #432e14;
+}
 
 .md-header,
 .md-nav--primary .md-nav__title {
@@ -27,53 +46,29 @@
   font-size: xxx-large;
 }
 
-.md-typeset :is(.admonition, details) {
-  font-size: 1em;
-}
-
-[data-md-color-scheme="default"],
-[data-md-color-scheme="slate"] {
-  --md-primary-fg-color: #6096db;
-  --md-accent-fg-color: #2a7bc2;
-}
-
-.rside-10 img[alt*="+rside"] {
-  width: 10em;
-}
-
-.hr-title hr {
-  position: relative;
-  top: -1em;
-  border-bottom: 1px solid var(--md-default-fg-color--light);
-}
-
-.special-elite h1 {
-  font-family: "Special Elite", cursive;
+div {
+  scrollbar-width: none;
 }
 
 
-
-img.vignette {
-  float: left;
-  width: auto;
+.md-typeset .headerlink {
+  display: inline;
 }
 
-@media (max-width: 768px) {
-  img.vignette {
-    float: left;
-    width: 6em; /* Réduit la taille de l'image */
-  }
+[dir=ltr] .md-typeset .headerlink {
+  font-size: 0.8em;
+  margin-left: 0.1em;
 }
 
-@media (max-width: 480px) {
-  img.vignette {
-    float: none;
-    display: block;
-    margin: 0 auto;
-    width: auto; /* S'ajuste pour tenir sur de très petits écrans */
-  }
+h2 {
+  color: var(--h2-color);
 }
 
 .md-typeset h1 {
-  margin-bottom: 0.5em !important;
+  color: var(--h1-color) !important;
+}
+
+.md-nav__link, .md-tabs__link {
+  font-family: "Annie Use Your Telescope", serif;
+  font-size: .9rem;
 }

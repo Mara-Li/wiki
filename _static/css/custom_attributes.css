@@ -40,17 +40,61 @@
 }
 
 
-
-div {
-    scrollbar-width: none;
+.rside-10 img[alt*="+rside"] {
+  width: 10em;
 }
 
-
-.md-typeset .headerlink {
-    display: inline;
+.hr-title hr {
+  position: relative;
+  top: -1em;
+  border-bottom: 1px solid var(--md-default-fg-color--light);
 }
 
-[dir=ltr] .md-typeset .headerlink {
-    font-size: 0.8em;
-    margin-left: 0.1em;
+.special-elite h1 {
+  font-family: "Special Elite", cursive;
+}
+
+img.vignette {
+  float: left;
+  width: auto;
+}
+
+@media (max-width: 768px) {
+  img.vignette {
+    float: left;
+    width: 6em; /* Réduit la taille de l'image */
+  }
+}
+
+@media (max-width: 480px) {
+  img.vignette {
+    float: none;
+    display: block;
+    margin: 0 auto;
+    width: auto; /* S'ajuste pour tenir sur de très petits écrans */
+  }
+}
+
+.md-typeset h1 {
+  margin-bottom: 0.5em !important;
+}
+
+.custom-font,
+.Neucha h1,
+.Neucha h2,
+.Neucha h3,
+.Neucha h4,
+.Neucha h5,
+.Neucha h6 {
+  font-family: "Neucha", var(--md-text-font), sans-serif !important;
+}
+
+.hr-title :not(.admonition.wiki) > h1 {
+  border-bottom: 2px solid var(--h1-color);
+  width: 90%;
+}
+
+.hr-title h2 {
+  border-bottom: 2px dashed var(--h2-color);
+  width: 90%;
 }

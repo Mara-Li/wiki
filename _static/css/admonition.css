@@ -14,6 +14,38 @@
   /*--md-admonition-icon--name:url('data:image/svg+xml;charset=utf-8,'); */
 }
 
+[data-md-color-scheme="slate"] {
+  --admonition-heading: hsla(36, 22%, 9%, 0.47);
+}
+
+[data-md-color-scheme="default"] {
+  --admonition-heading: hsl(30, 30%, 80%);
+}
+
+[data-md-color-scheme="default"] .md-typeset .dice {
+  --callout-color: 167, 105, 57;
+}
+
+[data-md-color-scheme="slate"] .md-typeset .dice {
+  --callout-color: 199, 135, 85;
+}
+
+[data-md-color-scheme="default"] .md-typeset .pen {
+  --callout-color: 53, 111, 56;
+}
+
+[data-md-color-scheme="slate"] .md-typeset .pen {
+  --callout-color: 117, 193, 121;
+}
+
+[data-md-color-scheme="slate"] .md-typeset .project {
+  --callout-color: 48, 156, 232;
+}
+
+[data-md-color-scheme="default"] .md-typeset .project {
+  --callout-color: 22, 89, 137;
+}
+
 .md-typeset .admonition-title:before {
   background-color: rgb(var(--callout-color));
 }
@@ -107,7 +139,7 @@
 .md-typeset .admonition.dictionnary,
 .md-typeset details.dictionnary {
   --color: 43, 155, 70;
-  border-color: rgb(--color);
+  border-color: rgb(var(--color));
 
 }
 
@@ -115,8 +147,8 @@
   --bg: rgba(var(--callout-color), .1);
   background-color: var(--bg);
 }
+
 .md-typeset .dice  {
-  --callout-color: 199,135,85;
   --color: rgb(var(--callout-color));
   --border: rgb(var(--callout-color));
   --bg: rgba(var(--callout-color), .1);
@@ -125,7 +157,6 @@
 }
 
 .md-typeset .project {
-  --callout-color: 48,156,232;
   --color: rgb(var(--callout-color));
   --border: rgb(var(--callout-color));
   --bg: rgba(var(--callout-color), .1);
@@ -134,7 +165,6 @@
 }
 
 .md-typeset .pen {
-  --callout-color: 117,193,121;
   --color: rgb(var(--callout-color));
   --border: rgb(var(--callout-color));
   --bg: rgba(var(--callout-color), .1);
@@ -285,13 +315,13 @@
 .admonition.wiki h3,
 .admonition.wiki h1 {
   text-align: center;
-  background-color: #008b8b1c;
+  background-color: var(--admonition-heading);
+  margin: 0 !important;
 }
 
 .md-typeset details.wiki,
 .md-typeset .admonition.wiki {
   border-color: transparent;
-  background-color: transparent;
 }
 
 .md-typeset .wiki>.admonition-title::before {
@@ -308,11 +338,11 @@
   /* center */
   text-align: center;
   padding:0 10px;
-  margin: 0;
+  margin: 0 !important;
 }
 
-.admonition.wiki p {
-  margin-top: 0;
+.admonition.wiki p:has(a) {
+  margin: 0 0 -0.45em !important;
 }
 
 .admonition.wiki table thead tr {
@@ -393,4 +423,8 @@
 
 .admonition.infobox .md-typeset__scrollwrap {
   width: min-content;
+}
+
+.md-typeset :is(.admonition, details) {
+  font-size: 1em;
 }
