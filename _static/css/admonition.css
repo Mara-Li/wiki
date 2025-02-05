@@ -50,6 +50,30 @@
     background-color: rgb(var(--callout-color));
 }
 
+/**
+Admonition floated on mobile
+*/
+@media (max-width: 768px) {
+    .md-typeset .admonition.infobox,
+    .md-typeset .admonition.wiki {
+        clear: both;
+        width: 100% !important;
+        float: none !important;
+        margin: 0 8px 8px 0;
+    }
+
+    .admonition.infobox table:not([class]) {
+        display: revert;
+    }
+
+    .admonition.infobox .md-typeset__scrollwrap {
+        width: 100% !important;
+    }
+
+    .admonition.infobox .md-typeset__table {
+        display: revert;
+    }
+}
 
 .md-typeset .admonition, .md-typeset details {
     --border: rgb(var(--callout-color));
