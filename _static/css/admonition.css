@@ -452,3 +452,42 @@ Admonition floated on mobile
 .md-typeset :is(.admonition, details) {
     font-size: 1em;
 }
+
+.admonition.tbl {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    border: none;
+    box-shadow: none;
+}
+
+.admonition.tbl .md-typeset__table {
+    display: block;
+}
+
+.admonition.tbl table:not([class]) {
+    display: table;
+}
+
+.admonition.tbl table:not([class]) td {
+    border-top: none !important;
+    border-bottom: none;
+
+}
+
+.admonition.tbl table td:last-child {
+    border-left: .05rem solid var(--md-typeset-table-color) !important;
+}
+
+.admonition.tbl thead tr th {
+    text-align: center !important;
+    border-bottom: .05rem solid var(--md-typeset-table-color) !important;
+}
+
+.admonition.tbl thead tr th:last-child {
+    border-left: .05rem solid var(--md-typeset-table-color) !important;
+}
+
+.admonition.tbl .admonition-title {
+    display: none;
+}
