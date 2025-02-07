@@ -5,6 +5,8 @@
     --h2-color: hsla(32, 48%, 85%, 1);
     --h1-color: hsl(34, 76%, 94%);
     --md-default-fg-color: hsla(34, 39%, 74%, 1);
+    --md-code-fg-color: rgb(217, 116, 109);
+    --md-code-bg-color: rgb(33, 27, 23);
 }
 
 [data-md-color-scheme="default"] {
@@ -14,6 +16,8 @@
     --md-default-fg-color: hsla(31, 45%, 24%, 1);
     --h2-color: #b89578;
     --h1-color: #432e14;
+    --md-code-bg-color: rgb(252, 250, 248);
+    --md-code-fg-color: rgb(217, 116, 109);
 }
 
 .md-typeset h2 {

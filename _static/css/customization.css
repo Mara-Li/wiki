@@ -1,5 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Neucha&family=Special+Elite&display=swap');
-
+:root {
+    --md-code-font: 'Fantasque Sans Mono', 'Reddit Mono', sans-serif;;
+}
 
 .md-header,
 .md-nav--primary .md-nav__title {
