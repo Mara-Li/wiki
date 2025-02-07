@@ -24,6 +24,7 @@ jobs:
         run: uv run pur -r requirements.txt
       - name: Update venv
         run: |
+          uv pip install -r requirements.txt
           uv sync
           uv lock --upgrade
       - name: Commit changes
