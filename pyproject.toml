@@ -20,7 +20,7 @@ dependencies = [
     "mkdocs-obsidian-links",
     "beautifulsoup4",
     "babel",
-    "pydantic"
+    "pydantic",
 ]
 
 [tool.ruff.lint]
