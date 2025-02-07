@@ -324,6 +324,11 @@ Admonition floated on mobile
     mask-image: var(--md-admonition-icon--pen);
 }
 
+.admonition.wiki, .admonition.infobox {
+    box-shadow: none !important;
+    font-size: .64rem !important;
+}
+
 .admonition.wiki {
     float: left;
     margin-right: 0.8rem;
@@ -343,9 +348,12 @@ Admonition floated on mobile
     margin: 0 !important;
 }
 
-.md-typeset details.wiki,
-.md-typeset .admonition.wiki {
+.md-typeset details.wiki {
     border-color: transparent;
+}
+
+.md-typeset .admonition.wiki {
+    border: .05rem solid var(--md-typeset-table-color) !important;;
 }
 
 .md-typeset .wiki > .admonition-title::before {
@@ -425,6 +433,11 @@ Admonition floated on mobile
 .admonition.infobox:has(table) {
     margin-top: 0;
     box-shadow: none !important;
+    padding: 0;
+}
+
+.md-typeset .infobox table:not([class]) tbody tr:first-child td {
+    border-top: none;
 }
 
 .admonition.infobox {
