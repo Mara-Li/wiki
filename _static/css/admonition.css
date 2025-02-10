@@ -373,8 +373,8 @@ Admonition floated on mobile
     margin: 0 !important;
 }
 
-.admonition.wiki p:has(a) {
-    margin: 0 0 -0.45em !important;
+.admonition.wiki p:has(img) {
+    margin: 0 0 -0.5em !important;
 }
 
 .admonition.wiki table thead tr {
@@ -384,6 +384,10 @@ Admonition floated on mobile
 .admonition.wiki table {
     border: none;
     font-size: 1em;
+}
+
+.admonition:is(.wiki, .infobox) img {
+    width: 100%;
 }
 
 .admonition.wiki table tr td:first-child {
