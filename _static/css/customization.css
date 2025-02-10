@@ -62,5 +62,5 @@ Afficher les barres à gauches des tableaux à partir du 2e élément
 */
 .md-content table th:nth-child(n+2),
 .md-content table td:nth-child(n+2) {
-    border-left: .05rem solid var(--md-typeset-table-color) /* Ou toute autre couleur/style */
+    border-left: .05rem solid var(--md-typeset-table-color);
 }
