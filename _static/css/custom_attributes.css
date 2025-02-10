@@ -107,3 +107,21 @@ img.vignette {
     border-bottom: 2px dashed var(--h2-color);
     width: 90%;
 }
+
+.tbl .md-content table:not(.admonition table) td {
+    border-top: none !important;
+    border-bottom: none;
+}
+
+.tbl .md-content table:not(.admonition table) td:last-child {
+    border-left: .05rem solid var(--md-typeset-table-color) !important;
+}
+
+.tbl .md-content table:not(.admonition table) thead tr th {
+    text-align: center !important;
+    border-bottom: .05rem solid var(--md-typeset-table-color) !important;
+}
+
+.tbl .md-content table:not(.admonition table) thead tr th:last-child {
+    border-left: .05rem solid var(--md-typeset-table-color) !important;
+}
