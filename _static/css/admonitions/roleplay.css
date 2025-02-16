@@ -1,0 +1,59 @@
+.md-typeset .eldale > .admonition-title::before,
+.md-typeset .eldale > summary::before {
+	-webkit-mask-image: var(--md-admonition-icon--eldale);
+	mask-image: var(--md-admonition-icon--eldale);
+	background-color: rgb(var(--eldale));
+}
+
+.md-typeset .power > .admonition-title::before,
+.md-typeset .power > summary::before {
+	-webkit-mask-image: var(--md-admonition-icon--power);
+	mask-image: var(--md-admonition-icon--power);
+	background-color: rgb(var(--power));
+}
+
+.md-typeset .buff > .admonition-title::before,
+.md-typeset .buff > summary::before {
+	-webkit-mask-image: var(--md-admonition-icon--buff);
+	mask-image: var(--md-admonition-icon--buff);
+	background-color: rgb(var(--buff));
+}
+
+.md-typeset .passif > .admonition-title::before,
+.md-typeset .passif > summary::before {
+	-webkit-mask-image: var(--md-admonition-icon--passif);
+	mask-image: var(--md-admonition-icon--passif);
+	background-color: rgb(var(--passif));
+}
+
+.md-typeset .eldale > .admonition-title,
+.md-typeset .eldale > summary {
+	color: rgba(var(--eldale));
+	background-color: rgb(var(--eldale), 0.1);
+	border-color: rgb(var(--eldale));
+}
+
+.eldale > .admonition-title > a {
+	color: rgb(var(--eldale));
+	font-weight: bold;
+}
+
+.md-typeset .admonition.passif,
+.md-typeset details.passif {
+	border-color: rgb(var(--passif));
+}
+
+.md-typeset .admonition.eldale,
+.md-typeset details.eldale {
+	border-color: rgb(var(--eldale));
+}
+
+.md-typeset .admonition.power,
+.md-typeset details.power {
+	border-color: rgb(var(--power));
+}
+
+.md-typeset .admonition.buff,
+.md-typeset details.buff {
+	border-color: rgb(var(--buff));
+}

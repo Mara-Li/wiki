@@ -1,0 +1,207 @@
+.md-typeset .admonition-title:before {
+	background-color: rgb(var(--callout-color));
+}
+
+.md-typeset .admonition,
+.md-typeset details {
+	--border: rgb(var(--callout-color));
+	border-color: var(--border);
+}
+
+.md-typeset :is(.power) > :is(.admonition-title, summary) {
+	--callout-color: var(--power);
+	color: rgb(var(--power));
+	background-color: rgba(var(--power), 0.3);
+}
+
+.md-typeset :is(.buff) > :is(.admonition-title, summary) {
+	--callout-color: var(--buff);
+	color: rgb(var(--buff));
+	background-color: rgba(var(--buff), 0.3);
+}
+
+.md-typeset :is(.passif) > :is(.admonition-title, summary) {
+	--callout-color: var(--passif);
+	color: rgb(var(--passif));
+	background-color: rgba(var(--passif), 0.3);
+}
+
+.md-typeset :is(.note) > :is(.admonition-title, summary) {
+	--callout-color: 68, 138, 255;
+	color: rgb(68, 138, 255);
+}
+
+.md-typeset :is(.abstract, .summary, .tldr) > :is(.admonition-title, summary) {
+	--callout-color: 0, 176, 255;
+	color: rgb(0, 176, 255);
+}
+
+.md-typeset :is(.info, .todo) > :is(.admonition-title, summary) {
+	--callout-color: 0, 184, 212;
+	color: rgb(0, 184, 212);
+}
+
+.md-typeset :is(.tip, .hint, .important) > :is(.admonition-title, summary) {
+	--callout-color: 0, 191, 165;
+	color: rgb(0, 191, 165);
+}
+
+.md-typeset :is(.success, .check, .done) > :is(.admonition-title, summary) {
+	--callout-color: 0, 200, 83;
+	color: rgb(0, 200, 83);
+}
+
+.md-typeset :is(.question, .help, .faq) > :is(.admonition-title, summary) {
+	--callout-color: 100, 221, 23;
+	color: rgb(100, 221, 23);
+}
+
+.md-typeset
+	:is(.warning, .caution, .attention)
+	> :is(.admonition-title, summary) {
+	--callout-color: 255, 145, 0;
+	color: rgb(255, 145, 0);
+}
+
+.md-typeset :is(.failure, .fail, .missing) > :is(.admonition-title, summary) {
+	--callout-color: 255, 82, 82;
+	color: rgb(255, 82, 82);
+}
+
+.md-typeset :is(.danger, .error) > :is(.admonition-title, summary) {
+	--callout-color: 255, 23, 68;
+	color: rgb(255, 23, 68);
+}
+
+.md-typeset :is(.bug) > :is(.admonition-title, summary) {
+	--callout-color: 245, 0, 87;
+	color: rgb(245, 0, 87);
+}
+
+.md-typeset :is(.example) > :is(.admonition-title, summary) {
+	--callout-color: 124, 77, 255;
+	color: rgb(124, 77, 255);
+}
+
+.md-typeset :is(.quote, .cite) > :is(.admonition-title, summary) {
+	--callout-color: 158, 158, 158;
+	color: rgb(158, 158, 158);
+}
+
+.md-typeset :is(.admonition, details) {
+	font-size: 1em;
+}
+
+.md-typeset .admonition a {
+	--md-typeset-a-color: var(--color);
+}
+
+.md-typeset .admonition-title,
+.md-typeset summary {
+	--bg: rgba(var(--callout-color), 0.1);
+	background-color: var(--bg);
+}
+
+/** INDEX ADMONITION */
+
+[data-md-color-scheme="default"] .md-typeset .dice {
+	--callout-color: 167, 105, 57;
+}
+
+[data-md-color-scheme="slate"] .md-typeset .dice {
+	--callout-color: 199, 135, 85;
+}
+
+[data-md-color-scheme="default"] .md-typeset .pen {
+	--callout-color: 53, 111, 56;
+}
+
+[data-md-color-scheme="slate"] .md-typeset .pen {
+	--callout-color: 117, 193, 121;
+}
+
+[data-md-color-scheme="slate"] .md-typeset .project {
+	--callout-color: 48, 156, 232;
+}
+
+[data-md-color-scheme="default"] .md-typeset .project {
+	--callout-color: 22, 89, 137;
+}
+
+.md-typeset .admonition.dictionnary,
+.md-typeset details.dictionnary {
+	--color: 43, 155, 70;
+	border-color: rgb(var(--color));
+}
+
+.md-typeset .dice {
+	--color: rgb(var(--callout-color));
+	--border: rgb(var(--callout-color));
+	--bg: rgba(var(--callout-color), 0.1);
+	--md-admonition-bg-color: var(--bg);
+	--md-admonition-fg-color: var(--color);
+}
+
+.md-typeset .project {
+	--color: rgb(var(--callout-color));
+	--border: rgb(var(--callout-color));
+	--bg: rgba(var(--callout-color), 0.1);
+	--md-admonition-bg-color: var(--bg);
+	--md-admonition-fg-color: var(--color);
+}
+
+.md-typeset .pen {
+	--color: rgb(var(--callout-color));
+	--border: rgb(var(--callout-color));
+	--bg: rgba(var(--callout-color), 0.1);
+	--md-admonition-bg-color: var(--bg);
+	--md-admonition-fg-color: var(--color);
+}
+
+.md-typeset .bot {
+	--callout-color: 125, 111, 156;
+	--color: rgb(var(--callout-color));
+	--border: rgb(var(--callout-color));
+	--bg: rgba(var(--callout-color), 0.1);
+	--md-admonition-bg-color: var(--bg);
+	--md-admonition-fg-color: var(--color);
+}
+
+.md-typeset .project > .admonition-title::before,
+.md-typeset .project > summary::before {
+	display: none;
+}
+
+.md-typeset .project > .admonition-title > * {
+	left: -1.5rem;
+	position: relative;
+}
+
+.md-typeset .project > .admonition-title > .twemoji,
+.md-typeset .bot > .admonition-title > .twemoji {
+	padding-right: 0.2rem;
+}
+
+.admonition.bot > .admonition-title::before,
+.admonition.bot > summary::before {
+	-webkit-mask-image: var(--md-admonition-icon--bot);
+	mask-image: var(--md-admonition-icon--bot);
+}
+
+.project > .admonition-title::before,
+.project > summary::before {
+	-webkit-mask-image: var(--md-admonition-icon--project);
+	mask-image: var(--md-admonition-icon--project);
+}
+
+.dice > .admonition-title::before,
+.dice > summary::before {
+	-webkit-mask-image: var(--md-admonition-icon--dice);
+	mask-image: var(--md-admonition-icon--dice);
+}
+
+.md-typeset .pen > .admonition-title::before,
+.md-typeset .pen > summary::before {
+	-webkit-mask-image: var(--md-admonition-icon--pen);
+	mask-image: var(--md-admonition-icon--pen);
+}

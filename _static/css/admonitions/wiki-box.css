@@ -1,0 +1,159 @@
+/**
+Admonition floated on mobile
+*/
+@media (max-width: 768px) {
+	.md-typeset .admonition:is(.wiki, .infobox) {
+		clear: both;
+		width: 100% !important;
+		float: none !important;
+		margin: 0 8px 8px 0;
+	}
+
+	.admonition:is(.wiki, .infobox) table:not([class]) {
+		display: revert;
+	}
+
+	.admonition:is(.wiki, .infobox) .md-typeset__scrollwrap {
+		width: 100% !important;
+	}
+
+	.admonition:is(.wiki, .infobox) .md-typeset__table {
+		display: revert;
+	}
+}
+
+.admonition:is(.wiki, .infobox) {
+	box-shadow: none !important;
+	font-size: .64rem !important;
+}
+
+.admonition:is(.wiki, .infobox) {
+	float: left;
+	margin-right: 0.8rem;
+	margin-top: 0;
+	width: min-content;
+	padding: 0;
+}
+
+.wiki-right .admonition:is(.wiki, .infobox) {
+	float: right;
+}
+
+.admonition:is(.wiki, .infobox) h3,
+.admonition:is(.wiki, .infobox) h1 {
+	text-align: center;
+	background-color: var(--admonition-heading);
+	margin: 0 !important;
+}
+
+.md-typeset details:is(.wiki, .infobox) {
+	border-color: transparent;
+}
+
+.md-typeset .admonition:is(.wiki, .infobox) {
+	border: .05rem solid var(--md-typeset-table-color) !important;
+}
+
+.md-typeset :is(.wiki, .infobox) > .admonition-title::before {
+	background-color: transparent;
+	-webkit-mask-image: var(--md-admonition-icon--grid);
+	mask-image: var(--md-admonition-icon--grid);
+}
+
+.admonition:is(.wiki, .infobox) > .admonition-title {
+	display: none;
+}
+
+.admonition:is(.wiki, .infobox) h1 {
+	/* center */
+	text-align: center;
+	padding: 0 10px;
+	margin: 0 !important;
+}
+
+.admonition:is(.wiki, .infobox) p:has(img) {
+	margin: 0 0 -0.5em !important;
+}
+
+.admonition:is(.wiki, .infobox) table thead tr {
+	display: none;
+}
+
+.admonition:is(.wiki, .infobox) table {
+	border: none;
+	font-size: 1em;
+}
+
+.admonition:is(.wiki, .infobox) img {
+	width: 100%;
+}
+
+.admonition.wiki table tr td:first-child {
+	font-weight: bold;
+}
+
+.admonition.wiki table tr td {
+	border-top: 0;
+	padding: 0.3em 1.25em;
+}
+
+.md-typeset .admonition.border.wiki {
+	border-color: var(--md-typeset-table-color);
+}
+
+.md-typeset .admonition.border.wiki tr td {
+	border-top: 1px solid var(--md-typeset-table-color);
+}
+
+.admonition.borderwiki {
+	float: left;
+	margin-right: 0.8rem;
+	margin-top: 0;
+	width: 11.7rem;
+}
+
+.admonition.Lwiki {
+	float: right;
+	margin-right: 0.8rem;
+	margin-top: 0;
+	width: 11.7rem;
+}
+
+.admonition:is(.wiki, .infobox) table thead {
+	display: none;
+}
+
+.admonition:is(.wiki, .infobox):has(table) {
+	margin-top: 0;
+	box-shadow: none !important;
+	padding: 0;
+}
+
+.md-typeset :is(.wiki, .infobox) table:not([class]) tbody tr:first-child td {
+	border-top: none;
+}
+
+.admonition:is(.wiki, .infobox) {
+	width: fit-content !important;
+}
+
+.admonition:is(.wiki, .infobox) .md-typeset__scrollwrap {
+	margin: 0 !important;
+}
+
+.admonition:is(.wiki, .infobox) .md-typeset__table {
+	margin: 0;
+	padding: 0;
+}
+
+.admonition:is(.wiki, .infobox) {
+	margin: 0 1em;
+}
+
+.admonition.infobox .md-typeset__scrollwrap {
+	width: min-content;
+}
+
+.admonition:is(.wiki, .infobox) td {
+	border-left: transparent !important;
+}
