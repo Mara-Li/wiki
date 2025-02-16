@@ -16,3 +16,5 @@ __pycache__
 site
 .venv
 _static
+*.test.md
+*.tests.md
