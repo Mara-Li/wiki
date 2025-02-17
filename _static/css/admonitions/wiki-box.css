@@ -25,14 +25,12 @@ Admonition floated on mobile
 .admonition:is(.wiki, .infobox) {
 	box-shadow: none !important;
 	font-size: .64rem !important;
-}
-
-.admonition:is(.wiki, .infobox) {
 	float: left;
-	margin-right: 0.8rem;
-	margin-top: 0;
-	width: min-content;
+	width: 18em;
 	padding: 0;
+	border: .05rem solid var(--md-typeset-table-color) !important;
+	margin: 0 1em;
+
 }
 
 .wiki-right .admonition:is(.wiki, .infobox) {
@@ -48,10 +46,6 @@ Admonition floated on mobile
 
 .md-typeset details:is(.wiki, .infobox) {
 	border-color: transparent;
-}
-
-.md-typeset .admonition:is(.wiki, .infobox) {
-	border: .05rem solid var(--md-typeset-table-color) !important;
 }
 
 .md-typeset :is(.wiki, .infobox) > .admonition-title::before {
@@ -133,7 +127,7 @@ Admonition floated on mobile
 	border-top: none;
 }
 
-.admonition:is(.wiki, .infobox) {
+.admonition:is(.wiki, .infobox) table {
 	width: fit-content !important;
 }
 
@@ -144,10 +138,6 @@ Admonition floated on mobile
 .admonition:is(.wiki, .infobox) .md-typeset__table {
 	margin: 0;
 	padding: 0;
-}
-
-.admonition:is(.wiki, .infobox) {
-	margin: 0 1em;
 }
 
 .admonition.infobox .md-typeset__scrollwrap {
