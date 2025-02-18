@@ -124,3 +124,16 @@ img.vignette {
 .tbl .md-content table:not(.admonition table) thead tr th:last-child {
 	border-left: .05rem solid var(--md-typeset-table-color) !important;
 }
+
+.tbl article.md-content__inner.md-typeset .md-typeset__table:not(.admonition .md-typeset__table) {
+	display: block;
+}
+
+.tbl article.md-content__inner.md-typeset .md-typeset__table:not(.admonition .md-typeset__table) table {
+	width: 100%;
+}
+
+.tbl article.md-content__inner.md-typeset .md-typeset__table:not(.admonition .md-typeset__table) table th,
+.tbl article.md-content__inner.md-typeset .md-typeset__table:not(.admonition .md-typeset__table) table td {
+	width: 1%;
+}

@@ -20,6 +20,16 @@ Admonition floated on mobile
 	.admonition:is(.wiki, .infobox) .md-typeset__table {
 		display: revert;
 	}
+
+	.admonition:is(.wiki, .infobox) .md-typeset__table table {
+		width: 100% !important;
+	}
+
+	.admonition:is(.admonition, .infobox):has(table) {
+		max-width: 100% !important;
+	}
+
+
 }
 
 .admonition:is(.wiki, .infobox) {
@@ -30,8 +40,13 @@ Admonition floated on mobile
 	padding: 0;
 	border: .05rem solid var(--md-typeset-table-color) !important;
 	margin: 0 1em;
-
 }
+
+.admonition:is(.admonition, .infobox):has(table) {
+	max-width: max-content;
+}
+
+
 
 .wiki-right .admonition:is(.wiki, .infobox) {
 	float: right;
