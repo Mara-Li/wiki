@@ -114,19 +114,6 @@ Admonition floated on mobile
 	border-top: 1px solid var(--md-typeset-table-color);
 }
 
-.admonition.borderwiki {
-	float: left;
-	margin-right: 0.8rem;
-	margin-top: 0;
-	width: 11.7rem;
-}
-
-.admonition.Lwiki {
-	float: right;
-	margin-right: 0.8rem;
-	margin-top: 0;
-	width: 11.7rem;
-}
 
 .admonition:is(.wiki, .infobox) table thead {
 	display: none;
