@@ -61,7 +61,8 @@ img.vignette {
 @media (max-width: 768px) {
 	img.vignette {
 		float: left;
-		width: 6em; /* Réduit la taille de l'image */
+		width: 6em;
+		/* Réduit la taille de l'image */
 	}
 }
 
@@ -70,7 +71,8 @@ img.vignette {
 		float: none;
 		display: block;
 		margin: 0 auto;
-		width: auto; /* S'ajuste pour tenir sur de très petits écrans */
+		width: auto;
+		/* S'ajuste pour tenir sur de très petits écrans */
 	}
 }
 
@@ -79,30 +81,20 @@ img.vignette {
 }
 
 .custom-font,
-.Neucha h1,
-.Neucha h2,
-.Neucha h3,
-.Neucha h4,
-.Neucha h5,
-.Neucha h6 {
+.Neucha :is(h1, h2, h3, h4, h5, h6) {
 	font-family: "Neucha", var(--md-text-font), sans-serif !important;
 }
 
-.Special-Elite h1,
-.Special-Elite h2,
-.Special-Elite h3,
-.Special-Elite h4,
-.Special-Elite h5,
-.Special-Elite h6 {
+.Special-Elite :is(h1, h2, h3, h4, h5, h6) {
 	font-family: "Special Elite", var(--md-text-font), sans-serif !important;
 }
 
-.hr-title :not(.admonition.wiki) > h1 {
+.hr-title :not(.admonition.wiki)>h1 {
 	border-bottom: 2px solid var(--h1-color);
 	width: 90%;
 }
 
-.hr-title :not(.admonition.wiki) > h2 {
+.hr-title :not(.admonition.wiki)>h2 {
 	border-bottom: 2px dashed var(--h2-color);
 	width: 90%;
 }
