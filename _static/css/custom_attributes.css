@@ -89,6 +89,10 @@ img.vignette {
 	font-family: "Special Elite", var(--md-text-font), sans-serif !important;
 }
 
+.BrunoAce :is(h1, h2, h3, h4, h5, h6) {
+	font-family: "Bruno Ace", var(--md-text-font), sans-serif !important;
+}
+
 .hr-title :not(.admonition.wiki)>h1 {
 	border-bottom: 2px solid var(--h1-color);
 	width: 90%;

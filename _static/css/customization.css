@@ -1,5 +1,6 @@
 :root {
 	--md-code-font: "Fantasque Sans Mono", "Reddit Mono", sans-serif;
+	--md-title-font: "Karla", var(--md-text-font);
 }
 
 .md-header,
@@ -66,4 +67,8 @@ Afficher les barres à gauches des tableaux à partir du 2e élément
 .md-content table th:nth-child(n + 2),
 .md-content table td:nth-child(n + 2) {
 	border-left: .05rem solid var(--md-typeset-table-color);
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: var(--md-title-font), sans-serif;
 }
