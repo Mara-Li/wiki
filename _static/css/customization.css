@@ -72,3 +72,7 @@ Afficher les barres à gauches des tableaux à partir du 2e élément
 h1, h2, h3, h4, h5, h6 {
 	font-family: var(--md-title-font), sans-serif;
 }
+
+.md-nav__link svg {
+	fill: transparent;
+}
