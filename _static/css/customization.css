@@ -47,13 +47,17 @@ div {
 	font-size: 0.8em;
 	margin-left: 0.1em;
 }
-
+.post-link.title,
 .md-nav--primary .md-nav__title,
 .md-nav__link,
 .md-tabs__link {
 	font-family: var(--md-menu-font), sans-serif;
 	font-size: .9rem;
 	line-height: 1.5;
+}
+
+.post-link.title {
+	font-size: 1em;
 }
 
 /**
