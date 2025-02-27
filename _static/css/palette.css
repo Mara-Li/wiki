@@ -33,3 +33,9 @@
 .md-typeset a {
 	text-decoration: underline;
 }
+
+.md-typeset a.md-nav__link,
+.md-nav__item .md-nav__link--active,
+.md-nav__item .md-nav__link--active code {
+	--md-typeset-a-color: var(--md-primary-fg-color);
+}

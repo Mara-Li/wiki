@@ -1,19 +1,17 @@
 :root {
 	--md-code-font: "Fantasque Sans Mono", "Reddit Mono", sans-serif;
-	--md-title-font: "Karla", var(--md-text-font);
+	--md-title-font: "Karla", var(--md-text-font), sans-serif;
+	--md-menu-font: "Gaegu", "Mynerve", var(--md-text-font), sans-serif;
 }
 
 .md-header,
 .md-nav--primary .md-nav__title {
-	background: var(--md-primary-fg-color)
-		url(https://images.unsplash.com/photo-1520157646479-22f25713523d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80)
-		center top / cover no-repeat;
+	background: var(--md-primary-fg-color) url(https://images.unsplash.com/photo-1520157646479-22f25713523d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80) center top / cover no-repeat;
 }
 
 @media screen and (max-width: 76.2344em) {
 	.md-nav--primary .md-nav__title {
-		background: var(--md-primary-fg-color)
-			url(https://images.unsplash.com/photo-1520157646479-22f25713523d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80);
+		background: var(--md-primary-fg-color) url(https://images.unsplash.com/photo-1520157646479-22f25713523d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80);
 	}
 
 	.md-nav--primary .md-nav__title {
@@ -26,11 +24,7 @@
 }
 
 .md-nav__link[href*="tags"],
-.md-sidebar__inner
-	> .md-nav.md-nav--primary.md-nav--lifted
-	> .md-nav__title
-	> .md-nav__button.md-logo
-	> img,
+.md-sidebar__inner>.md-nav.md-nav--primary.md-nav--lifted>.md-nav__title>.md-nav__button.md-logo>img,
 .dataview,
 .folderv,
 .md-tabs__item:nth-child(2) {
@@ -57,8 +51,9 @@ div {
 .md-nav--primary .md-nav__title,
 .md-nav__link,
 .md-tabs__link {
-	font-family: "Annie Use Your Telescope", serif;
+	font-family: var(--md-menu-font), sans-serif;
 	font-size: .9rem;
+	line-height: 1.5;
 }
 
 /**
@@ -73,6 +68,6 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: var(--md-title-font), sans-serif;
 }
 
-.md-nav__link svg {
+.md-nav__link svg.icon-tabler-mood-nerd {
 	fill: transparent;
 }
