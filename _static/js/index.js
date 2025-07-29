@@ -4,16 +4,16 @@ let mkDocsChirpyTranslator = { default: "light", slate: "dark" },
 if (chirpy) {
 	"default" === mkDocs.getAttribute("data-md-color-scheme") &&
 		chirpy.setAttribute("data-chirpy-theme", "light");
-	let e = new MutationObserver((e) => {
-		e.forEach((e) => {
-			"attributes" === e.type &&
+	let t = new MutationObserver((t) => {
+		t.forEach((t) => {
+			"attributes" === t.type &&
 				chirpy.setAttribute(
 					"data-chirpy-theme",
 					mkDocsChirpyTranslator[mkDocs.dataset.mdColorScheme],
 				);
 		});
 	});
-	e.observe(mkDocs, {
+	t.observe(mkDocs, {
 		attributes: !0,
 		attributeFilter: ["data-md-color-scheme"],
 	});
@@ -21,39 +21,50 @@ if (chirpy) {
 window.onload = function () {
 	var e = document.querySelector("iframe");
 	if (e) {
+		let o;
+		try {
+			if (!(e.contentWindow?.location?.origin === location.origin))
+				return void console.warn(
+					"The iframe is not the one we want: we want the graph, that has the same origin! Ignore.",
+				);
+			o = e.contentDocument || e.contentWindow.document;
+		} catch (e) {
+			return void console.warn(
+				"Unable to access the iframe (CORS blocked) :",
+				e,
+			);
+		}
 		let t = [];
-		document.querySelectorAll("link").forEach((e) => {
-			e.href.endsWith(".css") && t.push(e.href);
-		});
-		let r = e.contentDocument || e.contentWindow.document;
-		t.forEach((e) => {
-			var t = document.createElement("link");
-			(t.rel = "stylesheet"),
-				(t.href = e),
-				(t.type = "text/css"),
-				r.head.appendChild(t);
-		});
+		document.querySelectorAll("link[href$='.css']").forEach((e) => {
+			t.push(e.href);
+		}),
+			t.forEach((e) => {
+				var t = document.createElement("link");
+				(t.rel = "stylesheet"),
+					(t.href = e),
+					(t.type = "text/css"),
+					o.head.appendChild(t);
+			});
 		var e = document.querySelector("[data-md-color-scheme]");
-		"default" === e.getAttribute("data-md-color-scheme")
-			? r.body.setAttribute("class", "light")
-			: (r.body.setAttribute("class", "dark"),
-				(e = getComputedStyle(e).getPropertyValue("--md-default-bg-color")),
-				r.body.style.setProperty("--md-default-bg-color", e)),
-			r.body.classList.add("graph-view");
+		"default" === e?.getAttribute("data-md-color-scheme")
+			? o.body.setAttribute("class", "light")
+			: (o.body.setAttribute("class", "dark"),
+				(e = getComputedStyle(e).getPropertyValue("--md-default-bg-color")) &&
+				o.body.style.setProperty("--md-default-bg-color", e)),
+			o.body.classList.add("graph-view");
 	}
 };
 let paletteSwitcher1 = document.getElementById("__palette_1"),
 	paletteSwitcher2 = document.getElementById("__palette_2"),
-	isMermaidPage = document.querySelector(".mermaid"),
-	header_links =
-		(isMermaidPage &&
-			(paletteSwitcher1.addEventListener("change", () => {
-				location.reload();
-			}),
-				paletteSwitcher2.addEventListener("change", () => {
-					location.reload();
-				})),
-			document.querySelectorAll('a[href*="#"]'));
+	isMermaidPage = document.querySelector(".mermaid");
+isMermaidPage &&
+	(paletteSwitcher1.addEventListener("change", () => {
+		location.reload();
+	}),
+		paletteSwitcher2.addEventListener("change", () => {
+			location.reload();
+		}));
+let header_links = document.querySelectorAll('a[href*="#"]');
 if (header_links)
 	for (var i = 0; i < header_links.length; i++) {
 		let e = header_links[i].getAttribute("href").replace("^.*#", ""),
@@ -64,14 +75,14 @@ if (header_links)
 				header_links[i].getAttribute("href").replace(e, t),
 			);
 	}
-for (let r of document.querySelectorAll("img")) {
+for (let i of document.querySelectorAll("img")) {
 	let t =
 		/^(?<alt>(?!^\d*x?\d*$).*?)?(\|?\s*?(?<width>\d+)(x(?<height>\d+))?)?$/gi;
-	if (r.alt.match(t)) {
-		let e = t.exec(r.alt ?? "");
-		(r.width = e.groups.width ?? r.width),
-			(r.height = e.groups.height ?? r.height),
-			(r.alt = e.groups.alt ?? r.alt);
+	if (i.alt.match(t)) {
+		let e = t.exec(i.alt ?? "");
+		(i.width = e.groups.width ?? i.width),
+			(i.height = e.groups.height ?? i.height),
+			(i.alt = e.groups.alt ?? i.alt);
 	}
 }
 let article = document.querySelectorAll(
@@ -85,18 +96,17 @@ for (let t of article) {
 document.innerText = article;
 let cite = document.querySelectorAll(".citation");
 if (cite)
-	for (let r of cite) {
-		let t = r.innerHTML.match(/!?(\[{2}|\[).*(\]{2}|\))/gi);
+	for (let i of cite) {
+		let t = i.innerHTML.match(/!?(\[{2}|\[).*(\]{2}|\))/gi);
 		if (t) {
-			for (let e of t) r.innerHTML = r.innerHTML.replace(e, "");
-			r.innerText.trim().length < 2 && (r.style.display = "none");
+			for (let e of t) i.innerHTML = i.innerHTML.replace(e, "");
+			i.innerText.trim().length < 2 && (i.style.display = "none");
 		}
 	}
 let blogURL = document.querySelector('meta[name="site_url"]')
 	? document.querySelector('meta[name="site_url"]').content
 	: location.origin,
 	position = ["top", "right", "bottom", "left"];
-
 function brokenImage(e) {
 	var t = e?.querySelectorAll("img");
 	if (t)
@@ -107,22 +117,23 @@ function brokenImage(e) {
 		}
 	return e;
 }
-
 function cleanText(e) {
 	return (e.innerText = e.innerText.replaceAll("↩", "").replaceAll("¶", "")), e;
 }
-
 function calculateHeight(e) {
 	(e = e ? e.innerText || e : ""), (e = Math.floor(e.split(" ").length / 100));
 	return e < 2 ? "auto" : 5 <= e ? "20rem" : e + "rem";
 }
-
 try {
 	let e = Array.from(
 		document.querySelectorAll(
 			`.md-content a[href^="${blogURL}"], a.footnote-ref, a[href^="./"]`,
 		),
-	).filter((e) => !e.classList.contains("link_citation"));
+	).filter(
+		(e) =>
+			!e.classList.contains("link_citation") &&
+			!e.classList.contains("post-link"),
+	);
 	tippy(e, {
 		content: "",
 		allowHTML: !0,
@@ -133,48 +144,48 @@ try {
 		touch: "hold",
 		inlinePositioning: !0,
 		placement: position[Math.floor(Math.random() * position.length - 1)],
-		onShow(n) {
-			fetch(n.reference.href)
+		onShow(i) {
+			fetch(i.reference.href)
 				.then((e) => e.text())
 				.then((e) => new DOMParser().parseFromString(e, "text/html"))
 				.then(
-					(i) => (
-						i.querySelectorAll("h1, h2, h3, h4, h5, h6").forEach(function (t) {
+					(l) => (
+						l.querySelectorAll("h1, h2, h3, h4, h5, h6").forEach(function (t) {
 							var r =
 								t.id ||
 								t.innerText.split("\n")[0].toLowerCase().replaceAll(" ", "-");
 							if (0 < r.length) {
-								var l = i.createElement("div");
-								l.classList.add(r);
+								var n = l.createElement("div");
+								n.classList.add(r);
 								let e = t.nextElementSibling;
 								for (; e && !e.matches("h1, h2, h3, h4, h5, h6");)
-									l.appendChild(e), (e = e.nextElementSibling);
-								t.parentNode.insertBefore(l, t.nextSibling);
+									n.appendChild(e), (e = e.nextElementSibling);
+								t.parentNode.insertBefore(n, t.nextSibling);
 							}
 						}),
-						i
+						l
 					),
 				)
 				.then((r) => {
-					if (location.href.replace(location.hash, "") === n.reference.href)
-						n.hide(), n.destroy();
+					if (location.href.replace(location.hash, "") === i.reference.href)
+						i.hide(), i.destroy();
 					else {
 						let e = r.querySelector("article");
-						var l,
-							i = r.querySelector("h1"),
-							i =
-								(i &&
-									"Index" === i.innerText &&
+						var n,
+							l = r.querySelector("h1"),
+							l =
+								(l &&
+									"Index" === l.innerText &&
 									((o = decodeURI(r.querySelector('link[rel="canonical"]').href)
 										.split("/")
 										.filter((e) => e)
 										.pop()),
-										(i.innerText = o)),
+										(l.innerText = o)),
 									(e = brokenImage(e)),
 									document.querySelector('[id^="tippy"]')),
 							o =
-								(i && i.classList.add("tippy"),
-									n.reference.href.replace(/.*#/, "#"));
+								(l && l.classList.add("tippy"),
+									i.reference.href.replace(/.*#/, "#"));
 						let t = e;
 						o.startsWith("#")
 							? ((e = r.querySelector(`[id="${o.replace("#", "")}"]`)) &&
@@ -184,36 +195,36 @@ try {
 									.replaceAll("↩", "")
 									.replaceAll("¶", ""))
 								: e && e.tagName.includes("H")
-									? ((i = document.createElement("article")).classList.add(
+									? ((l = document.createElement("article")).classList.add(
 										"md-content__inner",
 										"md-typeset",
 									),
-										(l = r.querySelector("div." + o.replace("#", ""))) &&
-										i.appendChild(l),
-										(t = i),
+										(n = r.querySelector("div." + o.replace("#", ""))) &&
+										l.appendChild(n),
+										(t = l),
 										(e = t))
 									: e && 0 === e.innerText.replace(o).length
 										? ((e = r.querySelector("div.citation")), (t = e))
 										: e &&
-										((l = e.querySelector("ul, ol, p")),
-											(t = l || cleanText(e))),
-								(n.popper.style.height = "auto"))
-							: (n.popper.style.height = calculateHeight(e)),
-							(n.popper.placement =
+										((n = e.querySelector("ul, ol, p")),
+											(t = n || cleanText(e))),
+								(i.popper.style.height = "auto"))
+							: (i.popper.style.height = calculateHeight(e)),
+							(i.popper.placement =
 								position[Math.floor(Math.random() * position.length)]),
 							e && 0 < e.innerText.length
-								? (n.setContent(() => {
+								? (i.setContent(() => {
 									var e = document.createElement("div");
 									return (e.innerHTML = t ? t.outerHTML : ""), e;
 								}),
-									(n.popper.style.height = calculateHeight(t)))
+									(i.popper.style.height = calculateHeight(t)))
 								: ((e = r.querySelector("article")),
-									n.reference.href.replace(/.*#/, "#"),
-									(n.popper.style.height = calculateHeight(e)));
+									i.reference.href.replace(/.*#/, "#"),
+									(i.popper.style.height = calculateHeight(e)));
 					}
 				})
 				.catch((e) => {
-					console.log(e), n.hide(), n.destroy();
+					console.log(e), i.hide(), i.destroy();
 				});
 		},
 	});
