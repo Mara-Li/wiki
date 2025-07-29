@@ -18,42 +18,7 @@ if (chirpy) {
 		attributeFilter: ["data-md-color-scheme"],
 	});
 }
-window.onload = function () {
-	var e = document.querySelector("iframe");
-	if (e) {
-		let o;
-		try {
-			if (!(e.contentWindow?.location?.origin === location.origin))
-				return void console.warn(
-					"The iframe is not the one we want: we want the graph, that has the same origin! Ignore.",
-				);
-			o = e.contentDocument || e.contentWindow.document;
-		} catch (e) {
-			return void console.warn(
-				"Unable to access the iframe (CORS blocked) :",
-				e,
-			);
-		}
-		let t = [];
-		document.querySelectorAll("link[href$='.css']").forEach((e) => {
-			t.push(e.href);
-		}),
-			t.forEach((e) => {
-				var t = document.createElement("link");
-				(t.rel = "stylesheet"),
-					(t.href = e),
-					(t.type = "text/css"),
-					o.head.appendChild(t);
-			});
-		var e = document.querySelector("[data-md-color-scheme]");
-		"default" === e?.getAttribute("data-md-color-scheme")
-			? o.body.setAttribute("class", "light")
-			: (o.body.setAttribute("class", "dark"),
-				(e = getComputedStyle(e).getPropertyValue("--md-default-bg-color")) &&
-				o.body.style.setProperty("--md-default-bg-color", e)),
-			o.body.classList.add("graph-view");
-	}
-};
+
 let paletteSwitcher1 = document.getElementById("__palette_1"),
 	paletteSwitcher2 = document.getElementById("__palette_2"),
 	isMermaidPage = document.querySelector(".mermaid");
