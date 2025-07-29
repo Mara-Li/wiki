@@ -50,10 +50,10 @@ let paletteSwitcher1 = document.getElementById("__palette_1"),
 			(paletteSwitcher1.addEventListener("change", () => {
 				location.reload();
 			}),
-			paletteSwitcher2.addEventListener("change", () => {
-				location.reload();
-			})),
-		document.querySelectorAll('a[href*="#"]'));
+				paletteSwitcher2.addEventListener("change", () => {
+					location.reload();
+				})),
+			document.querySelectorAll('a[href*="#"]'));
 if (header_links)
 	for (var i = 0; i < header_links.length; i++) {
 		let e = header_links[i].getAttribute("href").replace("^.*#", ""),
@@ -75,8 +75,8 @@ for (let r of document.querySelectorAll("img")) {
 	}
 }
 let article = document.querySelectorAll(
-		"article.md-content__inner.md-typeset > *:not(.highlight)",
-	),
+	"article.md-content__inner.md-typeset > *:not(.highlight)",
+),
 	embed_id_regex = /\^\w+\s*$/gi;
 for (let t of article) {
 	let e = t.innerText.match(embed_id_regex);
@@ -93,8 +93,8 @@ if (cite)
 		}
 	}
 let blogURL = document.querySelector('meta[name="site_url"]')
-		? document.querySelector('meta[name="site_url"]').content
-		: location.origin,
+	? document.querySelector('meta[name="site_url"]').content
+	: location.origin,
 	position = ["top", "right", "bottom", "left"];
 
 function brokenImage(e) {
@@ -122,11 +122,7 @@ try {
 		document.querySelectorAll(
 			`.md-content a[href^="${blogURL}"], a.footnote-ref, a[href^="./"]`,
 		),
-	).filter(
-		(e) =>
-			!e.classList.contains("link_citation") &&
-			!e.classList.contains("post-link"),
-	);
+	).filter((e) => !e.classList.contains("link_citation"));
 	tippy(e, {
 		content: "",
 		allowHTML: !0,
@@ -137,8 +133,8 @@ try {
 		touch: "hold",
 		inlinePositioning: !0,
 		placement: position[Math.floor(Math.random() * position.length - 1)],
-		onShow(o) {
-			fetch(o.reference.href)
+		onShow(n) {
+			fetch(n.reference.href)
 				.then((e) => e.text())
 				.then((e) => new DOMParser().parseFromString(e, "text/html"))
 				.then(
@@ -151,7 +147,7 @@ try {
 								var l = i.createElement("div");
 								l.classList.add(r);
 								let e = t.nextElementSibling;
-								for (; e && !e.matches("h1, h2, h3, h4, h5, h6"); )
+								for (; e && !e.matches("h1, h2, h3, h4, h5, h6");)
 									l.appendChild(e), (e = e.nextElementSibling);
 								t.parentNode.insertBefore(l, t.nextSibling);
 							}
@@ -160,8 +156,8 @@ try {
 					),
 				)
 				.then((r) => {
-					if (location.href.replace(location.hash, "") === o.reference.href)
-						o.hide(), o.destroy();
+					if (location.href.replace(location.hash, "") === n.reference.href)
+						n.hide(), n.destroy();
 					else {
 						let e = r.querySelector("article");
 						var l,
@@ -169,55 +165,55 @@ try {
 							i =
 								(i &&
 									"Index" === i.innerText &&
-									((n = decodeURI(r.querySelector('link[rel="canonical"]').href)
+									((o = decodeURI(r.querySelector('link[rel="canonical"]').href)
 										.split("/")
 										.filter((e) => e)
 										.pop()),
-									(i.innerText = n)),
-								(e = brokenImage(e)),
-								document.querySelector('[id^="tippy"]')),
-							n =
+										(i.innerText = o)),
+									(e = brokenImage(e)),
+									document.querySelector('[id^="tippy"]')),
+							o =
 								(i && i.classList.add("tippy"),
-								o.reference.href.replace(/.*#/, "#"));
+									n.reference.href.replace(/.*#/, "#"));
 						let t = e;
-						n.startsWith("#")
-							? ((e = r.querySelector(`[id="${n.replace("#", "")}"]`)) &&
+						o.startsWith("#")
+							? ((e = r.querySelector(`[id="${o.replace("#", "")}"]`)) &&
 								"LI" === e.tagName
-									? ((t = document.createElement("div")).innerHTML = e.innerHTML
-											.trim()
-											.replaceAll("↩", "")
-											.replaceAll("¶", ""))
-									: e && e.tagName.includes("H")
-										? ((i = document.createElement("article")).classList.add(
-												"md-content__inner",
-												"md-typeset",
-											),
-											(l = r.querySelector("div." + n.replace("#", ""))) &&
-												i.appendChild(l),
-											(t = i),
-											(e = t))
-										: e && 0 === e.innerText.replace(n).length
-											? ((e = r.querySelector("div.citation")), (t = e))
-											: e &&
-												((l = e.querySelector("ul, ol, p")),
-												(t = l || cleanText(e))),
-								(o.popper.style.height = "auto"))
-							: (o.popper.style.height = calculateHeight(e)),
-							(o.popper.placement =
+								? ((t = document.createElement("div")).innerHTML = e.innerHTML
+									.trim()
+									.replaceAll("↩", "")
+									.replaceAll("¶", ""))
+								: e && e.tagName.includes("H")
+									? ((i = document.createElement("article")).classList.add(
+										"md-content__inner",
+										"md-typeset",
+									),
+										(l = r.querySelector("div." + o.replace("#", ""))) &&
+										i.appendChild(l),
+										(t = i),
+										(e = t))
+									: e && 0 === e.innerText.replace(o).length
+										? ((e = r.querySelector("div.citation")), (t = e))
+										: e &&
+										((l = e.querySelector("ul, ol, p")),
+											(t = l || cleanText(e))),
+								(n.popper.style.height = "auto"))
+							: (n.popper.style.height = calculateHeight(e)),
+							(n.popper.placement =
 								position[Math.floor(Math.random() * position.length)]),
 							e && 0 < e.innerText.length
-								? (o.setContent(() => {
-										var e = document.createElement("div");
-										return (e.innerHTML = t ? t.outerHTML : ""), e;
-									}),
-									(o.popper.style.height = calculateHeight(t)))
+								? (n.setContent(() => {
+									var e = document.createElement("div");
+									return (e.innerHTML = t ? t.outerHTML : ""), e;
+								}),
+									(n.popper.style.height = calculateHeight(t)))
 								: ((e = r.querySelector("article")),
-									o.reference.href.replace(/.*#/, "#"),
-									(o.popper.style.height = calculateHeight(e)));
+									n.reference.href.replace(/.*#/, "#"),
+									(n.popper.style.height = calculateHeight(e)));
 					}
 				})
 				.catch((e) => {
-					console.log(e), o.hide(), o.destroy();
+					console.log(e), n.hide(), n.destroy();
 				});
 		},
 	});
