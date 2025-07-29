@@ -14,6 +14,10 @@ on:
   repository_dispatch:
     types: [build]
   workflow_call:
+    secrets:
+      GH_PAT:
+        required: true
+        description: 'GitHub Personal Access Token'
 
 permissions:
   contents: write

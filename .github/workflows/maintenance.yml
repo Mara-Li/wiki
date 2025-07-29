@@ -3,6 +3,10 @@ on:
   workflow_dispatch:
   schedule:
     - cron: '0 0 * * *'
+permissions:
+  contents: write
+  pages: write
+  id-token: write
 jobs:
   maintenance:
     uses: Enveloppe/wiki/.github/workflows/maintenance.yml@main
@@ -19,4 +23,3 @@ jobs:
     uses: Mara-Li/wiki/.github/workflows/deploy.yml@main
     secrets:
       GH_PAT: ${{ secrets.GH_PAT }}
-      
