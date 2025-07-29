@@ -20,6 +20,8 @@ jobs:
       AUTHOR_EMAIL: ${{ 'github-actions[bot]@users.noreply.github.com' }}
       AUTHOR_NAME: ${{ 'github-actions[bot]' }}
   deploy:
+    needs: maintenance
+    if: ${{ success() }}
     uses: Mara-Li/wiki/.github/workflows/deploy.yml@main
     secrets:
       GH_PAT: ${{ secrets.GH_PAT }}
