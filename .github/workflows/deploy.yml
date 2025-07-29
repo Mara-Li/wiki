@@ -14,21 +14,6 @@ on:
   repository_dispatch:
     types: [build]
   workflow_call:
-    inputs:
-      BRANCH:
-        type: string
-        description: 'Branch to push changes to'
-        required: false
-        default: 'main'
-    secrets:
-      GH_PAT:
-        required: true
-      author_email:
-        required: false
-        description: "The author email"
-      author_name:
-        required: false
-        description: "The author name"
 
 permissions:
   contents: write
@@ -52,9 +37,9 @@ jobs:
         uses: actions-js/push@master
         with:
           github_token: ${{ secrets.GH_PAT || secrets.GITHUB_TOKEN}}
-          author_email: ${{ secrets.AUTHOR_EMAIL || 'github-actions[bot]@users.noreply.github.com' }}
-          author_name: ${{ secrets.AUTHOR_NAME || 'github-actions[bot]' }}
-          branch: ${{ inputs.BRANCH || github.ref }}
+          author_email: ${{ 'github-actions[bot]@users.noreply.github.com' }}
+          author_name: ${{ 'github-actions[bot]' }}
+          branch: ${{github.ref }}
   deploy:
     runs-on: ubuntu-latest
     needs: fetch
