@@ -12,9 +12,9 @@ jobs:
     uses: Enveloppe/wiki/.github/workflows/maintenance.yml@main
     with:
       BRANCH: main
-      CLEAN: true
+      CLEAN: false
       UPDATE_REQUIREMENTS: true
-      OPTIMIZE_IMAGES: true
+      OPTIMIZE_IMAGES: false
     secrets:
       GH_PAT: ${{ secrets.GH_PAT }}
       AUTHOR_EMAIL: ${{ 'github-actions[bot]@users.noreply.github.com' }}
