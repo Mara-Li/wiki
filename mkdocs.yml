@@ -108,7 +108,7 @@ plugins:
       file: '_static/css/custom_attributes.css'
   - tags
   - callouts
-#  - glightbox
+  - glightbox
 hooks:
   - overrides/hooks/on_page_markdown.py
   - overrides/hooks/on_env.py
