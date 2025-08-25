@@ -43,7 +43,16 @@
 <meta ?""="" connasse="" content="" de="" espèce="" mais="" morte,="" name="og:description" pas="" t'es="" toi,=""/>
 <meta ?""="" connasse="" content="" de="" espèce="" mais="" morte,="" name="twitter:description" pas="" t'es="" toi,=""/>
 <script> document.title = "Laurenzia Valentina" </script>
-</head>
+<link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+    html.glightbox-open { overflow: initial; height: 100%; }
+    .gslide-title { margin-top: 0px; user-select: text; }
+    .gslide-desc { color: #666; user-select: text; }
+    .gslide-image img { background: white; }
+    .gscrollbar-fixer { padding-right: 15px; }
+    .gdesc-inner { font-size: 0.75rem; }
+    body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+    body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../../assets/javascripts/glightbox.min.js"></script></head>
 <body data-md-color-accent="custom" data-md-color-primary="custom" data-md-color-scheme="default" dir="ltr">
 <input autocomplete="off" class="md-toggle" data-md-toggle="drawer" id="__drawer" type="checkbox"/>
 <input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
@@ -1275,7 +1284,7 @@
 <div class="admonition wiki tbl-cln">
 <p class="admonition-title">Wiki</p>
 <h1 id="laurenzia-valentina">Laurenzia Valentina<a class="headerlink" href="#laurenzia-valentina" title="Permanent link">¶</a></h1>
-<p><img alt="Quinn Jazee.png" src="../../_assets/img/Quinn%20Jazee.png" title="Quinn Jazee.png"/></p>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="auto" href="../../_assets/img/Quinn%20Jazee.png"><img alt="Quinn Jazee.png" src="../../_assets/img/Quinn%20Jazee.png" title="Quinn Jazee.png"/></a></p>
 <table>
 <thead>
 <tr>
@@ -1445,7 +1454,7 @@ Généralement, la femme affiche une froideur analytique, avec un regard intense
 <div class="admonition wiki">
 <p class="admonition-title">Wiki</p>
 <h1 id="le-doombringer_1">Le doombringer<a class="headerlink" href="#le-doombringer_1" title="Permanent link">¶</a></h1>
-<p><img alt="" src="https://cdnb.artstation.com/p/assets/images/images/045/455/647/large/gabriel-bjork-stiernstrom-battleshipapollo-cyclops-by-gabrielbjorkstiernstrom-high.jpg?1642755577"/></p>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="auto" href="https://cdnb.artstation.com/p/assets/images/images/045/455/647/large/gabriel-bjork-stiernstrom-battleshipapollo-cyclops-by-gabrielbjorkstiernstrom-high.jpg?1642755577"><img alt="" src="https://cdnb.artstation.com/p/assets/images/images/045/455/647/large/gabriel-bjork-stiernstrom-battleshipapollo-cyclops-by-gabrielbjorkstiernstrom-high.jpg?1642755577"/></a></p>
 </div>
 <h2 id="lequipage">⌈L’équipage⌋<a class="headerlink" href="#lequipage" title="Permanent link">¶</a></h2>
 <p>L’équipage du « <strong>Doombringer</strong> » est composé d’une vingtaine de personnes. Chacune a son rôle à jouer, et la hiérarchie est séparée en trois poles distincts :</p>
@@ -1593,5 +1602,7 @@ https://github.com/squidfunk/mkdocs-material/blob/master/src/partials/source-fil
 <script src="https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js"></script>
 <script src="../../_static/js/snippets.js"></script>
 <script src="../../_static/js/index.js"></script>
-</body>
+<script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(() => { lightbox.reload() });
+</script></body>
 </html>

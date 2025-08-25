@@ -43,7 +43,16 @@
 <meta content="Éden est une zombie adorable, diplomate, qui écoute les autres et n'aime pas la violence." name="og:description"/>
 <meta content="Éden est une zombie adorable, diplomate, qui écoute les autres et n'aime pas la violence." name="twitter:description"/>
 <script> document.title = "Le laboratoire" </script>
-</head>
+<link href="../../../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+    html.glightbox-open { overflow: initial; height: 100%; }
+    .gslide-title { margin-top: 0px; user-select: text; }
+    .gslide-desc { color: #666; user-select: text; }
+    .gslide-image img { background: white; }
+    .gscrollbar-fixer { padding-right: 15px; }
+    .gdesc-inner { font-size: 0.75rem; }
+    body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+    body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../../../../assets/javascripts/glightbox.min.js"></script></head>
 <body data-md-color-accent="custom" data-md-color-primary="custom" data-md-color-scheme="default" dir="ltr">
 <input autocomplete="off" class="md-toggle" data-md-toggle="drawer" id="__drawer" type="checkbox"/>
 <input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
@@ -1169,7 +1178,7 @@ C a p a c i t é<br/>
 D e s c r i p t i o n<br/>
 ╚═══━━━─── • ───━━━═══╝</h1>
 <h1 id="physique">──────༺ Physique ༻──────<a class="headerlink" href="#physique" title="Permanent link">¶</a></h1>
-<p><img alt="+side" src="../../../../_assets/img/Eden%20full%20colored%20only.png" title="+side"/> ► <strong>Yeux</strong> : Rouge<br/>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="auto" href="../../../../_assets/img/Eden%20full%20colored%20only.png"><img alt="+side" src="../../../../_assets/img/Eden%20full%20colored%20only.png" title="+side"/></a> ► <strong>Yeux</strong> : Rouge<br/>
 ► <strong>Cheveux</strong> : Blancs - Gris, mi-long, attachée en une queue de cheval (généralement)<br/>
 ► <strong>Taille</strong> : 1m58<br/>
 ► <strong>Poids</strong> : Variable, 55kg de base<br/>
@@ -1313,5 +1322,7 @@ https://github.com/squidfunk/mkdocs-material/blob/master/src/partials/source-fil
 <script src="https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js"></script>
 <script src="../../../../_static/js/snippets.js"></script>
 <script src="../../../../_static/js/index.js"></script>
-</body>
+<script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(() => { lightbox.reload() });
+</script></body>
 </html>

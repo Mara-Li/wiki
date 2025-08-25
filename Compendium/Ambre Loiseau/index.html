@@ -43,7 +43,16 @@
 <meta content="Fiche de Ambre Loiseau" name="og:description"/>
 <meta content="Fiche de Ambre Loiseau" name="twitter:description"/>
 <script> document.title = "Ambre Loiseau" </script>
-</head>
+<link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+    html.glightbox-open { overflow: initial; height: 100%; }
+    .gslide-title { margin-top: 0px; user-select: text; }
+    .gslide-desc { color: #666; user-select: text; }
+    .gslide-image img { background: white; }
+    .gscrollbar-fixer { padding-right: 15px; }
+    .gdesc-inner { font-size: 0.75rem; }
+    body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+    body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../../assets/javascripts/glightbox.min.js"></script></head>
 <body data-md-color-accent="custom" data-md-color-primary="custom" data-md-color-scheme="default" dir="ltr">
 <input autocomplete="off" class="md-toggle" data-md-toggle="drawer" id="__drawer" type="checkbox"/>
 <input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
@@ -1183,7 +1192,7 @@
   page title (or respectively site name) is used as the main headline.
 -->
 <!-- Page content -->
-<p><img alt="+side" src="../../_assets/img/Ambre_PP-1.jpeg" title="+side"/></p>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="auto" href="../../_assets/img/Ambre_PP-1.jpeg"><img alt="+side" src="../../_assets/img/Ambre_PP-1.jpeg" title="+side"/></a></p>
 <h1 align="center"> ◄ G E N E R A L ►</h1>
 <p><strong>► Nom :</strong> Loiseau<br/>
 <strong>► Prénom :</strong> Ambre<br/>
@@ -1374,5 +1383,7 @@ https://github.com/squidfunk/mkdocs-material/blob/master/src/partials/source-fil
 <script src="https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js"></script>
 <script src="../../_static/js/snippets.js"></script>
 <script src="../../_static/js/index.js"></script>
-</body>
+<script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(() => { lightbox.reload() });
+</script></body>
 </html>

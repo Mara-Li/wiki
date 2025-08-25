@@ -43,7 +43,16 @@
 <meta content="Sullivan est un richissime sociopathe qui aime mentir et qui possède la capacité de voir l'intérieur des gens." name="og:description"/>
 <meta content="Sullivan est un richissime sociopathe qui aime mentir et qui possède la capacité de voir l'intérieur des gens." name="twitter:description"/>
 <script> document.title = "Sullivan Von Löwenstein" </script>
-</head>
+<link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+    html.glightbox-open { overflow: initial; height: 100%; }
+    .gslide-title { margin-top: 0px; user-select: text; }
+    .gslide-desc { color: #666; user-select: text; }
+    .gslide-image img { background: white; }
+    .gscrollbar-fixer { padding-right: 15px; }
+    .gdesc-inner { font-size: 0.75rem; }
+    body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+    body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../../assets/javascripts/glightbox.min.js"></script></head>
 <body data-md-color-accent="custom" data-md-color-primary="custom" data-md-color-scheme="default" dir="ltr">
 <input autocomplete="off" class="md-toggle" data-md-toggle="drawer" id="__drawer" type="checkbox"/>
 <input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
@@ -1240,7 +1249,7 @@
 <div class="admonition borderwiki">
 <p class="admonition-title">Borderwiki</p>
 <h1 id="_1"><a class="headerlink" href="#_1" title="Permanent link">¶</a></h1>
-<p><img alt="download20240401021029.png" src="../../_assets/img/download20240401021029.png" title="download20240401021029.png"/></p>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="auto" href="../../_assets/img/download20240401021029.png"><img alt="download20240401021029.png" src="../../_assets/img/download20240401021029.png" title="download20240401021029.png"/></a></p>
 <table>
 <thead>
 <tr>
@@ -1303,7 +1312,7 @@ Grand, svelte, athlétique et avec des grands yeux verts aux longs cils. Il touj
 Ses cheveux blonds et clairs sont mi-longs et souvent attachés en catogan.</p>
 <div class="admonition lwiki">
 <p class="admonition-title">Lwiki</p>
-<p><img alt="Portrait - Picrew2.png" src="../../_assets/img/Portrait%20-%20Picrew2.png" title="Portrait - Picrew2.png"/></p>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="auto" href="../../_assets/img/Portrait%20-%20Picrew2.png"><img alt="Portrait - Picrew2.png" src="../../_assets/img/Portrait%20-%20Picrew2.png" title="Portrait - Picrew2.png"/></a></p>
 <table>
 <thead>
 <tr>
@@ -1674,5 +1683,7 @@ https://github.com/squidfunk/mkdocs-material/blob/master/src/partials/source-fil
 <script src="https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js"></script>
 <script src="../../_static/js/snippets.js"></script>
 <script src="../../_static/js/index.js"></script>
-</body>
+<script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(() => { lightbox.reload() });
+</script></body>
 </html>
