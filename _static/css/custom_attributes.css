@@ -133,3 +133,7 @@ img.vignette {
 .tbl article.md-content__inner.md-typeset .md-typeset__table:not(.admonition .md-typeset__table) table td {
 	width: 1%;
 }
+
+.base {
+	display: none;
+}
