@@ -78,8 +78,8 @@ markdown_extensions:
         - name: dataview
           class: dataview
           format: !!python/name:pymdownx.superfences.fence_div_format
-        - name: folderv
-          class: folderv
+        - name: base
+          class: base
           format: !!python/name:pymdownx.superfences.fence_div_format
         - name: mermaid
           class: mermaid
