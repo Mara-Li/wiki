@@ -36,6 +36,14 @@ theme:
         - navigation.tabs.sticky
         - search.suggest
         - search.highlight
+        - navigation.instant.preview
+        - navigation.path
+        - navigation.instant
+        - navigation.instant.prefetch
+        - navigation.instant.progress
+        - navigation.tracking
+        - toc.follow
+
 # Extensions
 markdown_extensions:
   - footnotes
@@ -89,6 +97,8 @@ plugins:
   - search
   - meta-descriptions
   - awesome-pages
+  - optimize
+  - typeset
   - blog:
       blog_dir: blog
       blog_toc: true
@@ -106,7 +116,8 @@ plugins:
       custom-attributes: '_static/css/custom_attributes.css'
   - custom-attributes:
       file: '_static/css/custom_attributes.css'
-  - tags
+  - tags:
+      tags_hierarchy: true
   - callouts
   - glightbox
 hooks:

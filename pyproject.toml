@@ -21,6 +21,7 @@ dependencies = [
     "babel",
     "pydantic",
     "marali-mkdocs-glightbox",
+    "mkdocs-material[imaging]",
 ]
 
 [tool.ruff.lint]
