@@ -92,7 +92,7 @@ function calculateHeight(e) {
 try {
 	let e = Array.from(
 		document.querySelectorAll(
-			`.md-content a[href^="${blogURL}"], a.footnote-ref, a[href^="./"]`,
+			`a.footnote-ref`,
 		),
 	).filter(
 		(e) =>
