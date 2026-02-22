@@ -1032,47 +1032,13 @@
   page title (or respectively site name) is used as the main headline.
 -->
 <!-- Page content -->
-<div class="base">filters:
-  and:
-    - file.name.containsAny("Éden", "Eden")
-    - file.path != "ROLEPLAY/_REFERENCES/Éden"
-    - '!type.contains("Illustration")'
-formulas:
-  archive: if(file.path.contains("ARCHIVE"), "🗃️ " + list(univers)[0].replace(/[\[\]]/g, ''), list(univers)[0].replace(/[\[\]]/g, ''))
-  link: link(file, title)
-properties:
-  formula.archive:
-    displayName: Univers
-  note.title:
-    displayName: Titre
-  note.display:
-    displayName: Titre
-  formula.link:
-    displayName: Fichier
-views:
-  - type: table
-    name: View
-    order:
-      - date
-      - formula.link
-      - type
-      - formula.archive
-      - file.tags
-    sort:
-      - property: type
-        direction: ASC
-    columnSize:
-      note.date: 134
-      file.name: 294
-      note.type: 110
-      formula.archive: 266
-</div>
 <div class="admonition grid">
 <p class="admonition-title">Grid</p>
 <p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="auto" href="../../_assets/img/%C3%89den%20full%20ref%20-%20transparent.png"><img alt="Éden full ref - transparent.png" src="../../_assets/img/%C3%89den%20full%20ref%20-%20transparent.png" title="Éden full ref - transparent.png"/></a><br/>
 <a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="auto" href="../../_assets/img/eden_perseith.png"><img alt="eden_perseith.png" src="../../_assets/img/eden_perseith.png" title="eden_perseith.png"/></a><br/>
 <a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="auto" href="../../_assets/img/Medhas%20illu.png"><img alt="Medhas illu.png" src="../../_assets/img/Medhas%20illu.png" title="Medhas illu.png"/></a><br/>
-<a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="auto" href="../../_assets/img/eden_fugu.png"><img alt="eden_fugu.png" src="../../_assets/img/eden_fugu.png" title="eden_fugu.png"/></a></p>
+<a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="auto" href="../../_assets/img/eden_fugu.png"><img alt="eden_fugu.png" src="../../_assets/img/eden_fugu.png" title="eden_fugu.png"/></a><br/>
+<a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="auto" href="../../_assets/img/commi_mara_003.png"><img alt="commi_mara_003.png" src="../../_assets/img/commi_mara_003.png" title="commi_mara_003.png"/></a></p>
 </div>
 <!-- Source file information -->
 <!-- taken from 
@@ -1082,7 +1048,7 @@ https://github.com/squidfunk/mkdocs-material/blob/master/src/partials/source-fil
 <small>
 <!-- mkdocs-git-revision-date-localized-plugin -->
 <u>Dernière mise à jour</u> :
-        <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="30 septembre 2025 11:05:04 UTC">30 septembre 2025</span>
+        <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="22 février 2026 19:50:30 UTC">22 février 2026</span>
 <!-- mkdocs-git-revision-date-plugin -->
 <br/>
 <u>Créé</u> :
